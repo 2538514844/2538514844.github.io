@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[GitHub Scout 每日精选]]></title>
+    <link>https://github.com</link>
+    <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 02 May 2026 04:48:30 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>GitHub Scout</generator>
+    <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[theori-io/copy-fail-CVE-2026-31431]]></title>
+      <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[theori-io/copy-fail-CVE-2026-31431 — 针对CVE-2026-31431漏洞的Python利用代码，复现并验证文件复制过程中的安全缺陷。 | ⭐2560 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">theori-io/copy-fail-CVE-2026-31431</a></h2>
+<p>⭐ 2560 ·  526 · Python · 2026-04-29</p>
+<blockquote>针对CVE-2026-31431漏洞的Python利用代码，复现并验证文件复制过程中的安全缺陷。</blockquote>
+<p><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/theori-io/copy-fail-CVE-2026-31431</guid>
+      <category>Python</category>
+    </item>
+  </channel>
+</rss>

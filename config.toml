@@ -1,0 +1,16 @@
+base_url = "https://2538514844.github.io/"
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+theme = "even"
+taxonomies = [
+    {name = "categories", feed = true},
+    {name = "tags", feed = true},
+]
+[extra]
+even_title = "GitHub Scout 每日精选"
+even_menu = [
+    {url = "https://2538514844.github.io/", name = "Home"},
+]
+[markdown]
+highlight_code = true
+render_emoji = true
