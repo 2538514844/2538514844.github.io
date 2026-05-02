@@ -14,6 +14,13 @@ RSS_DESC = "AI 精选 GitHub 热门仓库，每日更新"
 SITE_URL = "https://2538514844.github.io/"
 
 
+def repo_og_image(repo_name):
+    """从 owner/repo 构造 GitHub OpenGraph 预览图 URL"""
+    if "/" in repo_name:
+        return f"https://opengraph.githubassets.com/1/{repo_name}"
+    return ""
+
+
 def parse_repo_md(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
@@ -95,20 +102,29 @@ def main():
         page_url = f"{SITE_URL}{date}/"
 
         if article_file:
-            # 有 AI 文章，直接使用文章内容
             filepath = os.path.join(BACKUP_DIR, article_file)
-            article_content = read_file_content(filepath)
-            article_html = article_content  # 文章本身是 Markdown，嵌入 CDATA 即可
+            article_html = read_file_content(filepath)
 
             desc = f"{date} 每日精选 — {len(repo_files)} 个仓库"
+            names = []
+            for fname in repo_files[:8]:
+                t, _, _, _ = parse_repo_md(os.path.join(BACKUP_DIR, fname))
+                if t:
+                    names.append(t)
+            if names:
+                desc += ": " + ", ".join(names)
+
+            # 追加仓库预览图
             if repo_files:
-                names = []
-                for fname in repo_files[:8]:
-                    t, _, _, _ = parse_repo_md(os.path.join(BACKUP_DIR, fname))
-                    if t:
-                        names.append(t)
-                if names:
-                    desc += ": " + ", ".join(names)
+                article_html += "\n\n<hr>\n<h2>本期仓库</h2>\n"
+                for fname in repo_files:
+                    t, u, _, _ = parse_repo_md(os.path.join(BACKUP_DIR, fname))
+                    if not t:
+                        continue
+                    og_url = repo_og_image(t)
+                    article_html += f'<h3><a href="{u}">{t}</a></h3>\n'
+                    if og_url:
+                        article_html += f'<p><img src="{og_url}" alt="{t}" loading="lazy" style="max-width:100%;border-radius:8px;"></p>\n'
 
             item = fg.add_entry(order="append")
             item.id(page_url)
@@ -118,7 +134,6 @@ def main():
             item.content(article_html, type="CDATA")
             item.published(pub_time.strftime("%Y-%m-%dT%H:%M:%SZ"))
         elif repo_files:
-            # 没有文章，从仓库文件聚合
             html_parts = [f"<h1>{date} 每日精选</h1>", f"<p>共收录 {len(repo_files)} 个仓库</p>"]
             text_parts = [f"{date} 每日精选 — {len(repo_files)} 个仓库"]
 
@@ -127,7 +142,11 @@ def main():
                 title, url, stats, desc = parse_repo_md(fp)
                 if not title:
                     continue
+
+                og_url = repo_og_image(title)
                 html_parts.append(f'<h2><a href="{url}">{title}</a></h2>')
+                if og_url:
+                    html_parts.append(f'<p><img src="{og_url}" alt="{title}" loading="lazy" style="max-width:100%;border-radius:8px;"></p>')
                 if stats:
                     html_parts.append(f"<p>{stats}</p>")
                 if desc:

@@ -8,6 +8,13 @@ BACKUP_DIR = "BACKUP"
 OUTPUT_DIR = "output/content"
 
 
+def repo_og_image(repo_name):
+    """从 owner/repo 构造 GitHub OpenGraph 预览图 URL"""
+    if "/" in repo_name:
+        return f"https://opengraph.githubassets.com/1/{repo_name}"
+    return ""
+
+
 def parse_repo_md(filepath):
     """解析单个仓库 markdown 文件"""
     with open(filepath, "r", encoding="utf-8") as f:
@@ -57,7 +64,6 @@ def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    # 按日期分组（区分 article_ 和数字前缀）
     date_groups = OrderedDict()       # date -> [repo_filenames]
     date_articles = OrderedDict()     # date -> article_filename or None
 
@@ -75,10 +81,8 @@ def main():
                 date_groups[date] = []
             date_groups[date].append(filename)
 
-    # 日期降序
     all_dates = sorted(set(list(date_groups.keys()) + list(date_articles.keys())), reverse=True)
 
-    # 创建 _index.md
     with open(os.path.join(OUTPUT_DIR, "_index.md"), "w", encoding="utf-8") as f:
         f.write("+++\n")
         f.write('title = "index"\n')
@@ -91,27 +95,41 @@ def main():
         repo_files = date_groups.get(date, [])
 
         if article_file:
-            # 有 AI 文章，直接用文章内容
             filepath = os.path.join(BACKUP_DIR, article_file)
             body = read_file_content(filepath)
-            # 提取文章标题
             title = f"{date} 每日精选"
             m = re.match(r"# (.+)", body)
             if m:
                 title = m.group(1).strip()
-            # 提取标签（从文章内所有 backtick 包裹的词收集）
             tags = list(OrderedDict.fromkeys(re.findall(r"`([^`]+)`", body)))[:20]
+
+            # 文章末尾追加仓库预览图
+            if repo_files:
+                body += "\n\n---\n\n## 本期仓库\n\n"
+                for fname in repo_files:
+                    fp = os.path.join(BACKUP_DIR, fname)
+                    repo_title, url, _, _, _ = parse_repo_md(fp)
+                    if not repo_title:
+                        continue
+                    og_url = repo_og_image(repo_title)
+                    body += f"### [{repo_title}]({url})\n\n"
+                    if og_url:
+                        body += f'<p><img src="{og_url}" alt="{repo_title}" loading="lazy" style="max-width:100%;border-radius:8px;"></p>\n\n'
         elif repo_files:
-            # 没有文章，从单个仓库文件聚合
             all_tags = OrderedDict()
             sections = []
             for filename in repo_files:
                 filepath = os.path.join(BACKUP_DIR, filename)
                 repo_title, url, tags, stats, desc = parse_repo_md(filepath)
+                if not repo_title or not url:
+                    continue
                 for t in tags:
                     all_tags[t] = True
 
+                og_url = repo_og_image(repo_title)
                 section = f"## [{repo_title}]({url})\n\n"
+                if og_url:
+                    section += f'<img src="{og_url}" alt="{repo_title}" loading="lazy" style="max-width:100%;border-radius:8px;">\n\n'
                 if stats:
                     section += f"{stats}\n\n"
                 if desc:
@@ -127,7 +145,6 @@ def main():
         else:
             continue
 
-        # Zola frontmatter
         escaped_title = title.replace('"', '\\"')
         frontmatter = "+++\n"
         frontmatter += f'title = "{escaped_title}"\n'
