@@ -1,11 +1,45 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub Scout 每日精选</title><link>https://2538514844.github.io/</link><description>AI 精选 GitHub 热门仓库，每日更新</description><atom:link href="https://2538514844.github.io/rss.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sat, 02 May 2026 08:25:32 +0000</lastBuildDate><item><title>2026-05-02 每日精选</title><link>https://2538514844.github.io/2026-05-02/</link><description>2026-05-02 每日精选 — 1 个仓库: TQ-trade/defidollar-core</description><content:encoded><![CDATA[# 2025年4月12日 GitHub 开源项目精选
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[GitHub Scout 每日精选]]></title>
+    <link>https://github.com</link>
+    <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 02 May 2026 11:37:10 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>GitHub Scout</generator>
+    <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title><![CDATA[2026-05-02 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-02/</link>
+<description><![CDATA[2026-05-02 每日精选 — 6 个仓库: theori-io/copy-fail-CVE-2026-31431, willchen96/mike, EvanBacon/serve-sim, wrongly-cuddly-obsession/NTSB_FOIA_MU5735, rootsecdev/cve_2026_31431, amirshaker000/netlify-relay]]></description>
+<content:encoded><![CDATA[# 2026-05-02 GitHub 开源项目精选
 
 ## 概览
-本期精选聚焦于一个稳定币方向的智能合约项目，虽然数量不多，但 DefiDollar 的设计思路在算法稳定币赛道中具有一定参考价值，适合研究去中心化稳定币机制的开发者关注。
 
-## DeFi/智能合约
-- **[TQ-trade/defidollar-core](https://github.com/TQ-trade/defidollar-core)** ⭐ 139 — 实现 DefiDollar（$DUSD）算法稳定币的智能合约，探索去中心化货币锚定方案。
+本期精选涵盖安全与开发两大主线：一个高星漏洞利用项目（CVE‑2026‑31431）引发广泛关注，多款 PoC 同步放出；同时 AI 法律平台、Apple 模拟器一键启动工具、空难调查公开数据等项目也为不同领域提供了实用价值。
+
+## 安全/漏洞工具
+
+- **[theori-io/copy-fail-CVE-2026-31431](https://github.com/theori-io/copy-fail-CVE-2026-31431)** ⭐2788 — 针对 CVE‑2026‑31431 的漏洞利用与分析代码，揭示复制操作中的安全缺陷，为修复提供参考。 🏆
+
+- **[rootsecdev/cve_2026_31431](https://github.com/rootsecdev/cve_2026_31431)** ⭐408 — CVE‑2026‑31431 的概念验证利用，帮助安全研究人员快速验证与测试该漏洞的影响范围。
+
+## AI/法律
+
+- **[willchen96/mike](https://github.com/willchen96/mike)** ⭐1223 — 开源 AI 法律平台，自动处理合同审查、法律文档分析，降低中小企业和个人的法律咨询成本。 🏆
+
+## 开发工具
+
+- **[EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim)** ⭐440 — `npx serve` 风格的 Apple 模拟器启动工具，一条命令即可运行 iPhone、iPad 等设备模拟器，简化前端调试流程。
 
 ## 更多值得关注
-- 无]]></content:encoded><guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate></item></channel></rss>
+
+- **[wrongly-cuddly-obsession/NTSB_FOIA_MU5735](https://github.com/wrongly-cuddly-obsession/NTSB_FOIA_MU5735)** ⭐434 — 通过信息自由法案（FOIA）获取的东航 MU5735 事故调查资料，为航空安全研究提供公开数据集。
+
+- **[amirshaker000/netlify-relay](https://github.com/amirshaker000/netlify-relay)** ⭐317 — 基于 Netlify Functions 的请求转发代理，轻松实现跨域调试与后端服务桥接。]]></content:encoded>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
+<pubDate>Sat, 02 May 2026 11:37:10 GMT</pubDate>
+</item>
+  </channel>
+</rss>
