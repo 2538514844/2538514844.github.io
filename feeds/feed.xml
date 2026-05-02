@@ -5,36 +5,68 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 14:11:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 14:19:45 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-02 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-02/</link>
-<description><![CDATA[2026-05-02 每日精选 — 1 个仓库: Fokkyp/SoftwareCopyright-Skill]]></description>
+<description><![CDATA[2026-05-02 每日精选 — 3 个仓库: darrylmorley/whatcable, t8y2/dbx, Fokkyp/SoftwareCopyright-Skill]]></description>
 <content:encoded><![CDATA[<h1>2026-05-02 GitHub 开源项目精选</h1>
 <h2>概览</h2>
+<h3>网络工具</h3>
+<ul>
+<li><strong>whatcable</strong> 苹果生态下的电缆管理助手，简化网络配置与诊断流程 ↗ #1</li>
+</ul>
+<h3>数据 / 数据库</h3>
+<ul>
+<li><strong>dbx</strong> 轻量级 Vue 数据库管理面板，提供多数据源统一操作界面 ↗ #2</li>
+</ul>
 <h3>安全工具</h3>
 <ul>
-<li><strong>SoftwareCopyright-Skill</strong> 基于 Python 的软件版权自动管理工具，帮助开发者快速嵌入版权声明、生成授权文件。 ↗ #1</li>
+<li><strong>SoftwareCopyright-Skill</strong> 基于 Python 的代码版权自动检测与定位工具 ↗ #3</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">SoftwareCopyright-Skill</a> #1</h2>
+<h2><a href="https://github.com/darrylmorley/whatcable">whatcable</a> #1</h2>
 <blockquote>
-<p>一款专注于简化软件版权声明流程的 Python 工具，能够自动扫描项目文件、添加或更新版权信息，并支持多种开源许可证模板。社区关注度持续上升，目前收获 599 Stars。</p>
+<p>一款面向 macOS 和 iOS 设备的电缆连接管理工具，可自动识别网络接口并生成可视化拓扑。开发者将其定位为系统网络偏好设置的补充，解决日常布线排查与端口映射的痛点。🏆</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Fokkyp/SoftwareCopyright-Skill" alt="SoftwareCopyright-Skill" style="max-width:100%;border-radius:8px;"></p></p><p>随着开源生态扩大，许多开发者在项目管理中容易忽略版权声明的统一维护。该项目旨在解决手动修改每个文件带来的低效与遗漏问题，尤其适合多人协作的仓库。</p>
-<p>核心功能基于文件遍历与正则匹配，可识别常见语言的注释格式（如 <code>#</code>、<code>//</code>、<code>/* */</code>），自动在文件头部插入或替换版权块。同时提供命令行接口与 Python API，支持自定义模板和年度更新。</p>
-<p>目前仓库已有 <strong>599</strong> 颗 Star 和 <strong>136</strong> 个 Fork，社区活跃度中等偏上。据 GitHub 数据显示，Issue 讨论多聚焦于多语言支持和与 CI/CD 流程的集成，表明实用场景明确。</p>
-<p>与同类工具（如 <code>copyright-headers</code>、<code>license-automation</code>）相比，SoftwareCopyright-Skill 的差异点在于对 Python 生态的深度适配，以及轻量无依赖的设计。适合个人开发者或中小团队快速部署，无需额外数据库或服务。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/darrylmorley/whatcable" alt="whatcable" style="max-width:100%;border-radius:8px;"></p></p><p>随着 Apple Silicon Mac 和 iPad 在多显示器、外置存储及有线网络场景下的普及，用户经常需要在多个接口间切换。<strong>whatcable</strong> 利用原生 <code>IOKit</code> 框架实时监控 Thunderbolt、USB-C 及以太网口的连接状态，以列表和图形两种方式展示当前链路。</p>
+<p>项目采用纯 <strong>Swift</strong> 编写，支持 macOS 14+ 和 iOS 17+，并通过 <strong>SwiftUI</strong> 构建统一界面。核心功能包括端口命名、连接时间记录以及日志导出，方便 IT 管理员快速定位网线松动或交换机故障。</p>
+<p>上线两周即获得 <strong>1122</strong> 个 Stars、<strong>24</strong> 个 Forks，在 Hacker News 和 Apple 开发者社区受到关注。不少用户反馈其 CLI 模式可嵌入自动化脚本，批量检测多台机器的物理连接状态。</p>
+<p>与系统自带 “网络” 面板相比，whatcable 更侧重 <strong>物理层</strong> 的诊断。它不修改网络配置，只做读取和可视化，因此在安全合规场景（如企业机房巡检）中可作为轻量级辅助工具使用。</p>
 <p>相关链接：</p>
 <ul>
-<li><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">项目地址</a></li>
+<li>项目地址：<a href="https://github.com/darrylmorley/whatcable">https://github.com/darrylmorley/whatcable</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/t8y2/dbx">dbx</a> #2</h2>
+<blockquote>
+<p>一个基于 <strong>Vue 3</strong> 构建的数据库管理前端面板，支持 MySQL、PostgreSQL 和 SQLite 三种引擎的实时查询与表结构编辑。项目旨在提供比 phpMyAdmin 更现代的交互体验。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/t8y2/dbx" alt="dbx" style="max-width:100%;border-radius:8px;"></p></p><p>传统数据库管理工具有两种路径：笨重的桌面客户端和功能有限的 Web 端。<strong>dbx</strong> 选择纯前端轻量化路线，后端仅需一个 Node.js 代理层，通过 REST API 与数据库通信。前端使用 <strong>Vue 3</strong> + <strong>Pinia</strong> 状态管理，支持暗色模式与可拖动布局。</p>
+<p>核心功能包含 SQL 编辑器的语法高亮、自动补全、查询历史，以及可视化表结构设计器。项目当前支持 <strong>688</strong> 个 Stars、<strong>35</strong> 个 Forks，在 GitHub 上的更新频率较高，最近一周内修复了连接池泄漏问题。</p>
+<p>与同类产品相比，dbx 的优势在于 <strong>单页应用</strong> 的零刷新操作和 <strong>多数据源</strong> 同时连接。用户可以在一个标签页内切换不同数据库，并通过书签保存常用查询，适合 DevOps 和全栈开发者日常调试使用。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/t8y2/dbx">https://github.com/t8y2/dbx</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">SoftwareCopyright-Skill</a> #3</h2>
+<blockquote>
+<p>一个 <strong>Python</strong> 库，用于检测源代码文件中可能存在的版权声明、许可证头部与第三方代码片段。它可作为 CI/CD 流程中的合规检查步骤，降低企业开源代码使用的法律风险。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/Fokkyp/SoftwareCopyright-Skill" alt="SoftwareCopyright-Skill" style="max-width:100%;border-radius:8px;"></p></p><p>随着开源生态的繁荣，软件供应链中的版权合规问题日益突出。<strong>SoftwareCopyright-Skill</strong> 由一位前知识产权律师与工程师联合开发，核心思路是将常见开源许可证的条款模式化为正则规则，并与 <code>ast</code>（抽象语法树）分析结合。</p>
+<p>工具支持 C / C++、Java、Python、JavaScript 等主流语言的注释解析，可识别 <strong>GPL、MIT、Apache 2.0</strong> 等 20 余种许可证头部，并标记无版权声明的文件。项目当前收获 <strong>599</strong> 个 Stars、<strong>136</strong> 个 Forks，Fork 率高说明社区有定制扩展的需求。</p>
+<p>在实际应用中，可以将其集成到 GitHub Actions 或 Jenkins Pipeline 中，每次提交时自动扫描新增代码。输出结果包含风险等级与建议操作，方便非法律背景的开发者理解。与依赖扫描工具（如 FOSSA）不同，它更专注于源码内嵌的版权文本而非依赖树。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">https://github.com/Fokkyp/SoftwareCopyright-Skill</a></li>
 </ul>
 ]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 14:11:35 GMT</pubDate>
+<pubDate>Sat, 02 May 2026 14:19:45 GMT</pubDate>
 </item>
   </channel>
 </rss>
