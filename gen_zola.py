@@ -51,11 +51,12 @@ def main():
 
     os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-    # 创建 _index.md（Zola section 入口）
+    # 创建 _index.md（Zola section 入口，带分页）
     with open(os.path.join(OUTPUT_DIR, "_index.md"), "w", encoding="utf-8") as f:
         f.write("+++\n")
         f.write('title = "index"\n')
         f.write('sort_by = "date"\n')
+        f.write('paginate_by = 20\n')
         f.write("+++\n")
 
     for filename in md_files:
