@@ -5,11 +5,24 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 04:48:30 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 05:09:29 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
+<item>
+      <title><![CDATA[Fokkyp/SoftwareCopyright-Skill]]></title>
+      <link>https://github.com/Fokkyp/SoftwareCopyright-Skill</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[Fokkyp/SoftwareCopyright-Skill — 自动化生成中国软件著作权申请材料，通过读取本地项目代码一键输出全套.docx文件，全开源免付费。 | ⭐545 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">Fokkyp/SoftwareCopyright-Skill</a></h2>
+<p>⭐ 545 ·  126 · Python · 2026-04-29</p>
+<blockquote>自动化生成中国软件著作权申请材料，通过读取本地项目代码一键输出全套.docx文件，全开源免付费。</blockquote>
+<p><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/Fokkyp/SoftwareCopyright-Skill</guid>
+      <category>Python</category>
+    </item>
+<item>
       <title><![CDATA[theori-io/copy-fail-CVE-2026-31431]]></title>
       <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
       <author>GitHub Scout</author>
