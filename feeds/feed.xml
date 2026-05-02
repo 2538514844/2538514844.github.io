@@ -5,41 +5,41 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 11:37:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 12:00:57 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-02 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-02/</link>
-<description><![CDATA[2026-05-02 每日精选 — 6 个仓库: theori-io/copy-fail-CVE-2026-31431, willchen96/mike, EvanBacon/serve-sim, wrongly-cuddly-obsession/NTSB_FOIA_MU5735, rootsecdev/cve_2026_31431, amirshaker000/netlify-relay]]></description>
+<description><![CDATA[2026-05-02 每日精选 — 8 个仓库: selahattinunlu/harika-github-repolari, debba/gh-dashboard, avacocloud/netlify-XHHTP, op7418/Night-Patrol, b3-fun/b3os, PanAchy/copilot-arewecooked, anvie/evonic, PKU-YuanGroup/TIDE]]></description>
 <content:encoded><![CDATA[# 2026-05-02 GitHub 开源项目精选
 
 ## 概览
 
-本期精选涵盖安全与开发两大主线：一个高星漏洞利用项目（CVE‑2026‑31431）引发广泛关注，多款 PoC 同步放出；同时 AI 法律平台、Apple 模拟器一键启动工具、空难调查公开数据等项目也为不同领域提供了实用价值。
+本期精选覆盖了 GitHub 生态效率工具、AI 模型蒸馏与代理平台、以及 Web3 跨链自动化等方向。亮点包括开源的 GitHub 仪表盘、Copilot 成本估算工具、扩散 LLM 跨架构蒸馏技术，以及灵活的跨链工作流自动化平台。
 
-## 安全/漏洞工具
+## 开发与 GitHub 工具
 
-- **[theori-io/copy-fail-CVE-2026-31431](https://github.com/theori-io/copy-fail-CVE-2026-31431)** ⭐2788 — 针对 CVE‑2026‑31431 的漏洞利用与分析代码，揭示复制操作中的安全缺陷，为修复提供参考。 🏆
+- **[debba/gh-dashboard](https://github.com/debba/gh-dashboard)** ⭐84 — 基于 REST 和 GraphQL API 的开源 GitHub 仪表盘，管理仓库、Issues、PR、流量、Actions、贡献者、依赖关系并提供看板视图。
+- **[PanAchy/copilot-arewecooked](https://github.com/PanAchy/copilot-arewecooked)** ⭐65 — 估算 GitHub Copilot AI 信用成本，帮助用户在 6 月 1 日前评估用量与开销。
 
-- **[rootsecdev/cve_2026_31431](https://github.com/rootsecdev/cve_2026_31431)** ⭐408 — CVE‑2026‑31431 的概念验证利用，帮助安全研究人员快速验证与测试该漏洞的影响范围。
+## AI / 大模型
 
-## AI/法律
+- **[anvie/evonic](https://github.com/anvie/evonic)** ⭐64 — 开放 Agentic AI 平台，为构建、部署和管理 AI 代理提供统一基础设施。
+- **[PKU-YuanGroup/TIDE](https://github.com/PKU-YuanGroup/TIDE)** ⭐63 — 面向扩散大语言模型的跨架构知识蒸馏方法，提升小模型在生成任务上的性能。
 
-- **[willchen96/mike](https://github.com/willchen96/mike)** ⭐1223 — 开源 AI 法律平台，自动处理合同审查、法律文档分析，降低中小企业和个人的法律咨询成本。 🏆
+## Web3 与跨链自动化
 
-## 开发工具
-
-- **[EvanBacon/serve-sim](https://github.com/EvanBacon/serve-sim)** ⭐440 — `npx serve` 风格的 Apple 模拟器启动工具，一条命令即可运行 iPhone、iPad 等设备模拟器，简化前端调试流程。
+- **[b3-fun/b3os](https://github.com/b3-fun/b3os)** ⭐77 — 跨链工作流自动化平台，支持构建自动化策略、调度交易并执行复杂链上操作。
 
 ## 更多值得关注
 
-- **[wrongly-cuddly-obsession/NTSB_FOIA_MU5735](https://github.com/wrongly-cuddly-obsession/NTSB_FOIA_MU5735)** ⭐434 — 通过信息自由法案（FOIA）获取的东航 MU5735 事故调查资料，为航空安全研究提供公开数据集。
-
-- **[amirshaker000/netlify-relay](https://github.com/amirshaker000/netlify-relay)** ⭐317 — 基于 Netlify Functions 的请求转发代理，轻松实现跨域调试与后端服务桥接。]]></content:encoded>
+- **[selahattinunlu/harika-github-repolari](https://github.com/selahattinunlu/harika-github-repolari)** ⭐86 — 一个 GitHub 仓库聚合列表，便于发现优质项目（描述缺失，推测为资源索引）。
+- **[avacocloud/netlify-XHHTP](https://github.com/avacocloud/netlify-XHHTP)** ⭐83 — 与 Netlify 部署相关的 JavaScript 工具，具体用途待进一步探索。
+- **[op7418/Night-Patrol](https://github.com/op7418/Night-Patrol)** ⭐81 — 基于 TypeScript 的项目，名称暗示可能与夜间自动化监控或守护任务相关。]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 11:37:10 GMT</pubDate>
+<pubDate>Sat, 02 May 2026 12:00:57 GMT</pubDate>
 </item>
   </channel>
 </rss>
