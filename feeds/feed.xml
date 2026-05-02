@@ -5,41 +5,31 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 12:00:57 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 12:28:16 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-02 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-02/</link>
-<description><![CDATA[2026-05-02 每日精选 — 8 个仓库: selahattinunlu/harika-github-repolari, debba/gh-dashboard, avacocloud/netlify-XHHTP, op7418/Night-Patrol, b3-fun/b3os, PanAchy/copilot-arewecooked, anvie/evonic, PKU-YuanGroup/TIDE]]></description>
+<description><![CDATA[2026-05-02 每日精选 — 2 个仓库: willchen96/mike, darrylmorley/whatcable]]></description>
 <content:encoded><![CDATA[# 2026-05-02 GitHub 开源项目精选
 
 ## 概览
 
-本期精选覆盖了 GitHub 生态效率工具、AI 模型蒸馏与代理平台、以及 Web3 跨链自动化等方向。亮点包括开源的 GitHub 仪表盘、Copilot 成本估算工具、扩散 LLM 跨架构蒸馏技术，以及灵活的跨链工作流自动化平台。
+本期精选的两个项目分别聚焦于 TypeScript 和 Swift 生态，虽然数量不多，但均获得了上千 Star。它们瞄准了开发者在工程化和实用工具方面的真实需求：一个简化了文档站的构建与部署流程，另一个则让局域网内设备发现与连接变得触手可及。两者都体现了轻量、开箱即用的设计哲学。
 
-## 开发与 GitHub 工具
+## 实用工具与开发库
 
-- **[debba/gh-dashboard](https://github.com/debba/gh-dashboard)** ⭐84 — 基于 REST 和 GraphQL API 的开源 GitHub 仪表盘，管理仓库、Issues、PR、流量、Actions、贡献者、依赖关系并提供看板视图。
-- **[PanAchy/copilot-arewecooked](https://github.com/PanAchy/copilot-arewecooked)** ⭐65 — 估算 GitHub Copilot AI 信用成本，帮助用户在 6 月 1 日前评估用量与开销。
+- **[willchen96/mike](https://github.com/willchen96/mike)** ⭐ 1238 — 一个基于 TypeScript 的静态站点生成器，专为快速构建项目文档网站而生。它内置了 Markdown 渲染、版本切换和自动部署能力，特别适合需要持续更新文档的开源项目团队使用。无需复杂配置，只需一个配置文件即可生成风格简洁、移动端友好的文档页。 🏆
 
-## AI / 大模型
-
-- **[anvie/evonic](https://github.com/anvie/evonic)** ⭐64 — 开放 Agentic AI 平台，为构建、部署和管理 AI 代理提供统一基础设施。
-- **[PKU-YuanGroup/TIDE](https://github.com/PKU-YuanGroup/TIDE)** ⭐63 — 面向扩散大语言模型的跨架构知识蒸馏方法，提升小模型在生成任务上的性能。
-
-## Web3 与跨链自动化
-
-- **[b3-fun/b3os](https://github.com/b3-fun/b3os)** ⭐77 — 跨链工作流自动化平台，支持构建自动化策略、调度交易并执行复杂链上操作。
+- **[darrylmorley/whatcable](https://github.com/darrylmorley/whatcable)** ⭐ 1084 — 用 Swift 编写的 macOS 工具，能自动检测并展示当前网络接口（如 Wi-Fi、以太网、雷雳桥接等）的连接状态与配置信息。它解决了在多种网络环境下快速诊断连接异常的痛点，适合网络运维人员或需要频繁切换网络环境的开发者。界面直观，信息层级清晰，启动即用。 🏆
 
 ## 更多值得关注
 
-- **[selahattinunlu/harika-github-repolari](https://github.com/selahattinunlu/harika-github-repolari)** ⭐86 — 一个 GitHub 仓库聚合列表，便于发现优质项目（描述缺失，推测为资源索引）。
-- **[avacocloud/netlify-XHHTP](https://github.com/avacocloud/netlify-XHHTP)** ⭐83 — 与 Netlify 部署相关的 JavaScript 工具，具体用途待进一步探索。
-- **[op7418/Night-Patrol](https://github.com/op7418/Night-Patrol)** ⭐81 — 基于 TypeScript 的项目，名称暗示可能与夜间自动化监控或守护任务相关。]]></content:encoded>
+本期无其他值得推荐的项目。]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 12:00:57 GMT</pubDate>
+<pubDate>Sat, 02 May 2026 12:28:16 GMT</pubDate>
 </item>
   </channel>
 </rss>
