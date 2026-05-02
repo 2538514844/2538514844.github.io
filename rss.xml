@@ -5,21 +5,21 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 06:51:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 06:58:08 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title><![CDATA[theori-io/copy-fail-CVE-2026-31431]]></title>
-      <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
+      <title><![CDATA[wustghj/cursor-deepseek-v4-proxy]]></title>
+      <link>https://github.com/wustghj/cursor-deepseek-v4-proxy</link>
       <author>GitHub Scout</author>
-      <description><![CDATA[theori-io/copy-fail-CVE-2026-31431 — Python实现的CVE-2026-31431漏洞复现工具，用于测试复制操作失败引发的安全问题。 | ⭐2621 | Python]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">theori-io/copy-fail-CVE-2026-31431</a></h2>
-<p>⭐ 2621 ·  538 · Python · 2026-04-29</p>
-<blockquote>Python实现的CVE-2026-31431漏洞复现工具，用于测试复制操作失败引发的安全问题。</blockquote>
-<p><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <description><![CDATA[wustghj/cursor-deepseek-v4-proxy — 一个代理工具，专门修复Cursor使用DeepSeek V4模型时出现的`reasoning_content must be passed back`错误。 | ⭐19 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/wustghj/cursor-deepseek-v4-proxy">wustghj/cursor-deepseek-v4-proxy</a></h2>
+<p>⭐ 19 · Python · 2026-04-29</p>
+<blockquote>一个代理工具，专门修复Cursor使用DeepSeek V4模型时出现的`reasoning_content must be passed back`错误。</blockquote>
+<p><a href="https://github.com/wustghj/cursor-deepseek-v4-proxy">&#128279; 查看仓库</a></p>]]></content:encoded>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/theori-io/copy-fail-CVE-2026-31431</guid>
+      <guid isPermaLink="true">https://github.com/wustghj/cursor-deepseek-v4-proxy</guid>
       <category>Python</category>
     </item>
   </channel>
