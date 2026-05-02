@@ -101,7 +101,14 @@ def main():
             m = re.match(r"# (.+)", body)
             if m:
                 title = m.group(1).strip()
-            tags = list(OrderedDict.fromkeys(re.findall(r"`([^`]+)`", body)))[:20]
+            # 标签从仓库文件提取，不从 AI 文章全文提取（避免把代码片段当标签）
+            tags = []
+            for fname in repo_files:
+                fp = os.path.join(BACKUP_DIR, fname)
+                _, _, repo_tags, _, _ = parse_repo_md(fp)
+                for t in repo_tags:
+                    if t not in tags:
+                        tags.append(t)
         elif repo_files:
             all_tags = OrderedDict()
             sections = []
