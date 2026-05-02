@@ -8,6 +8,7 @@ on:
       - main.py
       - requirements.txt
       - gen_zola.py
+      - gen_rss.py
       - config.toml
       - static/**
       - BACKUP/**
@@ -94,7 +95,8 @@ jobs:
           find output/public -name "*.html" -exec sed -i "s|</head>|<link rel=\"stylesheet\" href=\"${CSS_HREF}\"></head>|g" {} \;
           find output/public -name "*.html" -exec sed -i "s|</head>|<script defer src=\"${JS_HREF}\"></script></head>|g" {} \;
           find output/public -name "*.html" -exec sed -i "s|</head>|<link rel=\"icon\" type=\"image/png\" href=\"${ICON_HREF}\"><link rel=\"shortcut icon\" href=\"${ICON_HREF}\"></head>|g" {} \;
-          # Overwrite zola-generated feed with feedgen-generated rss.xml
+          # 从 BACKUP/*.md 按日期聚合生成每日 RSS
+          python gen_rss.py
           cp rss.xml output/public/rss.xml
           test -f output/public/rss.xml
       - name: Setup Pages

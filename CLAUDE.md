@@ -38,8 +38,8 @@ The script also sets up CSS/JS live-reload: changes to `static/custom.css` are h
 ## Architecture
 
 ```
-BACKUP/*.md          →  gen_zola.py  →  output/content/*.md  →  zola build  →  GitHub Pages
-rss.xml (feedgen)    →  cp to output/public/
+BACKUP/*.md          →  gen_zola.py  →  output/content/*.md (one per day)  →  zola build  →  GitHub Pages
+BACKUP/*.md          →  gen_rss.py   →  rss.xml (one <item> per day)       →  cp to output/public/
 static/custom.css    →  injected into all HTML pages
 ```
 
@@ -55,7 +55,8 @@ A local preview is available via `scripts/preview_site_local.sh`.
 | File | Role |
 |------|------|
 | `main.py` | Reads GitHub Issues → generates README.md, RSS (feedgen), and BACKUP/*.md backup files. Only issues owned by the authenticated user are processed. |
-| `gen_zola.py` | Reads `BACKUP/*.md` → converts to Zola-compatible content with TOML frontmatter (including even-theme-required `reactions` field). Output goes to `output/content/`. |
+| `gen_zola.py` | Reads `BACKUP/*.md` → groups by date → generates one Zola page per day in `output/content/`. Each page aggregates all repos from that day. |
+| `gen_rss.py` | Reads `BACKUP/*.md` → groups by date → generates `rss.xml` with one `<item>` per day (containing all repos). |
 | `config.toml` | Zola config: `even` theme, site title "GitHub Scout 每日精选", base URL, menu. |
 | `static/custom.css` | ~1200 lines of custom CSS injected into every generated HTML page. Orange accent (`#c96442`), cream background, serif fonts, dark mode support. |
 | `static/custom.js` | TOC fab button for mobile navigation. |
@@ -70,9 +71,10 @@ A local preview is available via `scripts/preview_site_local.sh`.
 1. **github-scout** (separate Electron project) writes `rss.xml` + `BACKUP/*.md` to this directory
 2. Auto `git push` triggers the `generate_site.yml` deploy workflow
 3. Workflow runs `main.py --skip-issues-rss` (skips Issues-based RSS, but still regenerates README)
-4. `gen_zola.py` converts markdown to Zola format
-5. Zola builds static site with even theme + custom.css/js/icon injection
-6. `rss.xml` is copied into the output (overwriting Zola's generated feed)
+4. `gen_zola.py` groups markdown by date into one Zola page per day
+5. `gen_rss.py` generates a daily-grouped `rss.xml` from BACKUP/*.md
+6. Zola builds static site with even theme + custom.css/js/icon injection
+7. `rss.xml` is copied into the output (overwriting Zola's generated feed)
 
 Separately, `generate_readme.yml` runs `main.py` without `--skip-issues-rss` when Issues change — this generates RSS from Issues, saves Issues to BACKUP/*.md, and commits the results back to the repo.
 
@@ -87,11 +89,17 @@ python main.py <github_token> <repo_name> [--issue_number N] [--skip-issues-rss]
 
 ### `gen_zola.py`
 
-- Expects files named `{number}_{YYYY-MM-DD}.md` in BACKUP/
-- Extracts title from `# [title](url)` pattern
-- Extracts tags from `## 标签` section with backtick-wrapped items
-- Extracts date from filename
+- Groups `BACKUP/{number}_{YYYY-MM-DD}.md` files by date
+- Each date produces one Zola page aggregating all repos from that day
+- Extracts title from `# [title](url)` pattern, tags from `## 标签`, date from filename
 - Generates Zola frontmatter with even-theme-compatible `[extra].reactions`
+
+### `gen_rss.py`
+
+- Groups `BACKUP/*.md` files by date
+- Generates `rss.xml` with one `<item>` per day
+- Each daily item contains all repos with stats and descriptions in CDATA HTML
+- Called by `generate_site.yml` to produce the daily-grouped RSS feed
 
 ### BACKUP/ directory
 
