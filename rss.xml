@@ -5,57 +5,18 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 05:34:15 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 06:51:19 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
-<item>
-      <title><![CDATA[Frank-ay/mimo-mcp]]></title>
-      <link>https://github.com/Frank-ay/mimo-mcp</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[Frank-ay/mimo-mcp — 将小米MiMo全模态能力封装为MCP服务，让Claude Code等AI工具直接调用对话、图像、视频与语音克隆。 | ⭐10 | Python]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/Frank-ay/mimo-mcp">Frank-ay/mimo-mcp</a></h2>
-<p>⭐ 10 ·  1 · Python · 2026-04-30</p>
-<blockquote>将小米MiMo全模态能力封装为MCP服务，让Claude Code等AI工具直接调用对话、图像、视频与语音克隆。</blockquote>
-<p><a href="https://github.com/Frank-ay/mimo-mcp">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/Frank-ay/mimo-mcp</guid>
-      <category>Python</category>
-    </item>
-<item>
-      <title><![CDATA[Cuimao777/cuimao-translator]]></title>
-      <link>https://github.com/Cuimao777/cuimao-translator</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[Cuimao777/cuimao-translator — 利用Claude Code，一键将英文PDF翻译为流畅准确的中文文档。 | ⭐218 | N/A]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/Cuimao777/cuimao-translator">Cuimao777/cuimao-translator</a></h2>
-<p>⭐ 218 ·  16 · N/A · 2026-04-29</p>
-<blockquote>利用Claude Code，一键将英文PDF翻译为流畅准确的中文文档。</blockquote>
-<p><a href="https://github.com/Cuimao777/cuimao-translator">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/Cuimao777/cuimao-translator</guid>
-      <category>N/A</category>
-    </item>
-<item>
-      <title><![CDATA[Fokkyp/SoftwareCopyright-Skill]]></title>
-      <link>https://github.com/Fokkyp/SoftwareCopyright-Skill</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[Fokkyp/SoftwareCopyright-Skill — 自动化生成中国软件著作权申请材料，通过读取本地项目代码一键输出全套.docx文件，全开源免付费。 | ⭐545 | Python]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">Fokkyp/SoftwareCopyright-Skill</a></h2>
-<p>⭐ 545 ·  126 · Python · 2026-04-29</p>
-<blockquote>自动化生成中国软件著作权申请材料，通过读取本地项目代码一键输出全套.docx文件，全开源免付费。</blockquote>
-<p><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/Fokkyp/SoftwareCopyright-Skill</guid>
-      <category>Python</category>
-    </item>
-<item>
+    <item>
       <title><![CDATA[theori-io/copy-fail-CVE-2026-31431]]></title>
       <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
       <author>GitHub Scout</author>
-      <description><![CDATA[theori-io/copy-fail-CVE-2026-31431 — 针对CVE-2026-31431漏洞的Python利用代码，复现并验证文件复制过程中的安全缺陷。 | ⭐2560 | Python]]></description>
+      <description><![CDATA[theori-io/copy-fail-CVE-2026-31431 — Python实现的CVE-2026-31431漏洞复现工具，用于测试复制操作失败引发的安全问题。 | ⭐2621 | Python]]></description>
       <content:encoded><![CDATA[<h2><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">theori-io/copy-fail-CVE-2026-31431</a></h2>
-<p>⭐ 2560 ·  526 · Python · 2026-04-29</p>
-<blockquote>针对CVE-2026-31431漏洞的Python利用代码，复现并验证文件复制过程中的安全缺陷。</blockquote>
+<p>⭐ 2621 ·  538 · Python · 2026-04-29</p>
+<blockquote>Python实现的CVE-2026-31431漏洞复现工具，用于测试复制操作失败引发的安全问题。</blockquote>
 <p><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">&#128279; 查看仓库</a></p>]]></content:encoded>
       <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://github.com/theori-io/copy-fail-CVE-2026-31431</guid>
