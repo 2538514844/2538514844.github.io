@@ -10,7 +10,6 @@ on:
       - gen_zola.py
       - config.toml
       - static/**
-      - templates/**
       - BACKUP/**
       - rss.xml
       - .github/workflows/generate_site.yml
@@ -76,8 +75,9 @@ jobs:
           python gen_zola.py
           gh release download $ZOLA_VERSION --repo getzola/zola -p '*x86_64-unknown-linux*' --output zola.tar.gz
           tar zxf zola.tar.gz && mv zola /usr/local/bin
+          mkdir -p output/themes
+          gh repo clone kemingy/even output/themes/even -- --depth 1
           cp config.toml output/config.toml
-          cp -r templates/ output/templates/
           # Copy custom static files
           mkdir -p output/static
           cp -r static/. output/static/

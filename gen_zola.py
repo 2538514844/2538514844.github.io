@@ -73,7 +73,7 @@ def main():
             frontmatter += "tags = [" + ", ".join(f'"{t}"' for t in tags) + "]\n"
         # even 主题要求的字段
         frontmatter += "[extra]\n"
-        frontmatter += "reactions = {}\n"
+        frontmatter += "reactions = { thumbs_up = 0, thumbs_down = 0, laugh = 0, heart = 0, hooray = 0, confused = 0, rocket = 0, eyes = 0 }\n"
         frontmatter += "+++\n\n"
 
         # Zola 页面文件名：用 title 做 slug
