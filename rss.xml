@@ -5,11 +5,11 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 07:48:34 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 08:05:19 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
+<item>
       <title><![CDATA[flipphoneguy/totp_app]]></title>
       <link>https://github.com/flipphoneguy/totp_app</link>
       <author>GitHub Scout</author>
@@ -22,7 +22,7 @@
       <guid isPermaLink="true">https://github.com/flipphoneguy/totp_app</guid>
       <category>Java</category>
     </item>
-    <item>
+<item>
       <title><![CDATA[jmerelnyc/gpt-nucleus]]></title>
       <link>https://github.com/jmerelnyc/gpt-nucleus</link>
       <author>GitHub Scout</author>
@@ -35,7 +35,7 @@
       <guid isPermaLink="true">https://github.com/jmerelnyc/gpt-nucleus</guid>
       <category>C</category>
     </item>
-    <item>
+<item>
       <title><![CDATA[Dev-moe-kyawaung/supreme-tachyon-ktor]]></title>
       <link>https://github.com/Dev-moe-kyawaung/supreme-tachyon-ktor</link>
       <author>GitHub Scout</author>
