@@ -114,18 +114,6 @@ def main():
             if names:
                 desc += ": " + ", ".join(names)
 
-            # 追加仓库预览图
-            if repo_files:
-                article_html += "\n\n<hr>\n<h2>本期仓库</h2>\n"
-                for fname in repo_files:
-                    t, u, _, _ = parse_repo_md(os.path.join(BACKUP_DIR, fname))
-                    if not t:
-                        continue
-                    og_url = repo_og_image(t)
-                    article_html += f'<h3><a href="{u}">{t}</a></h3>\n'
-                    if og_url:
-                        article_html += f'<p><img src="{og_url}" alt="{t}" loading="lazy" style="max-width:100%;border-radius:8px;"></p>\n'
-
             item = fg.add_entry(order="append")
             item.id(page_url)
             item.link(href=page_url)

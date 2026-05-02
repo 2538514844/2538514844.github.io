@@ -102,19 +102,6 @@ def main():
             if m:
                 title = m.group(1).strip()
             tags = list(OrderedDict.fromkeys(re.findall(r"`([^`]+)`", body)))[:20]
-
-            # 文章末尾追加仓库预览图
-            if repo_files:
-                body += "\n\n---\n\n## 本期仓库\n\n"
-                for fname in repo_files:
-                    fp = os.path.join(BACKUP_DIR, fname)
-                    repo_title, url, _, _, _ = parse_repo_md(fp)
-                    if not repo_title:
-                        continue
-                    og_url = repo_og_image(repo_title)
-                    body += f"### [{repo_title}]({url})\n\n"
-                    if og_url:
-                        body += f'<p><img src="{og_url}" alt="{repo_title}" loading="lazy" style="max-width:100%;border-radius:8px;"></p>\n\n'
         elif repo_files:
             all_tags = OrderedDict()
             sections = []
