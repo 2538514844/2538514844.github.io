@@ -5,11 +5,24 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 05:19:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 05:32:05 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
+      <title><![CDATA[Frank-ay/mimo-mcp]]></title>
+      <link>https://github.com/Frank-ay/mimo-mcp</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[Frank-ay/mimo-mcp — 将小米MiMo全模态能力封装为MCP服务，让Claude Code等AI工具直接调用对话、图像、视频与语音克隆。 | ⭐10 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/Frank-ay/mimo-mcp">Frank-ay/mimo-mcp</a></h2>
+<p>⭐ 10 ·  1 · Python · 2026-04-30</p>
+<blockquote>将小米MiMo全模态能力封装为MCP服务，让Claude Code等AI工具直接调用对话、图像、视频与语音克隆。</blockquote>
+<p><a href="https://github.com/Frank-ay/mimo-mcp">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Thu, 30 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/Frank-ay/mimo-mcp</guid>
+      <category>Python</category>
+    </item>
+<item>
       <title><![CDATA[Cuimao777/cuimao-translator]]></title>
       <link>https://github.com/Cuimao777/cuimao-translator</link>
       <author>GitHub Scout</author>
