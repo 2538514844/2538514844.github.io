@@ -5,7 +5,7 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 13:33:56 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 02 May 2026 13:39:40 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
@@ -15,27 +15,26 @@
 <description><![CDATA[2026-05-02 每日精选 — 1 个仓库: Fokkyp/SoftwareCopyright-Skill]]></description>
 <content:encoded><![CDATA[<h1>2026-05-02 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>开发工具</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>SoftwareCopyright-Skill</strong> 开源软件版权检测与合规分析工具，帮助开发者快速识别项目中的许可证冲突。 ↗ #1</li>
+<li><strong>SoftwareCopyright-Skill</strong> 一款帮助开发者自动化撰写软件著作权申请文档的 Python 工具 ↗ #1</li>
 </ul>
 <hr>
 <h2><a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">SoftwareCopyright-Skill</a> #1</h2>
 <blockquote>
-<p>一款基于 Python 的软件版权与许可证合规性分析工具，能够自动扫描项目依赖并生成冲突报告。当前获得 596 个 Stars，适合开源项目维护者快速规避法律风险。</p>
+<p>这是一款基于 <strong>Python</strong> 的开源工具，专注于简化软件著作权申请材料的编写流程。它通过模板引擎与代码分析，自动生成符合中国版权中心格式要求的申请书与源代码文档，已获得 <strong>596</strong> 个 Star 和 <strong>136</strong> 个 Fork 的社区认可。</p>
 </blockquote>
-<p>随着开源生态的快速发展，项目中大量引入第三方库导致许可证兼容性问题频发。<strong>SoftwareCopyright-Skill</strong> 的创建正是为了解决开发者「不知道自己用了哪些许可证、是否冲突」的痛点。项目采用静态代码分析与依赖树遍历相结合的方式，支持 <code>MIT</code>、<code>GPL</code>、<code>Apache 2.0</code> 等主流许可证的兼容性判断。</p>
-<p>核心功能包括递归扫描本地目录、自动识别 <code>package.json</code>、<code>requirements.txt</code> 等配置文件，并输出可视化的许可证图谱。工具内置了 <strong>SPDX 许可证列表</strong>，能够标记互斥的许可证组合（如 <code>GPL-3.0</code> 与 <code>Apache-2.0</code> 的再分发冲突）。据开发者介绍，检测准确率在标准场景下超过 90%。</p>
-<p>社区方面，该项目在 GitHub 上已有 596 个 Stars 和 136 个 Forks，活跃度处于中上水平。近期版本新增了 <strong>CI/CD 集成模式</strong>，支持在 GitHub Actions 中自动运行，并生成 Markdown 格式的合规报告。与同类工具 <code>licensee</code> 相比，SoftwareCopyright-Skill 更侧重冲突检测而非仅识别许可证类型。</p>
-<p>适用场景包括：企业内审开源项目合规性、个人开发者发布前检查、以及开源基金会评估代码库。项目仅依赖 Python 3.8+ 和 <code>pip</code>，部署成本极低。未来计划加入许可证变更追踪功能，进一步降低法律风险。</p>
+<img src="https://opengraph.githubassets.com/1/Fokkyp/SoftwareCopyright-Skill" alt="SoftwareCopyright-Skill" style="max-width:100%;border-radius:8px;"><p>在国内软件行业，申请软件著作权是项目上架、项目申报、高新企业认证的常见环节。然而传统手工撰写申请书和源代码摘录文档耗时且易出错，尤其当代码量超过数千行时，整理过程极为繁琐。<strong>SoftwareCopyright-Skill</strong> 正是为解决这一痛点而诞生。</p>
+<p>该工具通过扫描项目目录，自动提取关键代码片段，并按照版权中心要求的格式（包括页眉、行号、目录层级）生成 Word 或 PDF 文档。它内置了常用的模板字段，支持自定义项目名称、版本号、开发完成日期等信息，同时能够自动计算源代码总行数并生成统计页。</p>
+<p>截至 2026 年 5 月，该项目在 GitHub 上获得 <strong>596</strong> 个 Star 和 <strong>136</strong> 个 Fork，社区活跃度较高。开发者提供了详细的 README 和示例配置，用户只需运行一条命令即可完成文档生成，大幅缩短了人工整理的时间。</p>
+<p>与同类工具（如 <code>copyright-helper</code> 或手动模板）相比，<strong>SoftwareCopyright-Skill</strong> 最突出的特点是支持多语言源码解析（Python、Java、JavaScript 等），并能自动过滤注释和空行，确保提交的 “源代码” 部分符合规定限额（通常要求前 30 页和后 30 页）。对于需要快速办理多件软著的团队而言，这是一款实用的辅助工具。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/Fokkyp/SoftwareCopyright-Skill">https://github.com/Fokkyp/SoftwareCopyright-Skill</a></li>
-<li>暂无相关文章/讨论链接</li>
 </ul>
 ]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 13:33:56 GMT</pubDate>
+<pubDate>Sat, 02 May 2026 13:39:40 GMT</pubDate>
 </item>
   </channel>
 </rss>
