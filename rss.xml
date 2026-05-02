@@ -1,18 +1,52 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub Scout 每日精选</title><link>https://2538514844.github.io/</link><description>AI 精选 GitHub 热门仓库，每日更新</description><atom:link href="https://2538514844.github.io/rss.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sat, 02 May 2026 07:26:28 +0000</lastBuildDate><item><title>2026-05-02 每日精选</title><link>https://2538514844.github.io/2026-05-02/</link><description>2026-05-02 每日精选 — 3 个仓库 | 
-theori-io/copy-fail-CVE-2026-31431 — 针对CVE-2026-31431漏洞的Python利用验证工具，为安全研究人员提供实战PoC参考。 | 
-willchen96/mike — 开源AI法律平台，利用大语言模型简化法律文档处理与合规咨询，降低法律服务门槛。 | 
-t8y2/dbx — 轻量级跨平台数据库客户端，支持MySQL、PostgreSQL等多种数据库，界面简洁易于操作。</description><content:encoded><![CDATA[<h1>2026-05-02 每日精选</h1>
-<p>共收录 3 个仓库</p>
-<h2><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">theori-io/copy-fail-CVE-2026-31431</a></h2>
-<p>⭐ 2629 | 🍴 540 | Python | 2026-04-29</p>
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title><![CDATA[GitHub Scout 每日精选]]></title>
+    <link>https://github.com</link>
+    <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 02 May 2026 07:31:15 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>GitHub Scout</generator>
+    <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
+<item>
+      <title><![CDATA[theori-io/copy-fail-CVE-2026-31431]]></title>
+      <link>https://github.com/theori-io/copy-fail-CVE-2026-31431</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[theori-io/copy-fail-CVE-2026-31431 — 针对CVE-2026-31431漏洞的Python利用验证工具，为安全研究人员提供实战PoC参考。 | ⭐2629 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">theori-io/copy-fail-CVE-2026-31431</a></h2>
+<p>⭐ 2629 ·  540 · Python · 2026-04-29</p>
 <blockquote>针对CVE-2026-31431漏洞的Python利用验证工具，为安全研究人员提供实战PoC参考。</blockquote>
-<p><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">查看仓库</a></p>
-<h2><a href="https://github.com/willchen96/mike">willchen96/mike</a></h2>
-<p>⭐ 1158 | 🍴 292 | TypeScript | 2026-04-29</p>
+<p><a href="https://github.com/theori-io/copy-fail-CVE-2026-31431">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/theori-io/copy-fail-CVE-2026-31431</guid>
+      <category>Python</category>
+    </item>
+<item>
+      <title><![CDATA[willchen96/mike]]></title>
+      <link>https://github.com/willchen96/mike</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[willchen96/mike — 开源AI法律平台，利用大语言模型简化法律文档处理与合规咨询，降低法律服务门槛。 | ⭐1158 | TypeScript]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/willchen96/mike">willchen96/mike</a></h2>
+<p>⭐ 1158 ·  292 · TypeScript · 2026-04-29</p>
 <blockquote>开源AI法律平台，利用大语言模型简化法律文档处理与合规咨询，降低法律服务门槛。</blockquote>
-<p><a href="https://github.com/willchen96/mike">查看仓库</a></p>
-<h2><a href="https://github.com/t8y2/dbx">t8y2/dbx</a></h2>
-<p>⭐ 637 | 🍴 31 | Vue | 2026-04-29</p>
+<p><a href="https://github.com/willchen96/mike">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/willchen96/mike</guid>
+      <category>TypeScript</category>
+    </item>
+<item>
+      <title><![CDATA[t8y2/dbx]]></title>
+      <link>https://github.com/t8y2/dbx</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[t8y2/dbx — 轻量级跨平台数据库客户端，支持MySQL、PostgreSQL等多种数据库，界面简洁易于操作。 | ⭐637 | Vue]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/t8y2/dbx">t8y2/dbx</a></h2>
+<p>⭐ 637 ·  31 · Vue · 2026-04-29</p>
 <blockquote>轻量级跨平台数据库客户端，支持MySQL、PostgreSQL等多种数据库，界面简洁易于操作。</blockquote>
-<p><a href="https://github.com/t8y2/dbx">查看仓库</a></p>]]></content:encoded><guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid><pubDate>Sat, 02 May 2026 15:15:22 +0000</pubDate></item></channel></rss>
+<p><a href="https://github.com/t8y2/dbx">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 29 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/t8y2/dbx</guid>
+      <category>Vue</category>
+    </item>
+  </channel>
+</rss>
