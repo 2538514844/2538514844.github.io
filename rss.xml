@@ -1,19 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title><![CDATA[GitHub Scout 每日精选]]></title>
-    <link>https://github.com</link>
-    <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
-    <language>zh-CN</language>
-    <lastBuildDate>Sat, 02 May 2026 08:23:53 GMT</lastBuildDate>
-    <docs>http://www.rssboard.org/rss-specification</docs>
-    <generator>GitHub Scout</generator>
-    <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
-<item>
-<title><![CDATA[2026-05-02 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-02/</link>
-<description><![CDATA[2026-05-02 每日精选 — 1 个仓库: TQ-trade/defidollar-core]]></description>
-<content:encoded><![CDATA[# 2025年4月12日 GitHub 开源项目精选
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>GitHub Scout 每日精选</title><link>https://2538514844.github.io/</link><description>AI 精选 GitHub 热门仓库，每日更新</description><atom:link href="https://2538514844.github.io/rss.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>zh-CN</language><lastBuildDate>Sat, 02 May 2026 08:25:32 +0000</lastBuildDate><item><title>2026-05-02 每日精选</title><link>https://2538514844.github.io/2026-05-02/</link><description>2026-05-02 每日精选 — 1 个仓库: TQ-trade/defidollar-core</description><content:encoded><![CDATA[# 2025年4月12日 GitHub 开源项目精选
 
 ## 概览
 本期精选聚焦于一个稳定币方向的智能合约项目，虽然数量不多，但 DefiDollar 的设计思路在算法稳定币赛道中具有一定参考价值，适合研究去中心化稳定币机制的开发者关注。
@@ -22,9 +8,4 @@
 - **[TQ-trade/defidollar-core](https://github.com/TQ-trade/defidollar-core)** ⭐ 139 — 实现 DefiDollar（$DUSD）算法稳定币的智能合约，探索去中心化货币锚定方案。
 
 ## 更多值得关注
-- 无]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid>
-<pubDate>Sat, 02 May 2026 08:23:53 GMT</pubDate>
-</item>
-  </channel>
-</rss>
+- 无]]></content:encoded><guid isPermaLink="false">https://2538514844.github.io/2026-05-02/</guid><pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate></item></channel></rss>
