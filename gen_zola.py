@@ -97,6 +97,12 @@ def main():
         if article_file:
             filepath = os.path.join(BACKUP_DIR, article_file)
             body = read_file_content(filepath)
+            # 把裸 GitHub URL 转成 Markdown 链接（AI 经常输出纯文本 URL）
+            body = re.sub(
+                r'https://github\.com/([\w.-]+/[\w.-]+)',
+                r'[\1](https://github.com/\1)',
+                body
+            )
             title = f"{date} 每日精选"
             m = re.match(r"# (.+)", body)
             if m:
