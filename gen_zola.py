@@ -56,13 +56,17 @@ def main():
         title, date, tags, content = parse_md(filepath)
 
         # Zola frontmatter
+        escaped_title = title.replace('"', '\\"')
         frontmatter = "+++\n"
-        frontmatter += f'title = "{title}"\n'
+        frontmatter += f'title = "{escaped_title}"\n'
         if date:
             frontmatter += f'date = "{date}"\n'
         if tags:
             frontmatter += "[taxonomies]\n"
             frontmatter += "tags = [" + ", ".join(f'"{t}"' for t in tags) + "]\n"
+        # even 主题要求的字段
+        frontmatter += "[extra]\n"
+        frontmatter += "reactions = {}\n"
         frontmatter += "+++\n\n"
 
         # Zola 页面文件名：用 title 做 slug
