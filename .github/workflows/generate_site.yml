@@ -100,6 +100,10 @@ jobs:
           python gen_rss.py
           cp rss.xml output/public/rss.xml
           test -f output/public/rss.xml
+          # 部署全局 RSS（feeds/feed.xml）
+          mkdir -p output/public/feeds
+          if [ -f feeds/feed.xml ]; then cp feeds/feed.xml output/public/feeds/feed.xml; fi
+          test -f output/public/rss.xml
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
