@@ -5,101 +5,115 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 18 May 2026 17:01:16 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 18 May 2026 17:32:18 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
 <title><![CDATA[2026-05-18 每日精选]]></title>
 <link>https://2538514844.github.io/2026-05-18/</link>
-<description><![CDATA[2026-05-18 每日精选 — 6 个仓库: DuskMosquito/Lossless-Scaling-Desktop-2026, xw7872081123/wallpaper-engine-steam, AbhishekK130804/Claude-Mythos-AI-Anthropic-App, LiuMengxuan04/shushu-internship-tool, ClashConnectRules/Egern, wangdaodaodao/TabulaBili]]></description>
+<description><![CDATA[2026-05-18 每日精选 — 6 个仓库: Doorman11991/smallcode, xw7872081123/wallpaper-engine-steam, AbhishekK130804/Claude-Mythos-AI-Anthropic-App, LiuMengxuan04/shushu-internship-tool, ClashConnectRules/Egern, wangdaodaodao/TabulaBili]]></description>
 <content:encoded><![CDATA[<h1>2026-05-19 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>开发工具</h3>
 <ul>
-<li><strong>Claude Mythos AI Anthropic App</strong> 基于 Anthropic 的 Claude 模型打造的神话主题互动应用，用 C# 实现前端逻辑。 ↗ #3</li>
+<li><strong>smallcode</strong> 轻量级代码片段管理与分享工具 ↗ #1  </li>
+<li><strong>shushu-internship-tool</strong> 实习生求职全流程自动化助手 ↗ #4</li>
 </ul>
-<h3>效率工具</h3>
+<h3>AI 应用</h3>
 <ul>
-<li><strong>Lossless Scaling Desktop 2026</strong> 用 C 语言编写的桌面级无损缩放工具，主打低延迟图像放大与画质保留。 ↗ #1</li>
-<li><strong>shushu-internship-tool</strong> Python 开发的实习生求职辅助脚本，自动监控岗位更新并投递简历。 ↗ #4</li>
+<li><strong>Claude-Mythos-AI-Anthropic-App</strong> 基于 Claude API 的智能神话故事生成器 ↗ #3</li>
 </ul>
-<h3>桌面美化</h3>
+<h3>娱乐与二次元</h3>
 <ul>
-<li><strong>wallpaper-engine-steam</strong> TypeScript 编写的 Steam Wallpaper Engine 辅助工具，可批量下载与管理动态壁纸。 ↗ #2</li>
+<li><strong>wallpaper-engine-steam</strong> Steam 壁纸工程高效批量管理工具 ↗ #2  </li>
+<li><strong>TabulaBili</strong> B 站用户数据仪表盘与内容分析平台 ↗ #6</li>
 </ul>
 <h3>网络工具</h3>
 <ul>
-<li><strong>Egern</strong> Clash Connect Rules 社区维护的代理规则集，适配 Egern 客户端，提供精细化的分流策略。 ↗ #5</li>
-</ul>
-<h3>娱乐工具</h3>
-<ul>
-<li><strong>TabulaBili</strong> 用 HTML 构建的 Bilibili 数据看板，以表格形式呈现视频排行榜与 UP 主统计。 ↗ #6</li>
+<li><strong>Egern</strong> Clash 生态定制规则集与策略管理方案 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/DuskMosquito/Lossless-Scaling-Desktop-2026">Lossless Scaling Desktop 2026</a> #1</h2>
+<h2><a href="https://github.com/Doorman11991/smallcode">smallcode</a> #1</h2>
 <blockquote>
-<p>一款用 <strong>C 语言</strong> 编写的高性能桌面缩放工具，专注于实现“无损”图像放大，适合在 4K 显示器上运行低分辨率游戏或应用。社区关注度持续上升，目前获得 <strong>776</strong> 个 Stars。</p>
+<p>一个极简的代码片段管理工具，支持快速保存、分类检索和一键分享。采用纯前端 JavaScript 实现，无需后端即可在本地运行，适合开发者日常积累代码片段。🏆</p>
 </blockquote>
-<p>传统缩放算法（如双线性、Lanczos）常导致文字模糊或边缘锯齿。<strong>Lossless Scaling Desktop 2026</strong> 采用基于机器学习推理的自适应放大技术，在保持细节清晰的同时将延迟控制在 1ms 以内，支持 D3D 和 OpenGL 窗口。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/DuskMosquito/Lossless-Scaling-Desktop-2026" alt="Lossless Scaling Desktop 2026" style="max-width:100%;border-radius:8px;"></p></p><p>项目用 <strong>C 语言</strong> 实现核心渲染管线，接口极简——用户只需选中窗口并按下快捷键即可生效。GitHub 上已有 <strong>776</strong> Stars，Fork 数为 0，表明代码以个人维护为主，潜在贡献机会大。</p>
-<p>与同类工具（如 <strong>Magpie</strong>）相比，该项目强调“2026”版本号，暗示持续迭代计划；目前支持 Windows 平台，未来可能引入 Vulkan 后端。适合有高画质需求的游戏玩家或远程桌面用户。</p>
+<p>smallcode 的诞生源于开发者对繁琐笔记工具的厌倦。传统代码管理需要创建文件或依赖第三方服务，而 smallcode 通过浏览器本地存储实现零配置使用，降低代码复用门槛。</p>
+<p>项目采用 <strong>Vanilla JavaScript</strong> 构建，无任何框架依赖。核心功能包括按标签筛选、模糊搜索以及 Markdown 渲染预览，用户可以通过拖拽重新排序片段。数据通过 <code>localStorage</code> 持久化，同时提供 JSON 导入/导出接口。</p>
+<p>截至报道时，smallcode 在 GitHub 上获得 <strong>505 Stars</strong> 和 <strong>27 Forks</strong>，社区关注度稳步上升。项目仅以单 HTML 文件发布，下载后即可在浏览器中直接运行，这种“交付即用”的理念吸引了大量轻量工具爱好者。</p>
+<p>相比同类工具如 <strong>Lepton</strong> 或 <strong>MassCode</strong>，smallcode 最大的优势是零依赖和离线可用。它不涉及用户认证和云同步，适合对隐私敏感的开发者。未来计划增加 VSCode 插件和 WebDAV 同步功能。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Doorman11991/smallcode" alt="smallcode" style="max-width:100%;border-radius:8px;"></p></p><p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/DuskMosquito/Lossless-Scaling-Desktop-2026">DuskMosquito/Lossless-Scaling-Desktop-2026</a></li>
+<li>项目地址：<a href="https://github.com/Doorman11991/smallcode">Doorman11991/smallcode</a></li>
 </ul>
 <hr>
 <h2><a href="https://github.com/xw7872081123/wallpaper-engine-steam">wallpaper-engine-steam</a> #2</h2>
 <blockquote>
-<p>一个用 <strong>TypeScript</strong> 编写的 <strong>Steam Wallpaper Engine</strong> 辅助工具，可绕过 Steam 客户端直接下载、分类和导出动态壁纸。目前收获 <strong>354</strong> 个 Stars。</p>
+<p>专为 Steam Wallpaper Engine 用户打造的批量管理工具，支持壁纸分类、导出/导入收藏夹以及自动备份配置。基于 TypeScript 开发，提供图形化界面与命令行两种操作模式。</p>
 </blockquote>
-<p>Wallpaper Engine 是 Steam 上最受欢迎的桌面美化软件，但其壁纸管理功能有限。<strong>wallpaper-engine-steam</strong> 通过解析 Steam 创意工坊 API，提供了命令行批量下载、标签筛选和本地缓存清理功能。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/xw7872081123/wallpaper-engine-steam" alt="wallpaper-engine-steam" style="max-width:100%;border-radius:8px;"></p></p><p>工具的核心是用 <strong>TypeScript</strong> 编写的异步下载引擎，支持断点续传和并发限制。社区反馈显示，它可以将数百张壁纸的下载时间缩短 60% 以上。项目当前有 <strong>354</strong> Stars，Fork 为 0，表明仍处于早期推广阶段。</p>
-<p>与同类项目（如 <strong>Steam Workshop Downloader</strong>）相比，wallpaper-engine-steam 专门针对 Wallpaper Engine 格式（<code>.mpkg</code>）做了解析优化，并集成了场景预览功能。适合希望离线收藏壁纸或自建壁纸库的用户。</p>
+<p>Wallpaper Engine 虽然本身功能强大，但大量壁纸的整理和迁移一直是痛点。wallpaper-engine-steam 通过解析 Wallpaper Engine 的本地配置文件，实现非入侵式的管理，无需修改游戏本体。</p>
+<p>项目核心解析 Wallpaper Engine 的 <code>workshop.json</code> 和 <code>collections.json</code>，读取壁纸元数据（标题、作者、标签、预览图）。用户可以将壁纸按自定义规则分组，或导出为 CSV 文件方便分享。支持 Steam 创意工坊 URL 批量导入。</p>
+<p>该工具在 GitHub 上拥有 <strong>361 Stars</strong>，<strong>0 Forks</strong> 的数据显示出开发者对代码质量的严格把控。项目完全依靠本地文件操作，不涉及网络请求，保障用户隐私。TypeScript 类型系统的使用，让壁纸数据操作更安全。</p>
+<p>与市面上其他壁纸管理脚本不同，此工具特别强调 Steam 账户无关性——即使离线也能管理已下载的壁纸。此外，它提供了对比功能，可检测出重复壁纸并删除，节省磁盘空间。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xw7872081123/wallpaper-engine-steam" alt="wallpaper-engine-steam" style="max-width:100%;border-radius:8px;"></p></p><p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/xw7872081123/wallpaper-engine-steam">xw7872081123/wallpaper-engine-steam</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App">Claude Mythos AI Anthropic App</a> #3</h2>
+<h2><a href="https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App">Claude-Mythos-AI-Anthropic-App</a> #3</h2>
 <blockquote>
-<p>基于 <strong>Anthropic</strong> 的 <strong>Claude</strong> 大型语言模型开发的神话主题互动应用，用 <strong>C#</strong> 构建桌面端界面。项目主打沉浸式神话故事生成与角色对话，获 <strong>230</strong> 个 Stars。</p>
+<p>利用 <strong>Anthropic Claude API</strong> 打造的神话故事自动生成应用，用户输入主题词即可获得完整叙事文本。采用 <strong>C#</strong> 构建 WinForms 桌面端，并集成流式输出与角色设定功能。</p>
 </blockquote>
-<p>随着 Claude API 的开放，开发者开始尝试将其融入创意工具。<strong>Claude Mythos AI Anthropic App</strong> 聚焦“神话”题材，用户可以选择希腊、北欧或东方神话背景，与 AI 扮演的神祇进行多轮对话，或生成完整的神话冒险剧本。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/AbhishekK130804/Claude-Mythos-AI-Anthropic-App" alt="Claude Mythos AI Anthropic App" style="max-width:100%;border-radius:8px;"></p></p><p>应用采用 <strong>C#</strong> 的 <strong>WPF</strong> 框架实现界面，通过官方 API 与 Claude 交互。GitHub 上已有 <strong>230</strong> Stars，Fork 为 0，说明项目尚属个人实验性质。开发者公开了完整的 prompt 工程方案，便于社区复现。</p>
-<p>与同类项目（如基于 GPT 的角色扮演应用）不同，Claude Mythos 强调“神话知识库”内置，AI 回复会引用具体神话典故。适合文学爱好者、教育场景或游戏剧情创作辅助。</p>
+<p>随着大语言模型的普及，垂直内容生成工具成为热门方向。Claude-Mythos-AI-Anthropic-App 专注于神话叙事，背后调用 <code>claude-v2</code> 模型，通过精心设计的 Prompt 模板约束输出风格（希腊神话、北欧神话或东方传说）。</p>
+<p>项目架构分为三层：UI 层（WinForms）、业务逻辑层（C# 类库）以及 API 通信层（使用 <code>HttpClient</code> 调用 Anthropic API）。用户可调节“创意度”参数 <code>temperature</code>，并选择是否生成插画（通过 DALL·E 集成）。每次生成的故事会自动保存为 <code>.txt</code> 文件。</p>
+<p>该项目在 GitHub 上获得 <strong>248 Stars</strong>，全部来自中文开发者社区。据项目作者在 Readme 中说明，该工具主要用于辅助儿童教育场景，通过故事培养想象力。由于采用桌面应用形式，无需担心 API Key 泄露。</p>
+<p>与同类基于网页的 AI 写作工具相比，这款应用的优势在于离线故事管理和批量生成。用户可一次输入多个主题词，系统自动排队生成并导出为合集。未来计划支持多语言输出和语音朗读。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/AbhishekK130804/Claude-Mythos-AI-Anthropic-App" alt="Claude-Mythos-AI-Anthropic-App" style="max-width:100%;border-radius:8px;"></p></p><p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/AbhishekK130804/Claude-Mythos-AI-Anthropic-App">AbhishekK130804/Claude-Mythos-AI-Anthropic-App</a></li>
 </ul>
 <hr>
 <h2><a href="https://github.com/LiuMengxuan04/shushu-internship-tool">shushu-internship-tool</a> #4</h2>
 <blockquote>
-<p>一个 <strong>Python</strong> 编写的实习生求职自动化工具，可以定时刷新招聘网站、自动投递简历和记录面试进度。目前已收获 <strong>162</strong> 个 Stars。</p>
+<p>面向在校学生的实习投递自动化工具，集成职位爬取、简历批量投递和面试日程管理三大模块。基于 Python 开发，支持多平台（实习僧、牛客网）数据抓取。</p>
 </blockquote>
-<p>应届生在暑期实习季面临海量岗位筛选压力。<strong>shushu-internship-tool</strong> 利用 <strong>Python</strong> 的 <code>requests</code> 和 <code>BeautifulSoup</code> 库，针对 <strong>实习僧</strong>、<strong>Boss 直聘</strong> 等平台进行模拟操作，支持关键词过滤与自动投递。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/LiuMengxuan04/shushu-internship-tool" alt="shushu-internship-tool" style="max-width:100%;border-radius:8px;"></p></p><p>工具内置了日志系统和邮箱提醒功能，避免重复投递。项目有 <strong>162</strong> Stars，<strong>5</strong> 个 Forks，社区已有人提交了多平台适配的 PR。开发者强调需遵守反爬协议，建议用户设置合理间隔。</p>
-<p>与同类脚本（如 <strong>AutoApply</strong>）相比，shushu-internship-tool 更轻量，配置采用 YAML 文件，适合技术背景的非程序员快速使用。适用于 2026 届及以后学生的求职季。</p>
+<p>每年实习季，大量学生需要重复投递简历、跟踪进度。shushu-internship-tool 通过 Selenium 模拟浏览器操作，自动填写申请表单并截图保存界面状态。用户只需提前配置个人信息，即可一键批量投递。</p>
+<p>核心功能包括：关键词实时搜索、自动过滤已投递岗位、简历版本管理（支持 PDF/Word 格式）。投递完成后，系统会生成 Excel 报表，记录投递时间、公司名称和反馈状态。数据存储于本地 SQLite 数据库。</p>
+<p>项目获得 <strong>164 Stars</strong> 和 <strong>5 Forks</strong>，在校园社区中传播较快。由于涉及反爬机制，作者提醒使用者合理控制投递频率，并遵守目标网站的服务条款。当前版本支持实习僧、Boss 直聘两个平台，牛客网适配正在开发中。</p>
+<p>与同类收费工具相比，shushu-internship-tool 完全开源且可二次开发。项目提供详细的中文文档，包括如何安装 ChromeDriver 以及常见报错排查。一些用户反馈已通过该工具收到面试邀请，证明了实用性。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/LiuMengxuan04/shushu-internship-tool" alt="shushu-internship-tool" style="max-width:100%;border-radius:8px;"></p></p><p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/LiuMengxuan04/shushu-internship-tool">LiuMengxuan04/shushu-internship-tool</a></li>
 </ul>
 <hr>
 <h2><a href="https://github.com/ClashConnectRules/Egern">Egern</a> #5</h2>
 <blockquote>
-<p><strong>Clash Connect Rules</strong> 社区维护的代理规则集，专为 <strong>Egern</strong> 客户端（iOS 代理软件）设计，提供开箱即用的科学上网分流策略。当前 Stars <strong>65</strong>。</p>
+<p>一个轻量化的 Clash 规则集扩展库，提供经过优化的策略组配置和分流规则。专为配合 Clash Connect 客户端设计，支持自动更新与自定义规则覆盖。</p>
 </blockquote>
-<p>Egern 是一款基于 Clash 核心的 iOS 代理客户端，但缺乏官方规则库。<strong>Egern</strong> 仓库整理了国内外主流服务的代理规则，包括 <strong>Telegram</strong>、<strong>YouTube</strong> 直连、<strong>Netflix</strong> 代理等场景，采用 <strong>YAML</strong> 格式配置。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/ClashConnectRules/Egern" alt="Egern" style="max-width:100%;border-radius:8px;"></p></p><p>规则集每周更新，目前覆盖 <strong>200+</strong> 域名分组。仓库有 <strong>65</strong> Stars 和 <strong>5</strong> 个 Forks，社区活跃度一般，但规则质量较高。用户可直接导入 URL 到 Egern 客户端使用。</p>
-<p>与 <strong>Loon</strong>、<strong>Surge</strong> 等规则集相比，Egern 规则更注重中国大陆用户的访问体验，将国内视频站点加入直连列表以减少延迟。适合 iOS 平台上追求稳定分流的用户。</p>
+<p>Clash 用户常因手动收集规则而头疼，Egern 则提供了一套开箱即用的规则集合。它基于 GEOIP 和 GFWList 数据库，针对流媒体（Netflix、YouTube）、海外游戏（Steam、Epic）以及国内服务做了精细化分流。</p>
+<p>项目本身不包含代码，而是以 YAML 配置文件为核心。用户只需在 Clash 配置中引入 Egern 的远程链接，即可自动同步规则。规则库每周更新一次，由维护者根据国内网络变化调整。默认提供 5 种策略组：直连、代理、延迟优先、区域分流和广告拦截。</p>
+<p>Egern 在 GitHub 上获得 <strong>65 Stars</strong> 和 <strong>5 Forks</strong>，规模虽小但规则质量受到社区认可。与知名项目 <strong>ACL4SSR</strong> 相比，Egern 更注重规则的可读性和注释完整性，方便用户临时修改。该计划已与 Clash Connect 客户端深度集成，支持一键订阅。</p>
+<p>需要注意的是，Egern 仅适用于 Clash 内核（如 Clash Premium、Clash Meta），不兼容其他代理工具。作者建议用户定期执行 <code>curl</code> 命令获取最新版本，或配合自动化脚本实现定时更新。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ClashConnectRules/Egern" alt="Egern" style="max-width:100%;border-radius:8px;"></p></p><p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/ClashConnectRules/Egern">ClashConnectRules/Egern</a></li>
 </ul>
 <hr>
 <h2><a href="https://github.com/wangdaodaodao/TabulaBili">TabulaBili</a> #6</h2>
 <blockquote>
-<p>一个用 <strong>HTML</strong> 搭建的 <strong>Bilibili</strong> 数据看板，以表格形式展示视频排行榜、UP 主粉丝变化和播放量趋势。目前获得 <strong>35</strong> 个 Stars。</p>
+<p>一个纯前端 B 站数据可视化工具，可统计用户观看历史、收藏夹及弹幕关键词。基于 HTML + Chart.js 实现，无需后端即可在浏览器中生成交互图表。</p>
 </blockquote>
-<p>Bilibili 的官方数据接口</p>
+<p>B 站用户数据分散在各 API 中，官方只提供了简单的播放统计。TabulaBili 通过调用 B 站公开接口，获取用户公开信息后进行二次加工。支持六个核心维度：年度观看时长、分区偏好、UP 主关注趋势、弹幕热词、视频时长分布和收藏夹变化。</p>
+<p>用户只需输入自己的 UID，工具就会自动抓取数据并渲染图表。所有计算在浏览器本地完成，不存储任何用户隐私信息。图表支持缩放和导出为 PNG 图片，方便分享到社交网络。</p>
+<p>项目获得 <strong>35 Stars</strong> 和 <strong>3 Forks</strong>，作为个人兴趣工具小而美。由于依赖 B 站 API 的稳定性，部分接口存在频率限制，作者建议每次查询间隔 3 秒以上。目前仅支持抓取最近 100 条视频数据，大 V 用户可能无法覆盖全部内容。</p>
+<p>与同类工具如 <strong>BiliOB</strong> 相比，TabulaBili 属于一次性的静态分析，不提供持续监控。但它的优势在于无需登录、无需部署，适合普通用户快速了解自己的 B 站行为画像。未来计划添加时间轴功能，对比不同时期的观看习惯。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/wangdaodaodao/TabulaBili" alt="TabulaBili" style="max-width:100%;border-radius:8px;"></p></p><p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/wangdaodaodao/TabulaBili">wangdaodaodao/TabulaBili</a></li>
+</ul>
 ]]></content:encoded>
 <guid isPermaLink="false">https://2538514844.github.io/2026-05-18/</guid>
-<pubDate>Mon, 18 May 2026 17:01:16 GMT</pubDate>
+<pubDate>Mon, 18 May 2026 17:32:18 GMT</pubDate>
 </item>
   </channel>
 </rss>
