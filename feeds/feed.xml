@@ -5,118 +5,109 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 19 May 2026 17:48:55 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 21 May 2026 01:12:09 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-19 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-19/</link>
-<description><![CDATA[2026-05-19 每日精选 — 6 个仓库: haiddrrs/Steam-Tools, evilsocket/audit, vzzoxo/xiaoyizi, Patdolitse/engram, xuanlinAI/overmind, RoseKhlifa/Image-Studio]]></description>
-<content:encoded><![CDATA[<h1>2026-05-20 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-21 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-21/</link>
+<description><![CDATA[2026-05-21 每日精选 — 6 个仓库: thananon/9arm-skills, rahul03524/YellowKey-Bitlocker, MFS9628/Deepseek-v4-pro-app, kouhxp/yapsnap, agentsope/SkillAlchemy, DiskDaggerDwell/Unlocker-Phone-Tool-2026]]></description>
+<content:encoded><![CDATA[<h1>2026-05-21 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>游戏工具</h3>
+<h3>AI/大模型</h3>
 <ul>
-<li><strong>Steam-Tools</strong> 一站式 Steam 游戏库存管理与增强工具 ↗ #1</li>
+<li><strong>Deepseek-v4-pro-app</strong> 深度求索 V4 客户端应用，提供本地化推理体验 ↗ #3</li>
+<li><strong>SkillAlchemy</strong> 将 AI 技能模块化炼金，实现轻量级任务编排 ↗ #5</li>
 </ul>
 <h3>安全工具</h3>
 <ul>
-<li><strong>audit</strong> 轻量级漏洞扫描与审计框架，助力安全研究 ↗ #2</li>
+<li><strong>YellowKey-Bitlocker</strong> 基于 Web 的 BitLocker 恢复密钥管理与解密工具 ↗ #2</li>
+<li><strong>Unlocker-Phone-Tool-2026</strong> 手机解锁工具，支持多品牌设备刷机与 Bootloader 解锁 ↗ #6</li>
+</ul>
+<h3>开发工具</h3>
+<ul>
+<li><strong>9arm-skills</strong> Shell 自动化技能集，聚合日常运维与开发常用脚本 ↗ #1</li>
 </ul>
 <h3>效率工具</h3>
 <ul>
-<li><strong>xiaoyizi</strong> 多功能极简工具集，简化日常操作 ↗ #3</li>
-<li><strong>engram</strong> 智能记忆库，为 AI 代理提供持久化上下文 ↗ #4</li>
-</ul>
-<h3>AI/大模型</h3>
-<ul>
-<li><strong>overmind</strong> 自动化任务编排与 AI 代理管理平台 ↗ #5</li>
-</ul>
-<h3>图像处理</h3>
-<ul>
-<li><strong>Image-Studio</strong> 基于浏览器的图片编辑与特效生成工作室 ↗ #6</li>
+<li><strong>yapsnap</strong> Python 截图小工具，支持快捷键与自定义存储 ↗ #4</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/haiddrrs/Steam-Tools">Steam-Tools</a> #1</h2>
+<h2><a href="https://github.com/thananon/9arm-skills">9arm-skills</a> #1</h2>
 <blockquote>
-<p><strong>haiddrrs/Steam-Tools</strong> 是一个用 <strong>C#</strong> 编写的 Steam 客户端增强套件，集成了库存管理、皮肤更换、游戏内加速等实用功能，旨在为玩家提供更流畅的 Steam 使用体验。上线后迅速获得 <strong>468</strong> 颗 Star，社区关注度攀升。</p>
+<p><strong>9arm-skills</strong> 是一个收集了 900+ Shell 脚本的自动化技能库，涵盖系统运维、网络调试、容器管理等场景。项目以模块化方式组织脚本，用户可直接复制或管道执行，减少重复劳动。</p>
 </blockquote>
-<p>该项目的诞生源于现有 Steam 工具功能分散、操作复杂的痛点。开发者将多个常用模块整合到统一界面中，用户无需切换多个第三方工具即可完成账号维护、库存整理与游戏性能优化。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/haiddrrs/Steam-Tools" alt="Steam-Tools" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括一键库存物品快速交易、游戏库去重与分类、Steam 启动项优化以及自定义皮肤切换。技术方案基于 <code>SteamKit2</code> 库实现与 Steam 网络的底层通信，并封装了图形化界面。</p>
-<p>据项目页显示，目前社区已提交超过 10 次更新，修复了多个与 Steam 新版本兼容性的问题。与同类工具相比，<strong>Steam-Tools</strong> 的优势在于开箱即用、无需额外配置，同时完全开源，安全透明。</p>
-<p>适用场景覆盖普通玩家和重度收藏家，未来计划支持多语言界面和云同步功能。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/thananon/9arm-skills" alt="9arm-skills" style="max-width:100%;border-radius:8px;"></p></p><p><strong>9arm-skills</strong> 的作者在日常工作中发现，许多运维任务需要反复编写类似的 Shell 命令，而网上零散的脚本又缺乏统一管理。因此，他决定将常用技能整理成一份按功能分类的脚本合集，方便自己和团队快速取用。</p>
+<p>项目采用平铺式目录结构，每个脚本尽量保持自包含，并带有简短的注释说明。例如 <code>network/</code> 目录下包含端口扫描、路由追踪、DNS 查询等工具；<code>docker/</code> 目录则有容器日志清理、镜像批量导出等实用函数。</p>
+<p>截至目前，<strong>9arm-skills</strong> 在 GitHub 上获得了 <strong>859</strong> 个 Star 和 <strong>118</strong> 个 Fork，社区反馈积极。用户可直接通过 <code>curl</code> 获取脚本内容并管道执行，降低了使用门槛。与类似的 dotfiles 仓库相比，该项目更偏向于可独立运行的“技能点”，而非环境配置。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/haiddrrs/Steam-Tools">haiddrrs/Steam-Tools</a></li>
+<li>项目地址：<a href="https://github.com/thananon/9arm-skills">thananon/9arm-skills</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/evilsocket/audit">audit</a> #2</h2>
+<h2><a href="https://github.com/rahul03524/YellowKey-Bitlocker">YellowKey-Bitlocker</a> #2</h2>
 <blockquote>
-<p><strong>evilsocket/audit</strong> 是一款基于 <strong>Python</strong> 的轻量级自动化审计框架，能够快速扫描网络资产、识别已知漏洞并生成详细报告。项目获得 <strong>293</strong> 颗 Star，在安全研究人员中引起关注。</p>
+<p><strong>YellowKey-Bitlocker</strong> 是一个基于 TypeScript 开发的 BitLocker 恢复密钥管理与解密工具，提供直观的 Web 界面。用户可通过上传密钥文件或手动输入，快速解锁加密卷，同时支持密钥导出与审计日志记录。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/evilsocket/audit" alt="audit" style="max-width:100%;border-radius:8px;"></p></p><p>在日常安全工作中，重复的手动审计耗时且易遗漏。<strong>audit</strong> 通过模块化设计，允许用户编写自定义审计插件，并内置了端口扫描、Web 指纹识别、弱密码检测等 20 余个常用模块。</p>
-<p>技术层面，项目采用异步 I/O 提高扫描效率，同时支持输出多种格式（HTML、JSON、Markdown）。对于小型团队或独立白帽研究者，它可以快速搭建基础安全基线。</p>
-<p>与其他商业审计工具相比，<strong>audit</strong> 完全免费且代码可审查，降低了入门门槛。社区贡献了多个针对常见 CMS（如 WordPress、Joomla）的专属审计规则。</p>
-<p>值得注意的是，项目作者 <strong>evilsocket</strong> 是知名安全框架 <code>bettercap</code> 的开发者，其背景为工具可靠性增添了一份背书。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/rahul03524/YellowKey-Bitlocker" alt="YellowKey-Bitlocker" style="max-width:100%;border-radius:8px;"></p></p><p>随着企业 BitLocker 部署的普及，IT 管理员经常需要在应急场景下快速查找恢复密钥。<strong>YellowKey-Bitlocker</strong> 项目应运而生，旨在替代传统的命令行 <code>manage-bde</code> 流程，让非技术用户也能通过浏览器操作。</p>
+<p>核心功能包括：密钥上传解析（支持 <code>.txt</code> <code>.bek</code> 格式）、卷锁定状态预览、一键解密并提供恢复密钥副本。TypeScript 前端使用 React 构建，后端基于 Node.js，所有加密操作均在本地完成，确保密钥不过传至服务器。</p>
+<p>该项目获得 <strong>286</strong> 个 Star，Fork 数为 <strong>1</strong>。相比微软官方提供的 BitLocker 管理工具，<strong>YellowKey-Bitlocker</strong> 更轻量，适合中小企业或单机场景。开发者计划后续加入 Active Directory 集成和密钥轮换提醒功能。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/evilsocket/audit">evilsocket/audit</a></li>
+<li>项目地址：<a href="https://github.com/rahul03524/YellowKey-Bitlocker">rahul03524/YellowKey-Bitlocker</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/vzzoxo/xiaoyizi">xiaoyizi</a> #3</h2>
+<h2><a href="https://github.com/MFS9628/Deepseek-v4-pro-app">Deepseek-v4-pro-app</a> #3</h2>
 <blockquote>
-<p><strong>vzzoxo/xiaoyizi</strong> 是一个用 <strong>JavaScript</strong> 编写的轻量级效率工具箱，集成了文件批量重命名、二维码生成、文本加密等日常高频功能，无需安装即可在浏览器中运行。项目获得 <strong>37</strong> 颗 Star，<strong>56</strong> 个 Fork 表明社区积极参与开发。</p>
+<p><strong>Deepseek-v4-pro-app</strong> 是一个面向 <strong>DeepSeek V4</strong> 模型的桌面客户端，提供原生 GPT 风格的聊天交互界面。应用内置提示词模板、自定义 API 地址与上下文长度控制，支持离线模型调用。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/vzzoxo/xiaoyizi" alt="xiaoyizi" style="max-width:100%;border-radius:8px;"></p></p><p>许多用户希望在浏览器中快速完成小任务，而不想安装臃肿的桌面软件。<strong>xiaoyizi</strong> 采用纯前端架构，所有处理均在本地完成，不向服务器上传任何数据，保障隐私安全。</p>
-<p>核心功能包括：批量文件重命名支持正则表达式、二维码解码与生成（支持 vCard 和 Wi-Fi 配置）、AES 文本加密解密，以及 Unicode 与 Base64 互转工具。界面遵循极简设计，所有操作通过点击或拖拽完成。</p>
-<p>项目已获得来自开源社区的多个贡献，包括新增的 PDF 合并功能。与同类在线工具（如 tinywow）相比，<strong>xiaoyizi</strong> 无广告、无跟踪，且完全离线的特性更适合注重隐私的用户。</p>
-<p>开发者在仓库中表示正在计划增加图像压缩和 Markdown 预览功能，目标成为“瑞士军刀”式的全能助手。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/MFS9628/Deepseek-v4-pro-app" alt="Deepseek-v4-pro-app" style="max-width:100%;border-radius:8px;"></p></p><p>deepseek 系列模型在中文场景中表现出色，但官方并未提供独立的桌面客户端。开发者 <strong>MFS9628</strong> 利用 Electron 封装了一个跨平台应用，让用户可以更方便地调用部署在本地或远程的 <strong>DeepSeek V4</strong> 模型。</p>
+<p>界面设计参考了 ChatGPT 的极简风格，支持 Markdown 渲染、代码高亮和对话历史导出。用户可在设置中填入自建 API 端点或使用官方 API Key，并调整 <code>temperature</code>、<code>max_tokens</code> 等参数。应用还集成了系统托盘模式，支持快速唤出对话窗口。</p>
+<p>目前项目获得 <strong>283</strong> 个 Star，暂无分支。与类似开源前端（如 <strong>Lobe Chat</strong>）相比，<strong>Deepseek-v4-pro-app</strong> 专注于单一模型优化，包体积更小（约 80MB），且自带中文提示词模板，适合中文用户开箱即用。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/vzzoxo/xiaoyizi">vzzoxo/xiaoyizi</a></li>
+<li>项目地址：<a href="https://github.com/MFS9628/Deepseek-v4-pro-app">MFS9628/Deepseek-v4-pro-app</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Patdolitse/engram">engram</a> #4</h2>
+<h2><a href="https://github.com/kouhxp/yapsnap">yapsnap</a> #4</h2>
 <blockquote>
-<p><strong>Patdolitse/engram</strong> 是一个用 <strong>Python</strong> 构建的轻量级记忆管理库，为 AI 代理提供持久化上下文存储与检索能力，类似于为语言模型添加“长期记忆”。项目获得 <strong>34</strong> 颗 Star，虽处于早期但设计思路新颖。</p>
+<p><strong>yapsnap</strong>（Yet Another ScreenSnap）是一个用 Python 编写的轻量级截图工具，支持矩形区域截取、全屏截图和延时截图。输出格式为 PNG/JPEG，可自动保存到用户指定目录，并提供快捷键绑定。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Patdolitse/engram" alt="engram" style="max-width:100%;border-radius:8px;"></p></p><p>当前大语言模型每次对话都是独立的，缺乏跨会话的记忆。<strong>engram</strong> 试图解决这一问题：它允许开发者将 AI 代理的知识、用户偏好、对话历史等结构化信息存入本地存储（基于 <code>sqlite3</code> 或 <code>LMDB</code>），并通过语义搜索快速召回。</p>
-<p>核心实现包含：自动向量化文本片段（支持 OpenAI Embeddings 或本地 <code>sentence-transformers</code>）、基于余弦相似度的检索、以及时间衰减权重机制，使最近的信息更易被召回。</p>
-<p>据项目文档，一小时内即可集成到基于 LangChain 或 LlamaIndex 的应用中。与其他记忆方案（如 MemGPT）相比，<strong>engram</strong> 更轻量、无外部依赖，适合手机端或边缘设备部署。</p>
-<p>开发者还计划支持多模态记忆（如图片描述索引），并在未来版本中引入记忆压缩与遗忘策略。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/kouhxp/yapsnap" alt="yapsnap" style="max-width:100%;border-radius:8px;"></p></p><p>日常工作中，开发者经常需要快速截图并保存到本地，而系统自带的截图快捷键往往功能有限。<strong>yapsnap</strong> 采用 Python 的 <code>pynput</code> 库监听全局热键，利用 <code>PIL</code>（Pillow）处理图像，总共不足 300 行代码，却实现了完整的截图工作流。</p>
+<p>核心特性包括：可自定义快捷键（默认 <code>Ctrl+Shift+S</code>），截图后自动弹出预览窗口，支持二次编辑（绘制箭头、文字等）并保存。工具跨平台运行于 Windows、macOS 和 Linux，依赖极少。</p>
+<p>项目目前拥有 <strong>25</strong> 个 Star 和 <strong>1</strong> 个 Fork，适合作为学习 Python GUI 编程的参考。与 <strong>Flameshot</strong> 等成熟工具相比，<strong>yapsnap</strong> 最大优势是纯 Python 实现，便于二次开发——用户可轻松扩展为 OCR 截图、颜色拾取等工具。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Patdolitse/engram">Patdolitse/engram</a></li>
+<li>项目地址：<a href="https://github.com/kouhxp/yapsnap">kouhxp/yapsnap</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/xuanlinAI/overmind">overmind</a> #5</h2>
+<h2><a href="https://github.com/agentsope/SkillAlchemy">SkillAlchemy</a> #5</h2>
 <blockquote>
-<p><strong>xuanlinAI/overmind</strong> 是一个基于 <strong>JavaScript</strong> 的 AI 代理编排平台，允许用户通过可视化工作流将多个 LLM 调用、工具调用和条件分支组合成自动化任务。项目获得 <strong>29</strong> 颗 Star，初现潜力。</p>
+<p><strong>SkillAlchemy</strong> 是一个 Python 框架，用于将 AI 大模型的能力封装为可组合的“技能”模块。开发者通过 YAML 配置文件即可定义技能的工作流（链式调用、条件分支等），无需编写复杂代码。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/xuanlinAI/overmind" alt="overmind" style="max-width:100%;border-radius:8px;"></p></p><p>复杂 AI 应用往往需要串联多个模型和外部 API（如搜索、代码执行、数据库查询）。<strong>overmind</strong> 提供类似 Node-RED 的拖拽式界面，让非专业开发者也能构建多步骤 AI 管道。</p>
-<p>技术实现基于 <code>ReactFlow</code> 构建前端画布，后端使用 <code>Node.js</code> 执行 DAG 工作流。内置节点包括：LLM 调用节点（支持 OpenAI、Claude、Gemini）、函数调用节点、条件判断节点以及循环节点。</p>
-<p>项目在演示 Demo 中展示了“自动生成研究报告”场景：先搜索热点新闻，再用 LLM 总结并输出 Markdown 文件。与 AutoGPT 等完全自动化的方案不同，<strong>overmind</strong> 更强调人工控制与可解释性。</p>
-<p>当前已支持导出工作流为 JSON 格式以便分享。开发者计划下一步加入版本控制、协作编辑和插件市场。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/agentsope/SkillAlchemy" alt="SkillAlchemy" style="max-width:100%;border-radius:8px;"></p></p><p>随着 Agent 架构兴起，许多开发者需要将大模型与外部工具（搜索、计算器、数据库）组合。<strong>SkillAlchemy</strong> 提出了一种声明式技能定义方法：每个技能包含输入输出 Schema、调用提示词和依赖的 API 列表，运行时由框架自动编排。</p>
+<p>技术方案上，项目底层基于 <code>instructor</code> 库实现结构化输出，使用 <code>LangChain</code> 的组件作为可选工具。例如定义一个“天气查询与日程安排”技能，只需在 YAML 中写明 <code>tools: [weather_api, calendar]</code>，框架便会自动规划调用顺序。</p>
+<p>截至目前，该项目获得 <strong>14</strong> 个 Star。与 <strong>AutoGen</strong> 或 <strong>CrewAI</strong> 等大型框架相比，<strong>SkillAlchemy</strong> 更加轻量，适合个人或小团队快速实验技能组合。作者计划后续加入技能市场，允许用户分享预定义技能包。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/xuanlinAI/overmind">xuanlinAI/overmind</a></li>
+<li>项目地址：<a href="https://github.com/agentsope/SkillAlchemy">agentsope/SkillAlchemy</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/RoseKhlifa/Image-Studio">Image-Studio</a> #6</h2>
+<h2><a href="https://github.com/DiskDaggerDwell/Unlocker-Phone-Tool-2026">Unlocker-Phone-Tool-2026</a> #6</h2>
 <blockquote>
-<p><strong>RoseKhlifa/Image-Studio</strong> 是一款基于 <strong>TypeScript</strong> 的浏览器端图像处理工作室，无需安装即可完成图片裁剪、滤镜、文字叠加和 AI 智能抠图。项目获得 <strong>18</strong> 颗 Star，作为个人项目功能设计完整。</p>
+<p><strong>Unlocker-Phone-Tool-2026</strong> 是一款面向 Android 手机的多合一解锁工具，支持 Bootloader 解锁、FRP 绕过、系统刷入及 Root 操作。项目提供 Windows 图形界面，内置主流品牌（小米、三星、OPPO、Vivo）的驱动与解锁脚本。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/RoseKhlifa/Image-Studio" alt="Image-Studio" style="max-width:100%;border-radius:8px;"></p></p><p>传统在线图片编辑工具要么功能简陋，要么需要付费。<strong>Image-Studio</strong> 利用 <code>Canvas API</code> 和 WebAssembly 加速处理性能，同时集成 <code>TensorFlow.js</code> 提供的 <code>BodyPix</code> 模型实现一键人像抠图。</p>
-<p>核心功能包括：30 余种滤镜（复古、黑白、胶片）、文字水印与贴纸、裁剪旋转，以及基于神经网络的背景移除。所有处理在浏览器内完成，不上传图片至服务器，保障隐私安全。</p>
-<p>实际测试中，一张 1920x1080 的图片应用油画滤镜大约需 1.5 秒，抠图操作约 2 秒，性能可满足日常使用。与 Photopea 等在线工具相比，<strong>Image-Studio</strong> 完全开源且无广告。</p>
-<p>开发者透露正在开发批量处理和 PSD 导出功能，未来可以成为设计师的便携工具。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/DiskDaggerDwell/Unlocker-Phone-Tool-2026" alt="Unlocker-Phone-Tool-2026" style="max-width:100%;border-radius:8px;"></p></p><p>手机解锁（尤其是 Bootloader）一直是动手爱好者的刚需，但各品牌解锁流程差异极大。<strong>Unlocker-Phone-Tool-2026</strong> 将常见解锁步骤打包成一个工具，用户只需连接手机并选择型号，工具会自动执行备份、解锁码申请（部分品牌需手动输入）、刷入 Recovery 等步骤。</p>
+<p>该项目基于 Python 的 <code>Tkinter</code> 构建 GUI，核心解锁逻辑依赖 <code>fastboot</code> 和 <code>adb</code> 命令行工具。开发者声称已测试了超过 50 款设备，并针对 <strong>高通</strong> 和 <strong>联发科</strong> 芯片提供了不同的刷入协议。</p>
+<p>目前获得 <strong>9</strong> 个 Star 和 <strong>3</strong> 个 Fork。需注意此类工具存在法律风险（可能违反设备保修条款），且部分功能需要用户自行承担变砖风险。与 <strong>XDA 开发者社区</strong> 提供的教程相比，该工具降低了操作门槛，但建议用户在熟悉原理后再使用。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/RoseKhlifa/Image-Studio">RoseKhlifa/Image-Studio</a></li>
+<li>项目地址：<a href="https://github.com/DiskDaggerDwell/Unlocker-Phone-Tool-2026">DiskDaggerDwell/Unlocker-Phone-Tool-2026</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-19/</guid>
-<pubDate>Tue, 19 May 2026 17:48:55 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-21/</guid>
+<pubDate>Thu, 21 May 2026 01:12:09 GMT</pubDate>
 </item>
   </channel>
 </rss>
