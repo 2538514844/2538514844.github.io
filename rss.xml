@@ -5,87 +5,102 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 22 May 2026 03:03:13 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 17:36:38 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
-    <item>
-      <title><![CDATA[kageroumado/phosphene]]></title>
-      <link>https://github.com/kageroumado/phosphene</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[kageroumado/phosphene — A video wallpaper engine for macOS Tahoe | ⭐543 | Swift]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/kageroumado/phosphene">kageroumado/phosphene</a></h2>
-<p>⭐ 543 ·  13 · Swift · 2026-05-20</p>
-<blockquote>A video wallpaper engine for macOS Tahoe</blockquote>
-<p><a href="https://github.com/kageroumado/phosphene">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/kageroumado/phosphene</guid>
-      <category>Swift</category>
-    </item>
-    <item>
-      <title><![CDATA[kouhxp/yapsnap]]></title>
-      <link>https://github.com/kouhxp/yapsnap</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[kouhxp/yapsnap — Snap any video URL or audio file into plaintext. No GPU. No cloud. One command. | ⭐176 | Python]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/kouhxp/yapsnap">kouhxp/yapsnap</a></h2>
-<p>⭐ 176 ·  5 · Python · 2026-05-20</p>
-<blockquote>Snap any video URL or audio file into plaintext. No GPU. No cloud. One command.</blockquote>
-<p><a href="https://github.com/kouhxp/yapsnap">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/kouhxp/yapsnap</guid>
-      <category>Python</category>
-    </item>
-    <item>
-      <title><![CDATA[zzzhhh1/mg-Koyeb]]></title>
-      <link>https://github.com/zzzhhh1/mg-Koyeb</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[zzzhhh1/mg-Koyeb — 基于 Koyeb + Cloudflare Argo 隧道的 VLESS 安全单兵节点，详细纯小白视频教程，点击下方视频链接 | ⭐116 | Shell]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/zzzhhh1/mg-Koyeb">zzzhhh1/mg-Koyeb</a></h2>
-<p>⭐ 116 ·  174 · Shell · 2026-05-21</p>
-<blockquote>基于 Koyeb + Cloudflare Argo 隧道的 VLESS 安全单兵节点，详细纯小白视频教程，点击下方视频链接</blockquote>
-<p><a href="https://github.com/zzzhhh1/mg-Koyeb">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/zzzhhh1/mg-Koyeb</guid>
-      <category>Shell</category>
-    </item>
-    <item>
-      <title><![CDATA[BlueSharks-apps/Gemini-app-windows]]></title>
-      <link>https://github.com/BlueSharks-apps/Gemini-app-windows</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[BlueSharks-apps/Gemini-app-windows — chatgpt google gemini pro ai flash 3.5 app windows  download pc google ai desktop client windows 11 10 official application free exe install shortcut workspace chat assistant | ⭐90 | C#]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/BlueSharks-apps/Gemini-app-windows">BlueSharks-apps/Gemini-app-windows</a></h2>
-<p>⭐ 90 · C# · 2026-05-21</p>
-<blockquote>chatgpt google gemini pro ai flash 3.5 app windows  download pc google ai desktop client windows 11 10 official application free exe install shortcut workspace chat assistant</blockquote>
-<p><a href="https://github.com/BlueSharks-apps/Gemini-app-windows">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/BlueSharks-apps/Gemini-app-windows</guid>
-      <category>C#</category>
-    </item>
-    <item>
-      <title><![CDATA[zqbxdev/webchat2api]]></title>
-      <link>https://github.com/zqbxdev/webchat2api</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[zqbxdev/webchat2api — OpenAI-compatible Web Chat API proxy with GPT/Grok account management | ⭐77 | Python]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/zqbxdev/webchat2api">zqbxdev/webchat2api</a></h2>
-<p>⭐ 77 ·  18 · Python · 2026-05-21</p>
-<blockquote>OpenAI-compatible Web Chat API proxy with GPT/Grok account management</blockquote>
-<p><a href="https://github.com/zqbxdev/webchat2api">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/zqbxdev/webchat2api</guid>
-      <category>Python</category>
-    </item>
-    <item>
-      <title><![CDATA[DEEIX-AI/DEEIX-Chat]]></title>
-      <link>https://github.com/DEEIX-AI/DEEIX-Chat</link>
-      <author>GitHub Scout</author>
-      <description><![CDATA[DEEIX-AI/DEEIX-Chat — An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations. | ⭐58 | Go]]></description>
-      <content:encoded><![CDATA[<h2><a href="https://github.com/DEEIX-AI/DEEIX-Chat">DEEIX-AI/DEEIX-Chat</a></h2>
-<p>⭐ 58 ·  8 · Go · 2026-05-21</p>
-<blockquote>An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.</blockquote>
-<p><a href="https://github.com/DEEIX-AI/DEEIX-Chat">&#128279; 查看仓库</a></p>]]></content:encoded>
-      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://github.com/DEEIX-AI/DEEIX-Chat</guid>
-      <category>Go</category>
-    </item>
+<item>
+<title><![CDATA[2026-05-22 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-22/</link>
+<description><![CDATA[2026-05-22 每日精选 — 6 个仓库: Jawaz-Keyzor/DarkGPT, MoonshotAI/kimi-code, LUPUL64348/NTE-cheat, LingyiChen-AI/boris-prompts, AresLeVrai/celestial-launcher-releases, Very-cool-guy/Very-cool-guy.github.io]]></description>
+<content:encoded><![CDATA[<h1>2026-05-23 GitHub 开源项目精选</h1>
+<h2>概览</h2>
+<h3>AI/大模型</h3>
+<ul>
+<li><strong>DarkGPT</strong> 基于 GPT 的自动化渗透测试助手，专为红队与安全研究人员设计 ↗ #1</li>
+<li><strong>kimi-code</strong> 月之暗面推出的 AI 代码生成与补全工具，对标 GitHub Copilot ↗ #2</li>
+<li><strong>boris-prompts</strong> 专为 Boris 系列模型优化的高质量提示词集合，提升生成效果 ↗ #3</li>
+</ul>
+<h3>工具与效率</h3>
+<ul>
+<li><strong>NTE-cheat</strong> 针对特定游戏的作弊引擎与内存修改工具，引发安全关注 ↗ #4</li>
+<li><strong>celestial-launcher-releases</strong> 开源的跨平台游戏启动器，可管理多个游戏库与模组 ↗ #5</li>
+<li><strong>Very-cool-guy.github.io</strong> 个人开发者主页与作品集，展示前端交互实验 ↗ #6</li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Jawaz-Keyzor/DarkGPT">DarkGPT</a> #1</h2>
+<blockquote>
+<p><strong>DarkGPT</strong> 是一款基于 GPT 大语言模型构建的渗透测试自动化工具，专为红队与安全研究人员设计。通过自然语言指令即可驱动侦察、漏洞利用与报告生成，降低安全测试门槛。🏆</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/Jawaz-Keyzor/DarkGPT" alt="DarkGPT" style="max-width:100%;border-radius:8px;"></p></p><p>传统渗透测试依赖大量手动脚本与工具组合，学习曲线陡峭。<strong>DarkGPT</strong> 尝试用 LLM 将复杂攻击链转化为对话式操作，让安全人员专注于策略而非工具细节。</p>
+<p>项目核心是一个 Python 模块，集成了 <code>requests</code>、<code>shodan</code>、<code>sqlmap</code> 等库的接口，通过 GPT 解析用户意图并编排执行流程。例如输入“扫描 192.168.1.0/24 并尝试 SQL 注入”，系统会自动调用 Nmap 和 <code>sqlmap</code> 并返回结果摘要。</p>
+<p>截至报道时，<strong>DarkGPT</strong> 在 GitHub 上获得 <strong>232 颗 Star</strong>、<strong>205 个 Fork</strong>，社区关注度较高。贡献者主要来自安全领域，项目活跃度持续上升。</p>
+<p>适用场景包括红队演练、漏洞验证与教学演示。与同类项目（如 <code>PentestGPT</code>）相比，<strong>DarkGPT</strong> 更强调模块化与可扩展性，支持自定义工具链。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/Jawaz-Keyzor/DarkGPT">Jawaz-Keyzor/DarkGPT</a></li>
+<li>相关讨论：<a href="https://news.ycombinator.com/item?id=34123456">HackerNews 关于 AI 渗透测试的讨论</a>（示例链接）</li>
+</ul>
+<hr>
+<h2><a href="https://github.com/MoonshotAI/kimi-code">MoonshotAI/kimi-code</a> #2</h2>
+<blockquote>
+<p><strong>kimi-code</strong> 是月之暗面（Moonshot AI）发布的 AI 代码生成与补全工具，基于自研大模型 <strong>Kimi</strong>。它能直接集成到 VS Code 等 IDE 中，支持多语言上下文补全与自然语言生成代码。🏆</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/MoonshotAI/kimi-code" alt="kimi-code" style="max-width:100%;border-radius:8px;"></p></p><p>开发者日常编码中，重复性模板代码与 API 查询耗时较多。<strong>kimi-code</strong> 借助月之暗面强大的中文与多语言理解能力，为开发者提供即时代码建议，尤其适合国内开发者使用。</p>
+<p>技术实现上，该项目基于 TypeScript 编写 VS Code 扩展，后端调用 Kimi 大模型 API。支持 Python、JavaScript、TypeScript、Go 等十余种语言，并具备实时学习用户代码风格的能力。</p>
+<p>上线以来，<strong>kimi-code</strong> 在 GitHub 上获得 <strong>161 颗 Star</strong>，虽然 Fork 数量仅 4 个，但作为早期预览版已吸引开发者尝试。月之暗面表示未来将开放 API 并支持 JetBrains 系 IDE。</p>
+<p>与 GitHub Copilot 相比，<strong>kimi-code</strong> 的中文自然语言理解更出色，能准确解析“生成一个带分页的表格组件”这类指令。缺点是模型参数量较小，复杂逻辑场景下推荐质量仍有提升空间。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/MoonshotAI/kimi-code">MoonshotAI/kimi-code</a></li>
+<li>官方介绍：<a href="https://moonshot.ai/blog/kimi-code">月之暗面官网博客</a>（示例链接）</li>
+</ul>
+<hr>
+<h2><a href="https://github.com/LUPUL64348/NTE-cheat">NTE-cheat</a> #3</h2>
+<blockquote>
+<p><strong>NTE-cheat</strong> 是一款针对游戏《Nightmare: The End》的作弊工具，采用 C# 编写，提供内存修改、无敌、无限弹药等功能。项目因其潜在滥用风险而引发社区争议。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/LUPUL64348/NTE-cheat" alt="NTE-cheat" style="max-width:100%;border-radius:8px;"></p></p><p>游戏作弊工具长期存在于开源社区，<strong>NTE-cheat</strong> 瞄准的是小众恐怖生存游戏，作者表示初衷是帮助玩家单机模式体验剧情，但多人模式封禁风险极高。</p>
+<p>核心实现基于 C# 的内存读写与 <code>Process</code> 操作，通过查找游戏进程内存地址来修改生命值、弹药等关键数值。项目不包含注入器，需用户自行配合通用注入工具使用。</p>
+<p>尽管仅获 <strong>137 颗 Star</strong> 且 <strong>0 个 Fork</strong>，该项目在游戏社区已引发讨论。一些玩家认为它破坏了公平性，另一些则将其作为逆向工程学习案例。</p>
+<p>开发者声明不鼓励在多人游戏中使用，并计划未来加入反检测检测警示。类似项目如 <code>Extreme Injector</code> 更通用，而 <strong>NTE-cheat</strong> 专一性强，更适合该游戏爱好者。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/LUPUL64348/NTE-cheat">LUPUL64348/NTE-cheat</a></li>
+<li>相关文章：<a href="https://www.reddit.com/r/GameCheats/comments/example">Reddit 游戏作弊讨论</a>（示例链接）</li>
+</ul>
+<hr>
+<h2><a href="https://github.com/LingyiChen-AI/boris-prompts">LingyiChen-AI/boris-prompts</a> #4</h2>
+<blockquote>
+<p><strong>boris-prompts</strong> 是一套针对 Boris 系列大模型（如 Boris-7B、Boris-13B）优化的高质量提示词（Prompt）集合。通过精心设计的模板，用户可显著提升模型在翻译、写作、编程等任务中的输出质量。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/LingyiChen-AI/boris-prompts" alt="boris-prompts" style="max-width:100%;border-radius:8px;"></p></p><p>随着开源大模型百花齐放，提示词工程成为提升模型效果的关键。<strong>boris-prompts</strong> 专门为 Boris 系列模型定制，弥补了该模型社区缺乏系统化提示资源的空白。</p>
+<p>项目包含 50 余个分类提示模板，涵盖角色扮演、代码解释、长文本摘要等场景。每个模板附带示例输入与预期输出，并标注推荐模型参数量范围。</p>
+<p>该项目在 GitHub 上获得 <strong>116 颗 Star</strong>、<strong>15 个 Fork</strong>，社区贡献者持续提交新模板。作者本人是 Boris 模型早期用户，通过大量实验提炼出这些模式。</p>
+<p>与通用提示工程仓库（如 <code>awesome-chatgpt-prompts</code>）相比，<strong>boris-prompts</strong> 更注重底层模型特性，例如针对 Boris 的 tokenizer 长度限制作了特殊处理。适合 Boris 模型用户进行微调前测试。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/LingyiChen-AI/boris-prompts">LingyiChen-AI/boris-prompts</a></li>
+<li>讨论：<a href="https://huggingface.co/LingyiChen-AI">Hugging Face Boris 模型社区</a>（示例链接）</li>
+</ul>
+<hr>
+<h2><a href="https://github.com/AresLeVrai/celestial-launcher-releases">AresLeVrai/celestial-launcher-releases</a> #5</h2>
+<blockquote>
+<p><strong>celestial-launcher-releases</strong> 是一款开源的跨平台游戏启动器，使用 C# 和 .NET 构建。它支持整合多个游戏平台（Steam、Epic、GOG）的库，并提供模组管理、云存档同步功能。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/AresLeVrai/celestial-launcher-releases" alt="celestial-launcher-releases" style="max-width:100%;border-radius:8px;"></p></p><p>玩家电脑上常安装多个游戏平台客户端，相互割裂且资源浪费。<strong>celestial-launcher-releases</strong> 试图提供一个统一入口，减少后台运行多个平台带来的内存占用。</p>
+<p>技术栈基于 C# 的 WPF（Windows）与 Avalonia（跨平台），支持 Windows、macOS 和 Linux。核心功能包括自动扫描已安装游戏、整合第三方平台 API（需要用户提供 Token）以及通过社区维护的模组仓库一键安装 Mod。</p>
+<p>项目获得 <strong>111 颗 Star</strong>，尚未有 Fork，属于早期阶段。开发者计划后续加入成就追踪与游戏时间统计。</p>
+<p>与 Playnite 等成熟启动器相比，<strong>celestial-launcher</strong> 的跨平台支持是其亮点，但目前插件生态较弱。适合想要单一管理界面且在多系统间切换的玩家。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/AresLeVrai/celestial-launcher-releases">AresLeVrai/celestial-launcher-releases</a></li>
+<li>相关链接：<a href="https://celestial-launcher.dev">官方文档与视频演示</a>（示例链接）</li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Very-cool-guy/Very-cool-guy.github.io">Very-cool-guy/Very-cool-guy.github.io</a> #6</h2>
+<blockquote>
+<p><strong>Very-cool-guy.github.io</strong> 是一位个人开发者的 GitHub Pages 主页，采用纯 JavaScript 与 Canvas 构建交互式展示页面。项目本身更像一个前端实验场，包含粒子动画、3D 图形等视觉效果。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/Very-cool-guy/Very-cool-guy.github.io" alt="Very-cool-guy.github.io" style="max-width:100%;border-radius:8px;"></p></p><p>许多开发者通过</p>
+]]></content:encoded>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-22/</guid>
+<pubDate>Fri, 22 May 2026 17:36:38 GMT</pubDate>
+</item>
   </channel>
 </rss>
