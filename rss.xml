@@ -5,109 +5,87 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 21 May 2026 01:12:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 03:03:13 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
-<item>
-<title><![CDATA[2026-05-21 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-21/</link>
-<description><![CDATA[2026-05-21 每日精选 — 6 个仓库: thananon/9arm-skills, rahul03524/YellowKey-Bitlocker, MFS9628/Deepseek-v4-pro-app, kouhxp/yapsnap, agentsope/SkillAlchemy, DiskDaggerDwell/Unlocker-Phone-Tool-2026]]></description>
-<content:encoded><![CDATA[<h1>2026-05-21 GitHub 开源项目精选</h1>
-<h2>概览</h2>
-<h3>AI/大模型</h3>
-<ul>
-<li><strong>Deepseek-v4-pro-app</strong> 深度求索 V4 客户端应用，提供本地化推理体验 ↗ #3</li>
-<li><strong>SkillAlchemy</strong> 将 AI 技能模块化炼金，实现轻量级任务编排 ↗ #5</li>
-</ul>
-<h3>安全工具</h3>
-<ul>
-<li><strong>YellowKey-Bitlocker</strong> 基于 Web 的 BitLocker 恢复密钥管理与解密工具 ↗ #2</li>
-<li><strong>Unlocker-Phone-Tool-2026</strong> 手机解锁工具，支持多品牌设备刷机与 Bootloader 解锁 ↗ #6</li>
-</ul>
-<h3>开发工具</h3>
-<ul>
-<li><strong>9arm-skills</strong> Shell 自动化技能集，聚合日常运维与开发常用脚本 ↗ #1</li>
-</ul>
-<h3>效率工具</h3>
-<ul>
-<li><strong>yapsnap</strong> Python 截图小工具，支持快捷键与自定义存储 ↗ #4</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/thananon/9arm-skills">9arm-skills</a> #1</h2>
-<blockquote>
-<p><strong>9arm-skills</strong> 是一个收集了 900+ Shell 脚本的自动化技能库，涵盖系统运维、网络调试、容器管理等场景。项目以模块化方式组织脚本，用户可直接复制或管道执行，减少重复劳动。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/thananon/9arm-skills" alt="9arm-skills" style="max-width:100%;border-radius:8px;"></p></p><p><strong>9arm-skills</strong> 的作者在日常工作中发现，许多运维任务需要反复编写类似的 Shell 命令，而网上零散的脚本又缺乏统一管理。因此，他决定将常用技能整理成一份按功能分类的脚本合集，方便自己和团队快速取用。</p>
-<p>项目采用平铺式目录结构，每个脚本尽量保持自包含，并带有简短的注释说明。例如 <code>network/</code> 目录下包含端口扫描、路由追踪、DNS 查询等工具；<code>docker/</code> 目录则有容器日志清理、镜像批量导出等实用函数。</p>
-<p>截至目前，<strong>9arm-skills</strong> 在 GitHub 上获得了 <strong>859</strong> 个 Star 和 <strong>118</strong> 个 Fork，社区反馈积极。用户可直接通过 <code>curl</code> 获取脚本内容并管道执行，降低了使用门槛。与类似的 dotfiles 仓库相比，该项目更偏向于可独立运行的“技能点”，而非环境配置。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/thananon/9arm-skills">thananon/9arm-skills</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/rahul03524/YellowKey-Bitlocker">YellowKey-Bitlocker</a> #2</h2>
-<blockquote>
-<p><strong>YellowKey-Bitlocker</strong> 是一个基于 TypeScript 开发的 BitLocker 恢复密钥管理与解密工具，提供直观的 Web 界面。用户可通过上传密钥文件或手动输入，快速解锁加密卷，同时支持密钥导出与审计日志记录。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/rahul03524/YellowKey-Bitlocker" alt="YellowKey-Bitlocker" style="max-width:100%;border-radius:8px;"></p></p><p>随着企业 BitLocker 部署的普及，IT 管理员经常需要在应急场景下快速查找恢复密钥。<strong>YellowKey-Bitlocker</strong> 项目应运而生，旨在替代传统的命令行 <code>manage-bde</code> 流程，让非技术用户也能通过浏览器操作。</p>
-<p>核心功能包括：密钥上传解析（支持 <code>.txt</code> <code>.bek</code> 格式）、卷锁定状态预览、一键解密并提供恢复密钥副本。TypeScript 前端使用 React 构建，后端基于 Node.js，所有加密操作均在本地完成，确保密钥不过传至服务器。</p>
-<p>该项目获得 <strong>286</strong> 个 Star，Fork 数为 <strong>1</strong>。相比微软官方提供的 BitLocker 管理工具，<strong>YellowKey-Bitlocker</strong> 更轻量，适合中小企业或单机场景。开发者计划后续加入 Active Directory 集成和密钥轮换提醒功能。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/rahul03524/YellowKey-Bitlocker">rahul03524/YellowKey-Bitlocker</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/MFS9628/Deepseek-v4-pro-app">Deepseek-v4-pro-app</a> #3</h2>
-<blockquote>
-<p><strong>Deepseek-v4-pro-app</strong> 是一个面向 <strong>DeepSeek V4</strong> 模型的桌面客户端，提供原生 GPT 风格的聊天交互界面。应用内置提示词模板、自定义 API 地址与上下文长度控制，支持离线模型调用。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/MFS9628/Deepseek-v4-pro-app" alt="Deepseek-v4-pro-app" style="max-width:100%;border-radius:8px;"></p></p><p>deepseek 系列模型在中文场景中表现出色，但官方并未提供独立的桌面客户端。开发者 <strong>MFS9628</strong> 利用 Electron 封装了一个跨平台应用，让用户可以更方便地调用部署在本地或远程的 <strong>DeepSeek V4</strong> 模型。</p>
-<p>界面设计参考了 ChatGPT 的极简风格，支持 Markdown 渲染、代码高亮和对话历史导出。用户可在设置中填入自建 API 端点或使用官方 API Key，并调整 <code>temperature</code>、<code>max_tokens</code> 等参数。应用还集成了系统托盘模式，支持快速唤出对话窗口。</p>
-<p>目前项目获得 <strong>283</strong> 个 Star，暂无分支。与类似开源前端（如 <strong>Lobe Chat</strong>）相比，<strong>Deepseek-v4-pro-app</strong> 专注于单一模型优化，包体积更小（约 80MB），且自带中文提示词模板，适合中文用户开箱即用。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/MFS9628/Deepseek-v4-pro-app">MFS9628/Deepseek-v4-pro-app</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/kouhxp/yapsnap">yapsnap</a> #4</h2>
-<blockquote>
-<p><strong>yapsnap</strong>（Yet Another ScreenSnap）是一个用 Python 编写的轻量级截图工具，支持矩形区域截取、全屏截图和延时截图。输出格式为 PNG/JPEG，可自动保存到用户指定目录，并提供快捷键绑定。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/kouhxp/yapsnap" alt="yapsnap" style="max-width:100%;border-radius:8px;"></p></p><p>日常工作中，开发者经常需要快速截图并保存到本地，而系统自带的截图快捷键往往功能有限。<strong>yapsnap</strong> 采用 Python 的 <code>pynput</code> 库监听全局热键，利用 <code>PIL</code>（Pillow）处理图像，总共不足 300 行代码，却实现了完整的截图工作流。</p>
-<p>核心特性包括：可自定义快捷键（默认 <code>Ctrl+Shift+S</code>），截图后自动弹出预览窗口，支持二次编辑（绘制箭头、文字等）并保存。工具跨平台运行于 Windows、macOS 和 Linux，依赖极少。</p>
-<p>项目目前拥有 <strong>25</strong> 个 Star 和 <strong>1</strong> 个 Fork，适合作为学习 Python GUI 编程的参考。与 <strong>Flameshot</strong> 等成熟工具相比，<strong>yapsnap</strong> 最大优势是纯 Python 实现，便于二次开发——用户可轻松扩展为 OCR 截图、颜色拾取等工具。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/kouhxp/yapsnap">kouhxp/yapsnap</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/agentsope/SkillAlchemy">SkillAlchemy</a> #5</h2>
-<blockquote>
-<p><strong>SkillAlchemy</strong> 是一个 Python 框架，用于将 AI 大模型的能力封装为可组合的“技能”模块。开发者通过 YAML 配置文件即可定义技能的工作流（链式调用、条件分支等），无需编写复杂代码。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/agentsope/SkillAlchemy" alt="SkillAlchemy" style="max-width:100%;border-radius:8px;"></p></p><p>随着 Agent 架构兴起，许多开发者需要将大模型与外部工具（搜索、计算器、数据库）组合。<strong>SkillAlchemy</strong> 提出了一种声明式技能定义方法：每个技能包含输入输出 Schema、调用提示词和依赖的 API 列表，运行时由框架自动编排。</p>
-<p>技术方案上，项目底层基于 <code>instructor</code> 库实现结构化输出，使用 <code>LangChain</code> 的组件作为可选工具。例如定义一个“天气查询与日程安排”技能，只需在 YAML 中写明 <code>tools: [weather_api, calendar]</code>，框架便会自动规划调用顺序。</p>
-<p>截至目前，该项目获得 <strong>14</strong> 个 Star。与 <strong>AutoGen</strong> 或 <strong>CrewAI</strong> 等大型框架相比，<strong>SkillAlchemy</strong> 更加轻量，适合个人或小团队快速实验技能组合。作者计划后续加入技能市场，允许用户分享预定义技能包。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/agentsope/SkillAlchemy">agentsope/SkillAlchemy</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/DiskDaggerDwell/Unlocker-Phone-Tool-2026">Unlocker-Phone-Tool-2026</a> #6</h2>
-<blockquote>
-<p><strong>Unlocker-Phone-Tool-2026</strong> 是一款面向 Android 手机的多合一解锁工具，支持 Bootloader 解锁、FRP 绕过、系统刷入及 Root 操作。项目提供 Windows 图形界面，内置主流品牌（小米、三星、OPPO、Vivo）的驱动与解锁脚本。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/DiskDaggerDwell/Unlocker-Phone-Tool-2026" alt="Unlocker-Phone-Tool-2026" style="max-width:100%;border-radius:8px;"></p></p><p>手机解锁（尤其是 Bootloader）一直是动手爱好者的刚需，但各品牌解锁流程差异极大。<strong>Unlocker-Phone-Tool-2026</strong> 将常见解锁步骤打包成一个工具，用户只需连接手机并选择型号，工具会自动执行备份、解锁码申请（部分品牌需手动输入）、刷入 Recovery 等步骤。</p>
-<p>该项目基于 Python 的 <code>Tkinter</code> 构建 GUI，核心解锁逻辑依赖 <code>fastboot</code> 和 <code>adb</code> 命令行工具。开发者声称已测试了超过 50 款设备，并针对 <strong>高通</strong> 和 <strong>联发科</strong> 芯片提供了不同的刷入协议。</p>
-<p>目前获得 <strong>9</strong> 个 Star 和 <strong>3</strong> 个 Fork。需注意此类工具存在法律风险（可能违反设备保修条款），且部分功能需要用户自行承担变砖风险。与 <strong>XDA 开发者社区</strong> 提供的教程相比，该工具降低了操作门槛，但建议用户在熟悉原理后再使用。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/DiskDaggerDwell/Unlocker-Phone-Tool-2026">DiskDaggerDwell/Unlocker-Phone-Tool-2026</a></li>
-</ul>
-]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-21/</guid>
-<pubDate>Thu, 21 May 2026 01:12:09 GMT</pubDate>
-</item>
+    <item>
+      <title><![CDATA[kageroumado/phosphene]]></title>
+      <link>https://github.com/kageroumado/phosphene</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[kageroumado/phosphene — A video wallpaper engine for macOS Tahoe | ⭐543 | Swift]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/kageroumado/phosphene">kageroumado/phosphene</a></h2>
+<p>⭐ 543 ·  13 · Swift · 2026-05-20</p>
+<blockquote>A video wallpaper engine for macOS Tahoe</blockquote>
+<p><a href="https://github.com/kageroumado/phosphene">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/kageroumado/phosphene</guid>
+      <category>Swift</category>
+    </item>
+    <item>
+      <title><![CDATA[kouhxp/yapsnap]]></title>
+      <link>https://github.com/kouhxp/yapsnap</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[kouhxp/yapsnap — Snap any video URL or audio file into plaintext. No GPU. No cloud. One command. | ⭐176 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/kouhxp/yapsnap">kouhxp/yapsnap</a></h2>
+<p>⭐ 176 ·  5 · Python · 2026-05-20</p>
+<blockquote>Snap any video URL or audio file into plaintext. No GPU. No cloud. One command.</blockquote>
+<p><a href="https://github.com/kouhxp/yapsnap">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Wed, 20 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/kouhxp/yapsnap</guid>
+      <category>Python</category>
+    </item>
+    <item>
+      <title><![CDATA[zzzhhh1/mg-Koyeb]]></title>
+      <link>https://github.com/zzzhhh1/mg-Koyeb</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[zzzhhh1/mg-Koyeb — 基于 Koyeb + Cloudflare Argo 隧道的 VLESS 安全单兵节点，详细纯小白视频教程，点击下方视频链接 | ⭐116 | Shell]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/zzzhhh1/mg-Koyeb">zzzhhh1/mg-Koyeb</a></h2>
+<p>⭐ 116 ·  174 · Shell · 2026-05-21</p>
+<blockquote>基于 Koyeb + Cloudflare Argo 隧道的 VLESS 安全单兵节点，详细纯小白视频教程，点击下方视频链接</blockquote>
+<p><a href="https://github.com/zzzhhh1/mg-Koyeb">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zzzhhh1/mg-Koyeb</guid>
+      <category>Shell</category>
+    </item>
+    <item>
+      <title><![CDATA[BlueSharks-apps/Gemini-app-windows]]></title>
+      <link>https://github.com/BlueSharks-apps/Gemini-app-windows</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[BlueSharks-apps/Gemini-app-windows — chatgpt google gemini pro ai flash 3.5 app windows  download pc google ai desktop client windows 11 10 official application free exe install shortcut workspace chat assistant | ⭐90 | C#]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/BlueSharks-apps/Gemini-app-windows">BlueSharks-apps/Gemini-app-windows</a></h2>
+<p>⭐ 90 · C# · 2026-05-21</p>
+<blockquote>chatgpt google gemini pro ai flash 3.5 app windows  download pc google ai desktop client windows 11 10 official application free exe install shortcut workspace chat assistant</blockquote>
+<p><a href="https://github.com/BlueSharks-apps/Gemini-app-windows">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/BlueSharks-apps/Gemini-app-windows</guid>
+      <category>C#</category>
+    </item>
+    <item>
+      <title><![CDATA[zqbxdev/webchat2api]]></title>
+      <link>https://github.com/zqbxdev/webchat2api</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[zqbxdev/webchat2api — OpenAI-compatible Web Chat API proxy with GPT/Grok account management | ⭐77 | Python]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/zqbxdev/webchat2api">zqbxdev/webchat2api</a></h2>
+<p>⭐ 77 ·  18 · Python · 2026-05-21</p>
+<blockquote>OpenAI-compatible Web Chat API proxy with GPT/Grok account management</blockquote>
+<p><a href="https://github.com/zqbxdev/webchat2api">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/zqbxdev/webchat2api</guid>
+      <category>Python</category>
+    </item>
+    <item>
+      <title><![CDATA[DEEIX-AI/DEEIX-Chat]]></title>
+      <link>https://github.com/DEEIX-AI/DEEIX-Chat</link>
+      <author>GitHub Scout</author>
+      <description><![CDATA[DEEIX-AI/DEEIX-Chat — An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations. | ⭐58 | Go]]></description>
+      <content:encoded><![CDATA[<h2><a href="https://github.com/DEEIX-AI/DEEIX-Chat">DEEIX-AI/DEEIX-Chat</a></h2>
+<p>⭐ 58 ·  8 · Go · 2026-05-21</p>
+<blockquote>An enterprise AI workspace for model routing, multimodal chat, files, tools, billing, identity, and operations.</blockquote>
+<p><a href="https://github.com/DEEIX-AI/DEEIX-Chat">&#128279; 查看仓库</a></p>]]></content:encoded>
+      <pubDate>Thu, 21 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://github.com/DEEIX-AI/DEEIX-Chat</guid>
+      <category>Go</category>
+    </item>
   </channel>
 </rss>
