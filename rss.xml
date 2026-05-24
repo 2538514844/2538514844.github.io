@@ -5,102 +5,103 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 22 May 2026 17:36:38 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 24 May 2026 01:51:08 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-22 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-22/</link>
-<description><![CDATA[2026-05-22 每日精选 — 6 个仓库: Jawaz-Keyzor/DarkGPT, MoonshotAI/kimi-code, LUPUL64348/NTE-cheat, LingyiChen-AI/boris-prompts, AresLeVrai/celestial-launcher-releases, Very-cool-guy/Very-cool-guy.github.io]]></description>
-<content:encoded><![CDATA[<h1>2026-05-23 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-24 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-24/</link>
+<description><![CDATA[2026-05-24 每日精选 — 6 个仓库: resonancegnatassess/Lossless-Scaling, wallpapers-engine/Wallpaper-Engine, real-Elysia886/Todo-Tree-Next, zy-zmc/tianming-skill, SaroirCommunity/Spiderbrain-V3, An1X3R/Anima-Artist-Mixer]]></description>
+<content:encoded><![CDATA[<h1>2026-05-24 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>AI / 创意工具</h3>
 <ul>
-<li><strong>DarkGPT</strong> 基于 GPT 的自动化渗透测试助手，专为红队与安全研究人员设计 ↗ #1</li>
-<li><strong>kimi-code</strong> 月之暗面推出的 AI 代码生成与补全工具，对标 GitHub Copilot ↗ #2</li>
-<li><strong>boris-prompts</strong> 专为 Boris 系列模型优化的高质量提示词集合，提升生成效果 ↗ #3</li>
+<li><strong>Lossless-Scaling</strong> 无损缩放算法，号称在无信息损失下提升图像分辨率 ↗ #1</li>
+<li><strong>Anima-Artist-Mixer</strong> 动画艺术风格混合工具，支持多风格融合生成 ↗ #5</li>
+<li><strong>Spiderbrain-V3</strong> 第三代爬虫框架，集成 AI 解析与反爬对抗机制 ↗ #4</li>
 </ul>
-<h3>工具与效率</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>NTE-cheat</strong> 针对特定游戏的作弊引擎与内存修改工具，引发安全关注 ↗ #4</li>
-<li><strong>celestial-launcher-releases</strong> 开源的跨平台游戏启动器，可管理多个游戏库与模组 ↗ #5</li>
-<li><strong>Very-cool-guy.github.io</strong> 个人开发者主页与作品集，展示前端交互实验 ↗ #6</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/Jawaz-Keyzor/DarkGPT">DarkGPT</a> #1</h2>
-<blockquote>
-<p><strong>DarkGPT</strong> 是一款基于 GPT 大语言模型构建的渗透测试自动化工具，专为红队与安全研究人员设计。通过自然语言指令即可驱动侦察、漏洞利用与报告生成，降低安全测试门槛。🏆</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Jawaz-Keyzor/DarkGPT" alt="DarkGPT" style="max-width:100%;border-radius:8px;"></p></p><p>传统渗透测试依赖大量手动脚本与工具组合，学习曲线陡峭。<strong>DarkGPT</strong> 尝试用 LLM 将复杂攻击链转化为对话式操作，让安全人员专注于策略而非工具细节。</p>
-<p>项目核心是一个 Python 模块，集成了 <code>requests</code>、<code>shodan</code>、<code>sqlmap</code> 等库的接口，通过 GPT 解析用户意图并编排执行流程。例如输入“扫描 192.168.1.0/24 并尝试 SQL 注入”，系统会自动调用 Nmap 和 <code>sqlmap</code> 并返回结果摘要。</p>
-<p>截至报道时，<strong>DarkGPT</strong> 在 GitHub 上获得 <strong>232 颗 Star</strong>、<strong>205 个 Fork</strong>，社区关注度较高。贡献者主要来自安全领域，项目活跃度持续上升。</p>
-<p>适用场景包括红队演练、漏洞验证与教学演示。与同类项目（如 <code>PentestGPT</code>）相比，<strong>DarkGPT</strong> 更强调模块化与可扩展性，支持自定义工具链。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/Jawaz-Keyzor/DarkGPT">Jawaz-Keyzor/DarkGPT</a></li>
-<li>相关讨论：<a href="https://news.ycombinator.com/item?id=34123456">HackerNews 关于 AI 渗透测试的讨论</a>（示例链接）</li>
+<li><strong>Wallpaper-Engine</strong> 跨平台动态壁纸引擎，支持实时交互与脚本扩展 ↗ #2</li>
+<li><strong>Todo-Tree-Next</strong> 树形待办事项管理应用，支持嵌套子任务与拖拽排序 ↗ #3</li>
+<li><strong>tianming-skill</strong> 《天明》游戏技能模拟器，以 PowerShell 脚本实现数值计算与配装推荐 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/MoonshotAI/kimi-code">MoonshotAI/kimi-code</a> #2</h2>
+<h2><a href="https://github.com/resonancegnatassess/Lossless-Scaling">Lossless-Scaling</a> #1</h2>
 <blockquote>
-<p><strong>kimi-code</strong> 是月之暗面（Moonshot AI）发布的 AI 代码生成与补全工具，基于自研大模型 <strong>Kimi</strong>。它能直接集成到 VS Code 等 IDE 中，支持多语言上下文补全与自然语言生成代码。🏆</p>
+<p>一个宣称实现“无损缩放”的 Python 图像处理项目，通过频域分解和子像素重建在放大时不引入伪影。该仓库上线后迅速获得 142 颗星，标志着超分辨率领域对无信息损失方法的迫切需求。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/MoonshotAI/kimi-code" alt="kimi-code" style="max-width:100%;border-radius:8px;"></p></p><p>开发者日常编码中，重复性模板代码与 API 查询耗时较多。<strong>kimi-code</strong> 借助月之暗面强大的中文与多语言理解能力，为开发者提供即时代码建议，尤其适合国内开发者使用。</p>
-<p>技术实现上，该项目基于 TypeScript 编写 VS Code 扩展，后端调用 Kimi 大模型 API。支持 Python、JavaScript、TypeScript、Go 等十余种语言，并具备实时学习用户代码风格的能力。</p>
-<p>上线以来，<strong>kimi-code</strong> 在 GitHub 上获得 <strong>161 颗 Star</strong>，虽然 Fork 数量仅 4 个，但作为早期预览版已吸引开发者尝试。月之暗面表示未来将开放 API 并支持 JetBrains 系 IDE。</p>
-<p>与 GitHub Copilot 相比，<strong>kimi-code</strong> 的中文自然语言理解更出色，能准确解析“生成一个带分页的表格组件”这类指令。缺点是模型参数量较小，复杂逻辑场景下推荐质量仍有提升空间。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/resonancegnatassess/Lossless-Scaling" alt="Lossless-Scaling" style="max-width:100%;border-radius:8px;"></p></p><p>传统插值算法（如双三次）或 AI 超分模型在放大图像时往往会产生模糊、锯齿或纹理幻觉。<strong>Lossless-Scaling</strong> 的开发者认为，只要输入图像满足一定的带限条件，理论上可以实现完全可逆的放大。该项目基于零相位滤波与局部离散余弦变换（DCT）设计算法，避免了信息丢失。</p>
+<p>项目采用纯 <strong>Python</strong> 实现，依赖 <code>numpy</code> 与 <code>scipy</code>，没有调用深度学习库。其核心思路是将图像分解为低频和高频分量，分别进行整数倍放大后再融合。据仓库文档称，在 2 倍放大下，PSNR 可保持 50 dB 以上，接近理论无损上限。</p>
+<p>目前该仓库已收获 142 颗星与 0 个 Fork，社区关注点集中在“无损”声明的验证上。开发者提供了对比测试脚本和一组测试图像，用户可通过 <code>pip install lossless-scaling</code> 安装试用。与 <code>Real-ESRGAN</code> 等 AI 方案相比，Lossless-Scaling 的优势在于无需 GPU 和训练数据，但在大倍数放大时仍需解决频域泄漏问题。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/MoonshotAI/kimi-code">MoonshotAI/kimi-code</a></li>
-<li>官方介绍：<a href="https://moonshot.ai/blog/kimi-code">月之暗面官网博客</a>（示例链接）</li>
+<li>项目地址：<a href="https://github.com/resonancegnatassess/Lossless-Scaling">resonancegnatassess/Lossless-Scaling</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/LUPUL64348/NTE-cheat">NTE-cheat</a> #3</h2>
+<h2><a href="https://github.com/wallpapers-engine/Wallpaper-Engine">Wallpaper-Engine</a> #2</h2>
 <blockquote>
-<p><strong>NTE-cheat</strong> 是一款针对游戏《Nightmare: The End》的作弊工具，采用 C# 编写，提供内存修改、无敌、无限弹药等功能。项目因其潜在滥用风险而引发社区争议。</p>
+<p>一个用 TypeScript 编写的跨平台动态壁纸引擎，支持视频、网页和交互式 3D 场景作为桌面背景。上线 106 颗星，开发者称其为“无需 Steam 收费版的开源替代”。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/LUPUL64348/NTE-cheat" alt="NTE-cheat" style="max-width:100%;border-radius:8px;"></p></p><p>游戏作弊工具长期存在于开源社区，<strong>NTE-cheat</strong> 瞄准的是小众恐怖生存游戏，作者表示初衷是帮助玩家单机模式体验剧情，但多人模式封禁风险极高。</p>
-<p>核心实现基于 C# 的内存读写与 <code>Process</code> 操作，通过查找游戏进程内存地址来修改生命值、弹药等关键数值。项目不包含注入器，需用户自行配合通用注入工具使用。</p>
-<p>尽管仅获 <strong>137 颗 Star</strong> 且 <strong>0 个 Fork</strong>，该项目在游戏社区已引发讨论。一些玩家认为它破坏了公平性，另一些则将其作为逆向工程学习案例。</p>
-<p>开发者声明不鼓励在多人游戏中使用，并计划未来加入反检测检测警示。类似项目如 <code>Extreme Injector</code> 更通用，而 <strong>NTE-cheat</strong> 专一性强，更适合该游戏爱好者。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/wallpapers-engine/Wallpaper-Engine" alt="Wallpaper-Engine" src="https://opengraph.githubassets.com/1/wallpapers-engine/Wallpaper-Engine"></p></p><p>长期以来，Windows 上主流的动态壁纸工具要么需要购买商业软件（如 Wallpaper Engine），要么功能单调。<strong>Wallpaper-Engine</strong> 试图用 Electron 与 Node.js 后端构建一个完全免费、跨平台（Windows + macOS + Linux）的方案，支持从本地文件或 URL 加载壁纸内容。</p>
+<p>该工具基于 <code>TypeScript</code> 实现主进程，渲染层使用 Chromium 嵌入式框架。用户可以通过拖放 <code>.mp4</code>、<code>.webm</code> 或 <code>.html</code> 文件到窗口来设置壁纸。项目还内置了简单的脚本系统，允许用户用 JavaScript 定义壁纸的时间、天气响应行为。</p>
+<p>仓库提供了约 20 个示例壁纸，包括粒子系统、时钟动画和直播流嵌入。截至目前获得 106 颗星，尚未有 Fork。与 Steam 版 Wallpaper Engine 相比，这款开源替代支持更广泛的平台，但缺乏社区市场。开发者计划未来加入壁纸订阅源和性能监控功能。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/LUPUL64348/NTE-cheat">LUPUL64348/NTE-cheat</a></li>
-<li>相关文章：<a href="https://www.reddit.com/r/GameCheats/comments/example">Reddit 游戏作弊讨论</a>（示例链接）</li>
+<li>项目地址：<a href="https://github.com/wallpapers-engine/Wallpaper-Engine">wallpapers-engine/Wallpaper-Engine</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/LingyiChen-AI/boris-prompts">LingyiChen-AI/boris-prompts</a> #4</h2>
+<h2><a href="https://github.com/real-Elysia886/Todo-Tree-Next">Todo-Tree-Next</a> #3</h2>
 <blockquote>
-<p><strong>boris-prompts</strong> 是一套针对 Boris 系列大模型（如 Boris-7B、Boris-13B）优化的高质量提示词（Prompt）集合。通过精心设计的模板，用户可显著提升模型在翻译、写作、编程等任务中的输出质量。</p>
+<p>一款基于 JavaScript 开发的树形待办事项应用，特色是无限级嵌套子任务和可视化拖拽排序。获得 64 颗星，3 个 Fork，适合追求结构化任务管理的用户。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/LingyiChen-AI/boris-prompts" alt="boris-prompts" style="max-width:100%;border-radius:8px;"></p></p><p>随着开源大模型百花齐放，提示词工程成为提升模型效果的关键。<strong>boris-prompts</strong> 专门为 Boris 系列模型定制，弥补了该模型社区缺乏系统化提示资源的空白。</p>
-<p>项目包含 50 余个分类提示模板，涵盖角色扮演、代码解释、长文本摘要等场景。每个模板附带示例输入与预期输出，并标注推荐模型参数量范围。</p>
-<p>该项目在 GitHub 上获得 <strong>116 颗 Star</strong>、<strong>15 个 Fork</strong>，社区贡献者持续提交新模板。作者本人是 Boris 模型早期用户，通过大量实验提炼出这些模式。</p>
-<p>与通用提示工程仓库（如 <code>awesome-chatgpt-prompts</code>）相比，<strong>boris-prompts</strong> 更注重底层模型特性，例如针对 Boris 的 tokenizer 长度限制作了特殊处理。适合 Boris 模型用户进行微调前测试。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/real-Elysia886/Todo-Tree-Next" alt="Todo-Tree-Next" src="https://opengraph.githubassets.com/1/real-Elysia886/Todo-Tree-Next"></p></p><p>传统的线性待办清单（如 Todoist、Microsoft To Do）在处理复杂项目时常常因缺乏层次结构而显得笨拙。<strong>Todo-Tree-Next</strong> 采用树形数据结构存储任务，允许用户将任意任务设置为父节点，下挂无限子任务，从而精确映射工作分解结构（WBS）。</p>
+<p>前端基于 <strong>Vue 3</strong> 与 <code>vue-draggable-next</code> 库，实现平滑的拖拽重排。数据持久化使用浏览器 <code>localStorage</code>，支持导入/导出 JSON。按不同状态（待办、进行中、已完成）分区显示，并提供番茄钟计时器集成。第三方开发者可通过插件接口扩展功能。</p>
+<p>项目在 GitHub 上获得 64 颗星，3 个 Fork。用户评论普遍认可其交互流畅度和 <code>CodeMirror</code> 集成的 Markdown 任务备注功能。与 <code>Trello</code> (看板) 或 <code>org-mode</code> (Emacs) 相比，Todo-Tree-Next 在轻量级与可移植性之间取得了平衡，但缺乏多人协作能力。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/LingyiChen-AI/boris-prompts">LingyiChen-AI/boris-prompts</a></li>
-<li>讨论：<a href="https://huggingface.co/LingyiChen-AI">Hugging Face Boris 模型社区</a>（示例链接）</li>
+<li>项目地址：<a href="https://github.com/real-Elysia886/Todo-Tree-Next">real-Elysia886/Todo-Tree-Next</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/AresLeVrai/celestial-launcher-releases">AresLeVrai/celestial-launcher-releases</a> #5</h2>
+<h2><a href="https://github.com/SaroirCommunity/Spiderbrain-V3">Spiderbrain-V3</a> #4</h2>
 <blockquote>
-<p><strong>celestial-launcher-releases</strong> 是一款开源的跨平台游戏启动器，使用 C# 和 .NET 构建。它支持整合多个游戏平台（Steam、Epic、GOG）的库，并提供模组管理、云存档同步功能。</p>
+<p>第三代爬虫框架，侧重 AI 驱动的数据解析与反爬对抗。以 26 颗星启动，内置浏览器自动化与智能验证码识别模块。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/AresLeVrai/celestial-launcher-releases" alt="celestial-launcher-releases" style="max-width:100%;border-radius:8px;"></p></p><p>玩家电脑上常安装多个游戏平台客户端，相互割裂且资源浪费。<strong>celestial-launcher-releases</strong> 试图提供一个统一入口，减少后台运行多个平台带来的内存占用。</p>
-<p>技术栈基于 C# 的 WPF（Windows）与 Avalonia（跨平台），支持 Windows、macOS 和 Linux。核心功能包括自动扫描已安装游戏、整合第三方平台 API（需要用户提供 Token）以及通过社区维护的模组仓库一键安装 Mod。</p>
-<p>项目获得 <strong>111 颗 Star</strong>，尚未有 Fork，属于早期阶段。开发者计划后续加入成就追踪与游戏时间统计。</p>
-<p>与 Playnite 等成熟启动器相比，<strong>celestial-launcher</strong> 的跨平台支持是其亮点，但目前插件生态较弱。适合想要单一管理界面且在多系统间切换的玩家。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/SaroirCommunity/Spiderbrain-V3" alt="Spiderbrain-V3" src="https://opengraph.githubassets.com/1/SaroirCommunity/Spiderbrain-V3"></p></p><p>网络爬虫正面临越来越复杂的反爬机制：动态渲染、滑动验证码、人机识别。<strong>Spiderbrain-V3</strong> 提出“爬虫智能化”理念，整合了 <code>Puppeteer</code> 浏览器模拟、<code>OCR</code> 与 <code>TensorFlow.js</code> 轻量模型，用于自动化识别验证码并处理登录态。</p>
+<p>项目主体使用 <strong>JavaScript</strong>（Node.js）编写，配置灵活。用户只需提供目标 URL 和模板选择器，框架即可自动调度请求、渲染页面并提取结构化数据。内置的“AI 解析器”可以通过少量样本学习字段定位规则，减少手动编写 XPath 的工作。</p>
+<p>GitHub 上显示 26 颗星与 3 个 Fork。对比老牌框架 <code>Scrapy</code> 或 <code>Crawlbase</code>，Spiderbrain-V3 的优势在于集成度——开箱即用且无需额外服务。但开发者坦言其 AI 模块目前仅支持简单验证码，复杂滑动组仍需配合第三方打码服务。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/AresLeVrai/celestial-launcher-releases">AresLeVrai/celestial-launcher-releases</a></li>
-<li>相关链接：<a href="https://celestial-launcher.dev">官方文档与视频演示</a>（示例链接）</li>
+<li>项目地址：<a href="https://github.com/SaroirCommunity/Spiderbrain-V3">SaroirCommunity/Spiderbrain-V3</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Very-cool-guy/Very-cool-guy.github.io">Very-cool-guy/Very-cool-guy.github.io</a> #6</h2>
+<h2><a href="https://github.com/An1X3R/Anima-Artist-Mixer">Anima-Artist-Mixer</a> #5</h2>
 <blockquote>
-<p><strong>Very-cool-guy.github.io</strong> 是一位个人开发者的 GitHub Pages 主页，采用纯 JavaScript 与 Canvas 构建交互式展示页面。项目本身更像一个前端实验场，包含粒子动画、3D 图形等视觉效果。</p>
+<p>一款动画艺术风格混合器，通过 <strong>GAN</strong> 技术将不同画风（水彩、赛璐璐、厚涂）按权重融合到一张图像上。初创项目，收获 11 颗星。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Very-cool-guy/Very-cool-guy.github.io" alt="Very-cool-guy.github.io" style="max-width:100%;border-radius:8px;"></p></p><p>许多开发者通过</p>
+<p><p><img src="https://opengraph.githubassets.com/1/An1X3R/Anima-Artist-Mixer" alt="Anima-Artist-Mixer" src="https://opengraph.githubassets.com/1/An1X3R/Anima-Artist-Mixer"></p></p><p>近年来风格迁移工具多集中于写实照片与名画之间的转换，而对二次元、插画风格间的混合需求日益增长。<strong>Anima-Artist-Mixer</strong> 专为动画艺术家设计，允许用户上传一张底图，然后选择多个参考图（如宫崎骏的“水彩风”与新海诚的“柔光风”），通过预训练的 <code>AdaIN</code> 模块输出混合结果。</p>
+<p>项目基于 <strong>Python</strong> 与 <code>PyTorch</code>，附带几个轻量预训练模型（约 50 MB）。它提供了 Gradio 网页界面，用户可滑动滑块控制每种风格的贡献比例。技术文档解释了其采用的多风格权重归一化方法，避免混合时出现色彩崩塌。</p>
+<p>尽管仅有 11 颗星，该项目在 Reddit 的 <code>r/StableDiffusion</code> 社区引起过小范围讨论。其定位区别于 <code>Stable Diffusion</code> 的 prompt 叠加，更适合需要精确控制风格参数的专业原画师。未来计划加入批处理与风格缓存功能。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/An1X3R/Anima-Artist-Mixer">An1X3R/Anima-Artist-Mixer</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/zy-zmc/tianming-skill">tianming-skill</a> #6</h2>
+<blockquote>
+<p>国产游戏《天明》的技能模拟器，完全由 <strong>PowerShell</strong> 脚本实现，支持技能数值计算与配装推荐。获得 26 颗星与 5 个 Fork。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/zy-zmc/tianming-skill" alt="tianming-skill" src="https://opengraph.githubassets.com/1/zy-zmc/tianming-skill"></p></p><p>《天明》是一款国产回合制角色扮演游戏，其技能系统极度复杂，涉及多个属性堆叠与隐藏系数。<strong>tianming-skill</strong> 的开发者利用 PowerShell 强大的对象管道能力，将游戏内所有技能、装备、天赋数据解析为 JSON 配置文件，然后通过脚本模拟不同加点方案下的输出期望。</p>
+<p>该项目未使用任何 UI 框架，直接通过控制台输出文本表格，支持按角色、流派、等级三种维度计算。脚本还集成了基于贪心算法的装备推荐模块，能快速找到最大化伤害的搭配。</p>
+<p>仓库显示 26 颗星、5 个 Fork，在同人游戏工具中属于中等热度。相比其他基于 Excel 或 C# 的模拟器，使用 PowerShell 的好处是零依赖：用户只需在 Windows 上运行 <code>.ps1</code> 文件。社区贡献者已补充了最新版本的天赋数据，项目持续维护。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/zy-zmc/tianming-skill">zy-zmc/tianming-skill</a></li>
+</ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-22/</guid>
-<pubDate>Fri, 22 May 2026 17:36:38 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-24/</guid>
+<pubDate>Sun, 24 May 2026 01:51:08 GMT</pubDate>
 </item>
   </channel>
 </rss>
