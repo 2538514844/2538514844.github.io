@@ -5,103 +5,111 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 24 May 2026 01:51:08 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 25 May 2026 02:25:02 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-24 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-24/</link>
-<description><![CDATA[2026-05-24 每日精选 — 6 个仓库: resonancegnatassess/Lossless-Scaling, wallpapers-engine/Wallpaper-Engine, real-Elysia886/Todo-Tree-Next, zy-zmc/tianming-skill, SaroirCommunity/Spiderbrain-V3, An1X3R/Anima-Artist-Mixer]]></description>
-<content:encoded><![CDATA[<h1>2026-05-24 GitHub 开源项目精选</h1>
-<h2>概览</h2>
-<h3>AI / 创意工具</h3>
+<title><![CDATA[2026-05-25 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-25/</link>
+<description><![CDATA[2026-05-25 每日精选 — 6 个仓库: yui540/comimi, modaic-ai/gepa-viz, XboxMode/Windows-Xbox-Mode, real-Elysia886/Todo-Tree-Next, Thang1191/MikuPlymouth, norika1207-lab/mercury-mcp]]></description>
+<content:encoded><![CDATA[<h1>2026-05-25 GitHub 开源项目精选</h1>
+<h3>AI/大模型</h3>
 <ul>
-<li><strong>Lossless-Scaling</strong> 无损缩放算法，号称在无信息损失下提升图像分辨率 ↗ #1</li>
-<li><strong>Anima-Artist-Mixer</strong> 动画艺术风格混合工具，支持多风格融合生成 ↗ #5</li>
-<li><strong>Spiderbrain-V3</strong> 第三代爬虫框架，集成 AI 解析与反爬对抗机制 ↗ #4</li>
+<li><strong>gepa-viz</strong> 可视化 <strong>GEP</strong> 算法模型的交互工具，支持实时参数调优 ↗ #2</li>
+<li><strong>mercury-mcp</strong> 基于 <strong>MCP</strong> 协议的轻量级 Agent 连接框架，简化多模型调用 ↗ #6</li>
 </ul>
-<h3>效率工具</h3>
+<h3>开发工具/效率</h3>
 <ul>
-<li><strong>Wallpaper-Engine</strong> 跨平台动态壁纸引擎，支持实时交互与脚本扩展 ↗ #2</li>
-<li><strong>Todo-Tree-Next</strong> 树形待办事项管理应用，支持嵌套子任务与拖拽排序 ↗ #3</li>
-<li><strong>tianming-skill</strong> 《天明》游戏技能模拟器，以 PowerShell 脚本实现数值计算与配装推荐 ↗ #6</li>
+<li><strong>Todo-Tree-Next</strong> 树形结构任务管理器，用 <strong>Next.js</strong> 实现的可折叠待办清单 ↗ #4</li>
+</ul>
+<h3>系统美化/娱乐</h3>
+<ul>
+<li><strong>comimi</strong> 知名画师 <strong>yui540</strong> 打造的动漫风格桌面角色，支持互动对话 ↗ #1</li>
+<li><strong>Windows-Xbox-Mode</strong> 一键将 <strong>Windows</strong> 界面模拟成 <strong>Xbox</strong> 主菜单的主题工具 ↗ #3</li>
+<li><strong>MikuPlymouth</strong> 初音未来主题的 <strong>Linux</strong> 开机启动画面，适配 <strong>NixOS</strong> 系统 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/resonancegnatassess/Lossless-Scaling">Lossless-Scaling</a> #1</h2>
+<h2><a href="https://github.com/yui540/comimi">comimi</a> #1</h2>
 <blockquote>
-<p>一个宣称实现“无损缩放”的 Python 图像处理项目，通过频域分解和子像素重建在放大时不引入伪影。该仓库上线后迅速获得 142 颗星，标志着超分辨率领域对无信息损失方法的迫切需求。</p>
+<p>由日本插画师 <strong>yui540</strong> 开发的动漫角色桌面助手，基于 <strong>TypeScript</strong> 构建，可驻留屏幕并响应简单指令。项目以极简交互和精美画风吸引大量关注。 🏆</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/resonancegnatassess/Lossless-Scaling" alt="Lossless-Scaling" style="max-width:100%;border-radius:8px;"></p></p><p>传统插值算法（如双三次）或 AI 超分模型在放大图像时往往会产生模糊、锯齿或纹理幻觉。<strong>Lossless-Scaling</strong> 的开发者认为，只要输入图像满足一定的带限条件，理论上可以实现完全可逆的放大。该项目基于零相位滤波与局部离散余弦变换（DCT）设计算法，避免了信息丢失。</p>
-<p>项目采用纯 <strong>Python</strong> 实现，依赖 <code>numpy</code> 与 <code>scipy</code>，没有调用深度学习库。其核心思路是将图像分解为低频和高频分量，分别进行整数倍放大后再融合。据仓库文档称，在 2 倍放大下，PSNR 可保持 50 dB 以上，接近理论无损上限。</p>
-<p>目前该仓库已收获 142 颗星与 0 个 Fork，社区关注点集中在“无损”声明的验证上。开发者提供了对比测试脚本和一组测试图像，用户可通过 <code>pip install lossless-scaling</code> 安装试用。与 <code>Real-ESRGAN</code> 等 AI 方案相比，Lossless-Scaling 的优势在于无需 GPU 和训练数据，但在大倍数放大时仍需解决频域泄漏问题。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/yui540/comimi" alt="comimi" style="max-width:100%;border-radius:8px;"></p></p><p><strong>yui540</strong> 在个人社交账号上多次展示过原创角色设计，<strong>comimi</strong> 是其首个开源软件尝试，旨在让虚拟角色突破静态插画，成为桌面互动伴侣。</p>
+<p>项目采用 <strong>Electron + Vite</strong> 技术栈，角色使用 <strong>Canvas</strong> 实时渲染，支持点击反馈、拖拽和简单文本输入。据开发者介绍，后续计划接入语音识别接口。</p>
+<p>GitHub 上线两天即收获 <strong>181</strong> 个 <strong>Star</strong> 与 <strong>2</strong> 个 <strong>Fork</strong>，在动漫开发社区迅速传播。当前仅提供 <strong>Windows</strong> 与 <strong>macOS</strong> 打包安装包。</p>
+<p>与同类项目如 <strong>虚拟桌宠</strong> 不同，<strong>comimi</strong> 强调“少即是多”——不内置复杂状态机，而是预留 <strong>WebSocket</strong> 插件机制，允许第三方开发者扩展对话剧本。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/resonancegnatassess/Lossless-Scaling">resonancegnatassess/Lossless-Scaling</a></li>
+<li>项目地址：<a href="https://github.com/yui540/comimi">yui540/comimi</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/wallpapers-engine/Wallpaper-Engine">Wallpaper-Engine</a> #2</h2>
+<h2><a href="https://github.com/modaic-ai/gepa-viz">gepa-viz</a> #2</h2>
 <blockquote>
-<p>一个用 TypeScript 编写的跨平台动态壁纸引擎，支持视频、网页和交互式 3D 场景作为桌面背景。上线 106 颗星，开发者称其为“无需 Steam 收费版的开源替代”。</p>
+<p>专为 <strong>基因表达式编程（GEP）</strong> 算法设计的交互式可视化工具，支持模型结构实时观察与超参数调试。项目由 <strong>modaic-ai</strong> 团队开源，定位教学与科研辅助。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/wallpapers-engine/Wallpaper-Engine" alt="Wallpaper-Engine" src="https://opengraph.githubassets.com/1/wallpapers-engine/Wallpaper-Engine"></p></p><p>长期以来，Windows 上主流的动态壁纸工具要么需要购买商业软件（如 Wallpaper Engine），要么功能单调。<strong>Wallpaper-Engine</strong> 试图用 Electron 与 Node.js 后端构建一个完全免费、跨平台（Windows + macOS + Linux）的方案，支持从本地文件或 URL 加载壁纸内容。</p>
-<p>该工具基于 <code>TypeScript</code> 实现主进程，渲染层使用 Chromium 嵌入式框架。用户可以通过拖放 <code>.mp4</code>、<code>.webm</code> 或 <code>.html</code> 文件到窗口来设置壁纸。项目还内置了简单的脚本系统，允许用户用 JavaScript 定义壁纸的时间、天气响应行为。</p>
-<p>仓库提供了约 20 个示例壁纸，包括粒子系统、时钟动画和直播流嵌入。截至目前获得 106 颗星，尚未有 Fork。与 Steam 版 Wallpaper Engine 相比，这款开源替代支持更广泛的平台，但缺乏社区市场。开发者计划未来加入壁纸订阅源和性能监控功能。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/modaic-ai/gepa-viz" alt="gepa-viz" style="max-width:100%;border-radius:8px;"></p></p><p><strong>GEP</strong> 算法在符号回归等领域表现突出，但调试过程常因缺乏可视界面而低效。<strong>gepa-viz</strong> 诞生于作者攻读硕士期间，目标是让算法运行过程“看得见”。</p>
+<p>工具核心采用 <strong>D3.js</strong> 渲染表达式树，支持单步执行、种群进化动画和适应度曲线动态绘制。后端使用 <strong>Python</strong> 的 <code>gepa</code> 库作为计算引擎，前后端通过 <strong>WebSocket</strong> 通信。</p>
+<p>目前获得 <strong>156</strong> 个 <strong>Star</strong> 与 <strong>11</strong> 个 <strong>Fork</strong>，社区反馈集中在教学场景——教师可将其用于课堂演示基因编程过程。已收录于 <strong>modaic-ai</strong> 组织的官方教程仓库。</p>
+<p>与 <strong>DEAP</strong> 框架自带的静态绘图不同，<strong>gepa-viz</strong> 允许用户拖拽调整参数后立即重跑进化流程，显著降低了实验迭代周期。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/wallpapers-engine/Wallpaper-Engine">wallpapers-engine/Wallpaper-Engine</a></li>
+<li>项目地址：<a href="https://github.com/modaic-ai/gepa-viz">modaic-ai/gepa-viz</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/real-Elysia886/Todo-Tree-Next">Todo-Tree-Next</a> #3</h2>
+<h2><a href="https://github.com/XboxMode/Windows-Xbox-Mode">Windows-Xbox-Mode</a> #3</h2>
 <blockquote>
-<p>一款基于 JavaScript 开发的树形待办事项应用，特色是无限级嵌套子任务和可视化拖拽排序。获得 64 颗星，3 个 Fork，适合追求结构化任务管理的用户。</p>
+<p>一款 <strong>C#</strong> 开发的开源工具，能将 <strong>Windows 10/11</strong> 的桌面界面模拟为 <strong>Xbox Series X|S</strong> 主菜单布局。项目获得 <strong>Xbox</strong> 玩家社群的热烈关注。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/real-Elysia886/Todo-Tree-Next" alt="Todo-Tree-Next" src="https://opengraph.githubassets.com/1/real-Elysia886/Todo-Tree-Next"></p></p><p>传统的线性待办清单（如 Todoist、Microsoft To Do）在处理复杂项目时常常因缺乏层次结构而显得笨拙。<strong>Todo-Tree-Next</strong> 采用树形数据结构存储任务，允许用户将任意任务设置为父节点，下挂无限子任务，从而精确映射工作分解结构（WBS）。</p>
-<p>前端基于 <strong>Vue 3</strong> 与 <code>vue-draggable-next</code> 库，实现平滑的拖拽重排。数据持久化使用浏览器 <code>localStorage</code>，支持导入/导出 JSON。按不同状态（待办、进行中、已完成）分区显示，并提供番茄钟计时器集成。第三方开发者可通过插件接口扩展功能。</p>
-<p>项目在 GitHub 上获得 64 颗星，3 个 Fork。用户评论普遍认可其交互流畅度和 <code>CodeMirror</code> 集成的 Markdown 任务备注功能。与 <code>Trello</code> (看板) 或 <code>org-mode</code> (Emacs) 相比，Todo-Tree-Next 在轻量级与可移植性之间取得了平衡，但缺乏多人协作能力。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/XboxMode/Windows-Xbox-Mode" alt="Windows-Xbox-Mode" style="max-width:100%;border-radius:8px;"></p></p><p>许多玩家希望在 <strong>PC</strong> 上获得类似主机的一致体验，但 <strong>Windows</strong> 原生界面与 <strong>Xbox</strong> 应用割裂感明显。开发者 <strong>XboxMode</strong> 试图通过修改 <strong>Explorer</strong> 行为来弥合差异。</p>
+<p>工具通过 <strong>Windows API</strong> 劫持任务栏和开始菜单，替换为自定义 <strong>WPF</strong> 控件，并集成最近的游戏快捷方式、Xbox Game Pass 推荐和好友动态。不修改系统文件，卸载后即可还原。</p>
+<p>上线后获 <strong>131</strong> 个 <strong>Star</strong>，尽管 <strong>Forks</strong> 为 <strong>0</strong>（可能因项目成熟度较高），但在 <strong>Reddit</strong> 的 <code>r/pcmasterrace</code> 板块引发过千讨论。</p>
+<p>当前版本仅支持 <strong>Windows 11 23H2+</strong>，未来计划添加自定义主题色和第三方启动器联动。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/XboxMode/Windows-Xbox-Mode">XboxMode/Windows-Xbox-Mode</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/real-Elysia886/Todo-Tree-Next">Todo-Tree-Next</a> #4</h2>
+<blockquote>
+<p>基于 <strong>Next.js</strong> 构建的树形待办事项应用，支持无限嵌套子任务和 Markdown 富文本描述。界面风格参考 <strong>Notion</strong> 与 <strong>Todoist</strong> 的混合体。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/real-Elysia886/Todo-Tree-Next" alt="Todo-Tree-Next" style="max-width:100%;border-radius:8px;"></p></p><p>传统清单应用只支持单层列表，无法体现项目分解结构。作者 <strong>real-Elysia886</strong> 使用 <strong>Next.js App Router</strong> 构建，核心需求是“像思考一样列任务”——父任务下可无限添加子任务。</p>
+<p>功能亮点包括：拖拽排序、标签过滤、本地持久化（<strong>IndexedDB</strong>）、以及通过 <strong>WebDAV</strong> 同步到第三方云盘。前端使用 <strong>Tailwind CSS</strong> 和 <strong>Shadcn/ui</strong> 组件库。</p>
+<p>已收获 <strong>64</strong> 个 <strong>Star</strong> 与 <strong>3</strong> 个 <strong>Fork</strong>，开发者仍在积极维护，最近一次提交为 3 天前。用户反馈中常见“比主流工具更轻量”的评价。</p>
+<p>与 <strong>Todoist</strong> 的层级功能相比，<strong>Todo-Tree-Next</strong> 不设任务数量上限，且完全免费开源，适合项目管理、学习跟踪等场景。</p>
 <p>相关链接：</p>
 <ul>
 <li>项目地址：<a href="https://github.com/real-Elysia886/Todo-Tree-Next">real-Elysia886/Todo-Tree-Next</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/SaroirCommunity/Spiderbrain-V3">Spiderbrain-V3</a> #4</h2>
+<h2><a href="https://github.com/Thang1191/MikuPlymouth">MikuPlymouth</a> #5</h2>
 <blockquote>
-<p>第三代爬虫框架，侧重 AI 驱动的数据解析与反爬对抗。以 26 颗星启动，内置浏览器自动化与智能验证码识别模块。</p>
+<p>初音未来主题的 <strong>Plymouth</strong> 开机动画包，专为 <strong>NixOS</strong> 及衍生发行版设计。使用 <strong>Nix</strong> 语言编写配置，支持自动合入系统生成器。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/SaroirCommunity/Spiderbrain-V3" alt="Spiderbrain-V3" src="https://opengraph.githubassets.com/1/SaroirCommunity/Spiderbrain-V3"></p></p><p>网络爬虫正面临越来越复杂的反爬机制：动态渲染、滑动验证码、人机识别。<strong>Spiderbrain-V3</strong> 提出“爬虫智能化”理念，整合了 <code>Puppeteer</code> 浏览器模拟、<code>OCR</code> 与 <code>TensorFlow.js</code> 轻量模型，用于自动化识别验证码并处理登录态。</p>
-<p>项目主体使用 <strong>JavaScript</strong>（Node.js）编写，配置灵活。用户只需提供目标 URL 和模板选择器，框架即可自动调度请求、渲染页面并提取结构化数据。内置的“AI 解析器”可以通过少量样本学习字段定位规则，减少手动编写 XPath 的工作。</p>
-<p>GitHub 上显示 26 颗星与 3 个 Fork。对比老牌框架 <code>Scrapy</code> 或 <code>Crawlbase</code>，Spiderbrain-V3 的优势在于集成度——开箱即用且无需额外服务。但开发者坦言其 AI 模块目前仅支持简单验证码，复杂滑动组仍需配合第三方打码服务。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Thang1191/MikuPlymouth" alt="MikuPlymouth" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Plymouth</strong> 是 <strong>Linux</strong> 下替代 <strong>fbsplash</strong> 的启动画面系统，但社区主题多偏重系统图标。作者 <strong>Thang1191</strong> 为 <strong>Vocaloid</strong> 爱好者，利用 <strong>GIMP</strong> 逐帧绘制出初音未来的像素风加载动画。</p>
+<p>项目以 <strong>Nix</strong> 模块形式发布，用户只需在 <code>configuration.nix</code> 中添加一行引用即可生效。动画包含 32 帧循环，分辨率为 1920×1080，适配主流 <strong>GRUB</strong> 分辨率。</p>
+<p>目前获得 <strong>39</strong> 个 <strong>Star</strong>，虽规模不大，但已成为 <strong>NixOS</strong> 中文社区美化入门教程的推荐案例。<strong>Forks</strong> 为 <strong>1</strong>，表明项目成熟度较高。</p>
+<p>与 <strong>plymouth-themes</strong> 仓库中其他主题的区别在于，<strong>MikuPlymouth</strong> 专门优化了 <strong>NixOS</strong> 的 <code>mkPlymouthTheme</code> 构建函数，避免手动安装的路径问题。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/SaroirCommunity/Spiderbrain-V3">SaroirCommunity/Spiderbrain-V3</a></li>
+<li>项目地址：<a href="https://github.com/Thang1191/MikuPlymouth">Thang1191/MikuPlymouth</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/An1X3R/Anima-Artist-Mixer">Anima-Artist-Mixer</a> #5</h2>
+<h2><a href="https://github.com/norika1207-lab/mercury-mcp">mercury-mcp</a> #6</h2>
 <blockquote>
-<p>一款动画艺术风格混合器，通过 <strong>GAN</strong> 技术将不同画风（水彩、赛璐璐、厚涂）按权重融合到一张图像上。初创项目，收获 11 颗星。</p>
+<p>一个轻量的 <strong>Model Context Protocol (MCP)</strong> 服务端实现，允许开发者快速将任意 <strong>LLM</strong> 接入支持 MCP 的客户端（如 <strong>Claude</strong>、<strong>Continue</strong> 等）。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/An1X3R/Anima-Artist-Mixer" alt="Anima-Artist-Mixer" src="https://opengraph.githubassets.com/1/An1X3R/Anima-Artist-Mixer"></p></p><p>近年来风格迁移工具多集中于写实照片与名画之间的转换，而对二次元、插画风格间的混合需求日益增长。<strong>Anima-Artist-Mixer</strong> 专为动画艺术家设计，允许用户上传一张底图，然后选择多个参考图（如宫崎骏的“水彩风”与新海诚的“柔光风”），通过预训练的 <code>AdaIN</code> 模块输出混合结果。</p>
-<p>项目基于 <strong>Python</strong> 与 <code>PyTorch</code>，附带几个轻量预训练模型（约 50 MB）。它提供了 Gradio 网页界面，用户可滑动滑块控制每种风格的贡献比例。技术文档解释了其采用的多风格权重归一化方法，避免混合时出现色彩崩塌。</p>
-<p>尽管仅有 11 颗星，该项目在 Reddit 的 <code>r/StableDiffusion</code> 社区引起过小范围讨论。其定位区别于 <code>Stable Diffusion</code> 的 prompt 叠加，更适合需要精确控制风格参数的专业原画师。未来计划加入批处理与风格缓存功能。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/norika1207-lab/mercury-mcp" alt="mercury-mcp" style="max-width:100%;border-radius:8px;"></p></p><p>随着 <strong>MCP</strong> 协议逐渐成为 AI Agent 工具调用的标准接口，现有实现多偏重完整框架，部署较繁琐。<strong>mercury-mcp</strong> 定位为“最小可用”的 <strong>Python</strong> 参考实现，核心仅依赖 <code>uvicorn</code> 和 <code>pydantic</code>。</p>
+<p>服务端提供 <strong>标准输入/输出 (stdio)</strong> 与 <strong>HTTP</strong> 两种通信模式，内建了 <strong>Prompt</strong>、<strong>Resource</strong>、<strong>Tool</strong> 三种原型的示例路由。开发者只需继承基类并注册函数即可发布 MCP 服务。</p>
+<p>项目上线一周获 <strong>27</strong> 个 <strong>Star</strong> 与 <strong>9</strong> 个 <strong>Forks</strong>，<strong>Fork</strong> 数量相对较高，说明被大量用于二次开发。<strong>norika1207-lab</strong> 还在 <code>Discussions</code> 中贴出了与 <strong>LangChain</strong> 集成的教程。</p>
+<p>与 <strong>fastmcp</strong> 等同类库相比，<strong>mercury-mcp</strong> 压缩了自动配置功能，强制开发者显式定义 Schema，更适合教学与审计敏感场景。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/An1X3R/Anima-Artist-Mixer">An1X3R/Anima-Artist-Mixer</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/zy-zmc/tianming-skill">tianming-skill</a> #6</h2>
-<blockquote>
-<p>国产游戏《天明》的技能模拟器，完全由 <strong>PowerShell</strong> 脚本实现，支持技能数值计算与配装推荐。获得 26 颗星与 5 个 Fork。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/zy-zmc/tianming-skill" alt="tianming-skill" src="https://opengraph.githubassets.com/1/zy-zmc/tianming-skill"></p></p><p>《天明》是一款国产回合制角色扮演游戏，其技能系统极度复杂，涉及多个属性堆叠与隐藏系数。<strong>tianming-skill</strong> 的开发者利用 PowerShell 强大的对象管道能力，将游戏内所有技能、装备、天赋数据解析为 JSON 配置文件，然后通过脚本模拟不同加点方案下的输出期望。</p>
-<p>该项目未使用任何 UI 框架，直接通过控制台输出文本表格，支持按角色、流派、等级三种维度计算。脚本还集成了基于贪心算法的装备推荐模块，能快速找到最大化伤害的搭配。</p>
-<p>仓库显示 26 颗星、5 个 Fork，在同人游戏工具中属于中等热度。相比其他基于 Excel 或 C# 的模拟器，使用 PowerShell 的好处是零依赖：用户只需在 Windows 上运行 <code>.ps1</code> 文件。社区贡献者已补充了最新版本的天赋数据，项目持续维护。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/zy-zmc/tianming-skill">zy-zmc/tianming-skill</a></li>
+<li>项目地址：<a href="https://github.com/norika1207-lab/mercury-mcp">norika1207-lab/mercury-mcp</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-24/</guid>
-<pubDate>Sun, 24 May 2026 01:51:08 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-25/</guid>
+<pubDate>Mon, 25 May 2026 02:25:02 GMT</pubDate>
 </item>
   </channel>
 </rss>
