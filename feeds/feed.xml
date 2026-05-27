@@ -5,96 +5,107 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 26 May 2026 03:14:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2026 01:28:14 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-26 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-26/</link>
-<description><![CDATA[2026-05-26 每日精选 — 5 个仓库: realrossmanngroup/no_ai_slop_writing_rules, lceminecraft-launcher/LCE-Emerald-Launcher, JasonLam08/cursor_agent_status_light, xiaomoBoy/claude-writing-skills, 6x-u/mero-compiler]]></description>
-<content:encoded><![CDATA[<h1>2026-05-26 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-27 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-27/</link>
+<description><![CDATA[2026-05-27 每日精选 — 6 个仓库: paraschopra/make-pages-interactive, SeemSeam/plan-tree, Abrahamhannah/Neurodesk-AI-dashboard, GiggleWang/MobileAgent-Android, zhristophe/Claude-Mythos-AI-Anthropic-App, zjp1997720/wechat-radar]]></description>
+<content:encoded><![CDATA[<h1>2026-05-27 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>开发与交互工具</h3>
 <ul>
-<li><strong>no_ai_slop_writing_rules</strong>：一套对抗AI写作“滑腻感”的实用规则集，旨在去除ChatGPT等模型输出的空洞套话 ↗ #1</li>
-<li><strong>claude-writing-skills</strong>：针对Claude模型设计的写作提示词库，覆盖故事、论文等多体裁高质量生成 ↗ #4</li>
+<li><strong>make-pages-interactive</strong> 将静态页面一键变为可交互文档，降低前端开发门槛 ↗ #1</li>
+<li><strong>plan-tree</strong> 可视化的项目规划树工具，助力团队拆解复杂任务 ↗ #2</li>
 </ul>
-<h3>游戏工具</h3>
+<h3>AI 应用与 Agent</h3>
 <ul>
-<li><strong>LCE-Emerald-Launcher</strong>：Minecraft基岩版LCE的第三方启动器，基于TypeScript构建，支持版本管理与模组加载 ↗ #2</li>
+<li><strong>Neurodesk-AI-dashboard</strong> 面向神经科学研究的 AI 分析仪表盘，整合多种模型 ↗ #3</li>
+<li><strong>MobileAgent-Android</strong> 运行在安卓端的轻量 AI Agent 框架，支持本地任务编排 ↗ #4</li>
+<li><strong>Claude-Mythos-AI-Anthropic-App</strong> 基于 Claude 的叙事生成应用，融合神话主题 ↗ #5</li>
 </ul>
-<h3>开发工具</h3>
+<h3>安全与社交工具</h3>
 <ul>
-<li><strong>cursor_agent_status_light</strong>：一款USB状态指示灯，通过RGB颜色实时显示Cursor AI Agent的工作状态 ↗ #3</li>
-</ul>
-<h3>编译技术</h3>
-<ul>
-<li><strong>mero-compiler</strong>：用C++编写的迷你编译器，实现从C子集到x86汇编的完整编译流程 ↗ #5</li>
+<li><strong>wechat-radar</strong> 微信用户关系探测工具，社区关注度极高，分支数达 4.8k ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/realrossmanngroup/no_ai_slop_writing_rules">no_ai_slop_writing_rules</a> #1</h2>
+<h2><a href="https://github.com/paraschopra/make-pages-interactive">make-pages-interactive</a> #1</h2>
 <blockquote>
-<p>针对AI写作中常见的“slop”腔调，该仓库提供了一套可编程的规则集，帮助开发者或用户定制提示词，减少“delve”“it’s important to note”等AI惯用语。社区围绕“如何让AI更像人类”展开了激烈讨论。</p>
+<p>一个轻量级 JavaScript 库，允许开发者通过简单的属性标记将任意 HTML 页面转换为可拖拽、可点击的交互式文档。无需重写现有代码即可增强静态内容的交互性。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/realrossmanngroup/no_ai_slop_writing_rules" alt="no_ai_slop_writing_rules" style="max-width:100%;border-radius:8px;"></p></p><p>越来越多的创作者抱怨AI生成文本千篇一律，缺乏真实表达。<strong>no_ai_slop_writing_rules</strong> 由 <strong>realrossmanngroup</strong> 发起，通过列举具体禁止使用的词汇和句式，试图规范输出风格。</p>
-<p>项目核心是一份 Markdown 规则清单，涵盖词汇、句法和结构层面的注意事项。用户可直接将其粘贴到系统提示词中，或用作 <strong>Claude</strong>、<strong>ChatGPT</strong> 的 <code>system_prompt</code>，以抑制模型默认的“热情客服”语气。</p>
-<p>截至发稿，该项目获得 <strong>152 Stars</strong> 和 <strong>11 Forks</strong>，在 <strong>Hacker News</strong> 和 <strong>Reddit</strong> 上引发了两极化讨论。支持者认为这是实用指南，批评者则指出规则过于主观，可能抹杀模型创造性。</p>
-<p>值得注意的是，仓库同时提供了中文译本，兼容不同语言写作场景。与同类项目如 <strong>&quot;Anti-AI Writing&quot;</strong> 相比，它更强调可操作性，而非纯理论批判。适合内容创作者、提示词工程师和关注 AI 输出质量的团队参考。</p>
+<p><strong>Paras Chopra</strong> 发布该项目时提到，许多团队在维护文档或演示页面时面临“静态内容无法即时演示”的痛点。传统的交互方案往往需要引入复杂框架，而 <strong>make-pages-interactive</strong> 提供了一种渐进增强的解决思路。</p>
+<p>核心实现基于 <strong>MutationObserver</strong> 监听 DOM 变化，并通过自定义 <code>data-interactive</code> 属性触发拖拽、缩放、点击高亮等事件。库体积仅 <strong>3KB</strong>，不依赖任何第三方运行时，开箱即用。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/paraschopra/make-pages-interactive" alt="make-pages-interactive" style="max-width:100%;border-radius:8px;"></p></p><p>目前该项目在 GitHub 上获得 <strong>125 Stars</strong> 和 <strong>18 Forks</strong>，社区反馈集中于“教学演示”和“原型快速验证”场景。与同类工具如 <code>html2canvas</code> 相比，它更专注于实时交互而非截图生成。</p>
+<p>对于需要将技术文档、产品手册快速变为可体验原型的团队，该工具能显著减少开发成本。作者计划后续支持触摸事件和自定义回调函数。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/realrossmanngroup/no_ai_slop_writing_rules">realrossmanngroup/no_ai_slop_writing_rules</a></li>
+<li>项目地址：<a href="https://github.com/paraschopra/make-pages-interactive">paraschopra/make-pages-interactive</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/lceminecraft-launcher/LCE-Emerald-Launcher">LCE-Emerald-Launcher</a> #2</h2>
+<h2><a href="https://github.com/SeemSeam/plan-tree">plan-tree</a> #2</h2>
 <blockquote>
-<p>针对 Minecraft 基岩版 LCE 启动器功能匮乏的问题，Emerald 启动器提供了版本隔离、模组管理和自定义存档支持。项目使用 <strong>TypeScript</strong> 与 <strong>Electron</strong> 构建，面向需要在老旧或特殊版本上游玩的玩家。</p>
+<p>一个以树状图形式组织项目计划的协作工具，允许用户将目标拆解为可追踪的子任务，并可视化依赖关系。适用于敏捷开发和个人项目管理。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/lceminecraft-launcher/LCE-Emerald-Launcher" alt="LCE-Emerald-Launcher" style="max-width:100%;border-radius:8px;"></p></p><p>Minecraft 基岩版（LCE）近年来停止了官方更新，但仍有大量玩家停留在特定版本。社区需要一款能够绕过启动器限制、自由切换版本的工具，<strong>LCE-Emerald-Launcher</strong> 正是在此背景下诞生。</p>
-<p>该启动器采用 <strong>TypeScript</strong> 编写，利用 <strong>Electron</strong> 构建跨平台界面。核心功能包括多个 <strong>LCE 版本</strong> 的下载与独立部署、模组注入、以及存档管理。其架构借鉴了 <strong>PolyMC</strong> 的设计，但聚焦于基岩版。</p>
-<p>目前 <strong>Stars</strong> 数 <strong>90</strong>，<strong>Forks</strong> 为 <strong>0</strong>，表明项目尚在早期阶段。开发者表示支持 Windows 和 Linux，并提供预编译二进制。不过由于涉及破解版本，用户需自行承担合规风险。</p>
-<p>与官方启动器相比，Emerald 允许用户自定义 Java 路径和内存分配，并集成了 <strong>ModLoader</strong> 接口。适用于需要同时维护多个版本或运行过期模组的玩家。</p>
+<p>现代项目管理中，传统的甘特图和看板视图无法直观展示任务间的层级关系。<strong>plan-tree</strong> 采用树形结构，每个节点可包含描述、时间估计和负责人，分支可折叠或展开。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/SeemSeam/plan-tree" alt="plan-tree" style="max-width:100%;border-radius:8px;"></p></p><p>该项目使用纯前端实现，数据存储在本地 <strong>LocalStorage</strong>，同时提供导出 JSON 和 Markdown 功能。<strong>42 Stars</strong> 和 <strong>5 Forks</strong> 表明它尚处于早期阶段，但其设计思路引起了少部分项目管理者的兴趣。</p>
+<p>与 Notion 或 Obsidian 的插件不同，plan-tree 专为“树形分解”而生，没有多余的功能冗余。如果后续集成云端同步与多人协作，有望成为小型团队的轻量规划利器。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/lceminecraft-launcher/LCE-Emerald-Launcher">lceminecraft-launcher/LCE-Emerald-Launcher</a></li>
+<li>项目地址：<a href="https://github.com/SeemSeam/plan-tree">SeemSeam/plan-tree</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/JasonLam08/cursor_agent_status_light">cursor_agent_status_light</a> #3</h2>
+<h2><a href="https://github.com/Abrahamhannah/Neurodesk-AI-dashboard">Neurodesk-AI-dashboard</a> #3</h2>
 <blockquote>
-<p>一款基于 <strong>C++</strong> 的 USB 状态指示灯硬件方案，通过 RGB LED 实时反映 <strong>Cursor</strong> 中 AI Agent 的处理状态。当 Agent 执行任务时灯光闪烁，空闲时保持常亮，帮助开发者避免无效等待。</p>
+<p>一个基于 CSS 和 Web 组件构建的神经科学 AI 分析仪表盘，整合了 <strong>Neurodesk</strong> 环境中的多个 AI 模型，用于脑影像数据分析与可视化。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/JasonLam08/cursor_agent_status_light" alt="cursor_agent_status_light" style="max-width:100%;border-radius:8px;"></p></p><p>使用 <strong>Cursor</strong> 编辑器时，AI Agent 在后台进行代码生成或调试，用户往往难以感知其活动状态。<strong>cursor_agent_status_light</strong> 提供了一种物理反馈机制，将软件状态映射为可视光信号。</p>
-<p>项目采用 <strong>C++</strong> 编写控制固件，兼容 <strong>Arduino</strong> 和 <strong>STM32</strong> 系列微控制器。通过 USB 串口与 Cursor 的插件通信，接收当前 Agent 状态（空闲、忙碌、错误），并驱动 <strong>WS2812B RGB LED</strong> 显示对应颜色。</p>
-<p>该项目获得 <strong>53 Stars</strong> 和 <strong>6 Forks</strong>，社区提供了详细的硬件清单和 3D 打印外壳文件。目前支持 macOS 和 Windows，但 Linux 版本正在开发中。</p>
-<p>与同类软件方案（如系统托盘图标）不同，物理指示灯更适合多显示器或全屏场景。用户可根据个人喜好自定义颜色映射，例如红色代表错误，蓝色代表处理中。</p>
+<p>神经科学领域的研究者面对 MRI 等海量数据时，常需在多个命令行工具之间切换。<strong>Neurodesk-AI-dashboard</strong> 提供统一的图形界面，封装了 <code>fMRIPrep</code>、<code>SPM</code> 等经典工具，并通过后端 API 调用 AI 模型进行自动分割和分类。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Abrahamhannah/Neurodesk-AI-dashboard" alt="Neurodesk-AI-dashboard" style="max-width:100%;border-radius:8px;"></p></p><p>项目目前 <strong>32 Stars</strong>，尚无可用的 Release，但其代码结构体现了“微前端”思想：每个功能模块独立为 Web Component。它针对的 <strong>Neurodesk</strong> 用户群体（约十万级）具有明确的痛点，如果能完善部署文档，可能吸引更多研究者。</p>
+<p>相较于 <strong>BrainLife</strong> 等云平台，该仪表盘专注于本地化部署，保证数据隐私。目前限制在于仅支持 Linux 环境，且依赖 <strong>Docker</strong> 镜像。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/JasonLam08/cursor_agent_status_light">JasonLam08/cursor_agent_status_light</a></li>
+<li>项目地址：<a href="https://github.com/Abrahamhannah/Neurodesk-AI-dashboard">Abrahamhannah/Neurodesk-AI-dashboard</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/xiaomoBoy/claude-writing-skills">claude-writing-skills</a> #4</h2>
+<h2><a href="https://github.com/GiggleWang/MobileAgent-Android">MobileAgent-Android</a> #4</h2>
 <blockquote>
-<p>专为 <strong>Claude</strong> 模型整理的写作技巧提示词库，包含故事叙述、学术论文、营销文案等场景的系统提示词，利用 Claude 的长上下文优势提升输出质量。项目附带 Python 脚本用于测试和批量生成。</p>
+<p>一个在 Android 设备上运行的轻量 AI Agent 框架，支持通过自然语言指令执行手机操作，如拨打电话、发送消息、启动应用等。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/xiaomoBoy/claude-writing-skills" alt="claude-writing-skills" style="max-width:100%;border-radius:8px;"></p></p><p>Claude 在长文写作中表现突出，但许多用户不知道如何编写有效的提示词以发挥其潜力。<strong>claude-writing-skills</strong> 由 <strong>xiaomoBoy</strong> 创建，旨在收集并标准化经过验证的写作提示模板。</p>
-<p>仓库以 Markdown 格式提供数十个分类提示词，涵盖“角色设定”“冲突构建”“论点递进”等技巧，所有提示词均针对 <strong>Claude 3.5 Sonnet</strong> 和 <strong>Opus</strong> 模型优化。同时提供一个 <strong>Python</strong> 脚本，通过 API 自动测试不同提示词的输出效果。</p>
-<p>当前 <strong>Stars</strong> 为 <strong>21</strong>，<strong>Forks</strong> 为 <strong>1</strong>，属于小型但实用的资源库。项目还在持续更新，计划加入更多中式写作场景的提示词。</p>
-<p>与通用提示词库（如 <strong>awesome-claude-prompts</strong>）相比，该项目更聚焦于写作技法本身，而非任务类型。适合作家、学生和内容营销人员作为参考工具。</p>
+<p>随着 <strong>LLM</strong> 在移动端的部署需求增长，<strong>MobileAgent-Android</strong> 尝试将 Agent 能力下沉到本地。它基于 <strong>Kotlin</strong> 编写，利用 Android 的 <strong>AccessibilityService</strong> 实现 UI 交互，核心决策模型默认使用 <strong>Ollama</strong> 本地推理。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/GiggleWang/MobileAgent-Android" alt="MobileAgent-Android" style="max-width:100%;border-radius:8px;"></p></p><p>该项目 <strong>24 Stars</strong> 和 <strong>2 Forks</strong>，目前处于概念验证阶段。与其他移动端 Agent 方案（如 <strong>Auto.js</strong> 插件）相比，其优势在于通过 LLM 理解语义，而非简单的脚本匹配。</p>
+<p>开发者 <strong>GiggleWang</strong> 指出，后续将集成 <strong>Android 14</strong> 的新 API 以减少无障碍权限依赖。若性能优化至端侧，可应用于智能助手或自动化测试领域。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/xiaomoBoy/claude-writing-skills">xiaomoBoy/claude-writing-skills</a></li>
+<li>项目地址：<a href="https://github.com/GiggleWang/MobileAgent-Android">GiggleWang/MobileAgent-Android</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/6x-u/mero-compiler">mero-compiler</a> #5</h2>
+<h2><a href="https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App">Claude-Mythos-AI-Anthropic-App</a> #5</h2>
 <blockquote>
-<p>一个教学性质的迷你编译器，使用 <strong>C++</strong> 实现了从类 C 语言子集到 <strong>x86</strong> 汇编代码的完整编译流程，包含词法分析、语法分析、中间代码生成和目标代码生成。</p>
+<p>一款利用 <strong>Anthropic Claude</strong> API 生成神话风格叙事片段的 Web 应用，用户输入关键词即可获得带有角色、情节和环境描写的短故事。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/6x-u/mero-compiler" alt="mero-compiler" style="max-width:100%;border-radius:8px;"></p></p><p>编译器原理是计算机科学的核心课程，但很少有项目能提供足够简洁且可运行的参考实现。<strong>mero-compiler</strong> 由个人开发者 <strong>6x-u</strong> 编写，旨在用不到 <strong>2000 行 C++ 代码</strong> 演示编译器基本流程。</p>
-<p>项目目前支持整数运算、变量声明、条件分支（<code>if-else</code>）和循环（<code>while</code>），输出 <strong>x86-64</strong> 汇编文件。采用递归下降语法分析，并生成三地址码作为中间表示。</p>
-<p>虽然 <strong>Stars</strong> 仅 <strong>12</strong>，但代码结构清晰，注释详尽，适合编译原理初学者对照教材学习。开发者计划未来加入函数定义和指针操作。</p>
-<p>同类项目如 <strong>tcc</strong> 追求完整性和性能，而 <strong>mero-compiler</strong> 则偏向教学透明性。读者可以通过阅读源码理解从词法到目标代码的每一步转换。</p>
+<p>AI 生成内容（AIGC）在创意写作领域越来越受欢迎，<strong>Claude-Mythos-AI</strong> 专注于“神话”这一特定主题，提供预设的 prompt 模板和风格参数。前端基于 <strong>TypeScript</strong> 和 <strong>React</strong> 构建，后端通过 serverless 函数调用 Claude API。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/zhristophe/Claude-Mythos-AI-Anthropic-App" alt="Claude-Mythos-AI-Anthropic-App" style="max-width:100%;border-radius:8px;"></p></p><p>社区目前 <strong>22 Stars</strong>，虽然用户量小，但代码结构清晰，便于二次开发。作者 <strong>zhristophe</strong> 提供了完整的 <strong>Vercel</strong> 部署指南，并开放了 prompt 工程细节。</p>
+<p>与 <strong>GPT Story Generator</strong> 等通用工具相比，该应用通过限制输出风格获得了更高的叙事一致性。缺点是 Claude API 的速率限制可能影响体验，但对个人创作者而言足够使用。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/6x-u/mero-compiler">6x-u/mero-compiler</a></li>
+<li>项目地址：<a href="https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App">zhristophe/Claude-Mythos-AI-Anthropic-App</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/zjp1997720/wechat-radar">wechat-radar</a> #6</h2>
+<blockquote>
+<p>一款针对微信的用户关系探测工具，能够扫描附近微信用户并绘制社交关系图谱。因涉及隐私问题，该项目 Star 数仅 16 却拥有高达 <strong>4813 Forks</strong>，暗示其被大量用于分叉和二次开发。</p>
+</blockquote>
+<p>微信生态中，部分营销或安全研究人员试图获取周边用户的基本信息。<strong>wechat-radar</strong> 利用 Android 设备的 <strong>WiFi P2P</strong> 和蓝牙广播发现附近微信设备，无需 root 权限即可获取昵称、头像等公开数据。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/zjp1997720/wechat-radar" alt="wechat-radar" style="max-width:100%;border-radius:8px;"></p></p><p>该仓库的 Star/Forks 比（0.003）极不寻常，通常意味着原始仓库已被封禁或删除，大量 fork 者将其作为基础代码进行修改。目前主仓库仅有零星更新，但 fork 出的多个变体继续在社区传播。</p>
+<p>需要指出的是，该工具可能违反 <strong>微信软件许可及服务协议</strong>，用于商业骚扰或侵犯隐私存在法律风险。建议开发者仅在合规研究场景下使用。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/zjp1997720/wechat-radar">zjp1997720/wechat-radar</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-26/</guid>
-<pubDate>Tue, 26 May 2026 03:14:57 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-27/</guid>
+<pubDate>Wed, 27 May 2026 01:28:14 GMT</pubDate>
 </item>
   </channel>
 </rss>
