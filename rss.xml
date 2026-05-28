@@ -5,107 +5,101 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 27 May 2026 01:28:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 28 May 2026 01:49:49 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-27 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-27/</link>
-<description><![CDATA[2026-05-27 每日精选 — 6 个仓库: paraschopra/make-pages-interactive, SeemSeam/plan-tree, Abrahamhannah/Neurodesk-AI-dashboard, GiggleWang/MobileAgent-Android, zhristophe/Claude-Mythos-AI-Anthropic-App, zjp1997720/wechat-radar]]></description>
-<content:encoded><![CDATA[<h1>2026-05-27 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-28 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-28/</link>
+<description><![CDATA[2026-05-28 每日精选 — 5 个仓库: SUZ-tsinghua/smp, Szili1994/create-aeronautics-minecraft-mod, dama-cyber/Distilled-Novel-Toolbox, MrGeDiao/paper-reading-zh, developer2013/bricks-mcp-open]]></description>
+<content:encoded><![CDATA[<h1>2026-05-28 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>开发与交互工具</h3>
+<h3>AI 与开发工具</h3>
 <ul>
-<li><strong>make-pages-interactive</strong> 将静态页面一键变为可交互文档，降低前端开发门槛 ↗ #1</li>
-<li><strong>plan-tree</strong> 可视化的项目规划树工具，助力团队拆解复杂任务 ↗ #2</li>
+<li><strong>SUZ-tsinghua/smp</strong> Python 实现的随机模型预测控制库，为机器人运动规划提供优化方案。 ↗ #1</li>
+<li><strong>bricks-mcp-open</strong> 基于 PHP 的 MCP（Model Context Protocol）服务器实现，简化 AI 上下文管理流程。 ↗ #5</li>
 </ul>
-<h3>AI 应用与 Agent</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>Neurodesk-AI-dashboard</strong> 面向神经科学研究的 AI 分析仪表盘，整合多种模型 ↗ #3</li>
-<li><strong>MobileAgent-Android</strong> 运行在安卓端的轻量 AI Agent 框架，支持本地任务编排 ↗ #4</li>
-<li><strong>Claude-Mythos-AI-Anthropic-App</strong> 基于 Claude 的叙事生成应用，融合神话主题 ↗ #5</li>
+<li><strong>Distilled-Novel-Toolbox</strong> 一站式小说创作辅助工具箱，集成大纲、角色管理与灵感记录功能。 ↗ #3</li>
 </ul>
-<h3>安全与社交工具</h3>
+<h3>游戏模组</h3>
 <ul>
-<li><strong>wechat-radar</strong> 微信用户关系探测工具，社区关注度极高，分支数达 4.8k ↗ #6</li>
+<li><strong>create-aeronautics-minecraft-mod</strong> 为 Minecraft 模组 Create 添加飞艇、飞机等航空元素，扩展机械工程玩法。 ↗ #2</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/paraschopra/make-pages-interactive">make-pages-interactive</a> #1</h2>
-<blockquote>
-<p>一个轻量级 JavaScript 库，允许开发者通过简单的属性标记将任意 HTML 页面转换为可拖拽、可点击的交互式文档。无需重写现有代码即可增强静态内容的交互性。</p>
-</blockquote>
-<p><strong>Paras Chopra</strong> 发布该项目时提到，许多团队在维护文档或演示页面时面临“静态内容无法即时演示”的痛点。传统的交互方案往往需要引入复杂框架，而 <strong>make-pages-interactive</strong> 提供了一种渐进增强的解决思路。</p>
-<p>核心实现基于 <strong>MutationObserver</strong> 监听 DOM 变化，并通过自定义 <code>data-interactive</code> 属性触发拖拽、缩放、点击高亮等事件。库体积仅 <strong>3KB</strong>，不依赖任何第三方运行时，开箱即用。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/paraschopra/make-pages-interactive" alt="make-pages-interactive" style="max-width:100%;border-radius:8px;"></p></p><p>目前该项目在 GitHub 上获得 <strong>125 Stars</strong> 和 <strong>18 Forks</strong>，社区反馈集中于“教学演示”和“原型快速验证”场景。与同类工具如 <code>html2canvas</code> 相比，它更专注于实时交互而非截图生成。</p>
-<p>对于需要将技术文档、产品手册快速变为可体验原型的团队，该工具能显著减少开发成本。作者计划后续支持触摸事件和自定义回调函数。</p>
-<p>相关链接：</p>
+<h3>科研阅读</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/paraschopra/make-pages-interactive">paraschopra/make-pages-interactive</a></li>
+<li><strong>paper-reading-zh</strong> 中文论文阅读笔记库，收录多领域学术文章并附个人解读，助力学术入门。 ↗ #4</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/SeemSeam/plan-tree">plan-tree</a> #2</h2>
+<h2><a href="https://github.com/SUZ-tsinghua/smp">SUZ-tsinghua/smp</a> #1</h2>
 <blockquote>
-<p>一个以树状图形式组织项目计划的协作工具，允许用户将目标拆解为可追踪的子任务，并可视化依赖关系。适用于敏捷开发和个人项目管理。</p>
+<p><strong>清华团队开源 SMP 库</strong>，提供基于 Python 的随机模型预测控制（Stochastic Model Predictive Control）实现。目标是为机器人实时运动规划与不确定性环境下的控制提供轻量级工具。</p>
 </blockquote>
-<p>现代项目管理中，传统的甘特图和看板视图无法直观展示任务间的层级关系。<strong>plan-tree</strong> 采用树形结构，每个节点可包含描述、时间估计和负责人，分支可折叠或展开。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/SeemSeam/plan-tree" alt="plan-tree" style="max-width:100%;border-radius:8px;"></p></p><p>该项目使用纯前端实现，数据存储在本地 <strong>LocalStorage</strong>，同时提供导出 JSON 和 Markdown 功能。<strong>42 Stars</strong> 和 <strong>5 Forks</strong> 表明它尚处于早期阶段，但其设计思路引起了少部分项目管理者的兴趣。</p>
-<p>与 Notion 或 Obsidian 的插件不同，plan-tree 专为“树形分解”而生，没有多余的功能冗余。如果后续集成云端同步与多人协作，有望成为小型团队的轻量规划利器。</p>
+<p>项目由清华大学 SUZ 实验室发布，聚焦机器人领域常见的高维、非凸优化问题。SMP 算法在自动驾驶、无人机避障等场景中对随机扰动有较强鲁棒性，但此前缺乏易用的开源实现。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/SUZ-tsinghua/smp" alt="SUZ-tsinghua/smp" style="max-width:100%;border-radius:8px;"></p></p><p>SMP 核心采用多线程并行求解与近似动态规划策略，支持用户自定义动力学模型与代价函数。API 设计参考 <code>scipy.optimize</code> 风格，与机器人操作系统（ROS）可集成。</p>
+<p>仓库目前获得 <strong>75 个 Stars</strong> 和 <strong>6 个 Forks</strong>，社区讨论集中在理论文档与示例教程的完善。相比 <code>casadi</code> 等通用优化库，SMP 更强调控制任务的定制化与实时性。</p>
+<p>适用场景包括轮式/腿式机器人运动规划、多智能体协同控制等。后续计划增加基于 PyTorch 的神经网络近似求解器，提升高维问题处理能力。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/SeemSeam/plan-tree">SeemSeam/plan-tree</a></li>
+<li>项目地址：<a href="https://github.com/SUZ-tsinghua/smp">SUZ-tsinghua/smp</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Abrahamhannah/Neurodesk-AI-dashboard">Neurodesk-AI-dashboard</a> #3</h2>
+<h2><a href="https://github.com/Szili1994/create-aeronautics-minecraft-mod">Szili1994/create-aeronautics-minecraft-mod</a> #2</h2>
 <blockquote>
-<p>一个基于 CSS 和 Web 组件构建的神经科学 AI 分析仪表盘，整合了 <strong>Neurodesk</strong> 环境中的多个 AI 模型，用于脑影像数据分析与可视化。</p>
+<p><strong>Minecraft 模组 Create 的航空扩展包</strong>，引入飞艇、飞机、直升机等可操控载具，并利用模组自带的机械动力系统实现真实飞行物理。项目提供完整的模块化飞机建造框架。</p>
 </blockquote>
-<p>神经科学领域的研究者面对 MRI 等海量数据时，常需在多个命令行工具之间切换。<strong>Neurodesk-AI-dashboard</strong> 提供统一的图形界面，封装了 <code>fMRIPrep</code>、<code>SPM</code> 等经典工具，并通过后端 API 调用 AI 模型进行自动分割和分类。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Abrahamhannah/Neurodesk-AI-dashboard" alt="Neurodesk-AI-dashboard" style="max-width:100%;border-radius:8px;"></p></p><p>项目目前 <strong>32 Stars</strong>，尚无可用的 Release，但其代码结构体现了“微前端”思想：每个功能模块独立为 Web Component。它针对的 <strong>Neurodesk</strong> 用户群体（约十万级）具有明确的痛点，如果能完善部署文档，可能吸引更多研究者。</p>
-<p>相较于 <strong>BrainLife</strong> 等云平台，该仪表盘专注于本地化部署，保证数据隐私。目前限制在于仅支持 Linux 环境，且依赖 <strong>Docker</strong> 镜像。</p>
+<p>该模组依托热门机械工程模组 <strong>Create</strong>，后者已在 Minecraft 社区积累数百万玩家。原版 Create 缺少空中交通手段，此项目填补空白，允许玩家用齿轮、轴承等部件组装飞行器。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Szili1994/create-aeronautics-minecraft-mod" alt="Szili1994/create-aeronautics-minecraft-mod" style="max-width:100%;border-radius:8px;"></p></p><p>技术实现基于 <strong>Minecraft Forge</strong> 与 Create 提供的 API，新增多种航空方块（螺旋桨、方向舵、气球等）。飞行器升力系统模拟空气密度与机械转速，支持多人模式下同步。</p>
+<p>仓库当前 <strong>75 Stars</strong>、<strong>0 Forks</strong>，处于早期开发阶段。作者在 Issues 中透露计划支持自定义机翼材质与载具武器化。</p>
+<p>与同类“飞机模组”不同，该项目不依赖独立物理引擎，完全复用 Create 的动力网络，降低了学习成本。适合喜欢机械建造的玩家探索空中创意。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Abrahamhannah/Neurodesk-AI-dashboard">Abrahamhannah/Neurodesk-AI-dashboard</a></li>
+<li>项目地址：<a href="https://github.com/Szili1994/create-aeronautics-minecraft-mod">Szili1994/create-aeronautics-minecraft-mod</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/GiggleWang/MobileAgent-Android">MobileAgent-Android</a> #4</h2>
+<h2><a href="https://github.com/dama-cyber/Distilled-Novel-Toolbox">dama-cyber/Distilled-Novel-Toolbox</a> #3</h2>
 <blockquote>
-<p>一个在 Android 设备上运行的轻量 AI Agent 框架，支持通过自然语言指令执行手机操作，如拨打电话、发送消息、启动应用等。</p>
+<p><strong>一个专为长篇小说作者设计的辅助工具箱</strong>，集成故事大纲生成、角色档案管理、写作进度追踪等核心功能。项目采用模块化架构，支持本地离线使用。</p>
 </blockquote>
-<p>随着 <strong>LLM</strong> 在移动端的部署需求增长，<strong>MobileAgent-Android</strong> 尝试将 Agent 能力下沉到本地。它基于 <strong>Kotlin</strong> 编写，利用 Android 的 <strong>AccessibilityService</strong> 实现 UI 交互，核心决策模型默认使用 <strong>Ollama</strong> 本地推理。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/GiggleWang/MobileAgent-Android" alt="MobileAgent-Android" style="max-width:100%;border-radius:8px;"></p></p><p>该项目 <strong>24 Stars</strong> 和 <strong>2 Forks</strong>，目前处于概念验证阶段。与其他移动端 Agent 方案（如 <strong>Auto.js</strong> 插件）相比，其优势在于通过 LLM 理解语义，而非简单的脚本匹配。</p>
-<p>开发者 <strong>GiggleWang</strong> 指出，后续将集成 <strong>Android 14</strong> 的新 API 以减少无障碍权限依赖。若性能优化至端侧，可应用于智能助手或自动化测试领域。</p>
+<p>许多写作者依赖 Notion、Scrivener 等通用工具，但缺乏针对小说创作流程的定制化方案。<strong>Distilled-Novel-Toolbox</strong> 瞄准这一细分需求，提供开箱即用的结构化创作环境。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/dama-cyber/Distilled-Novel-Toolbox" alt="dama-cyber/Distilled-Novel-Toolbox" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括：三幕式情节自动规划、角色关系图谱、词汇云统计与写作日历。数据以 JSON 格式存储，方便导入其他写作软件。界面采用命令行交互，对熟悉终端的用户友好。</p>
+<p>截至查看时获得 <strong>74 Stars</strong>、<strong>22 Forks</strong>，社区贡献了多种语言角色模板。相比商业化软件，该工具完全开源且无隐私顾虑。</p>
+<p>适用场景：科幻、奇幻等长篇连载创作，尤其适合需要严格大纲控制的作者。未来可能增加 AI 辅助情节建议模块。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/GiggleWang/MobileAgent-Android">GiggleWang/MobileAgent-Android</a></li>
+<li>项目地址：<a href="https://github.com/dama-cyber/Distilled-Novel-Toolbox">dama-cyber/Distilled-Novel-Toolbox</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App">Claude-Mythos-AI-Anthropic-App</a> #5</h2>
+<h2><a href="https://github.com/MrGeDiao/paper-reading-zh">MrGeDiao/paper-reading-zh</a> #4</h2>
 <blockquote>
-<p>一款利用 <strong>Anthropic Claude</strong> API 生成神话风格叙事片段的 Web 应用，用户输入关键词即可获得带有角色、情节和环境描写的短故事。</p>
+<p><strong>中文论文阅读笔记库</strong>，作者定期分享来自计算机科学、人工智能等领域的经典与前沿论文解读，附全文标注与个人思考。项目旨在降低学术论文阅读门槛。</p>
 </blockquote>
-<p>AI 生成内容（AIGC）在创意写作领域越来越受欢迎，<strong>Claude-Mythos-AI</strong> 专注于“神话”这一特定主题，提供预设的 prompt 模板和风格参数。前端基于 <strong>TypeScript</strong> 和 <strong>React</strong> 构建，后端通过 serverless 函数调用 Claude API。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/zhristophe/Claude-Mythos-AI-Anthropic-App" alt="Claude-Mythos-AI-Anthropic-App" style="max-width:100%;border-radius:8px;"></p></p><p>社区目前 <strong>22 Stars</strong>，虽然用户量小，但代码结构清晰，便于二次开发。作者 <strong>zhristophe</strong> 提供了完整的 <strong>Vercel</strong> 部署指南，并开放了 prompt 工程细节。</p>
-<p>与 <strong>GPT Story Generator</strong> 等通用工具相比，该应用通过限制输出风格获得了更高的叙事一致性。缺点是 Claude API 的速率限制可能影响体验，但对个人创作者而言足够使用。</p>
+<p>学术论文往往语言晦涩、篇幅冗长，初学者耗时巨大却不得要领。<strong>paper-reading-zh</strong> 以中文笔记形式提炼核心贡献、实验设计与改进思路，帮助读者快速抓住重点。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/MrGeDiao/paper-reading-zh" alt="MrGeDiao/paper-reading-zh" style="max-width:100%;border-radius:8px;"></p></p><p>笔记按年份与主题组织，每篇包含论文背景、方法图、关键实验对比以及作者评价。最新更新覆盖 <strong>NeurIPS 2025</strong> 及 <strong>CVPR 2026</strong> 中关于视觉自监督学习的数篇论文。</p>
+<p>仓库目前获 <strong>42 Stars</strong>、<strong>1 Fork</strong>。虽规模尚小，但笔记质量较高，部分解读被国内技术社区转载。相比 Arxiv 默认摘要，该库提供了更细致的上下文。</p>
+<p>适合计算机专业学生、转行 AI 的开发者以及需要快速了解前沿的科研人员。作者承诺保持每月至少 5 篇更新频率。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App">zhristophe/Claude-Mythos-AI-Anthropic-App</a></li>
+<li>项目地址：<a href="https://github.com/MrGeDiao/paper-reading-zh">MrGeDiao/paper-reading-zh</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/zjp1997720/wechat-radar">wechat-radar</a> #6</h2>
+<h2><a href="https://github.com/developer2013/bricks-mcp-open">developer2013/bricks-mcp-open</a> #5</h2>
 <blockquote>
-<p>一款针对微信的用户关系探测工具，能够扫描附近微信用户并绘制社交关系图谱。因涉及隐私问题，该项目 Star 数仅 16 却拥有高达 <strong>4813 Forks</strong>，暗示其被大量用于分叉和二次开发。</p>
+<p><strong>PHP 语言实现的 MCP 服务器开源版</strong>，基于 Model Context Protocol 规范，为 AI 应用提供统一的上下文存储、检索与版本管理能力。项目可与任意支持 MCP 的 LLM 客户端对接。</p>
 </blockquote>
-<p>微信生态中，部分营销或安全研究人员试图获取周边用户的基本信息。<strong>wechat-radar</strong> 利用 Android 设备的 <strong>WiFi P2P</strong> 和蓝牙广播发现附近微信设备，无需 root 权限即可获取昵称、头像等公开数据。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/zjp1997720/wechat-radar" alt="wechat-radar" style="max-width:100%;border-radius:8px;"></p></p><p>该仓库的 Star/Forks 比（0.003）极不寻常，通常意味着原始仓库已被封禁或删除，大量 fork 者将其作为基础代码进行修改。目前主仓库仅有零星更新，但 fork 出的多个变体继续在社区传播。</p>
-<p>需要指出的是，该工具可能违反 <strong>微信软件许可及服务协议</strong>，用于商业骚扰或侵犯隐私存在法律风险。建议开发者仅在合规研究场景下使用。</p>
+<p>随着 GPT 等模型在多轮对话中需要长期记忆，MCP 协议作为管理模型上下文的标准日益重要。然而现有实现以 Python/TypeScript 为主，PHP 生态缺失。<strong>bricks-mcp-open</strong> 填补了这一空白。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/developer2013/bricks-mcp-open" alt="developer2013/bricks-mcp-open" style="max-width:100%;border-radius:8px;"></p></p><p>服务器支持 <code>context</code> 资源的 CRUD 操作，可通过 RPC 接口或 WebSocket 调用。内置 SQLite 存储引擎与可选的 Redis 后端。兼容 OpenAI、Claude 等主流 LLM 的 MCP 驱动。</p>
+<p>当前 <strong>32 Stars</strong>、<strong>3 Forks</strong>，文档提供完整 Docker 部署示例。对于同设 PHP 后端的团队，可直接集成到现有 Laravel/Symfony 项目中。</p>
+<p>相比 Python 版 <code>mcp-server</code>，该版本在内存占用上略有优势（约 30MB），适合资源受限的 VPS 环境。未来计划支持分布式上下文同步。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/zjp1997720/wechat-radar">zjp1997720/wechat-radar</a></li>
+<li>项目地址：<a href="https://github.com/developer2013/bricks-mcp-open">developer2013/bricks-mcp-open</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-27/</guid>
-<pubDate>Wed, 27 May 2026 01:28:14 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-28/</guid>
+<pubDate>Thu, 28 May 2026 01:49:49 GMT</pubDate>
 </item>
   </channel>
 </rss>
