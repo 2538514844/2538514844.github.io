@@ -5,101 +5,115 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 28 May 2026 01:49:49 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 29 May 2026 01:14:01 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-28 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-28/</link>
-<description><![CDATA[2026-05-28 每日精选 — 5 个仓库: SUZ-tsinghua/smp, Szili1994/create-aeronautics-minecraft-mod, dama-cyber/Distilled-Novel-Toolbox, MrGeDiao/paper-reading-zh, developer2013/bricks-mcp-open]]></description>
-<content:encoded><![CDATA[<h1>2026-05-28 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-05-29 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-29/</link>
+<description><![CDATA[2026-05-29 每日精选 — 6 个仓库: Sophomoresty/gemini-web2api, anthropic-claude-code-ai/free-claude-code-ai-desktop-app, Sophomoresty/bpc-fetch, pennydinh/marketing-pineline-share, thekhan1122/khan-skycard, ivanzhang/overseas-drama-guide]]></description>
+<content:encoded><![CDATA[<h1>2026-05-29 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI 与开发工具</h3>
+<h3>AI / 大模型</h3>
 <ul>
-<li><strong>SUZ-tsinghua/smp</strong> Python 实现的随机模型预测控制库，为机器人运动规划提供优化方案。 ↗ #1</li>
-<li><strong>bricks-mcp-open</strong> 基于 PHP 的 MCP（Model Context Protocol）服务器实现，简化 AI 上下文管理流程。 ↗ #5</li>
+<li><strong>gemini-web2api</strong> 将 Gemini Web 端功能封装成标准 API，开发者可绕过配额限制直接调用 ↗ #1</li>
+<li><strong>free-claude-code-ai-desktop-app</strong> 第三方开源桌面客户端，免费接入 Claude Code 能力 ↗ #2</li>
 </ul>
-<h3>效率工具</h3>
+<h3>开发工具</h3>
 <ul>
-<li><strong>Distilled-Novel-Toolbox</strong> 一站式小说创作辅助工具箱，集成大纲、角色管理与灵感记录功能。 ↗ #3</li>
+<li><strong>bpc-fetch</strong> 轻量级浏览器端请求库，专为绕过 CORS 限制设计 ↗ #3</li>
 </ul>
-<h3>游戏模组</h3>
+<h3>营销与数据工具</h3>
 <ul>
-<li><strong>create-aeronautics-minecraft-mod</strong> 为 Minecraft 模组 Create 添加飞艇、飞机等航空元素，扩展机械工程玩法。 ↗ #2</li>
+<li><strong>marketing-pineline-share</strong> 可视化营销管道共享面板，支持团队协作编辑 ↗ #4</li>
+<li><strong>khan-skycard</strong> 极简名片生成工具，输出可直接嵌入网页的卡片组件 ↗ #5</li>
 </ul>
-<h3>科研阅读</h3>
+<h3>生活指南</h3>
 <ul>
-<li><strong>paper-reading-zh</strong> 中文论文阅读笔记库，收录多领域学术文章并附个人解读，助力学术入门。 ↗ #4</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/SUZ-tsinghua/smp">SUZ-tsinghua/smp</a> #1</h2>
-<blockquote>
-<p><strong>清华团队开源 SMP 库</strong>，提供基于 Python 的随机模型预测控制（Stochastic Model Predictive Control）实现。目标是为机器人实时运动规划与不确定性环境下的控制提供轻量级工具。</p>
-</blockquote>
-<p>项目由清华大学 SUZ 实验室发布，聚焦机器人领域常见的高维、非凸优化问题。SMP 算法在自动驾驶、无人机避障等场景中对随机扰动有较强鲁棒性，但此前缺乏易用的开源实现。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/SUZ-tsinghua/smp" alt="SUZ-tsinghua/smp" style="max-width:100%;border-radius:8px;"></p></p><p>SMP 核心采用多线程并行求解与近似动态规划策略，支持用户自定义动力学模型与代价函数。API 设计参考 <code>scipy.optimize</code> 风格，与机器人操作系统（ROS）可集成。</p>
-<p>仓库目前获得 <strong>75 个 Stars</strong> 和 <strong>6 个 Forks</strong>，社区讨论集中在理论文档与示例教程的完善。相比 <code>casadi</code> 等通用优化库，SMP 更强调控制任务的定制化与实时性。</p>
-<p>适用场景包括轮式/腿式机器人运动规划、多智能体协同控制等。后续计划增加基于 PyTorch 的神经网络近似求解器，提升高维问题处理能力。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/SUZ-tsinghua/smp">SUZ-tsinghua/smp</a></li>
+<li><strong>overseas-drama-guide</strong> 海外影视剧观看指南，聚合流媒体平台资源与更新日历 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Szili1994/create-aeronautics-minecraft-mod">Szili1994/create-aeronautics-minecraft-mod</a> #2</h2>
+<h2><a href="https://github.com/Sophomoresty/gemini-web2api">gemini-web2api</a> #1</h2>
 <blockquote>
-<p><strong>Minecraft 模组 Create 的航空扩展包</strong>，引入飞艇、飞机、直升机等可操控载具，并利用模组自带的机械动力系统实现真实飞行物理。项目提供完整的模块化飞机建造框架。</p>
+<p>一个将 <strong>Google Gemini Web</strong> 聊天界面功能封装成标准 HTTP API 的开源工具，允许开发者绕过 Gemini API 的速率限制和付费墙，直接使用 Gemini Web 端的免费对话能力。目前获得 <strong>225 Stars</strong>，社区关注度持续上升。</p>
 </blockquote>
-<p>该模组依托热门机械工程模组 <strong>Create</strong>，后者已在 Minecraft 社区积累数百万玩家。原版 Create 缺少空中交通手段，此项目填补空白，允许玩家用齿轮、轴承等部件组装飞行器。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Szili1994/create-aeronautics-minecraft-mod" alt="Szili1994/create-aeronautics-minecraft-mod" style="max-width:100%;border-radius:8px;"></p></p><p>技术实现基于 <strong>Minecraft Forge</strong> 与 Create 提供的 API，新增多种航空方块（螺旋桨、方向舵、气球等）。飞行器升力系统模拟空气密度与机械转速，支持多人模式下同步。</p>
-<p>仓库当前 <strong>75 Stars</strong>、<strong>0 Forks</strong>，处于早期开发阶段。作者在 Issues 中透露计划支持自定义机翼材质与载具武器化。</p>
-<p>与同类“飞机模组”不同，该项目不依赖独立物理引擎，完全复用 Create 的动力网络，降低了学习成本。适合喜欢机械建造的玩家探索空中创意。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Sophomoresty/gemini-web2api" alt="gemini-web2api" style="max-width:100%;border-radius:8px;"></p></p><p>项目诞生的背景是 Google 官方 Gemini API 对免费用户有严格的每分钟请求次数限制，且高级功能需订阅 <strong>Gemini Advanced</strong>。开发者 <strong>Sophomoresty</strong> 发现 Gemini Web 端提供几乎无限制的免费对话体验，但缺乏程序化调用接口。</p>
+<p>技术实现上，<strong>gemini-web2api</strong> 模拟浏览器 WebSocket 通信，将用户输入与 Gemini Web 端的会话令牌绑定，对外暴露 RESTful 风格的 <code>/v1/chat/completions</code> 端点，与 OpenAI API 格式高度兼容。这意味着开发者只需替换 <code>base_url</code> 即可将现有应用无缝迁移。</p>
+<p>目前项目已支持多轮对话、流式输出（SSE）以及自定义系统提示词。作者在 README 中强调“仅供学习研究使用”，不建议用于大规模商业部署。其 225 Stars 和 100 Forks 表明不少开发者正在尝试替代官方的商业 API。</p>
+<p>相比同类项目如 <code>googlegemini-api</code> 或 <code>Gemini-Free-API</code>，此方案不依赖 Google 应用脚本或第三方代理，直接与 Web 端握手，稳定性更高。适合个人开发者在原型验证、小型聊天机器人场景下低成本接入 Gemini 模型。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Szili1994/create-aeronautics-minecraft-mod">Szili1994/create-aeronautics-minecraft-mod</a></li>
+<li>项目地址：<a href="https://github.com/Sophomoresty/gemini-web2api">Sophomoresty/gemini-web2api</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/dama-cyber/Distilled-Novel-Toolbox">dama-cyber/Distilled-Novel-Toolbox</a> #3</h2>
+<h2><a href="https://github.com/anthropic-claude-code-ai/free-claude-code-ai-desktop-app">free-claude-code-ai-desktop-app</a> #2</h2>
 <blockquote>
-<p><strong>一个专为长篇小说作者设计的辅助工具箱</strong>，集成故事大纲生成、角色档案管理、写作进度追踪等核心功能。项目采用模块化架构，支持本地离线使用。</p>
+<p>一款基于 <strong>C#</strong> 编写的开源桌面应用程序，旨在为用户提供免费访问 <strong>Claude Code</strong> 能力的入口。作者声称该应用通过逆向工程方式模拟与 Anthropic 服务器的交互，目前获得 <strong>75 Stars</strong>。</p>
 </blockquote>
-<p>许多写作者依赖 Notion、Scrivener 等通用工具，但缺乏针对小说创作流程的定制化方案。<strong>Distilled-Novel-Toolbox</strong> 瞄准这一细分需求，提供开箱即用的结构化创作环境。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/dama-cyber/Distilled-Novel-Toolbox" alt="dama-cyber/Distilled-Novel-Toolbox" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括：三幕式情节自动规划、角色关系图谱、词汇云统计与写作日历。数据以 JSON 格式存储，方便导入其他写作软件。界面采用命令行交互，对熟悉终端的用户友好。</p>
-<p>截至查看时获得 <strong>74 Stars</strong>、<strong>22 Forks</strong>，社区贡献了多种语言角色模板。相比商业化软件，该工具完全开源且无隐私顾虑。</p>
-<p>适用场景：科幻、奇幻等长篇连载创作，尤其适合需要严格大纲控制的作者。未来可能增加 AI 辅助情节建议模块。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/anthropic-claude-code-ai/free-claude-code-ai-desktop-app" alt="free-claude-code-ai-desktop-app" style="max-width:100%;border-radius:8px;"></p></p><p>Anthropic 推出的 <strong>Claude Code</strong> 是一款面向编程场景的 AI 助手，但官方仅提供付费订阅模式。开发者希望通过开源桌面端让更多开发者免费体验 Claude 的代码生成、解释和调试功能。</p>
+<p>该项目使用 <strong>C#</strong> 和 <strong>WPF</strong> 构建，界面模仿 VS Code 的侧边栏布局。核心功能包括：加载本地代码文件、在对话中直接引用代码片段、一键复制生成的代码块。由于依赖逆向工程，用户需要自行提供有效的 Claude 会话 Cookie 才能正常工作。</p>
+<p>目前仓库只有 75 Stars 且 Fork 数为 0，说明项目尚处于早期验证阶段。作者在 Issues 中提醒“API 可能随时失效”，并计划后续加入自动 Cookie 刷新机制。该应用与官方 CLI 的差异在于提供了图形化界面，降低了非技术用户的使用门槛。</p>
+<p>潜在风险在于 Anthropic 可能随时封禁非官方客户端。因此该项目更适合技术爱好者在实验环境中探索，不适合作为生产级工具。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/dama-cyber/Distilled-Novel-Toolbox">dama-cyber/Distilled-Novel-Toolbox</a></li>
+<li>项目地址：<a href="https://github.com/anthropic-claude-code-ai/free-claude-code-ai-desktop-app">anthropic-claude-code-ai/free-claude-code-ai-desktop-app</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/MrGeDiao/paper-reading-zh">MrGeDiao/paper-reading-zh</a> #4</h2>
+<h2><a href="https://github.com/Sophomoresty/bpc-fetch">bpc-fetch</a> #3</h2>
 <blockquote>
-<p><strong>中文论文阅读笔记库</strong>，作者定期分享来自计算机科学、人工智能等领域的经典与前沿论文解读，附全文标注与个人思考。项目旨在降低学术论文阅读门槛。</p>
+<p>一个基于 <strong>JavaScript</strong> 的轻量级浏览器端 HTTP 请求库，核心亮点是通过浏览器扩展机制绕过 <strong>CORS</strong>（跨域资源共享）限制，实现对任意域名的直接请求。仓库当前 <strong>49 Stars</strong>，18 Forks。</p>
 </blockquote>
-<p>学术论文往往语言晦涩、篇幅冗长，初学者耗时巨大却不得要领。<strong>paper-reading-zh</strong> 以中文笔记形式提炼核心贡献、实验设计与改进思路，帮助读者快速抓住重点。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/MrGeDiao/paper-reading-zh" alt="MrGeDiao/paper-reading-zh" style="max-width:100%;border-radius:8px;"></p></p><p>笔记按年份与主题组织，每篇包含论文背景、方法图、关键实验对比以及作者评价。最新更新覆盖 <strong>NeurIPS 2025</strong> 及 <strong>CVPR 2026</strong> 中关于视觉自监督学习的数篇论文。</p>
-<p>仓库目前获 <strong>42 Stars</strong>、<strong>1 Fork</strong>。虽规模尚小，但笔记质量较高，部分解读被国内技术社区转载。相比 Arxiv 默认摘要，该库提供了更细致的上下文。</p>
-<p>适合计算机专业学生、转行 AI 的开发者以及需要快速了解前沿的科研人员。作者承诺保持每月至少 5 篇更新频率。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Sophomoresty/bpc-fetch" alt="bpc-fetch" style="max-width:100%;border-radius:8px;"></p></p><p>前端开发者在调用第三方 API 时常被浏览器的同源策略阻拦。现有方案要么依赖后端代理，要么使用 <code>cors-anywhere</code> 等公共服务，但都存在性能或隐私风险。<strong>bpc-fetch</strong> 选择走浏览器扩展路线，在 <code>background script</code> 中发送请求，从而绕过页面级 CORS 检查。</p>
+<p>技术方案上，项目提供了一个简化的 <code>bpc-fetch</code> 函数，语法与原生 <code>fetch</code> 几乎一致，支持 <code>GET</code>、<code>POST</code> 等常见方法，同时自动处理 Cookie 传递和响应头注入。开发者只需在 Manifest V3 扩展中声明 <code>host_permissions</code> 即可使用。</p>
+<p>该项目与同类型库 <code>chrome-extension-fetch</code> 相比，体积更小（压缩后约 2KB），且内置了请求队列和重试逻辑。测试数据显示在并发 10 个请求时成功率可达 98% 以上。目前作者已提供 Chrome 和 Firefox 两个版本的构建脚本。</p>
+<p>适用场景包括：开发期调试工具、私有代理插件、以及需要跨域访问自建 API 的企业内部应用。由于依赖浏览器扩展，它无法在 Node.js 环境中运行。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/MrGeDiao/paper-reading-zh">MrGeDiao/paper-reading-zh</a></li>
+<li>项目地址：<a href="https://github.com/Sophomoresty/bpc-fetch">Sophomoresty/bpc-fetch</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/developer2013/bricks-mcp-open">developer2013/bricks-mcp-open</a> #5</h2>
+<h2><a href="https://github.com/pennydinh/marketing-pineline-share">marketing-pineline-share</a> #4</h2>
 <blockquote>
-<p><strong>PHP 语言实现的 MCP 服务器开源版</strong>，基于 Model Context Protocol 规范，为 AI 应用提供统一的上下文存储、检索与版本管理能力。项目可与任意支持 MCP 的 LLM 客户端对接。</p>
+<p>一个基于 <strong>TypeScript</strong> 构建的营销管道（Pipeline）可视化共享工具，支持团队成员在线协作编辑营销阶段的卡片，并实时同步状态。仓库目前有 <strong>44 Stars</strong> 和 <strong>37 Forks</strong>。</p>
 </blockquote>
-<p>随着 GPT 等模型在多轮对话中需要长期记忆，MCP 协议作为管理模型上下文的标准日益重要。然而现有实现以 Python/TypeScript 为主，PHP 生态缺失。<strong>bricks-mcp-open</strong> 填补了这一空白。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/developer2013/bricks-mcp-open" alt="developer2013/bricks-mcp-open" style="max-width:100%;border-radius:8px;"></p></p><p>服务器支持 <code>context</code> 资源的 CRUD 操作，可通过 RPC 接口或 WebSocket 调用。内置 SQLite 存储引擎与可选的 Redis 后端。兼容 OpenAI、Claude 等主流 LLM 的 MCP 驱动。</p>
-<p>当前 <strong>32 Stars</strong>、<strong>3 Forks</strong>，文档提供完整 Docker 部署示例。对于同设 PHP 后端的团队，可直接集成到现有 Laravel/Symfony 项目中。</p>
-<p>相比 Python 版 <code>mcp-server</code>，该版本在内存占用上略有优势（约 30MB），适合资源受限的 VPS 环境。未来计划支持分布式上下文同步。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/pennydinh/marketing-pineline-share" alt="marketing-pineline-share" style="max-width:100%;border-radius:8px;"></p></p><p>营销团队在管理多渠道投放、内容发布、线索跟踪时，缺乏一个轻量级的看板工具。现有产品如 <strong>Trello</strong> 或 <strong>Notion</strong> 虽然支持看板，但过度泛化，难以贴合“管道”这一特定工作流。<strong>marketing-pineline-share</strong> 专注于营销管道的端到端可视化。</p>
+<p>核心功能采用 <strong>React + Supabase</strong> 技术栈，提供拖拽排序的卡片面板，每个卡片可包含节点（如“邮件触达→点击→表单填写”），并关联时间线与负责人。项目最大的亮点是“共享”机制：通过一个公开链接，外部成员（如外包商）无需注册即可查看或编辑特定管道。</p>
+<p>该项目已实现泳道视图、截止日期提醒、历史版本回溯等特性。<strong>37 Forks</strong> 反映出社区有一定贡献者，可能正被多个营销团队试用。相比 <strong>Asana</strong> 或 <strong>ClickUp</strong>，它的优势在于零配置启动和面向营销场景的预置模板。</p>
+<p>作者计划后续加入与 <strong>Google Analytics</strong>、<strong>HubSpot</strong> 的数据同步能力，使管道中的每个节点能量化转化率。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/developer2013/bricks-mcp-open">developer2013/bricks-mcp-open</a></li>
+<li>项目地址：<a href="https://github.com/pennydinh/marketing-pineline-share">pennydinh/marketing-pineline-share</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/thekhan1122/khan-skycard">khan-skycard</a> #5</h2>
+<blockquote>
+<p>一款极简名片生成器，用户可以像填写表格一样输入姓名、职位、联系方式，系统自动输出适配网页的 <strong>HTML/CSS</strong> 卡片代码。目前仅 <strong>17 Stars</strong>，但仍具备参考价值。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/thekhan1122/khan-skycard" alt="khan-skycard" style="max-width:100%;border-radius:8px;"></p></p><p>个人网站或社交媒体简介中常需要嵌入可视化的联系方式卡片，但手动编写响应式卡片对非开发者并不友好。<strong>khan-skycard</strong> 希望消除这个摩擦，提供一个所见即所得的编辑器。</p>
+<p>项目采用单页面应用（SPA）架构，前端使用原生 HTML+CSS，后端无依赖。用户修改任意字段时，右侧预览区域实时渲染卡片样式。生成代码可直接复制粘贴到任何 HTML 页面中，附带内联样式，避免外部文件引用。</p>
+<p>当前版本仅支持英文界面和基础字段（姓名、职位、邮箱、电话、个人网站）。作者表示后续会增加深色模式、二维码生成以及多卡片管理功能。虽然 Star 数不高，但对于需要快速制作个人 profile 卡片的场景是一个轻量级工具。</p>
+<p>与国内类似工具（如 <strong>名片生成器</strong>）相比，<strong>khan-skycard</strong> 的优势在于输出的是纯前端代码，无任何平台锁定。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/thekhan1122/khan-skycard">thekhan1122/khan-skycard</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/ivanzhang/overseas-drama-guide">overseas-drama-guide</a> #6</h2>
+<blockquote>
+<p>一份海外影视剧观看指南，聚合 <strong>Netflix</strong>、<strong>HBO Max</strong>、<strong>Disney+</strong> 等平台的上新日历与资源导航。项目采用纯静态网页形式，目前 <strong>15 Stars</strong>。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/ivanzhang/overseas-drama-guide" alt="overseas-drama-guide" style="max-width:100%;border-radius:8px;"></p></p><p>随着流媒体平台碎片化剧增，追剧用户常面临“知道剧名但不知道在哪个平台看”的痛点。<strong>overseas-drama-guide</strong> 尝试以 wiki 式的方式整理每周上新的剧集信息，并标注各平台的独占/同步状态。</p>
+<p>项目仓库中只有一组 <strong>HTML</strong> 和 <strong>JSON</strong> 文件，JSON 数据按日期列出剧名、类型、平台、开播时间等字段。前端使用 <strong>Tailwind CSS</strong> 渲染，支持按平台和类型筛选。作者定期通过 GitHub Action 自动更新数据源。</p>
+<p>目前数据覆盖北美和欧洲主要流媒体平台，亚太地区资源较少。项目依赖人工维护和社区贡献，从仅有 15 Stars 可以看出尚处于早期积累阶段。适合作为流媒体信息聚合的参考原型，也可供开发者学习如何建立自动化内容采集与展示流程。</p>
+<p>相较于 <strong>JustWatch</strong> 等商业化服务，此项目完全开源，用户可以自建镜像或定制筛选规则。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/ivanzhang/overseas-drama-guide">ivanzhang/overseas-drama-guide</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-28/</guid>
-<pubDate>Thu, 28 May 2026 01:49:49 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-29/</guid>
+<pubDate>Fri, 29 May 2026 01:14:01 GMT</pubDate>
 </item>
   </channel>
 </rss>
