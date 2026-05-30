@@ -5,115 +5,109 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 29 May 2026 01:14:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 01:17:50 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-29 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-29/</link>
-<description><![CDATA[2026-05-29 每日精选 — 6 个仓库: Sophomoresty/gemini-web2api, anthropic-claude-code-ai/free-claude-code-ai-desktop-app, Sophomoresty/bpc-fetch, pennydinh/marketing-pineline-share, thekhan1122/khan-skycard, ivanzhang/overseas-drama-guide]]></description>
-<content:encoded><![CDATA[<h1>2026-05-29 GitHub 开源项目精选</h1>
-<h2>概览</h2>
-<h3>AI / 大模型</h3>
+<title><![CDATA[2026-05-30 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-30/</link>
+<description><![CDATA[2026-05-30 每日精选 — 6 个仓库: yuyefeiyu/yt-downloader, fxyz666/LogicPipe, shipfastlabs/parsel, Moh4696/websites-100-audit, wasintoh/line-oa-mcp-ultimate, ivanzhang2/mainland-tv-drama]]></description>
+<content:encoded><![CDATA[<h1>2026-05-30 GitHub 开源项目精选</h1>
+<h3>概览</h3>
+<h4>媒体工具</h4>
 <ul>
-<li><strong>gemini-web2api</strong> 将 Gemini Web 端功能封装成标准 API，开发者可绕过配额限制直接调用 ↗ #1</li>
-<li><strong>free-claude-code-ai-desktop-app</strong> 第三方开源桌面客户端，免费接入 Claude Code 能力 ↗ #2</li>
+<li><strong>yt-downloader</strong> 用 C# 开发的轻量级 YouTube 视频下载工具，一键保存高清内容 ↗ #1</li>
+<li><strong>parsel</strong> PHP 爬虫解析库，像 jQuery 一样从 HTML/XML 中提取数据 ↗ #3</li>
 </ul>
-<h3>开发工具</h3>
+<h4>开发与运维工具</h4>
 <ul>
-<li><strong>bpc-fetch</strong> 轻量级浏览器端请求库，专为绕过 CORS 限制设计 ↗ #3</li>
-</ul>
-<h3>营销与数据工具</h3>
-<ul>
-<li><strong>marketing-pineline-share</strong> 可视化营销管道共享面板，支持团队协作编辑 ↗ #4</li>
-<li><strong>khan-skycard</strong> 极简名片生成工具，输出可直接嵌入网页的卡片组件 ↗ #5</li>
-</ul>
-<h3>生活指南</h3>
-<ul>
-<li><strong>overseas-drama-guide</strong> 海外影视剧观看指南，聚合流媒体平台资源与更新日历 ↗ #6</li>
+<li><strong>LogicPipe</strong> Python 数据流管道编排框架，可视化配置分发逻辑 ↗ #2</li>
+<li><strong>websites-100-audit</strong> Shell 脚本自动化审计 100 个网站的安全与性能指标 ↗ #4</li>
+<li><strong>line-oa-mcp-ultimate</strong> TypeScript 实现的 LINE 官方账号消息控制协议集成工具 ↗ #5</li>
+<li><strong>mainland-tv-drama</strong> 大陆电视剧信息聚合与推荐脚本，辅助追剧选择 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Sophomoresty/gemini-web2api">gemini-web2api</a> #1</h2>
+<h2><a href="https://github.com/yuyefeiyu/yt-downloader">yt-downloader</a> #1</h2>
 <blockquote>
-<p>一个将 <strong>Google Gemini Web</strong> 聊天界面功能封装成标准 HTTP API 的开源工具，允许开发者绕过 Gemini API 的速率限制和付费墙，直接使用 Gemini Web 端的免费对话能力。目前获得 <strong>225 Stars</strong>，社区关注度持续上升。</p>
+<p>一款基于 C# 的 YouTube 视频下载工具，支持高画质与字幕保存，操作简单无需复杂配置。专为需要离线观看视频的用户设计。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Sophomoresty/gemini-web2api" alt="gemini-web2api" style="max-width:100%;border-radius:8px;"></p></p><p>项目诞生的背景是 Google 官方 Gemini API 对免费用户有严格的每分钟请求次数限制，且高级功能需订阅 <strong>Gemini Advanced</strong>。开发者 <strong>Sophomoresty</strong> 发现 Gemini Web 端提供几乎无限制的免费对话体验，但缺乏程序化调用接口。</p>
-<p>技术实现上，<strong>gemini-web2api</strong> 模拟浏览器 WebSocket 通信，将用户输入与 Gemini Web 端的会话令牌绑定，对外暴露 RESTful 风格的 <code>/v1/chat/completions</code> 端点，与 OpenAI API 格式高度兼容。这意味着开发者只需替换 <code>base_url</code> 即可将现有应用无缝迁移。</p>
-<p>目前项目已支持多轮对话、流式输出（SSE）以及自定义系统提示词。作者在 README 中强调“仅供学习研究使用”，不建议用于大规模商业部署。其 225 Stars 和 100 Forks 表明不少开发者正在尝试替代官方的商业 API。</p>
-<p>相比同类项目如 <code>googlegemini-api</code> 或 <code>Gemini-Free-API</code>，此方案不依赖 Google 应用脚本或第三方代理，直接与 Web 端握手，稳定性更高。适合个人开发者在原型验证、小型聊天机器人场景下低成本接入 Gemini 模型。</p>
+<p>许多用户希望将 YouTube 视频保存到本地以便离线播放或编辑，但现有工具常存在依赖多、更新慢、画质被压缩等问题。<strong>yt-downloader</strong> 试图用纯 C# 实现一个轻量级解决方案。</p>
+<p>项目核心依赖 <code>youtube-dl</code> 的 API 封装，提供图形界面和命令行两种模式。用户只需粘贴视频链接，即可选择分辨率（最高 4K）和字幕格式，一键下载。代码结构清晰，便于二次开发。</p>
+<p>上线以来已获得 <strong>109</strong> 个 Star，社区反馈积极。虽然 Forks 为零，但作者仍在维护，近期修复了部分 URL 解析错误。项目体积仅 2MB，适合集成到其他应用中。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/yuyefeiyu/yt-downloader" alt="yt-downloader" style="max-width:100%;border-radius:8px;"></p></p><p>与同类工具相比，<strong>yt-downloader</strong> 的优势在于纯 .NET 生态，Windows 用户无需安装 Python 或 Node.js。适用于视频创作者、教育工作者或普通用户备份内容。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Sophomoresty/gemini-web2api">Sophomoresty/gemini-web2api</a></li>
+<li>项目地址：<a href="https://github.com/yuyefeiyu/yt-downloader">yuyefeiyu/yt-downloader</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/anthropic-claude-code-ai/free-claude-code-ai-desktop-app">free-claude-code-ai-desktop-app</a> #2</h2>
+<h2><a href="https://github.com/fxyz666/LogicPipe">LogicPipe</a> #2</h2>
 <blockquote>
-<p>一款基于 <strong>C#</strong> 编写的开源桌面应用程序，旨在为用户提供免费访问 <strong>Claude Code</strong> 能力的入口。作者声称该应用通过逆向工程方式模拟与 Anthropic 服务器的交互，目前获得 <strong>75 Stars</strong>。</p>
+<p>一个 Python 数据流管道编排框架，通过声明式配置定义复杂的逻辑处理链路。适合 ETL、实时数据处理与微服务编排场景。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/anthropic-claude-code-ai/free-claude-code-ai-desktop-app" alt="free-claude-code-ai-desktop-app" style="max-width:100%;border-radius:8px;"></p></p><p>Anthropic 推出的 <strong>Claude Code</strong> 是一款面向编程场景的 AI 助手，但官方仅提供付费订阅模式。开发者希望通过开源桌面端让更多开发者免费体验 Claude 的代码生成、解释和调试功能。</p>
-<p>该项目使用 <strong>C#</strong> 和 <strong>WPF</strong> 构建，界面模仿 VS Code 的侧边栏布局。核心功能包括：加载本地代码文件、在对话中直接引用代码片段、一键复制生成的代码块。由于依赖逆向工程，用户需要自行提供有效的 Claude 会话 Cookie 才能正常工作。</p>
-<p>目前仓库只有 75 Stars 且 Fork 数为 0，说明项目尚处于早期验证阶段。作者在 Issues 中提醒“API 可能随时失效”，并计划后续加入自动 Cookie 刷新机制。该应用与官方 CLI 的差异在于提供了图形化界面，降低了非技术用户的使用门槛。</p>
-<p>潜在风险在于 Anthropic 可能随时封禁非官方客户端。因此该项目更适合技术爱好者在实验环境中探索，不适合作为生产级工具。</p>
+<p>数据工程中，任务管道常需要组合多个步骤，但传统方案要么依赖重量级框架（如 Airflow），要么缺乏复用性。<strong>LogicPipe</strong> 提供轻量级管道定义，用 YAML 或代码描述节点、连接与转换规则。</p>
+<p>核心功能包括：节点可扩展（支持自定义函数）、并行执行、错误重试与日志追踪。内置常见算子如过滤器、映射器、聚合器。用户可通过装饰器快速注册处理函数。</p>
+<p>目前获得 <strong>72</strong> 个 Star，Forks 23，表明社区有一定参与度。项目文档示例丰富，覆盖文件处理、数据库迁移和 API 聚合三大场景。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/fxyz666/LogicPipe" alt="LogicPipe" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>Prefect</strong> 或 <strong>Luigi</strong> 相比，<strong>LogicPipe</strong> 更偏重“逻辑”而非“流程”，允许在节点内嵌入复杂条件分支。适合中小规模数据流水线，尤其是团队希望快速验证管道设计的场景。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/anthropic-claude-code-ai/free-claude-code-ai-desktop-app">anthropic-claude-code-ai/free-claude-code-ai-desktop-app</a></li>
+<li>项目地址：<a href="https://github.com/fxyz666/LogicPipe">fxyz666/LogicPipe</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Sophomoresty/bpc-fetch">bpc-fetch</a> #3</h2>
+<h2><a href="https://github.com/shipfastlabs/parsel">parsel</a> #3</h2>
 <blockquote>
-<p>一个基于 <strong>JavaScript</strong> 的轻量级浏览器端 HTTP 请求库，核心亮点是通过浏览器扩展机制绕过 <strong>CORS</strong>（跨域资源共享）限制，实现对任意域名的直接请求。仓库当前 <strong>49 Stars</strong>，18 Forks。</p>
+<p>一个 PHP 爬虫解析库，提供类似 jQuery 的 DOM 操作语法，简化 HTML/XML 数据提取过程。面向 PHP 生态中的爬虫工程师。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Sophomoresty/bpc-fetch" alt="bpc-fetch" style="max-width:100%;border-radius:8px;"></p></p><p>前端开发者在调用第三方 API 时常被浏览器的同源策略阻拦。现有方案要么依赖后端代理，要么使用 <code>cors-anywhere</code> 等公共服务，但都存在性能或隐私风险。<strong>bpc-fetch</strong> 选择走浏览器扩展路线，在 <code>background script</code> 中发送请求，从而绕过页面级 CORS 检查。</p>
-<p>技术方案上，项目提供了一个简化的 <code>bpc-fetch</code> 函数，语法与原生 <code>fetch</code> 几乎一致，支持 <code>GET</code>、<code>POST</code> 等常见方法，同时自动处理 Cookie 传递和响应头注入。开发者只需在 Manifest V3 扩展中声明 <code>host_permissions</code> 即可使用。</p>
-<p>该项目与同类型库 <code>chrome-extension-fetch</code> 相比，体积更小（压缩后约 2KB），且内置了请求队列和重试逻辑。测试数据显示在并发 10 个请求时成功率可达 98% 以上。目前作者已提供 Chrome 和 Firefox 两个版本的构建脚本。</p>
-<p>适用场景包括：开发期调试工具、私有代理插件、以及需要跨域访问自建 API 的企业内部应用。由于依赖浏览器扩展，它无法在 Node.js 环境中运行。</p>
+<p>PHP 在爬虫领域的生态相对薄弱，开发者常借助 <code>DOMDocument</code> 或正则表达式手动处理，效率低且容易出错。<strong>parsel</strong> 引入链式选择器语法，支持 CSS 选择器和 XPath 解析，与 Python 的 <strong>Parsel</strong> 库设计理念相近。</p>
+<p>库核心方法包括 <code>css()</code>、<code>xpath()</code>、<code>re()</code>，返回迭代器支持懒加载。内置编码自动检测、HTML 清理和异常处理。文档以快速上手和 API 参考为主，示例涵盖电商页面抓取。</p>
+<p>上线后获 <strong>46</strong> 个 Star，Forks 1。虽然用户基数尚小，但适合 Laravel 项目集成，作者计划未来加入会话管理和缓存支持。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/shipfastlabs/parsel" alt="parsel" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>Simple HTML DOM</strong> 等老牌库相比，<strong>parsel</strong> 更现代、类型安全，且不依赖外部扩展。适用于需要快速搭建 PHP 爬虫的工程师，特别是配合 Guzzle 客户端使用。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Sophomoresty/bpc-fetch">Sophomoresty/bpc-fetch</a></li>
+<li>项目地址：<a href="https://github.com/shipfastlabs/parsel">shipfastlabs/parsel</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/pennydinh/marketing-pineline-share">marketing-pineline-share</a> #4</h2>
+<h2><a href="https://github.com/Moh4696/websites-100-audit">websites-100-audit</a> #4</h2>
 <blockquote>
-<p>一个基于 <strong>TypeScript</strong> 构建的营销管道（Pipeline）可视化共享工具，支持团队成员在线协作编辑营销阶段的卡片，并实时同步状态。仓库目前有 <strong>44 Stars</strong> 和 <strong>37 Forks</strong>。</p>
+<p>一键运行 Shell 脚本，批量审计 100 个网站的可用性、SSL 证书、加载速度与基本安全配置。适合运维人员做常规巡检。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/pennydinh/marketing-pineline-share" alt="marketing-pineline-share" style="max-width:100%;border-radius:8px;"></p></p><p>营销团队在管理多渠道投放、内容发布、线索跟踪时，缺乏一个轻量级的看板工具。现有产品如 <strong>Trello</strong> 或 <strong>Notion</strong> 虽然支持看板，但过度泛化，难以贴合“管道”这一特定工作流。<strong>marketing-pineline-share</strong> 专注于营销管道的端到端可视化。</p>
-<p>核心功能采用 <strong>React + Supabase</strong> 技术栈，提供拖拽排序的卡片面板，每个卡片可包含节点（如“邮件触达→点击→表单填写”），并关联时间线与负责人。项目最大的亮点是“共享”机制：通过一个公开链接，外部成员（如外包商）无需注册即可查看或编辑特定管道。</p>
-<p>该项目已实现泳道视图、截止日期提醒、历史版本回溯等特性。<strong>37 Forks</strong> 反映出社区有一定贡献者，可能正被多个营销团队试用。相比 <strong>Asana</strong> 或 <strong>ClickUp</strong>，它的优势在于零配置启动和面向营销场景的预置模板。</p>
-<p>作者计划后续加入与 <strong>Google Analytics</strong>、<strong>HubSpot</strong> 的数据同步能力，使管道中的每个节点能量化转化率。</p>
+<p>手动检查多站点状态耗时且容易遗漏，<strong>websites-100-audit</strong> 将常见检查项封装为 Bash 脚本，只需提供 URL 列表即可并行测试。输出结果格式化为表格，便于邮件或日志存档。</p>
+<p>脚本使用 <code>curl</code>、<code>openssl</code>、<code>nmap</code> 等系统命令，无额外依赖。检查项包括：HTTP 状态码、响应时间、SSL 过期日期、是否启用 HSTS、CORS 头等。</p>
+<p>获得 <strong>44</strong> 个 Star，Forks 8，说明有一定实用性。作者提供 sample 列表，用户可直接替换为自己的站点。脚本运行时间约 2-5 分钟，适合 cron 定时任务。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Moh4696/websites-100-audit" alt="websites-100-audit" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>Checkmk</strong> 或 <strong>Zabbix</strong> 等完整监控方案相比，<strong>websites-100-audit</strong> 更轻量、临时性强，适合没有监控系统的小团队或作为安全渗透测试的前置步骤。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/pennydinh/marketing-pineline-share">pennydinh/marketing-pineline-share</a></li>
+<li>项目地址：<a href="https://github.com/Moh4696/websites-100-audit">Moh4696/websites-100-audit</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/thekhan1122/khan-skycard">khan-skycard</a> #5</h2>
+<h2><a href="https://github.com/wasintoh/line-oa-mcp-ultimate">line-oa-mcp-ultimate</a> #5</h2>
 <blockquote>
-<p>一款极简名片生成器，用户可以像填写表格一样输入姓名、职位、联系方式，系统自动输出适配网页的 <strong>HTML/CSS</strong> 卡片代码。目前仅 <strong>17 Stars</strong>，但仍具备参考价值。</p>
+<p>TypeScript 实现的 LINE 官方账号消息控制协议（MCP）集成工具，帮助开发者快速搭建消息管理与自动回复服务。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/thekhan1122/khan-skycard" alt="khan-skycard" style="max-width:100%;border-radius:8px;"></p></p><p>个人网站或社交媒体简介中常需要嵌入可视化的联系方式卡片，但手动编写响应式卡片对非开发者并不友好。<strong>khan-skycard</strong> 希望消除这个摩擦，提供一个所见即所得的编辑器。</p>
-<p>项目采用单页面应用（SPA）架构，前端使用原生 HTML+CSS，后端无依赖。用户修改任意字段时，右侧预览区域实时渲染卡片样式。生成代码可直接复制粘贴到任何 HTML 页面中，附带内联样式，避免外部文件引用。</p>
-<p>当前版本仅支持英文界面和基础字段（姓名、职位、邮箱、电话、个人网站）。作者表示后续会增加深色模式、二维码生成以及多卡片管理功能。虽然 Star 数不高，但对于需要快速制作个人 profile 卡片的场景是一个轻量级工具。</p>
-<p>与国内类似工具（如 <strong>名片生成器</strong>）相比，<strong>khan-skycard</strong> 的优势在于输出的是纯前端代码，无任何平台锁定。</p>
+<p>LINE OA 官方 API 允许发送消息、管理粉丝，但协议细节复杂，文档更新慢。<strong>line-oa-mcp-ultimate</strong> 封装了 MCP 签名认证、回调验签、富媒体消息构造等核心环节，提供类型安全接口。</p>
+<p>功能包括：群发消息、模板消息推送、用户画像获取、Webhook 事件处理。配置文件支持多账号管理，内置简单的 Rate Limiter 避免触发封禁。</p>
+<p>获得 <strong>27</strong> 个 Star，Forks 11，说明有一定社区二次开发价值。示例代码包含 Node.js 与 Deno 双版本，兼容性较好。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/wasintoh/line-oa-mcp-ultimate" alt="line-oa-mcp-ultimate" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>LINE Bot SDK</strong> 官方包相比，<strong>line-oa-mcp-ultimate</strong> 更聚焦于“管理”而非“对话”，适合企业运营后台开发。但需注意 LINE 的 MCP 协议逐步被 Messaging API 取代，使用者需关注官方迁移路线。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/thekhan1122/khan-skycard">thekhan1122/khan-skycard</a></li>
+<li>项目地址：<a href="https://github.com/wasintoh/line-oa-mcp-ultimate">wasintoh/line-oa-mcp-ultimate</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/ivanzhang/overseas-drama-guide">overseas-drama-guide</a> #6</h2>
+<h2><a href="https://github.com/ivanzhang2/mainland-tv-drama">mainland-tv-drama</a> #6</h2>
 <blockquote>
-<p>一份海外影视剧观看指南，聚合 <strong>Netflix</strong>、<strong>HBO Max</strong>、<strong>Disney+</strong> 等平台的上新日历与资源导航。项目采用纯静态网页形式，目前 <strong>15 Stars</strong>。</p>
+<p>一个命令行脚本，聚合豆瓣等平台的大陆电视剧评分、热度与观看渠道，辅助用户快速筛选值得追的剧集。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/ivanzhang/overseas-drama-guide" alt="overseas-drama-guide" style="max-width:100%;border-radius:8px;"></p></p><p>随着流媒体平台碎片化剧增，追剧用户常面临“知道剧名但不知道在哪个平台看”的痛点。<strong>overseas-drama-guide</strong> 尝试以 wiki 式的方式整理每周上新的剧集信息，并标注各平台的独占/同步状态。</p>
-<p>项目仓库中只有一组 <strong>HTML</strong> 和 <strong>JSON</strong> 文件，JSON 数据按日期列出剧名、类型、平台、开播时间等字段。前端使用 <strong>Tailwind CSS</strong> 渲染，支持按平台和类型筛选。作者定期通过 GitHub Action 自动更新数据源。</p>
-<p>目前数据覆盖北美和欧洲主要流媒体平台，亚太地区资源较少。项目依赖人工维护和社区贡献，从仅有 15 Stars 可以看出尚处于早期积累阶段。适合作为流媒体信息聚合的参考原型，也可供开发者学习如何建立自动化内容采集与展示流程。</p>
-<p>相较于 <strong>JustWatch</strong> 等商业化服务，此项目完全开源，用户可以自建镜像或定制筛选规则。</p>
+<p>面对大量新剧，观众常陷入选择困难。<strong>mainland-tv-drama</strong> 通过爬取多个源，输出近期最热剧集清单，包含评分、类型、更新状态及播放平台（如腾讯、爱奇艺、优酷）。</p>
+<p>核心功能是定期更新榜单，支持按年份、评分过滤，输出 Markdown 或 CSV 格式。目前脚本为 Python 编写，依赖 requests 和 BeautifulSoup。</p>
+<p>获得 <strong>15</strong> 个 Star，暂无 Forks，属于小型兴趣项目。作者在 README 中声明仅供学习交流，不提供盗版链接。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ivanzhang2/mainland-tv-drama" alt="mainland-tv-drama" style="max-width:100%;border-radius:8px;"></p></p><p>与商业追剧 App 相比，<strong>mainland-tv-drama</strong> 透明可控，用户可自定义数据源。适合技术爱好者自建追剧提醒，但数据源变化时需手动维护选择器。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/ivanzhang/overseas-drama-guide">ivanzhang/overseas-drama-guide</a></li>
+<li>项目地址：<a href="https://github.com/ivanzhang2/mainland-tv-drama">ivanzhang2/mainland-tv-drama</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-29/</guid>
-<pubDate>Fri, 29 May 2026 01:14:01 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-30/</guid>
+<pubDate>Sat, 30 May 2026 01:17:50 GMT</pubDate>
 </item>
   </channel>
 </rss>
