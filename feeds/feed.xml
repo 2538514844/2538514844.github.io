@@ -5,109 +5,115 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 30 May 2026 01:17:50 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2026 01:46:17 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-05-30 每日精选]]></title>
-<link>https://2538514844.github.io/2026-05-30/</link>
-<description><![CDATA[2026-05-30 每日精选 — 6 个仓库: yuyefeiyu/yt-downloader, fxyz666/LogicPipe, shipfastlabs/parsel, Moh4696/websites-100-audit, wasintoh/line-oa-mcp-ultimate, ivanzhang2/mainland-tv-drama]]></description>
-<content:encoded><![CDATA[<h1>2026-05-30 GitHub 开源项目精选</h1>
-<h3>概览</h3>
-<h4>媒体工具</h4>
+<title><![CDATA[2026-05-31 每日精选]]></title>
+<link>https://2538514844.github.io/2026-05-31/</link>
+<description><![CDATA[2026-05-31 每日精选 — 6 个仓库: TaiwanBoss/DualSenseX-Steam-PC-Controller, liyue-aigc/female-portrait-director, xiaojianbang8888/xiaojianbang-stealth-hook, youssef-of-web/awesome-hidden-gems, wwe-dog/ppt-image2-editable-rebuild, xszwow/Chrome2api]]></description>
+<content:encoded><![CDATA[<h1>2026-05-31 GitHub 开源项目精选</h1>
+<h2>概览</h2>
+<h3>游戏外设与工具</h3>
 <ul>
-<li><strong>yt-downloader</strong> 用 C# 开发的轻量级 YouTube 视频下载工具，一键保存高清内容 ↗ #1</li>
-<li><strong>parsel</strong> PHP 爬虫解析库，像 jQuery 一样从 HTML/XML 中提取数据 ↗ #3</li>
+<li><strong>DualSenseX-Steam-PC-Controller</strong> 为 DualSense 手柄在 Steam 上提供原生级支持 ↗ #1</li>
 </ul>
-<h4>开发与运维工具</h4>
+<h3>AI 与图像生成</h3>
 <ul>
-<li><strong>LogicPipe</strong> Python 数据流管道编排框架，可视化配置分发逻辑 ↗ #2</li>
-<li><strong>websites-100-audit</strong> Shell 脚本自动化审计 100 个网站的安全与性能指标 ↗ #4</li>
-<li><strong>line-oa-mcp-ultimate</strong> TypeScript 实现的 LINE 官方账号消息控制协议集成工具 ↗ #5</li>
-<li><strong>mainland-tv-drama</strong> 大陆电视剧信息聚合与推荐脚本，辅助追剧选择 ↗ #6</li>
+<li><strong>female-portrait-director</strong> 开源女性肖像生成工具，可精细控制面部特征与风格 ↗ #2</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/yuyefeiyu/yt-downloader">yt-downloader</a> #1</h2>
-<blockquote>
-<p>一款基于 C# 的 YouTube 视频下载工具，支持高画质与字幕保存，操作简单无需复杂配置。专为需要离线观看视频的用户设计。</p>
-</blockquote>
-<p>许多用户希望将 YouTube 视频保存到本地以便离线播放或编辑，但现有工具常存在依赖多、更新慢、画质被压缩等问题。<strong>yt-downloader</strong> 试图用纯 C# 实现一个轻量级解决方案。</p>
-<p>项目核心依赖 <code>youtube-dl</code> 的 API 封装，提供图形界面和命令行两种模式。用户只需粘贴视频链接，即可选择分辨率（最高 4K）和字幕格式，一键下载。代码结构清晰，便于二次开发。</p>
-<p>上线以来已获得 <strong>109</strong> 个 Star，社区反馈积极。虽然 Forks 为零，但作者仍在维护，近期修复了部分 URL 解析错误。项目体积仅 2MB，适合集成到其他应用中。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/yuyefeiyu/yt-downloader" alt="yt-downloader" style="max-width:100%;border-radius:8px;"></p></p><p>与同类工具相比，<strong>yt-downloader</strong> 的优势在于纯 .NET 生态，Windows 用户无需安装 Python 或 Node.js。适用于视频创作者、教育工作者或普通用户备份内容。</p>
-<p>相关链接：</p>
+<h3>安全与逆向工程</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/yuyefeiyu/yt-downloader">yuyefeiyu/yt-downloader</a></li>
+<li><strong>xiaojianbang-stealth-hook</strong> 轻量级代码钩子库，支持高隐蔽性挂钩技术 ↗ #3</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/fxyz666/LogicPipe">LogicPipe</a> #2</h2>
-<blockquote>
-<p>一个 Python 数据流管道编排框架，通过声明式配置定义复杂的逻辑处理链路。适合 ETL、实时数据处理与微服务编排场景。</p>
-</blockquote>
-<p>数据工程中，任务管道常需要组合多个步骤，但传统方案要么依赖重量级框架（如 Airflow），要么缺乏复用性。<strong>LogicPipe</strong> 提供轻量级管道定义，用 YAML 或代码描述节点、连接与转换规则。</p>
-<p>核心功能包括：节点可扩展（支持自定义函数）、并行执行、错误重试与日志追踪。内置常见算子如过滤器、映射器、聚合器。用户可通过装饰器快速注册处理函数。</p>
-<p>目前获得 <strong>72</strong> 个 Star，Forks 23，表明社区有一定参与度。项目文档示例丰富，覆盖文件处理、数据库迁移和 API 聚合三大场景。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/fxyz666/LogicPipe" alt="LogicPipe" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>Prefect</strong> 或 <strong>Luigi</strong> 相比，<strong>LogicPipe</strong> 更偏重“逻辑”而非“流程”，允许在节点内嵌入复杂条件分支。适合中小规模数据流水线，尤其是团队希望快速验证管道设计的场景。</p>
-<p>相关链接：</p>
+<h3>开发资源与效率</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/fxyz666/LogicPipe">fxyz666/LogicPipe</a></li>
+<li><strong>awesome-hidden-gems</strong> 精选 GitHub 上被低估的优秀开源项目合集 ↗ #4</li>
+</ul>
+<h3>办公与生产力</h3>
+<ul>
+<li><strong>ppt-image2-editable-rebuild</strong> 将 PPT 中的图片还原为可编辑的原始组件 ↗ #5</li>
+</ul>
+<h3>浏览器工具</h3>
+<ul>
+<li><strong>Chrome2api</strong> 将 Chrome 浏览器功能封装为 HTTP API，便于自动化控制 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/shipfastlabs/parsel">parsel</a> #3</h2>
+<h2><a href="https://github.com/TaiwanBoss/DualSenseX-Steam-PC-Controller">DualSenseX-Steam-PC-Controller</a> #1</h2>
 <blockquote>
-<p>一个 PHP 爬虫解析库，提供类似 jQuery 的 DOM 操作语法，简化 HTML/XML 数据提取过程。面向 PHP 生态中的爬虫工程师。</p>
+<p>一款让 PlayStation DualSense 手柄在 Steam 平台获得完整功能支持的工具。它通过自定义驱动层，实现了自适应扳机、触控板、陀螺仪等特性的原生映射。</p>
 </blockquote>
-<p>PHP 在爬虫领域的生态相对薄弱，开发者常借助 <code>DOMDocument</code> 或正则表达式手动处理，效率低且容易出错。<strong>parsel</strong> 引入链式选择器语法，支持 CSS 选择器和 XPath 解析，与 Python 的 <strong>Parsel</strong> 库设计理念相近。</p>
-<p>库核心方法包括 <code>css()</code>、<code>xpath()</code>、<code>re()</code>，返回迭代器支持懒加载。内置编码自动检测、HTML 清理和异常处理。文档以快速上手和 API 参考为主，示例涵盖电商页面抓取。</p>
-<p>上线后获 <strong>46</strong> 个 Star，Forks 1。虽然用户基数尚小，但适合 Laravel 项目集成，作者计划未来加入会话管理和缓存支持。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/shipfastlabs/parsel" alt="parsel" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>Simple HTML DOM</strong> 等老牌库相比，<strong>parsel</strong> 更现代、类型安全，且不依赖外部扩展。适用于需要快速搭建 PHP 爬虫的工程师，特别是配合 Guzzle 客户端使用。</p>
-<p>相关链接：</p>
+<p>许多 PC 玩家在 Steam 上使用 DualSense 手柄时，只能获得基础的按键识别，而索尼官方未提供完善的驱动支持。<strong>DualSenseX</strong> 正是为了解决这一痛点而生。它采用 <strong>C#</strong> 编写，通过底层钩子技术将手柄的专属协议转换为 Steam 可识别的标准输入。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/TaiwanBoss/DualSenseX-Steam-PC-Controller" alt="DualSenseX-Steam-PC-Controller" style="max-width:100%;border-radius:8px;"></p></p><p>项目目前收获 <strong>99 Stars</strong>，社区反馈积极。开发者提供了详细的安装配置指南，支持最新版 Steam 客户端。与同类工具 <code>DS4Windows</code> 相比，它的核心优势在于直接针对 Steam 平台优化，无需额外映射步骤。</p>
+<p>未来计划包括增加蓝牙连接模式下的延迟优化，以及支持更多第三方游戏对自适应扳机的调用。适合追求 DualSense 完整体验的 Steam 玩家。</p>
+<p><strong>相关链接：</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/shipfastlabs/parsel">shipfastlabs/parsel</a></li>
+<li>项目地址：<a href="https://github.com/TaiwanBoss/DualSenseX-Steam-PC-Controller">TaiwanBoss/DualSenseX-Steam-PC-Controller</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Moh4696/websites-100-audit">websites-100-audit</a> #4</h2>
+<h2><a href="https://github.com/liyue-aigc/female-portrait-director">female-portrait-director</a> #2</h2>
 <blockquote>
-<p>一键运行 Shell 脚本，批量审计 100 个网站的可用性、SSL 证书、加载速度与基本安全配置。适合运维人员做常规巡检。</p>
+<p>一个基于扩散模型的开源女性肖像生成工具，支持对五官、妆容、发型等进行细粒度控制。用户可通过文本提示与区域遮罩混合操作，生成高度定制化的人像。</p>
 </blockquote>
-<p>手动检查多站点状态耗时且容易遗漏，<strong>websites-100-audit</strong> 将常见检查项封装为 Bash 脚本，只需提供 URL 列表即可并行测试。输出结果格式化为表格，便于邮件或日志存档。</p>
-<p>脚本使用 <code>curl</code>、<code>openssl</code>、<code>nmap</code> 等系统命令，无额外依赖。检查项包括：HTTP 状态码、响应时间、SSL 过期日期、是否启用 HSTS、CORS 头等。</p>
-<p>获得 <strong>44</strong> 个 Star，Forks 8，说明有一定实用性。作者提供 sample 列表，用户可直接替换为自己的站点。脚本运行时间约 2-5 分钟，适合 cron 定时任务。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Moh4696/websites-100-audit" alt="websites-100-audit" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>Checkmk</strong> 或 <strong>Zabbix</strong> 等完整监控方案相比，<strong>websites-100-audit</strong> 更轻量、临时性强，适合没有监控系统的小团队或作为安全渗透测试的前置步骤。</p>
-<p>相关链接：</p>
+<p>随着 AI 图像生成技术普及，生成特定风格或特征的女性肖像需求激增。<strong>female-portrait-director</strong> 针对这一场景，提供了比通用模型更可控的解决方案。它基于 <strong>Stable Diffusion</strong> 进行微调，并集成了一套区域注意力引导模块。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/liyue-aigc/female-portrait-director" alt="female-portrait-director" style="max-width:100%;border-radius:8px;"></p></p><p>开发者开源了预训练权重与完整推理代码，目前获得 <strong>83 Stars</strong> 和 <strong>21 Forks</strong>。项目在样本生成效果上实现了对眼型、唇色、发型等 12 个维度的独立调节，精度优于同类工具如 <code>FaceControlNet</code>。</p>
+<p>使用场景包括虚拟角色设计、时尚穿搭模拟、AI 模特生成。未来还将支持人物表情序列生成，以及与其他动画管线对接。</p>
+<p><strong>相关链接：</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/Moh4696/websites-100-audit">Moh4696/websites-100-audit</a></li>
+<li>项目地址：<a href="https://github.com/liyue-aigc/female-portrait-director">liyue-aigc/female-portrait-director</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/wasintoh/line-oa-mcp-ultimate">line-oa-mcp-ultimate</a> #5</h2>
+<h2><a href="https://github.com/xiaojianbang8888/xiaojianbang-stealth-hook">xiaojianbang-stealth-hook</a> #3</h2>
 <blockquote>
-<p>TypeScript 实现的 LINE 官方账号消息控制协议（MCP）集成工具，帮助开发者快速搭建消息管理与自动回复服务。</p>
+<p>一个轻量级的 C 语言钩子库，专注于代码执行路径的隐蔽拦截。它采用直接内存补丁与异常处理混合技术，能在不触发常见反调试检测的前提下实现函数挂钩。</p>
 </blockquote>
-<p>LINE OA 官方 API 允许发送消息、管理粉丝，但协议细节复杂，文档更新慢。<strong>line-oa-mcp-ultimate</strong> 封装了 MCP 签名认证、回调验签、富媒体消息构造等核心环节，提供类型安全接口。</p>
-<p>功能包括：群发消息、模板消息推送、用户画像获取、Webhook 事件处理。配置文件支持多账号管理，内置简单的 Rate Limiter 避免触发封禁。</p>
-<p>获得 <strong>27</strong> 个 Star，Forks 11，说明有一定社区二次开发价值。示例代码包含 Node.js 与 Deno 双版本，兼容性较好。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/wasintoh/line-oa-mcp-ultimate" alt="line-oa-mcp-ultimate" style="max-width:100%;border-radius:8px;"></p></p><p>与 <strong>LINE Bot SDK</strong> 官方包相比，<strong>line-oa-mcp-ultimate</strong> 更聚焦于“管理”而非“对话”，适合企业运营后台开发。但需注意 LINE 的 MCP 协议逐步被 Messaging API 取代，使用者需关注官方迁移路线。</p>
-<p>相关链接：</p>
+<p>在安全研究与恶意软件分析中，代码钩子是常用技术，但传统内联钩子容易被 XFG、CFG 等保护机制识别。<strong>xiaojianbang-stealth-hook</strong> 通过分步写入与 CPU 缓存刷新时机控制，降低了被检测的风险。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xiaojianbang8888/xiaojianbang-stealth-hook" alt="xiaojianbang-stealth-hook" style="max-width:100%;border-radius:8px;"></p></p><p>项目使用纯 <strong>C</strong> 编写，平台无关性较强，目前获得 <strong>48 Stars</strong> 和 <strong>41 Forks</strong>，社区活跃度较高。它支持 x86/x64 架构，并提供了 API 级别、函数级别、指令级别的三种钩子模式。</p>
+<p>适用于游戏反外挂绕过研究、内核级监控工具的辅助开发。与 <code>Detours</code> 相比，它在隐蔽性上有显著提升，但易用性稍逊，需自行处理符号解析。</p>
+<p><strong>相关链接：</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/wasintoh/line-oa-mcp-ultimate">wasintoh/line-oa-mcp-ultimate</a></li>
+<li>项目地址：<a href="https://github.com/xiaojianbang8888/xiaojianbang-stealth-hook">xiaojianbang8888/xiaojianbang-stealth-hook</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/ivanzhang2/mainland-tv-drama">mainland-tv-drama</a> #6</h2>
+<h2><a href="https://github.com/youssef-of-web/awesome-hidden-gems">awesome-hidden-gems</a> #4</h2>
 <blockquote>
-<p>一个命令行脚本，聚合豆瓣等平台的大陆电视剧评分、热度与观看渠道，辅助用户快速筛选值得追的剧集。</p>
+<p>一个精心整理的 GitHub 优质项目合集，聚焦那些 Stars 不多但潜力巨大的“遗珠”。覆盖工具、库、框架等类别，每个条目附带简短评价与使用场景。</p>
 </blockquote>
-<p>面对大量新剧，观众常陷入选择困难。<strong>mainland-tv-drama</strong> 通过爬取多个源，输出近期最热剧集清单，包含评分、类型、更新状态及播放平台（如腾讯、爱奇艺、优酷）。</p>
-<p>核心功能是定期更新榜单，支持按年份、评分过滤，输出 Markdown 或 CSV 格式。目前脚本为 Python 编写，依赖 requests 和 BeautifulSoup。</p>
-<p>获得 <strong>15</strong> 个 Star，暂无 Forks，属于小型兴趣项目。作者在 README 中声明仅供学习交流，不提供盗版链接。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/ivanzhang2/mainland-tv-drama" alt="mainland-tv-drama" style="max-width:100%;border-radius:8px;"></p></p><p>与商业追剧 App 相比，<strong>mainland-tv-drama</strong> 透明可控，用户可自定义数据源。适合技术爱好者自建追剧提醒，但数据源变化时需手动维护选择器。</p>
-<p>相关链接：</p>
+<p>GitHub 上每天涌现大量开源项目，优秀作品常因缺少曝光而被淹没。<strong>awesome-hidden-gems</strong> 由社区志愿者筛选，要求项目 Stars 低于 1000 但功能独特、代码质量高，目前收录超过 120 个项目。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/youssef-of-web/awesome-hidden-gems" alt="awesome-hidden-gems" style="max-width:100%;border-radius:8px;"></p></p><p>项目本身是一个 Markdown 列表，获得 <strong>42 Stars</strong> 和 <strong>3 Forks</strong>。与 <code>awesome</code> 系列的其他列表不同，它的特色在于每项都包含一段来自实际使用者的体验描述，而非单纯罗列链接。</p>
+<p>推荐阅读人群：习惯探索冷门工具的开发者、寻找特定场景解决方案的技术人员。更新频率约每月一次，通过 PR 提交新项目。</p>
+<p><strong>相关链接：</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/ivanzhang2/mainland-tv-drama">ivanzhang2/mainland-tv-drama</a></li>
+<li>项目地址：<a href="https://github.com/youssef-of-web/awesome-hidden-gems">youssef-of-web/awesome-hidden-gems</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/wwe-dog/ppt-image2-editable-rebuild">ppt-image2-editable-rebuild</a> #5</h2>
+<blockquote>
+<p>一个 Python 工具，能够从 PPT 文件中提取图片并还原为可编辑的原始形状、文字与图表。它利用 <code>python-pptx</code> 库解析 OOXML 格式，通过逆向工程恢复被合并为静态图片的图层结构。</p>
+</blockquote>
+<p>许多 PPT 文档在保存或导出时，会将组合形状、公式或矢量图渲染为位图，导致后续无法编辑。<strong>ppt-image2-editable-rebuild</strong> 针对这一问题，尝试从图片元数据中提取原始对象信息，并用近似形状替换。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/wwe-dog/ppt-image2-editable-rebuild" alt="ppt-image2-editable-rebuild" style="max-width:100%;border-radius:8px;"></p></p><p>项目采用 <strong>Python</strong> 实现，依赖 <code>Pillow</code> 和 <code>opencv-python</code> 进行图像分割，目前获得 <strong>42 Stars</strong> 和 <strong>3 Forks</strong>。它支持 <code>.pptx</code> 格式，可批量处理。实测对柱状图、流程图还原率约 70%，文字区域可转为文本框。</p>
+<p>适用于需要重新排版历史演示文档的用户，尤其是企业培训和学术汇报场景。未来计划支持表格与 SmartArt 的还原。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/wwe-dog/ppt-image2-editable-rebuild">wwe-dog/ppt-image2-editable-rebuild</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/xszwow/Chrome2api">Chrome2api</a> #6</h2>
+<blockquote>
+<p>一个 C++ 工具，将 Chrome 浏览器的页面操作、Cookie 管理、网络请求拦截等功能封装为 RESTful API。通过它，外部程序可以像调用接口一样控制浏览器行为。</p>
+</blockquote>
+<p>在自动化测试、数据采集或云渲染场景中，常需要以编程方式控制无头浏览器。但 Puppeteer 或 Selenium 依赖 Node.js 或 Java，集成成本较高。<strong>Chrome2api</strong> 基于 Chrome DevTools Protocol 封装，提供了轻量的 HTTP 接口。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xszwow/Chrome2api" alt="Chrome2api" style="max-width:100%;border-radius:8px;"></p></p><p>项目使用 <strong>C++</strong> 实现，性能优于 Python 版本的类似工具，目前获得 <strong>14 Stars</strong> 和 <strong>6 Forks</strong>。它支持打开标签页、执行 JavaScript、截图、修改请求头等常用操作，响应延迟控制在 50ms 以内。</p>
+<p>对小型团队或个人开发者而言，无需安装庞大的 Node.js 生态即可快速集成浏览器自动化。与 <code>chromium-net</code> 相比，它更侧重于高层 API 的友好性，但功能覆盖度尚有限。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/xszwow/Chrome2api">xszwow/Chrome2api</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-05-30/</guid>
-<pubDate>Sat, 30 May 2026 01:17:50 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-05-31/</guid>
+<pubDate>Sun, 31 May 2026 01:46:17 GMT</pubDate>
 </item>
   </channel>
 </rss>
