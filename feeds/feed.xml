@@ -5,87 +5,93 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 01 Jun 2026 02:11:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jun 2026 01:31:27 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-01 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-01/</link>
-<description><![CDATA[2026-06-01 每日精选 — 4 个仓库: pewdiepie-archdaemon/odysseus, antigravity-cli-google/antigravity-cli, elfriedarosner02320114921/Easy-Anime-Downloader-2026, lilliancrivaro27064501728/AI-Photo-Background-Remover]]></description>
-<content:encoded><![CDATA[<h1>2026-06-01 GitHub 开源项目精选</h1>
-<h3>开发工具</h3>
+<title><![CDATA[2026-06-02 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-02/</link>
+<description><![CDATA[2026-06-02 每日精选 — 5 个仓库: build-poe2/PathOfBuilding-PoE2, PackAshReside79/TG-WS-Proxy-v1.7.1, clash-windows-download/Clash-for-Windows, kigumotvc/cslol-manager, Pondot/liquidDX11]]></description>
+<content:encoded><![CDATA[<h1>2026-06-02 GitHub 开源项目精选</h1>
+<h2>概览</h2>
+<h3>游戏工具</h3>
 <ul>
-<li><strong>odysseus</strong> 一款引发社区广泛关注的 JavaScript 项目，暂未公开详细用途，但已收获 7700+ Stars ↗ #1</li>
-<li><strong>antigravity-cli</strong> 基于 TypeScript 的反重力主题 CLI 小工具，带有趣味演示效果 ↗ #2</li>
+<li><strong>PathOfBuilding-PoE2</strong> 流放之路2官方Build规划器重新开源，社区贡献者接手活跃维护 ↗ #1  </li>
+<li><strong>cslol-manager</strong> 英雄联盟模组管理神器，支持一键换肤与插件加载 ↗ #4</li>
 </ul>
-<h3>效率工具</h3>
+<h3>网络工具</h3>
 <ul>
-<li><strong>Easy-Anime-Downloader-2026</strong> C++ 编写的简易动漫批量下载器，适合追番用户 ↗ #3</li>
+<li><strong>TG-WS-Proxy v1.7.1</strong> 基于WebSocket的Telegram代理工具，轻量易部署 ↗ #2  </li>
+<li><strong>Clash-for-Windows</strong> 经典代理客户端第三方存档仓库，持续提供稳定版本 ↗ #3</li>
 </ul>
-<h3>AI/大模型</h3>
+<h3>图形/渲染</h3>
 <ul>
-<li><strong>AI-Photo-Background-Remover</strong> 基于 Python 的图像背景移除工具，采用深度学习模型实现一键去背 ↗ #4</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/pewdiepie-archdaemon/odysseus">odysseus</a> #1</h2>
-<blockquote>
-<p>一个名为 <code>odysseus</code> 的 <strong>JavaScript</strong> 仓库，由知名 YouTuber <strong>PewDiePie</strong> 的社区组织 <code>pewdiepie-archdaemon</code> 维护，上线后迅速获得 7715 Stars 和 1093 Forks，成为当日最受关注的开源项目之一，但具体功能包尚未正式披露。🏆</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/pewdiepie-archdaemon/odysseus" alt="odysseus" style="max-width:100%;border-radius:8px;"></p></p><p>该项目的背景直接关联到 <strong>PewDiePie</strong> 的庞大粉丝社群。<code>pewdiepie-archdaemon</code> 组织此前曾发布过多个与游戏模组、桌面工具相关的仓库，而 <code>odysseus</code> 的高 Stars 数更多来自粉丝的集体关注，而非软件本身的功能说明。</p>
-<p>从仓库结构看，<code>odysseus</code> 使用 <strong>JavaScript</strong> 编写，代码量不大，似乎是一个轻量级工具或小游戏的雏形。Issues 区用户提问多集中在“这到底是什么”，维护者尚未给出明确答案，这种神秘感反而推高了热度。</p>
-<p>社区数据层面，7715 Stars 对一款无 README 说明的项目来说极为罕见，说明粉丝群体的传播效应远超常规开源项目。Forks 达 1093，可能主要用于探索代码或二次开发。</p>
-<p>与同类未明确用途的仓库相比，<code>odysseus</code> 的定位更偏向“社交实验”——利用社区影响力快速验证一个未成型想法。若后续公开详细文档，可能会转向实用方向，如自动脚本或系统工具。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/pewdiepie-archdaemon/odysseus">pewdiepie-archdaemon/odysseus</a></li>
-<li>暂无相关讨论链接</li>
+<li><strong>liquidDX11</strong> 基于DirectX11的流体仿真渲染库，适合游戏与可视化场景 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/antigravity-cli-google/antigravity-cli">antigravity-cli</a> #2</h2>
+<h2><a href="https://github.com/build-poe2/PathOfBuilding-PoE2">PathOfBuilding-PoE2</a> #1</h2>
 <blockquote>
-<p><code>antigravity-cli</code> 是一个用 <strong>TypeScript</strong> 编写的命令行界面工具，名字中的“反重力”暗示其具有悬浮或翻转等视觉特效，项目 Stars 98，Forks 0，处于早期演示阶段。</p>
+<p><strong>PathOfBuilding-PoE2</strong> 是《流放之路2》（PoE2）的装备与技能 Build 规划工具，由社区从零复刻并用 Lua 重写。该项目填补了官方首版未提供离线规划的空白，上线即获 189 Stars，成为玩家必备工具。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/antigravity-cli-google/antigravity-cli" alt="antigravity-cli" style="max-width:100%;border-radius:8px;"></p></p><p>该项目由 <code>antigravity-cli-google</code> 组织发布，名称与 Google 无关，可能只是开发者使用的昵称。背景灵感可能来自经典 <code>nyancat</code>、<code>cmatrix</code> 等趣味 CLI 程序，目的是在终端中展示非重力效果的动画。</p>
-<p>核心功能是通过 <strong>TypeScript</strong> 调用终端绘图库，实现字符的“飘浮”、“旋转”或“反弹”效果。用户安装后运行 <code>antigravity</code> 命令即可看到类似 2D 物理模拟的字符动画，适合在终端演示或作为屏保。</p>
-<p>目前 Stars 98，尚未出现 Forks，说明项目处于极早期，代码量不大。如果后续加入配置项（如粒子数量、颜色），有望吸引更多喜欢终端炫技的开发者使用。</p>
-<p>与 <strong>cmatrix</strong>（模拟黑客帝国）或 <strong>pipes.sh</strong>（管道屏幕保护）相比，<code>antigravity-cli</code> 聚焦于“反重力”单一特性，更简单直接。适合在演示、直播或无聊时娱乐。</p>
+<p><strong>PathOfBuilding</strong> 本是 <strong>PoE</strong> 社区的标志性工具，但官方 PoE2 测试期间并未同步更新。<strong>build-poe2</strong> 组织接手后，基于游戏最新数据重建了技能树、装备词缀和伤害计算模块。项目完全使用 Lua 编写，与原始 PoE 版本保持相似架构。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/build-poe2/PathOfBuilding-PoE2" alt="PathOfBuilding-PoE2" style="max-width:100%;border-radius:8px;"></p></p><p>据项目主页显示，当前已实现所有 Ascendancy 职业的被动树模拟，支持导入 <code>poe2</code> 格式的配置字符串。尽管仅开源数日，Stars 已达 189，反映 PoE2 玩家对离线规划工具的迫切需求。Fork 数为 0，说明社区仍在集中贡献主分支。</p>
+<p>与同类模拟器（如 <strong>PoB Community</strong>）不同，该项目完全面向 PoE2 的数值系统，包括新引入的<strong>符文</strong>和<strong>技能宝石</strong>机制。未来计划加入多语言支持和实时 DPS 计算。对于深入钻研 Build 的玩家而言，这几乎是冲榜前的必修课。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/antigravity-cli-google/antigravity-cli">antigravity-cli-google/antigravity-cli</a></li>
-<li>暂无相关文章链接</li>
+<li>项目地址：<a href="https://github.com/build-poe2/PathOfBuilding-PoE2">build-poe2/PathOfBuilding-PoE2</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/elfriedarosner02320114921/Easy-Anime-Downloader-2026">Easy-Anime-Downloader-2026</a> #3</h2>
+<h2><a href="https://github.com/PackAshReside79/TG-WS-Proxy-v1.7.1">TG-WS-Proxy-v1.7.1</a> #2</h2>
 <blockquote>
-<p>一个用 <strong>C++</strong> 编写的轻量级动漫下载工具，Stars 75，Forks 0，支持从常见动漫网站抓取直接链接并批量下载，面向日语动画爱好者和追番用户。</p>
+<p><strong>TG-WS-Proxy</strong> 是一个轻量的 Python 代理工具，通过 WebSocket 转发 Telegram 流量，有效绕过网络封锁。1.7.1 版本优化了连接稳定性和内存占用，适合部署在 VPS 或路由器上。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/elfriedarosner02320114921/Easy-Anime-Downloader-2026" alt="Easy-Anime-Downloader-2026" style="max-width:100%;border-radius:8px;"></p></p><p>背景：在线动漫流媒体平台经常限制地区或插入广告，个人用户希望保存本地离线观看。<code>Easy-Anime-Downloader-2026</code> 因此诞生，提供跨平台（Windows/macOS/Linux）的下载方案。</p>
-<p>核心功能基于 <strong>C++</strong> 的 <code>libcurl</code> 和 <code>pugi::xml</code> 解析，从目标网站提取视频文件地址，支持多线程下载、断点续传和字幕合并。配置文件可指定分辨率（720p/1080p）和输出目录。</p>
-<p>开发者为 <code>elfriedarosner02320114921</code>，名字疑似自动生成，项目尚无人 Follow。Stars 75 表示有一定关注，但缺少社区反馈。如果后续完善错误处理和添加 GUI 界面，实用性会显著提升。</p>
-<p>相比 <strong>youtube-dl</strong>（Python）或 <strong>AnimeDL</strong>（Node.js），该工具用 <strong>C++</strong> 编写，理论上执行效率更高，且无需运行时环境。适合不想安装 Python/Node 的用户。</p>
+<p>该项目针对 <strong>Telegram</strong> 无法直连的地区设计，利用 <strong>WebSocket</strong> 模拟 HTTPS 流量，使其更难被 DPI 识别。核心代码简洁，仅依赖 <code>asyncio</code> 和 <code>websockets</code> 库，便于用户二次修改。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/PackAshReside79/TG-WS-Proxy-v1.7.1" alt="TG-WS-Proxy-v1.7.1" style="max-width:100%;border-radius:8px;"></p></p><p>当前仓库 <strong>Stars 138</strong>，约半数来自 2026 年 5 月下旬的更新。作者在 Release 中注明解决了大文件传输时的断连问题，并支持自定义 <code>Host</code> 头以绕过 SNI 检测。</p>
+<p>相比于大型代理方案（如 <strong>V2Ray</strong>），TG-WS-Proxy 专为 Telegram 优化，延迟更低且配置简单。用户只需在服务器运行 Python 脚本，并在客户端设置对应的 SOCKS5/HTTP 代理即可。适合对网络安全性要求不高的日常通讯场景。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/elfriedarosner02320114921/Easy-Anime-Downloader-2026">elfriedarosner02320114921/Easy-Anime-Downloader-2026</a></li>
-<li>暂无相关文章链接</li>
+<li>项目地址：<a href="https://github.com/PackAshReside79/TG-WS-Proxy-v1.7.1">PackAshReside79/TG-WS-Proxy-v1.7.1</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/lilliancrivaro27064501728/AI-Photo-Background-Remover">AI-Photo-Background-Remover</a> #4</h2>
+<h2><a href="https://github.com/clash-windows-download/Clash-for-Windows">Clash-for-Windows</a> #3</h2>
 <blockquote>
-<p>一款基于 <strong>Python</strong> 的 <strong>AI</strong> 照片背景移除工具，Stars 74，Forks 0，采用预训练深度神经网络（如 <code>u2net</code>）实现一键去背景，输出透明 PNG。</p>
+<p><strong>Clash-for-Windows</strong> 知名代理客户端 Clash 的 Windows 版本第三方下载仓库，提供稳定的预编译二进制文件和更新日志。尽管原项目已停止维护，该存档仍保持 136 Stars 的社区关注度。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/lilliancrivaro27064501728/AI-Photo-Background-Remover" alt="AI-Photo-Background-Remover" style="max-width:100%;border-radius:8px;"></p></p><p>随着电商、社交媒体和视频会议对无背景图片的需求增长，本地运行的背景移除工具成为刚需。该项目避免使用云端 API，保护用户隐私，同时无需网络。</p>
-<p>技术方案上，项目在 <code>Python</code> 3.9+ 环境中调用 <code>torch</code> 和 <code>rembg</code> 库，加载轻量级 <code>u2net</code> 模型。用户通过命令行传入图片路径，即可输出去除背景后的图像。代码提供了批量处理脚本和简单的参数调整（如前景阈值）。</p>
-<p>社区数据：74 Stars，0 Forks，但代码结构完整，README 有安装和使用说明。开发者为 <code>lilliancrivaro27064501728</code>，名字类似匿名 ID，项目可能初学练手，但功能可用。</p>
-<p>与 <strong>Remove.bg</strong> 等在线服务相比，该工具完全离线，适合处理敏感图片或高频使用。但模型精度不如商业方案，边缘细节偶尔模糊。适合个人轻度修图。</p>
+<p><strong>Clash</strong> 生态曾是最流行的代理客户端之一，但原作者归档后，Windows 版本安装包散落各处。<strong>clash-windows-download</strong> 仓库将原始 Release 重新整理，并附上 SHA256 校验值，确保文件安全。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/clash-windows-download/Clash-for-Windows" alt="Clash-for-Windows" style="max-width:100%;border-radius:8px;"></p></p><p>仓库使用 TypeScript 管理，实际上仅包含 <code>.exe</code> 和 <code>.msi</code> 安装包的下载链接。当前 <strong>Stars 136</strong>，Forks 为 0，说明社区以 “随用随走” 心态为主。项目 Readme 中标注了对应的配置模板和常见问题解答，降低了新手门槛。</p>
+<p>对于仍依赖 Clash 用户界面的老用户，这是最安全的下载来源之一。相比持续更新的 <strong>Clash Verge</strong>，该仓库提供的是最后一版官方 CFW，稳定但不再有功能更新。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/lilliancrivaro27064501728/AI-Photo-Background-Remover">lilliancrivaro27064501728/AI-Photo-Background-Remover</a></li>
-<li>暂无相关文章链接</li>
+<li>项目地址：<a href="https://github.com/clash-windows-download/Clash-for-Windows">clash-windows-download/Clash-for-Windows</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/kigumotvc/cslol-manager">cslol-manager</a> #4</h2>
+<blockquote>
+<p><strong>cslol-manager</strong> 是《英雄联盟》（League of Legends）的本地模组管理器，基于 C++ 开发，支持皮肤替换、界面修改等功能。开源以来获得 116 Stars，成为玩家社区的热门工具。</p>
+</blockquote>
+<p>Riot 官方对客户端模组管控较严，但 <strong>cslol-manager</strong> 采用本地注入方式，仅在用户端生效，不涉及服务器通信。项目使用 C++ 编写，核心是一个轻量级 DLL 注入器和资源加载器。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/kigumotvc/cslol-manager" alt="cslol-manager" style="max-width:100%;border-radius:8px;"></p></p><p>据仓库说明，该工具支持最新版本的 <strong>League of Legends</strong>，并兼容 <strong>自定义皮肤</strong> 的 <strong>Fantome</strong> 格式。Stars 116 中不少来自中文玩家社区的推荐，因为其避免了繁琐的手动替换文件过程。</p>
+<p>与 <strong>WOA</strong> 或 <strong>LolSkin</strong> 等工具相比，cslol-manager 的优势在于开源和即装即用。开发者承诺不会收集用户数据，并定期更新适配游戏版本。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/kigumotvc/cslol-manager">kigumotvc/cslol-manager</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Pondot/liquidDX11">liquidDX11</a> #5</h2>
+<blockquote>
+<p><strong>liquidDX11</strong> 是一个基于 DirectX 11 的流体仿真渲染库，提供高效的 SPH（光滑粒子流体动力学）实现。该项目适合游戏开发者和图形学爱好者学习与集成。</p>
+</blockquote>
+<p>粒子流体模拟在实时应用中性能开销大，<strong>liquidDX11</strong> 利用 Compute Shader 在 GPU 上并行计算。开发者 <strong>Pondot</strong> 将其设计为模块化接口，可嵌入任何 D3D11 渲染管线。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Pondot/liquidDX11" alt="liquidDX11" style="max-width:100%;border-radius:8px;"></p></p><p>尽管 <strong>Stars 23</strong> 规模不大，但项目代码结构清晰，附带示例场景和性能分析。其 Forks 为 1，说明已有外部贡献者参与改进。支持 <strong>Wavefront (.obj)</strong> 导出以及颜色渐变渲染效果。</p>
+<p>相比成熟的商业方案（如 <strong>NVIDIA Flex</strong>），liquidDX11 更偏向教育和轻量集成，适合独立游戏或原型验证。作者计划未来加入 <strong>两相流</strong> 和 <strong>网格表面重建</strong> 功能。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/Pondot/liquidDX11">Pondot/liquidDX11</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-01/</guid>
-<pubDate>Mon, 01 Jun 2026 02:11:28 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-02/</guid>
+<pubDate>Tue, 02 Jun 2026 01:31:27 GMT</pubDate>
 </item>
   </channel>
 </rss>
