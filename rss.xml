@@ -5,93 +5,106 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 02 Jun 2026 01:31:27 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 03 Jun 2026 01:33:01 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-02 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-02/</link>
-<description><![CDATA[2026-06-02 每日精选 — 5 个仓库: build-poe2/PathOfBuilding-PoE2, PackAshReside79/TG-WS-Proxy-v1.7.1, clash-windows-download/Clash-for-Windows, kigumotvc/cslol-manager, Pondot/liquidDX11]]></description>
-<content:encoded><![CDATA[<h1>2026-06-02 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-03 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-03/</link>
+<description><![CDATA[2026-06-03 每日精选 — 6 个仓库: tools-lua/steam-tools, shaorman/Internet-DM, sautrikroy17/DSA-Interview-Playbook, juanlopes/StirlingPDF-Desktop, Soul-AILab/SoulX-Transcriber, SeemSeam/agent-roles-spec]]></description>
+<content:encoded><![CDATA[<h1>2026-06-03 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>游戏工具</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>PathOfBuilding-PoE2</strong> 流放之路2官方Build规划器重新开源，社区贡献者接手活跃维护 ↗ #1  </li>
-<li><strong>cslol-manager</strong> 英雄联盟模组管理神器，支持一键换肤与插件加载 ↗ #4</li>
+<li><strong>StirlingPDF-Desktop</strong> 跨平台桌面PDF处理套件，内置多合一功能 ➜ #4</li>
+<li><strong>Internet-DM</strong> 轻量级下载管理器，支持协议扩展与队列调度 ➜ #2</li>
 </ul>
-<h3>网络工具</h3>
+<h3>AI / 大模型</h3>
 <ul>
-<li><strong>TG-WS-Proxy v1.7.1</strong> 基于WebSocket的Telegram代理工具，轻量易部署 ↗ #2  </li>
-<li><strong>Clash-for-Windows</strong> 经典代理客户端第三方存档仓库，持续提供稳定版本 ↗ #3</li>
+<li><strong>SoulX-Transcriber</strong> 实时语音转写引擎，自研端侧模型低延迟运行 ➜ #5</li>
+<li><strong>agent-roles-spec</strong> 多智能体角色协议规范，推动AI Agent互操作标准化 ➜ #6</li>
 </ul>
-<h3>图形/渲染</h3>
+<h3>学习与开发</h3>
 <ul>
-<li><strong>liquidDX11</strong> 基于DirectX11的流体仿真渲染库，适合游戏与可视化场景 ↗ #5</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/build-poe2/PathOfBuilding-PoE2">PathOfBuilding-PoE2</a> #1</h2>
-<blockquote>
-<p><strong>PathOfBuilding-PoE2</strong> 是《流放之路2》（PoE2）的装备与技能 Build 规划工具，由社区从零复刻并用 Lua 重写。该项目填补了官方首版未提供离线规划的空白，上线即获 189 Stars，成为玩家必备工具。</p>
-</blockquote>
-<p><strong>PathOfBuilding</strong> 本是 <strong>PoE</strong> 社区的标志性工具，但官方 PoE2 测试期间并未同步更新。<strong>build-poe2</strong> 组织接手后，基于游戏最新数据重建了技能树、装备词缀和伤害计算模块。项目完全使用 Lua 编写，与原始 PoE 版本保持相似架构。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/build-poe2/PathOfBuilding-PoE2" alt="PathOfBuilding-PoE2" style="max-width:100%;border-radius:8px;"></p></p><p>据项目主页显示，当前已实现所有 Ascendancy 职业的被动树模拟，支持导入 <code>poe2</code> 格式的配置字符串。尽管仅开源数日，Stars 已达 189，反映 PoE2 玩家对离线规划工具的迫切需求。Fork 数为 0，说明社区仍在集中贡献主分支。</p>
-<p>与同类模拟器（如 <strong>PoB Community</strong>）不同，该项目完全面向 PoE2 的数值系统，包括新引入的<strong>符文</strong>和<strong>技能宝石</strong>机制。未来计划加入多语言支持和实时 DPS 计算。对于深入钻研 Build 的玩家而言，这几乎是冲榜前的必修课。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/build-poe2/PathOfBuilding-PoE2">build-poe2/PathOfBuilding-PoE2</a></li>
+<li><strong>DSA-Interview-Playbook</strong> 算法面试全攻略，覆盖高频题型与模板 ➜ #3</li>
+<li><strong>steam-tools</strong> Steam平台增强工具箱，脚本化库存管理 ➜ #1</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/PackAshReside79/TG-WS-Proxy-v1.7.1">TG-WS-Proxy-v1.7.1</a> #2</h2>
+<h2><a href="https://github.com/tools-lua/steam-tools">steam-tools</a> #1</h2>
 <blockquote>
-<p><strong>TG-WS-Proxy</strong> 是一个轻量的 Python 代理工具，通过 WebSocket 转发 Telegram 流量，有效绕过网络封锁。1.7.1 版本优化了连接稳定性和内存占用，适合部署在 VPS 或路由器上。</p>
+<p>一套基于 <strong>C#</strong> 编写的 Steam 平台辅助工具集，提供库存物品批量操作、市场数据抓取等功能，目前获得 <strong>95</strong> 颗星，社区关注度初显。</p>
 </blockquote>
-<p>该项目针对 <strong>Telegram</strong> 无法直连的地区设计，利用 <strong>WebSocket</strong> 模拟 HTTPS 流量，使其更难被 DPI 识别。核心代码简洁，仅依赖 <code>asyncio</code> 和 <code>websockets</code> 库，便于用户二次修改。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/PackAshReside79/TG-WS-Proxy-v1.7.1" alt="TG-WS-Proxy-v1.7.1" style="max-width:100%;border-radius:8px;"></p></p><p>当前仓库 <strong>Stars 138</strong>，约半数来自 2026 年 5 月下旬的更新。作者在 Release 中注明解决了大文件传输时的断连问题，并支持自定义 <code>Host</code> 头以绕过 SNI 检测。</p>
-<p>相比于大型代理方案（如 <strong>V2Ray</strong>），TG-WS-Proxy 专为 Telegram 优化，延迟更低且配置简单。用户只需在服务器运行 Python 脚本，并在客户端设置对应的 SOCKS5/HTTP 代理即可。适合对网络安全性要求不高的日常通讯场景。</p>
-<p>相关链接：</p>
+<p>项目作者开发 steam-tools 的初衷是解决 Steam 用户在日常管理库存时的重复性操作痛点，如批量发送报价、快速筛选饰品等。它通过调用 Steam 官方 Web API 与本地脚本结合，形成自动化流程。</p>
+<p>核心功能包括物品价格历史曲线抓取、批量交易报价生成、以及自定义规则过滤器。所有逻辑封装在可配置的 JSON 文件中，用户无需编程即可调整参数。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/tools-lua/steam-tools" alt="steam-tools" style="max-width:100%;border-radius:8px;"></p></p><p>当前项目处于早期阶段，<strong>Forks</strong> 为 <strong>0</strong>，但 <strong>95 Stars</strong> 表明该方向存在真实需求。与已有同类项目（如 SteamKit、SteamBot）相比，steam-tools 更侧重轻量级桌面使用场景，不依赖庞大框架。</p>
+<p>适合需要对 Steam 库存进行脚本化管理的玩家或倒卖商贩。未来计划支持多账户并行操作与代理配置，降低被封号风险。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/PackAshReside79/TG-WS-Proxy-v1.7.1">PackAshReside79/TG-WS-Proxy-v1.7.1</a></li>
+<li>项目地址：<a href="https://github.com/tools-lua/steam-tools">tools-lua/steam-tools</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/clash-windows-download/Clash-for-Windows">Clash-for-Windows</a> #3</h2>
+<h2><a href="https://github.com/shaorman/Internet-DM">Internet-DM</a> #2</h2>
 <blockquote>
-<p><strong>Clash-for-Windows</strong> 知名代理客户端 Clash 的 Windows 版本第三方下载仓库，提供稳定的预编译二进制文件和更新日志。尽管原项目已停止维护，该存档仍保持 136 Stars 的社区关注度。</p>
+<p>一个基于 <strong>HTML</strong> 实现的跨平台下载管理器，通过浏览器界面管理多协议下载任务，<strong>93</strong> 个 Star 反映出轻量级工具的市场空白。</p>
 </blockquote>
-<p><strong>Clash</strong> 生态曾是最流行的代理客户端之一，但原作者归档后，Windows 版本安装包散落各处。<strong>clash-windows-download</strong> 仓库将原始 Release 重新整理，并附上 SHA256 校验值，确保文件安全。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/clash-windows-download/Clash-for-Windows" alt="Clash-for-Windows" style="max-width:100%;border-radius:8px;"></p></p><p>仓库使用 TypeScript 管理，实际上仅包含 <code>.exe</code> 和 <code>.msi</code> 安装包的下载链接。当前 <strong>Stars 136</strong>，Forks 为 0，说明社区以 “随用随走” 心态为主。项目 Readme 中标注了对应的配置模板和常见问题解答，降低了新手门槛。</p>
-<p>对于仍依赖 Clash 用户界面的老用户，这是最安全的下载来源之一。相比持续更新的 <strong>Clash Verge</strong>，该仓库提供的是最后一版官方 CFW，稳定但不再有功能更新。</p>
-<p>相关链接：</p>
+<p>开发者在 GitHub 上发现现有下载管理工具要么过于庞大（如 uGet），要么依赖插件，于是用纯前端技术构建了 Internet-DM。核心设计思想是“零安装”，仅需浏览器即可运行。</p>
+<p>项目主要功能包括：多线程下载、断点续传、队列管理，以及通过 <code>XMLHttpRequest</code> 实现文件分片。界面采用响应式布局，支持移动端操作。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/shaorman/Internet-DM" alt="Internet-DM" style="max-width:100%;border-radius:8px;"></p></p><p>由于技术栈限制，Internet-DM 目前不支持 BT 或磁力链接，主要针对 HTTP/HTTPS 普通文件。其优势在于完全开源且无后台进程，尤其适合在受限环境（如学校机房）使用。</p>
+<p>当前 <strong>Forks</strong> 为 <strong>0</strong>，但 Issue 区已有用户请求添加 UI 主题自定义功能。项目作者表示下一步将集成 WebTorrent 库以扩展支持 P2P 下载。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/clash-windows-download/Clash-for-Windows">clash-windows-download/Clash-for-Windows</a></li>
+<li>项目地址：<a href="https://github.com/shaorman/Internet-DM">shaorman/Internet-DM</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/kigumotvc/cslol-manager">cslol-manager</a> #4</h2>
+<h2><a href="https://github.com/sautrikroy17/DSA-Interview-Playbook">DSA-Interview-Playbook</a> #3</h2>
 <blockquote>
-<p><strong>cslol-manager</strong> 是《英雄联盟》（League of Legends）的本地模组管理器，基于 C++ 开发，支持皮肤替换、界面修改等功能。开源以来获得 116 Stars，成为玩家社区的热门工具。</p>
+<p>一份面向技术面试的数据结构与算法学习路线图，包含 <strong>LeetCode</strong> 高频题分类与手写模板，获 <strong>66</strong> Stars、<strong>9</strong> Forks，自学社区活跃。</p>
 </blockquote>
-<p>Riot 官方对客户端模组管控较严，但 <strong>cslol-manager</strong> 采用本地注入方式，仅在用户端生效，不涉及服务器通信。项目使用 C++ 编写，核心是一个轻量级 DLL 注入器和资源加载器。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/kigumotvc/cslol-manager" alt="cslol-manager" style="max-width:100%;border-radius:8px;"></p></p><p>据仓库说明，该工具支持最新版本的 <strong>League of Legends</strong>，并兼容 <strong>自定义皮肤</strong> 的 <strong>Fantome</strong> 格式。Stars 116 中不少来自中文玩家社区的推荐，因为其避免了繁琐的手动替换文件过程。</p>
-<p>与 <strong>WOA</strong> 或 <strong>LolSkin</strong> 等工具相比，cslol-manager 的优势在于开源和即装即用。开发者承诺不会收集用户数据，并定期更新适配游戏版本。</p>
-<p>相关链接：</p>
+<p>该项目起源于作者在准备 FAANG 面试时的笔记整理，旨在将碎片化的刷题经验结构化为可复用的知识体系。内容覆盖数组、链表、树、动态规划、图论等全部考点。</p>
+<p>每个知识点下附带典型例题链接（LeetCode 或 HackerRank）、解题思路脑图以及最优代码模板（Python/Java）。特别标注了面试中“必考变种”的优先级。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/sautrikroy17/DSA-Interview-Playbook" alt="DSA-Interview-Playbook" style="max-width:100%;border-radius:8px;"></p></p><p>与市面上类似资源（如 Grokking Coding Interview）相比，DSA-Interview-Playbook 强调“最短路径学习法”——只收录累计出现频率前 80% 的题型，避免贪多嚼不烂。<strong>9 Forks</strong> 说明已有开发者参与补充测试用例。</p>
+<p>适合准备秋招的应届生或跳槽者，尤其适合自学能力强的程序员。项目采用 CC BY-NC-SA 许可，允许非商业使用。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/kigumotvc/cslol-manager">kigumotvc/cslol-manager</a></li>
+<li>项目地址：<a href="https://github.com/sautrikroy17/DSA-Interview-Playbook">sautrikroy17/DSA-Interview-Playbook</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Pondot/liquidDX11">liquidDX11</a> #5</h2>
+<h2><a href="https://github.com/juanlopes/StirlingPDF-Desktop">StirlingPDF-Desktop</a> #4</h2>
 <blockquote>
-<p><strong>liquidDX11</strong> 是一个基于 DirectX 11 的流体仿真渲染库，提供高效的 SPH（光滑粒子流体动力学）实现。该项目适合游戏开发者和图形学爱好者学习与集成。</p>
+<p>一款离线桌面 PDF 编辑器，将著名的 <strong>Stirling PDF</strong> 网页版封装为本地应用，<strong>51</strong> Stars 印证了用户对隐私敏感场景的需求。</p>
 </blockquote>
-<p>粒子流体模拟在实时应用中性能开销大，<strong>liquidDX11</strong> 利用 Compute Shader 在 GPU 上并行计算。开发者 <strong>Pondot</strong> 将其设计为模块化接口，可嵌入任何 D3D11 渲染管线。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Pondot/liquidDX11" alt="liquidDX11" style="max-width:100%;border-radius:8px;"></p></p><p>尽管 <strong>Stars 23</strong> 规模不大，但项目代码结构清晰，附带示例场景和性能分析。其 Forks 为 1，说明已有外部贡献者参与改进。支持 <strong>Wavefront (.obj)</strong> 导出以及颜色渐变渲染效果。</p>
-<p>相比成熟的商业方案（如 <strong>NVIDIA Flex</strong>），liquidDX11 更偏向教育和轻量集成，适合独立游戏或原型验证。作者计划未来加入 <strong>两相流</strong> 和 <strong>网格表面重建</strong> 功能。</p>
-<p>相关链接：</p>
+<p>Stirling PDF 在线版已拥有大量 PDF 处理功能，但部分企业用户因数据安全顾虑无法使用云端服务。StirlingPDF-Desktop 使用 <strong>Electron</strong> 框架将其打包为桌面客户端，所有操作在本地完成。</p>
+<p>应用保留了网页版的核心能力：合并/拆分 PDF、图片转 PDF、OCR 识别、添加水印等。通过集成 <strong>Tesseract.js</strong> 实现离线 OCR，无需调用远程 API。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/juanlopes/StirlingPDF-Desktop" alt="StirlingPDF-Desktop" style="max-width:100%;border-radius:8px;"></p></p><p>与原生 PDF 软件（如 Adobe Acrobat）相比，StirlingPDF-Desktop 完全免费且开源；但与开源竞品（如 PDFsam）相比，它的优势在于一站式覆盖超过 30 种操作。当前版本仅支持 Windows 和 macOS。</p>
+<p>未来计划支持 Linux 以及通过 WebSocket 与移动端联动。开发者在 README 中特别感谢了原项目作者，并承诺不与上游代码分裂。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Pondot/liquidDX11">Pondot/liquidDX11</a></li>
+<li>项目地址：<a href="https://github.com/juanlopes/StirlingPDF-Desktop">juanlopes/StirlingPDF-Desktop</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Soul-AILab/SoulX-Transcriber">SoulX-Transcriber</a> #5</h2>
+<blockquote>
+<p>来自 <strong>Soul-AILab</strong> 的实时语音转文字工具，基于自研轻量级端侧模型，<strong>40</strong> Stars、<strong>1</strong> Fork 标志着早期社区测试阶段。</p>
+</blockquote>
+<p>相比云端识别方案（如 OpenAI Whisper），SoulX-Transcriber 定位为完全离线运行的桌面应用，保护用户隐私。模型采用 Transformer 压缩架构，参数量仅 <strong>30M</strong>，可在 CPU 上达到实时率 <strong>0.3</strong>。</p>
+<p>支持中文、英文及混合语言识别，通过 PyAudio 捕获麦克风输入，输出带时间戳的逐字文本。界面基于 Electron 构建，提供实时字幕显示与导出功能。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Soul-AILab/SoulX-Transcriber" alt="SoulX-Transcriber" style="max-width:100%;border-radius:8px;"></p></p><p>目前项目尚处 Alpha 阶段，已知问题包括长录音内存泄漏及生僻词识别率低。开发团队在 Issue 中回应称将集成 <strong>FlashAttention</strong> 加速训练。<strong>1 Fork</strong> 表明已有贡献者开始改进模型推理代码。</p>
+<p>适用场景包括会议记录、语音笔记、听障辅助。与 <strong>VOSK</strong> 等同类工具相比，SoulX-Transcriber 的差异化在于提供预训练的特定领域（新闻、学术）词库。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/Soul-AILab/SoulX-Transcriber">Soul-AILab/SoulX-Transcriber</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/SeemSeam/agent-roles-spec">agent-roles-spec</a> #6</h2>
+<blockquote>
+<p>一套定义 AI Agent 角色与交互行为的规范草案，旨在解决多智能体协作中的协议碎片化问题，<strong>10</strong> Stars、<strong>1</strong> Fork 表明早期社区讨论已开启。</p>
+</blockquote>
+<p>随着 AutoGPT、MetaGPT 等项目涌现，Agent 间缺乏统一的消息格式与权限管理。agent-roles-spec 提出基于 <strong>YAML</strong> 的角色定义文件（<code>role.yaml</code>），包含能力清单、通信域、信任等级等元数据。</p>
+<p>核心设计包括：角色注册发现机制、异步消息路由规则，以及基于 JWT 的身份验证模板。所有规范以 OpenAPI 风格编写，便于开发者集成。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/SeemSeam/agent-roles-spec" alt="agent-roles-spec" style="max-width:100%;border-radius:8px;"></p></p><p>虽然项目还处于概念验证阶段，但已获得部分 AI Agent 框架开发者的关注。与 <strong>OpenAI 的 Function Calling</strong> 不同，agent-roles-spec 更强调 Agent 之间的对等协作，而非主从调用。</p>
+<p>未来计划发布参考实现（Python SDK）和兼容性测试套件。该规范若被采纳，有望降低多 Agent 系统的集成成本，类似早期 HTTP 协议对 Web 的推动作用。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/SeemSeam/agent-roles-spec">SeemSeam/agent-roles-spec</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-02/</guid>
-<pubDate>Tue, 02 Jun 2026 01:31:27 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-03/</guid>
+<pubDate>Wed, 03 Jun 2026 01:33:01 GMT</pubDate>
 </item>
   </channel>
 </rss>
