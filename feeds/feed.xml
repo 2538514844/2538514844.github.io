@@ -5,106 +5,104 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 03 Jun 2026 01:33:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 01:38:03 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-03 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-03/</link>
-<description><![CDATA[2026-06-03 每日精选 — 6 个仓库: tools-lua/steam-tools, shaorman/Internet-DM, sautrikroy17/DSA-Interview-Playbook, juanlopes/StirlingPDF-Desktop, Soul-AILab/SoulX-Transcriber, SeemSeam/agent-roles-spec]]></description>
-<content:encoded><![CDATA[<h1>2026-06-03 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-04 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-04/</link>
+<description><![CDATA[2026-06-04 每日精选 — 5 个仓库: Vkestsu/Adopt-Me-Script, tastyeffectco/sandboxes, DisplaySanctify/Claude-Opus-4.6-Censorship-Remover, UzuMathieu/ryujinx-emu, limitbreathbarrow/Free-VPN-Nightcore]]></description>
+<content:encoded><![CDATA[<h1>2026-06-04 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>效率工具</h3>
+<h3>游戏脚本</h3>
 <ul>
-<li><strong>StirlingPDF-Desktop</strong> 跨平台桌面PDF处理套件，内置多合一功能 ➜ #4</li>
-<li><strong>Internet-DM</strong> 轻量级下载管理器，支持协议扩展与队列调度 ➜ #2</li>
+<li><strong>Adopt-Me-Script</strong> Roblox 游戏脚本工具，一键执行自动化任务 ↗ #1</li>
+</ul>
+<h3>开发工具</h3>
+<ul>
+<li><strong>sandboxes</strong> 轻量级 Go 沙盒环境，用于隔离运行未信任代码 ↗ #2</li>
 </ul>
 <h3>AI / 大模型</h3>
 <ul>
-<li><strong>SoulX-Transcriber</strong> 实时语音转写引擎，自研端侧模型低延迟运行 ➜ #5</li>
-<li><strong>agent-roles-spec</strong> 多智能体角色协议规范，推动AI Agent互操作标准化 ➜ #6</li>
+<li><strong>Claude-Opus-4.6-Censorship-Remover</strong> 声称移除 Claude 模型内容审查的补丁工具 ↗ #3</li>
 </ul>
-<h3>学习与开发</h3>
+<h3>模拟器</h3>
 <ul>
-<li><strong>DSA-Interview-Playbook</strong> 算法面试全攻略，覆盖高频题型与模板 ➜ #3</li>
-<li><strong>steam-tools</strong> Steam平台增强工具箱，脚本化库存管理 ➜ #1</li>
+<li><strong>ryujinx-emu</strong> 开源 Nintendo Switch 模拟器，面向 Windows / Linux 平台 ↗ #4</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/tools-lua/steam-tools">steam-tools</a> #1</h2>
-<blockquote>
-<p>一套基于 <strong>C#</strong> 编写的 Steam 平台辅助工具集，提供库存物品批量操作、市场数据抓取等功能，目前获得 <strong>95</strong> 颗星，社区关注度初显。</p>
-</blockquote>
-<p>项目作者开发 steam-tools 的初衷是解决 Steam 用户在日常管理库存时的重复性操作痛点，如批量发送报价、快速筛选饰品等。它通过调用 Steam 官方 Web API 与本地脚本结合，形成自动化流程。</p>
-<p>核心功能包括物品价格历史曲线抓取、批量交易报价生成、以及自定义规则过滤器。所有逻辑封装在可配置的 JSON 文件中，用户无需编程即可调整参数。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/tools-lua/steam-tools" alt="steam-tools" style="max-width:100%;border-radius:8px;"></p></p><p>当前项目处于早期阶段，<strong>Forks</strong> 为 <strong>0</strong>，但 <strong>95 Stars</strong> 表明该方向存在真实需求。与已有同类项目（如 SteamKit、SteamBot）相比，steam-tools 更侧重轻量级桌面使用场景，不依赖庞大框架。</p>
-<p>适合需要对 Steam 库存进行脚本化管理的玩家或倒卖商贩。未来计划支持多账户并行操作与代理配置，降低被封号风险。</p>
+<h3>网络工具</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/tools-lua/steam-tools">tools-lua/steam-tools</a></li>
+<li><strong>Free-VPN-Nightcore</strong> 声称提供免费 VPN 网络代理服务，来源不明 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/shaorman/Internet-DM">Internet-DM</a> #2</h2>
+<h2><a href="https://github.com/Vkestsu/Adopt-Me-Script">Adopt-Me-Script</a> #1</h2>
 <blockquote>
-<p>一个基于 <strong>HTML</strong> 实现的跨平台下载管理器，通过浏览器界面管理多协议下载任务，<strong>93</strong> 个 Star 反映出轻量级工具的市场空白。</p>
+<p>一个专为 Roblox 游戏 <strong>Adopt Me!</strong> 设计的 Lua 脚本集合，支持自动化养殖、交易与挂机操作。目前获得 79 个 Stars、27 个 Forks，社区关注度中等。</p>
 </blockquote>
-<p>开发者在 GitHub 上发现现有下载管理工具要么过于庞大（如 uGet），要么依赖插件，于是用纯前端技术构建了 Internet-DM。核心设计思想是“零安装”，仅需浏览器即可运行。</p>
-<p>项目主要功能包括：多线程下载、断点续传、队列管理，以及通过 <code>XMLHttpRequest</code> 实现文件分片。界面采用响应式布局，支持移动端操作。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/shaorman/Internet-DM" alt="Internet-DM" style="max-width:100%;border-radius:8px;"></p></p><p>由于技术栈限制，Internet-DM 目前不支持 BT 或磁力链接，主要针对 HTTP/HTTPS 普通文件。其优势在于完全开源且无后台进程，尤其适合在受限环境（如学校机房）使用。</p>
-<p>当前 <strong>Forks</strong> 为 <strong>0</strong>，但 Issue 区已有用户请求添加 UI 主题自定义功能。项目作者表示下一步将集成 WebTorrent 库以扩展支持 P2P 下载。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Vkestsu/Adopt-Me-Script" alt="Adopt-Me-Script" style="max-width:100%;border-radius:8px;"></p></p><p>该项目主要面向 Roblox 玩家，提供一套插件式脚本，可自动完成喂养宠物、收集硬币、执行交易等重复性任务。开发者利用 Lua 语言直接调用游戏内部 API，实现无窗口化运行。</p>
+<p>项目依赖 <strong>Synapse X</strong> 或 <strong>Krnl</strong> 等第三方注入器，使用前需配置指定执行环境。目前脚本仅支持 <strong>Adopt Me!</strong> 当前版本，每次游戏更新后需等待适配。</p>
+<p>社区反馈显示脚本稳定性一般，部分用户报告封号风险。开发者未提供长期维护承诺，但已累积 27 个 Forks，说明有外部贡献者参与改进。</p>
+<p>该工具适合希望减轻手动操作负担的 Roblox 玩家，但使用第三方脚本违反游戏服务条款，需自行承担账号风险。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/shaorman/Internet-DM">shaorman/Internet-DM</a></li>
+<li>项目地址：<a href="https://github.com/Vkestsu/Adopt-Me-Script">Vkestsu/Adopt-Me-Script</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/sautrikroy17/DSA-Interview-Playbook">DSA-Interview-Playbook</a> #3</h2>
+<h2><a href="https://github.com/tastyeffectco/sandboxes">sandboxes</a> #2</h2>
 <blockquote>
-<p>一份面向技术面试的数据结构与算法学习路线图，包含 <strong>LeetCode</strong> 高频题分类与手写模板，获 <strong>66</strong> Stars、<strong>9</strong> Forks，自学社区活跃。</p>
+<p>一个基于 <strong>Go</strong> 的轻量级沙盒引擎，提供安全的代码执行隔离环境。目前 72 个 Stars、0 个 Forks，尚在早期开发阶段。</p>
 </blockquote>
-<p>该项目起源于作者在准备 FAANG 面试时的笔记整理，旨在将碎片化的刷题经验结构化为可复用的知识体系。内容覆盖数组、链表、树、动态规划、图论等全部考点。</p>
-<p>每个知识点下附带典型例题链接（LeetCode 或 HackerRank）、解题思路脑图以及最优代码模板（Python/Java）。特别标注了面试中“必考变种”的优先级。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/sautrikroy17/DSA-Interview-Playbook" alt="DSA-Interview-Playbook" style="max-width:100%;border-radius:8px;"></p></p><p>与市面上类似资源（如 Grokking Coding Interview）相比，DSA-Interview-Playbook 强调“最短路径学习法”——只收录累计出现频率前 80% 的题型，避免贪多嚼不烂。<strong>9 Forks</strong> 说明已有开发者参与补充测试用例。</p>
-<p>适合准备秋招的应届生或跳槽者，尤其适合自学能力强的程序员。项目采用 CC BY-NC-SA 许可，允许非商业使用。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/tastyeffectco/sandboxes" alt="sandboxes" style="max-width:100%;border-radius:8px;"></p></p><p>项目由 <strong>tastyeffectco</strong> 发布，旨在替代 Docker/Kubernetes 等重型容器方案，为微服务中的未信任代码提供快速隔离。它利用 <strong>Linux cgroup</strong> 和 <strong>seccomp</strong> 实现资源限制与系统调用过滤。</p>
+<p>核心功能包括内存/CPU 配额、文件系统沙箱、网络访问控制。通过 <strong>gRPC</strong> 接口与外部服务通信，适合嵌入 CI/CD 流水线或在线 IDE 后端。</p>
+<p>由于零 Forks 且无 Release 版本，项目成熟度尚低。开发者在 README 中标注为“实验性”，建议仅用于非生产环境。</p>
+<p>与 <strong>gVisor</strong>、<strong>Firecracker</strong> 等同类相比，sandboxes 更偏轻量，但缺少多平台支持。目前仅支持 Linux x86_64 架构。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/sautrikroy17/DSA-Interview-Playbook">sautrikroy17/DSA-Interview-Playbook</a></li>
+<li>项目地址：<a href="https://github.com/tastyeffectco/sandboxes">tastyeffectco/sandboxes</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/juanlopes/StirlingPDF-Desktop">StirlingPDF-Desktop</a> #4</h2>
+<h2><a href="https://github.com/DisplaySanctify/Claude-Opus-4.6-Censorship-Remover">Claude-Opus-4.6-Censorship-Remover</a> #3</h2>
 <blockquote>
-<p>一款离线桌面 PDF 编辑器，将著名的 <strong>Stirling PDF</strong> 网页版封装为本地应用，<strong>51</strong> Stars 印证了用户对隐私敏感场景的需求。</p>
+<p>声称可以绕过 <strong>Claude Opus 4.6</strong> 内容审查机制的补丁脚本，引起部分用户关注。项目没有提供具体实现代码，只有文档和讨论。</p>
 </blockquote>
-<p>Stirling PDF 在线版已拥有大量 PDF 处理功能，但部分企业用户因数据安全顾虑无法使用云端服务。StirlingPDF-Desktop 使用 <strong>Electron</strong> 框架将其打包为桌面客户端，所有操作在本地完成。</p>
-<p>应用保留了网页版的核心能力：合并/拆分 PDF、图片转 PDF、OCR 识别、添加水印等。通过集成 <strong>Tesseract.js</strong> 实现离线 OCR，无需调用远程 API。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/juanlopes/StirlingPDF-Desktop" alt="StirlingPDF-Desktop" style="max-width:100%;border-radius:8px;"></p></p><p>与原生 PDF 软件（如 Adobe Acrobat）相比，StirlingPDF-Desktop 完全免费且开源；但与开源竞品（如 PDFsam）相比，它的优势在于一站式覆盖超过 30 种操作。当前版本仅支持 Windows 和 macOS。</p>
-<p>未来计划支持 Linux 以及通过 WebSocket 与移动端联动。开发者在 README 中特别感谢了原项目作者，并承诺不与上游代码分裂。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/DisplaySanctify/Claude-Opus-4.6-Censorship-Remover" alt="Claude-Opus-4.6-Censorship-Remover" style="max-width:100%;border-radius:8px;"></p></p><p>项目描述称通过修改模型加载时的 <code>safety_filter</code> 参数，或注入自定义 <code>system prompt</code> 来解除对敏感话题的拦截。由于没有公开算法或源码，技术可信度存疑。</p>
+<p>当前 68 个 Stars、0 个 Forks，无实质性代码提交。Issue 区有用户询问具体使用方法，但维护者未回应。该项目很可能仅作为概念验证存在。</p>
+<p><strong>Anthropic</strong> 官方对模型安全有严格限制，任何绕过行为均违反服务条款。使用此类工具可能导致 API 密钥被吊销或法律风险。</p>
+<p>适合学术研究目的，但操作前需了解本地部署 Claude 模型的可能性（官方仅提供 API 访问，本地模型不可用）。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/juanlopes/StirlingPDF-Desktop">juanlopes/StirlingPDF-Desktop</a></li>
+<li>项目地址：<a href="https://github.com/DisplaySanctify/Claude-Opus-4.6-Censorship-Remover">DisplaySanctify/Claude-Opus-4.6-Censorship-Remover</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Soul-AILab/SoulX-Transcriber">SoulX-Transcriber</a> #5</h2>
+<h2><a href="https://github.com/UzuMathieu/ryujinx-emu">ryujinx-emu</a> #4</h2>
 <blockquote>
-<p>来自 <strong>Soul-AILab</strong> 的实时语音转文字工具，基于自研轻量级端侧模型，<strong>40</strong> Stars、<strong>1</strong> Fork 标志着早期社区测试阶段。</p>
+<p>一个 <strong>Nintendo Switch</strong> 模拟器的分支项目，基于著名开源项目 <strong>Ryujinx</strong>。当前 59 个 Stars，0 个 Forks，可能是个人定制版本。</p>
 </blockquote>
-<p>相比云端识别方案（如 OpenAI Whisper），SoulX-Transcriber 定位为完全离线运行的桌面应用，保护用户隐私。模型采用 Transformer 压缩架构，参数量仅 <strong>30M</strong>，可在 CPU 上达到实时率 <strong>0.3</strong>。</p>
-<p>支持中文、英文及混合语言识别，通过 PyAudio 捕获麦克风输入，输出带时间戳的逐字文本。界面基于 Electron 构建，提供实时字幕显示与导出功能。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Soul-AILab/SoulX-Transcriber" alt="SoulX-Transcriber" style="max-width:100%;border-radius:8px;"></p></p><p>目前项目尚处 Alpha 阶段，已知问题包括长录音内存泄漏及生僻词识别率低。开发团队在 Issue 中回应称将集成 <strong>FlashAttention</strong> 加速训练。<strong>1 Fork</strong> 表明已有贡献者开始改进模型推理代码。</p>
-<p>适用场景包括会议记录、语音笔记、听障辅助。与 <strong>VOSK</strong> 等同类工具相比，SoulX-Transcriber 的差异化在于提供预训练的特定领域（新闻、学术）词库。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/UzuMathieu/ryujinx-emu" alt="ryujinx-emu" style="max-width:100%;border-radius:8px;"></p></p><p>原始 Ryujinx 项目已在 2024 年 10 月停止维护（因任天堂法律威胁），而此分支试图延续开发。项目使用 <strong>C#</strong> 编写，依赖 <strong>Avalonia UI</strong> 框架，支持 Windows 和 Linux。</p>
+<p>据 README 描述，该分支修复了原版的几个图形渲染问题（如《塞尔达传说：王国之泪》的光影闪烁），并整合了最新的 <strong>LLVM 后端</strong> 以提升 JIT 性能。</p>
+<p>由于 Forks 为零，暂未获取其他贡献者信任。作者表示会持续更新至 2026 年底，但未提供具体路线图。</p>
+<p>对于希望继续使用 Switch 模拟器的玩家，这是一个可选替代品。但需自行编译，且无法保证与商业游戏的兼容性。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Soul-AILab/SoulX-Transcriber">Soul-AILab/SoulX-Transcriber</a></li>
+<li>项目地址：<a href="https://github.com/UzuMathieu/ryujinx-emu">UzuMathieu/ryujinx-emu</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/SeemSeam/agent-roles-spec">agent-roles-spec</a> #6</h2>
+<h2><a href="https://github.com/limitbreathbarrow/Free-VPN-Nightcore">Free-VPN-Nightcore</a> #5</h2>
 <blockquote>
-<p>一套定义 AI Agent 角色与交互行为的规范草案，旨在解决多智能体协作中的协议碎片化问题，<strong>10</strong> Stars、<strong>1</strong> Fork 表明早期社区讨论已开启。</p>
+<p>宣称提供免费 VPN 服务的 GitHub 仓库，但无可见代码或配置文件。目前 57 个 Stars，0 个 Forks，可能存在安全风险。</p>
 </blockquote>
-<p>随着 AutoGPT、MetaGPT 等项目涌现，Agent 间缺乏统一的消息格式与权限管理。agent-roles-spec 提出基于 <strong>YAML</strong> 的角色定义文件（<code>role.yaml</code>），包含能力清单、通信域、信任等级等元数据。</p>
-<p>核心设计包括：角色注册发现机制、异步消息路由规则，以及基于 JWT 的身份验证模板。所有规范以 OpenAPI 风格编写，便于开发者集成。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/SeemSeam/agent-roles-spec" alt="agent-roles-spec" style="max-width:100%;border-radius:8px;"></p></p><p>虽然项目还处于概念验证阶段，但已获得部分 AI Agent 框架开发者的关注。与 <strong>OpenAI 的 Function Calling</strong> 不同，agent-roles-spec 更强调 Agent 之间的对等协作，而非主从调用。</p>
-<p>未来计划发布参考实现（Python SDK）和兼容性测试套件。该规范若被采纳，有望降低多 Agent 系统的集成成本，类似早期 HTTP 协议对 Web 的推动作用。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/limitbreathbarrow/Free-VPN-Nightcore" alt="Free-VPN-Nightcore" style="max-width:100%;border-radius:8px;"></p></p><p>仓库仅包含一个 README 文件，内容指向一个外部下载链接（现已失效），并声称提供“无限流量、无日志”的 VPN 服务。未提供源码或透明说明，安全审计无法进行。</p>
+<p>这种模式常见于恶意软件分发或钓鱼攻击。Stars 数量可能来自自动刷票或虚假账号，真实用户需高度警惕。</p>
+<p>GitHub 安全团队已对该仓库进行标记，但尚未删除。用户应避免点击任何外部链接或下载附件，建议使用声誉良好的开源 VPN 项目（如 <strong>WireGuard</strong>、<strong>OpenVPN</strong>）。</p>
+<p>目前无任何有效功能验证资料，项目很可能是一个空壳。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/SeemSeam/agent-roles-spec">SeemSeam/agent-roles-spec</a></li>
+<li>项目地址：<a href="https://github.com/limitbreathbarrow/Free-VPN-Nightcore">limitbreathbarrow/Free-VPN-Nightcore</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-03/</guid>
-<pubDate>Wed, 03 Jun 2026 01:33:01 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-04/</guid>
+<pubDate>Thu, 04 Jun 2026 01:38:03 GMT</pubDate>
 </item>
   </channel>
 </rss>
