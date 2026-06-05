@@ -5,104 +5,115 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 04 Jun 2026 01:38:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 03:31:10 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-04 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-04/</link>
-<description><![CDATA[2026-06-04 每日精选 — 5 个仓库: Vkestsu/Adopt-Me-Script, tastyeffectco/sandboxes, DisplaySanctify/Claude-Opus-4.6-Censorship-Remover, UzuMathieu/ryujinx-emu, limitbreathbarrow/Free-VPN-Nightcore]]></description>
-<content:encoded><![CDATA[<h1>2026-06-04 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-05 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-05/</link>
+<description><![CDATA[2026-06-05 每日精选 — 6 个仓库: Jasionf/smart-home-button, jeff141/meatshell, wy51ai/edulab, boona13/sprite-lab, marcj/papernews, myccarl/ai-shortVideo-pipeline]]></description>
+<content:encoded><![CDATA[<h1>2026-06-05 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>游戏脚本</h3>
+<h3>智能硬件</h3>
 <ul>
-<li><strong>Adopt-Me-Script</strong> Roblox 游戏脚本工具，一键执行自动化任务 ↗ #1</li>
+<li><strong>smart-home-button</strong> 极简智能家居物理按键，一键控制多场景，支持 Wi-Fi 与 MQTT 协议 ↗ #1</li>
 </ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>sandboxes</strong> 轻量级 Go 沙盒环境，用于隔离运行未信任代码 ↗ #2</li>
+<li><strong>meatshell</strong> 用 Rust 编写的轻量级 Shell，强调速度与安全性，支持管道与作业控制 ↗ #2</li>
 </ul>
-<h3>AI / 大模型</h3>
+<h3>教育 &amp; 学习平台</h3>
 <ul>
-<li><strong>Claude-Opus-4.6-Censorship-Remover</strong> 声称移除 Claude 模型内容审查的补丁工具 ↗ #3</li>
+<li><strong>edulab</strong> 基于 HTML 的在线实验教学系统，提供可视化课程编排与自动评测功能 ↗ #3</li>
 </ul>
-<h3>模拟器</h3>
+<h3>创意工具 / 游戏开发</h3>
 <ul>
-<li><strong>ryujinx-emu</strong> 开源 Nintendo Switch 模拟器，面向 Windows / Linux 平台 ↗ #4</li>
+<li><strong>sprite-lab</strong> 开源像素精灵编辑器，基于 TypeScript，支持动画帧与导出到游戏引擎 ↗ #4</li>
 </ul>
-<h3>网络工具</h3>
+<h3>新闻聚合</h3>
 <ul>
-<li><strong>Free-VPN-Nightcore</strong> 声称提供免费 VPN 网络代理服务，来源不明 ↗ #5</li>
+<li><strong>papernews</strong> 用 Python 实现的本地新闻摘要工具，抓取网页并生成 PDF 简报 ↗ #5</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/Vkestsu/Adopt-Me-Script">Adopt-Me-Script</a> #1</h2>
-<blockquote>
-<p>一个专为 Roblox 游戏 <strong>Adopt Me!</strong> 设计的 Lua 脚本集合，支持自动化养殖、交易与挂机操作。目前获得 79 个 Stars、27 个 Forks，社区关注度中等。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Vkestsu/Adopt-Me-Script" alt="Adopt-Me-Script" style="max-width:100%;border-radius:8px;"></p></p><p>该项目主要面向 Roblox 玩家，提供一套插件式脚本，可自动完成喂养宠物、收集硬币、执行交易等重复性任务。开发者利用 Lua 语言直接调用游戏内部 API，实现无窗口化运行。</p>
-<p>项目依赖 <strong>Synapse X</strong> 或 <strong>Krnl</strong> 等第三方注入器，使用前需配置指定执行环境。目前脚本仅支持 <strong>Adopt Me!</strong> 当前版本，每次游戏更新后需等待适配。</p>
-<p>社区反馈显示脚本稳定性一般，部分用户报告封号风险。开发者未提供长期维护承诺，但已累积 27 个 Forks，说明有外部贡献者参与改进。</p>
-<p>该工具适合希望减轻手动操作负担的 Roblox 玩家，但使用第三方脚本违反游戏服务条款，需自行承担账号风险。</p>
-<p>相关链接：</p>
+<h3>AI / 视频生成</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/Vkestsu/Adopt-Me-Script">Vkestsu/Adopt-Me-Script</a></li>
+<li><strong>ai-shortVideo-pipeline</strong> AI 短视频自动制作流水线，集成文案生成、配音与字幕合成 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/tastyeffectco/sandboxes">sandboxes</a> #2</h2>
+<h2><a href="https://github.com/Jasionf/smart-home-button">smart-home-button</a> #1</h2>
 <blockquote>
-<p>一个基于 <strong>Go</strong> 的轻量级沙盒引擎，提供安全的代码执行隔离环境。目前 72 个 Stars、0 个 Forks，尚在早期开发阶段。</p>
+<p>一个基于 ESP8266/ESP32 的智能家居物理按钮，通过 Wi-Fi 连接 MQTT 服务器，可自定义触发任意家庭自动化场景。主打低成本、零代码配置，适合 DIY 智能家居入门用户。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/tastyeffectco/sandboxes" alt="sandboxes" style="max-width:100%;border-radius:8px;"></p></p><p>项目由 <strong>tastyeffectco</strong> 发布，旨在替代 Docker/Kubernetes 等重型容器方案，为微服务中的未信任代码提供快速隔离。它利用 <strong>Linux cgroup</strong> 和 <strong>seccomp</strong> 实现资源限制与系统调用过滤。</p>
-<p>核心功能包括内存/CPU 配额、文件系统沙箱、网络访问控制。通过 <strong>gRPC</strong> 接口与外部服务通信，适合嵌入 CI/CD 流水线或在线 IDE 后端。</p>
-<p>由于零 Forks 且无 Release 版本，项目成熟度尚低。开发者在 README 中标注为“实验性”，建议仅用于非生产环境。</p>
-<p>与 <strong>gVisor</strong>、<strong>Firecracker</strong> 等同类相比，sandboxes 更偏轻量，但缺少多平台支持。目前仅支持 Linux x86_64 架构。</p>
+<p>该项目源自作者对“智能家居反人性”的反思：手机 App 控制灯光需要解锁→找 App→点按，不如物理按键直觉。<strong>smart-home-button</strong> 采用 C++ 编写固件，支持长按、短按、双击等多种手势，每个手势可映射到不同的 MQTT 主题。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Jasionf/smart-home-button" alt="smart-home-button" style="max-width:100%;border-radius:8px;"></p></p><p>硬件兼容 <strong>NodeMCU</strong>、<strong>ESP32 DevKit</strong> 等常见开发板，物料成本约 30 元人民币。固件通过 Web 配置界面完成 Wi-Fi 和 MQTT 设置，无需编写代码。目前获得 124 个 Star，社区关注度稳步增长。</p>
+<p>与市面上的 <strong>Flic</strong> 等商业按键相比，smart-home-button 完全开源，用户可自由修改代码以适配本地 Home Assistant、OpenHAB 等平台。适合智能家居爱好者在客厅、床头部署实体快捷开关。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/tastyeffectco/sandboxes">tastyeffectco/sandboxes</a></li>
+<li>项目地址：<a href="https://github.com/Jasionf/smart-home-button">Jasionf/smart-home-button</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/DisplaySanctify/Claude-Opus-4.6-Censorship-Remover">Claude-Opus-4.6-Censorship-Remover</a> #3</h2>
+<h2><a href="https://github.com/jeff141/meatshell">meatshell</a> #2</h2>
 <blockquote>
-<p>声称可以绕过 <strong>Claude Opus 4.6</strong> 内容审查机制的补丁脚本，引起部分用户关注。项目没有提供具体实现代码，只有文档和讨论。</p>
+<p>用 Rust 编写的全新 Unix Shell 替代品，强调执行速度与内存安全。提供类 Bash 语法，支持管道、重定向、作业控制，同时避免传统 Shell 常见的内存泄露和竞态条件。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/DisplaySanctify/Claude-Opus-4.6-Censorship-Remover" alt="Claude-Opus-4.6-Censorship-Remover" style="max-width:100%;border-radius:8px;"></p></p><p>项目描述称通过修改模型加载时的 <code>safety_filter</code> 参数，或注入自定义 <code>system prompt</code> 来解除对敏感话题的拦截。由于没有公开算法或源码，技术可信度存疑。</p>
-<p>当前 68 个 Stars、0 个 Forks，无实质性代码提交。Issue 区有用户询问具体使用方法，但维护者未回应。该项目很可能仅作为概念验证存在。</p>
-<p><strong>Anthropic</strong> 官方对模型安全有严格限制，任何绕过行为均违反服务条款。使用此类工具可能导致 API 密钥被吊销或法律风险。</p>
-<p>适合学术研究目的，但操作前需了解本地部署 Claude 模型的可能性（官方仅提供 API 访问，本地模型不可用）。</p>
+<p>Shell 作为命令行核心工具，长久以来被 <strong>Bash</strong>、<strong>Zsh</strong> 统治，但它们用 C 编写，内存安全问题频发。<strong>meatshell</strong> 选择 Rust，利用所有权模型从编译器层面消除空指针和缓冲区溢出。作者在 README 中称“目标不是功能最多，而是最稳定”。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/jeff141/meatshell" alt="meatshell" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括：命令历史、自动补全、环境变量管理、脚本执行。目前支持 Linux 和 macOS，Windows 支持正在开发。项目发布 2 周即获得 120 个 Star，Forks 17 个，在 Rust 社区引起讨论。</p>
+<p>与 <strong>Nushell</strong> 等现代 Shell 相比，meatshell 更强调“兼容性”——它直接解析 Bash 语法，用户可将 <code>.bashrc</code> 中的别名直接迁移。适合对系统稳定性要求较高的开发者作为日常 Shell 试用。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/DisplaySanctify/Claude-Opus-4.6-Censorship-Remover">DisplaySanctify/Claude-Opus-4.6-Censorship-Remover</a></li>
+<li>项目地址：<a href="https://github.com/jeff141/meatshell">jeff141/meatshell</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/UzuMathieu/ryujinx-emu">ryujinx-emu</a> #4</h2>
+<h2><a href="https://github.com/wy51ai/edulab">edulab</a> #3</h2>
 <blockquote>
-<p>一个 <strong>Nintendo Switch</strong> 模拟器的分支项目，基于著名开源项目 <strong>Ryujinx</strong>。当前 59 个 Stars，0 个 Forks，可能是个人定制版本。</p>
+<p>一个基于 Web 的在线实验教学管理平台，教师可创建实验任务、学生在线提交代码，系统自动评分并提供反馈。纯 HTML + JavaScript 前端，后端使用 Node.js。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/UzuMathieu/ryujinx-emu" alt="ryujinx-emu" style="max-width:100%;border-radius:8px;"></p></p><p>原始 Ryujinx 项目已在 2024 年 10 月停止维护（因任天堂法律威胁），而此分支试图延续开发。项目使用 <strong>C#</strong> 编写，依赖 <strong>Avalonia UI</strong> 框架，支持 Windows 和 Linux。</p>
-<p>据 README 描述，该分支修复了原版的几个图形渲染问题（如《塞尔达传说：王国之泪》的光影闪烁），并整合了最新的 <strong>LLVM 后端</strong> 以提升 JIT 性能。</p>
-<p>由于 Forks 为零，暂未获取其他贡献者信任。作者表示会持续更新至 2026 年底，但未提供具体路线图。</p>
-<p>对于希望继续使用 Switch 模拟器的玩家，这是一个可选替代品。但需自行编译，且无法保证与商业游戏的兼容性。</p>
+<p>在远程教育场景下，实验课一直是痛点：需部署本地环境、人工批改效率低。<strong>edulab</strong> 提供一站式解决方案，支持 <strong>C</strong>、<strong>Python</strong>、<strong>Java</strong> 等常见语言的自动评测。教师通过拖拽式编辑器配置测试用例，学生直接在网页编辑器中编写代码并运行。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/wy51ai/edulab" alt="edulab" style="max-width:100%;border-radius:8px;"></p></p><p>目前 Star 数 71，Forks 24，被多个高校的实验课程采用。系统内置防作弊机制（代码相似度检测），并支持 Docker 隔离执行环境，保证评测安全性。前台界面采用响应式设计，移动端可用。</p>
+<p>相比 <strong>CodeGrade</strong> 等商业产品，edulab 完全开源、自托管，适合预算有限的大学和培训机构快速搭建私有实验平台。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/UzuMathieu/ryujinx-emu">UzuMathieu/ryujinx-emu</a></li>
+<li>项目地址：<a href="https://github.com/wy51ai/edulab">wy51ai/edulab</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/limitbreathbarrow/Free-VPN-Nightcore">Free-VPN-Nightcore</a> #5</h2>
+<h2><a href="https://github.com/boona13/sprite-lab">sprite-lab</a> #4</h2>
 <blockquote>
-<p>宣称提供免费 VPN 服务的 GitHub 仓库，但无可见代码或配置文件。目前 57 个 Stars，0 个 Forks，可能存在安全风险。</p>
+<p>一个基于 Web 的像素精灵编辑器，用 TypeScript 编写，支持在浏览器中绘制、动画帧编辑，并可直接导出为 PNG 精灵表或游戏引擎格式（如 Unity、Godot）。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/limitbreathbarrow/Free-VPN-Nightcore" alt="Free-VPN-Nightcore" style="max-width:100%;border-radius:8px;"></p></p><p>仓库仅包含一个 README 文件，内容指向一个外部下载链接（现已失效），并声称提供“无限流量、无日志”的 VPN 服务。未提供源码或透明说明，安全审计无法进行。</p>
-<p>这种模式常见于恶意软件分发或钓鱼攻击。Stars 数量可能来自自动刷票或虚假账号，真实用户需高度警惕。</p>
-<p>GitHub 安全团队已对该仓库进行标记，但尚未删除。用户应避免点击任何外部链接或下载附件，建议使用声誉良好的开源 VPN 项目（如 <strong>WireGuard</strong>、<strong>OpenVPN</strong>）。</p>
-<p>目前无任何有效功能验证资料，项目很可能是一个空壳。</p>
+<p>独立游戏开发者常需要快速制作像素动画，但专业工具如 <strong>Aseprite</strong> 需付费（20 美元）。<strong>sprite-lab</strong> 完全免费且开源，无需安装，打开浏览器即可使用。核心功能包括：图层、调色板管理、洋葱皮动画预览、导出精灵表。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/boona13/sprite-lab" alt="sprite-lab" style="max-width:100%;border-radius:8px;"></p></p><p>当前版本（v0.5）已支持最多 64x64 像素画布、16 帧动画。社区 Star 67，Forks 7，开发者持续增加对 <strong>Aseprite</strong> 文件格式的兼容性导入。基于 Canvas API 实现，性能良好。</p>
+<p>与 <strong>Piskel</strong> 等同类工具相比，sprite-lab 的亮点在于“纯前端 + 现代化 UI”，无后端依赖，适合直接集成到游戏开发工作流中。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/limitbreathbarrow/Free-VPN-Nightcore">limitbreathbarrow/Free-VPN-Nightcore</a></li>
+<li>项目地址：<a href="https://github.com/boona13/sprite-lab">boona13/sprite-lab</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/marcj/papernews">papernews</a> #5</h2>
+<blockquote>
+<p>一个 Python 命令行工具，从指定新闻网站抓取文章，自动排版并生成类似报纸版式的 PDF 简报。支持多源聚合、摘要提取与自定义样式。</p>
+</blockquote>
+<p>信息过载时代，许多用户希望每天收到一份“精选简报”而非无尽推送。<strong>papernews</strong> 实现了一个轻量级管道：先通过 <code>requests</code> + <code>BeautifulSoup</code> 抓取 RSS 或网页正文，再用 <code>textwrap</code> 和 <code>ReportLab</code> 生成多栏 PDF。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/marcj/papernews" alt="papernews" style="max-width:100%;border-radius:8px;"></p></p><p>目前支持 <strong>Hacker News</strong>、<strong>Ars Technica</strong>、<strong>The Verge</strong> 等 10 余个站点，用户可通过 YAML 配置文件扩展。项目 Star 53，Forks 5，适合个人或小团队内部使用。输出 PDF 可设置字体、页眉页脚，支持中英文混排。</p>
+<p>与 <strong>Calibre</strong> 的新闻下载功能相比，papernews 更专注于“报纸风格”排版，并保留了命令行可脚本化的优势，可结合 <code>cron</code> 每日自动发送到邮箱。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/marcj/papernews">marcj/papernews</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/myccarl/ai-shortVideo-pipeline">ai-shortVideo-pipeline</a> #6</h2>
+<blockquote>
+<p>一个全自动短视频生成流水线，输入文案主题，AI 自动撰写脚本、生成配音、挑选背景视频片段、添加字幕，最终输出 MP4 文件。基于 LangChain + OpenAI + FFmpeg。</p>
+</blockquote>
+<p>短视频自媒体内容创作门槛高，重复性剪辑工作耗时。<strong>ai-shortVideo-pipeline</strong> 试图实现“从标题到成品”一步到位：调用大语言模型生成口播文案，利用 TTS（如 <strong>Edge-TTS</strong>）转语音，再从素材库或 Pexels 下载匹配背景视频，最后通过 FFmpeg 合成。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/myccarl/ai-shortVideo-pipeline" alt="ai-shortVideo-pipeline" style="max-width:100%;border-radius:8px;"></p></p><p>当前 Star 12，处于早期阶段，但已有完整流程演示。支持自定义 OpenAI API Key、选择配音速度与背景音乐。输出视频分辨率为 1080x1920（竖屏），适合抖音、TikTok 等平台。</p>
+<p>相比 <strong>Pictory</strong> 等 SaaS 产品，ai-shortVideo-pipeline 完全本地运行，隐私可控，开发者可自由替换其中 AI 模型（如改用本地 LLM）。适合有编程基础的创作者进行二次开发。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/myccarl/ai-shortVideo-pipeline">myccarl/ai-shortVideo-pipeline</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-04/</guid>
-<pubDate>Thu, 04 Jun 2026 01:38:03 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-05/</guid>
+<pubDate>Fri, 05 Jun 2026 03:31:10 GMT</pubDate>
 </item>
   </channel>
 </rss>
