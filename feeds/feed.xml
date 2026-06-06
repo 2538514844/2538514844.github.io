@@ -5,115 +5,103 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 05 Jun 2026 03:31:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jun 2026 01:39:26 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-05 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-05/</link>
-<description><![CDATA[2026-06-05 每日精选 — 6 个仓库: Jasionf/smart-home-button, jeff141/meatshell, wy51ai/edulab, boona13/sprite-lab, marcj/papernews, myccarl/ai-shortVideo-pipeline]]></description>
-<content:encoded><![CDATA[<h1>2026-06-05 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-06 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-06/</link>
+<description><![CDATA[2026-06-06 每日精选 — 6 个仓库: NavigatorUncouple/Neverlose-CS2-By-NightCore-Team, chaseai-yt/grill-me-codex, lbq110/weread-exporter, zengxiao-he/tessera, sadassimov/geemu-skill, sarisen/x-bookmark-manager]]></description>
+<content:encoded><![CDATA[<h1>2026-06-06 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>智能硬件</h3>
+<h3>🎮 游戏辅助工具</h3>
 <ul>
-<li><strong>smart-home-button</strong> 极简智能家居物理按键，一键控制多场景，支持 Wi-Fi 与 MQTT 协议 ↗ #1</li>
+<li><strong>Neverlose-CS2-By-NightCore-Team</strong> 面向 CS2 的游戏辅助框架，集成多种自定义功能 ↗ #1</li>
 </ul>
-<h3>开发工具</h3>
+<h3>🤖 AI 与开发工具</h3>
 <ul>
-<li><strong>meatshell</strong> 用 Rust 编写的轻量级 Shell，强调速度与安全性，支持管道与作业控制 ↗ #2</li>
+<li><strong>grill-me-codex</strong> 基于 OpenAI Codex 的代码审查与优化助手，支持对话式编程 ↗ #2</li>
 </ul>
-<h3>教育 &amp; 学习平台</h3>
+<h3>📦 数据效率工具</h3>
 <ul>
-<li><strong>edulab</strong> 基于 HTML 的在线实验教学系统，提供可视化课程编排与自动评测功能 ↗ #3</li>
+<li><strong>weread-exporter</strong> 微信读书笔记与书架内容一键导出工具，支持 Markdown 格式 ↗ #3</li>
 </ul>
-<h3>创意工具 / 游戏开发</h3>
+<h3>🛠 实用小工具</h3>
 <ul>
-<li><strong>sprite-lab</strong> 开源像素精灵编辑器，基于 TypeScript，支持动画帧与导出到游戏引擎 ↗ #4</li>
-</ul>
-<h3>新闻聚合</h3>
-<ul>
-<li><strong>papernews</strong> 用 Python 实现的本地新闻摘要工具，抓取网页并生成 PDF 简报 ↗ #5</li>
-</ul>
-<h3>AI / 视频生成</h3>
-<ul>
-<li><strong>ai-shortVideo-pipeline</strong> AI 短视频自动制作流水线，集成文案生成、配音与字幕合成 ↗ #6</li>
+<li><strong>tessera</strong> 轻量级文本马赛克工具，保护隐私截图中的敏感信息 ↗ #4</li>
+<li><strong>geemu-skill</strong> 游戏角色技能配置解析与可视化工具，适配多款 RPG ↗ #5</li>
+<li><strong>x-bookmark-manager</strong> X (Twitter) 书签批量管理与分类导出工具 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Jasionf/smart-home-button">smart-home-button</a> #1</h2>
+<h2><a href="https://github.com/NavigatorUncouple/Neverlose-CS2-By-NightCore-Team">Neverlose-CS2-By-NightCore-Team</a> #1</h2>
 <blockquote>
-<p>一个基于 ESP8266/ESP32 的智能家居物理按钮，通过 Wi-Fi 连接 MQTT 服务器，可自定义触发任意家庭自动化场景。主打低成本、零代码配置，适合 DIY 智能家居入门用户。</p>
+<p>为 <strong>Counter-Strike 2</strong> 打造的游戏辅助框架，由 <strong>NightCore Team</strong> 维护，提供视觉增强、自瞄等模块化功能。项目当前 Stars 64，社区关注度持续上升。</p>
 </blockquote>
-<p>该项目源自作者对“智能家居反人性”的反思：手机 App 控制灯光需要解锁→找 App→点按，不如物理按键直觉。<strong>smart-home-button</strong> 采用 C++ 编写固件，支持长按、短按、双击等多种手势，每个手势可映射到不同的 MQTT 主题。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Jasionf/smart-home-button" alt="smart-home-button" style="max-width:100%;border-radius:8px;"></p></p><p>硬件兼容 <strong>NodeMCU</strong>、<strong>ESP32 DevKit</strong> 等常见开发板，物料成本约 30 元人民币。固件通过 Web 配置界面完成 Wi-Fi 和 MQTT 设置，无需编写代码。目前获得 124 个 Star，社区关注度稳步增长。</p>
-<p>与市面上的 <strong>Flic</strong> 等商业按键相比，smart-home-button 完全开源，用户可自由修改代码以适配本地 Home Assistant、OpenHAB 等平台。适合智能家居爱好者在客厅、床头部署实体快捷开关。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/NavigatorUncouple/Neverlose-CS2-By-NightCore-Team" alt="Neverlose-CS2-By-NightCore-Team" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Neverlose</strong> 品牌在 CS 系列辅助领域有较长历史，本次针对 CS2 的版本复刻了经典功能架构。项目采用 <strong>C++</strong> 编写，利用游戏引擎的渲染接口实现外部 Overlay 绘制。</p>
+<p>核心功能包括玩家透视、自动瞄准、后坐力控制等，代码结构按模块分离，便于社区二次开发。目前项目尚未发布正式 Release，但代码已公开可供编译测试。</p>
+<p>虽然 Stars 仅 64，但其在相关社区（如 UnknownCheats）中的讨论热度较高。需要注意的是，此类工具违反 V 社使用条款，存在封号风险，仅供技术学习参考。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Jasionf/smart-home-button">Jasionf/smart-home-button</a></li>
+<li>项目地址：<a href="https://github.com/NavigatorUncouple/Neverlose-CS2-By-NightCore-Team">NavigatorUncouple/Neverlose-CS2-By-NightCore-Team</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/jeff141/meatshell">meatshell</a> #2</h2>
+<h2><a href="https://github.com/chaseai-yt/grill-me-codex">grill-me-codex</a> #2</h2>
 <blockquote>
-<p>用 Rust 编写的全新 Unix Shell 替代品，强调执行速度与内存安全。提供类 Bash 语法，支持管道、重定向、作业控制，同时避免传统 Shell 常见的内存泄露和竞态条件。</p>
+<p>利用 <strong>OpenAI Codex</strong> 模型实现代码审查与实时优化的 CLI 工具，支持多种编程语言，据称可将代码调试时间缩短 30%。项目 Stars 53，Forks 10。</p>
 </blockquote>
-<p>Shell 作为命令行核心工具，长久以来被 <strong>Bash</strong>、<strong>Zsh</strong> 统治，但它们用 C 编写，内存安全问题频发。<strong>meatshell</strong> 选择 Rust，利用所有权模型从编译器层面消除空指针和缓冲区溢出。作者在 README 中称“目标不是功能最多，而是最稳定”。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/jeff141/meatshell" alt="meatshell" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括：命令历史、自动补全、环境变量管理、脚本执行。目前支持 Linux 和 macOS，Windows 支持正在开发。项目发布 2 周即获得 120 个 Star，Forks 17 个，在 Rust 社区引起讨论。</p>
-<p>与 <strong>Nushell</strong> 等现代 Shell 相比，meatshell 更强调“兼容性”——它直接解析 Bash 语法，用户可将 <code>.bashrc</code> 中的别名直接迁移。适合对系统稳定性要求较高的开发者作为日常 Shell 试用。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/chaseai-yt/grill-me-codex" alt="grill-me-codex" style="max-width:100%;border-radius:8px;"></p></p><p>开发者 <strong>chaseai-yt</strong> 意在打造一个“烤架”式代码检查器，对代码片段进行逐行分析并给出改进建议。工具通过 Python 调用 OpenAI API，支持本地文件或剪贴板输入。</p>
+<p>核心工作流：读取代码 → 发送至 Codex 模型 → 返回重构建议、潜在 bug 和性能优化点。用户可通过交互式对话对建议进行追问，实现渐进式修改。</p>
+<p>项目 GitHub 页面展示了多个示例，包括 Python、JavaScript 和 Go 代码的审查结果。当前 Stars 53，社区贡献活跃，已收到 10 个 Fork。适合个人开发者或小团队集成到 IDE 外部的快速审查流程中。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/jeff141/meatshell">jeff141/meatshell</a></li>
+<li>项目地址：<a href="https://github.com/chaseai-yt/grill-me-codex">chaseai-yt/grill-me-codex</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/wy51ai/edulab">edulab</a> #3</h2>
+<h2><a href="https://github.com/lbq110/weread-exporter">weread-exporter</a> #3</h2>
 <blockquote>
-<p>一个基于 Web 的在线实验教学管理平台，教师可创建实验任务、学生在线提交代码，系统自动评分并提供反馈。纯 HTML + JavaScript 前端，后端使用 Node.js。</p>
+<p><strong>微信读书</strong> 笔记与书架内容导出工具，支持将划线、想法和全书内容转换为 Markdown 格式。项目 Stars 26，使用 Python 实现。</p>
 </blockquote>
-<p>在远程教育场景下，实验课一直是痛点：需部署本地环境、人工批改效率低。<strong>edulab</strong> 提供一站式解决方案，支持 <strong>C</strong>、<strong>Python</strong>、<strong>Java</strong> 等常见语言的自动评测。教师通过拖拽式编辑器配置测试用例，学生直接在网页编辑器中编写代码并运行。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/wy51ai/edulab" alt="edulab" style="max-width:100%;border-radius:8px;"></p></p><p>目前 Star 数 71，Forks 24，被多个高校的实验课程采用。系统内置防作弊机制（代码相似度检测），并支持 Docker 隔离执行环境，保证评测安全性。前台界面采用响应式设计，移动端可用。</p>
-<p>相比 <strong>CodeGrade</strong> 等商业产品，edulab 完全开源、自托管，适合预算有限的大学和培训机构快速搭建私有实验平台。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/lbq110/weread-exporter" alt="weread-exporter" style="max-width:100%;border-radius:8px;"></p></p><p>微信读书虽有官方导出功能，但限制较多（仅支持导出个人笔记，且格式单一）。<strong>weread-exporter</strong> 通过模拟请求或解析本地缓存，提取用户的书籍元数据、标注与评论，并整理为结构化的 Markdown 文件。</p>
+<p>技术方案分为两部分：移动端缓存解析和 Web 端接口抓取。用户可选择 <code>--type notes</code> 仅导出笔记，或 <code>--type book</code> 导出全书文本。导出的图片会转为 Base64 嵌入。</p>
+<p>由于直接解析微信读书私有格式，工具在每次 App 更新后可能需要适配。当前 Stars 26，Forks 8，文档中提供了详细的配置步骤和错误处理说明，适合深度阅读用户整理知识库。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/wy51ai/edulab">wy51ai/edulab</a></li>
+<li>项目地址：<a href="https://github.com/lbq110/weread-exporter">lbq110/weread-exporter</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/boona13/sprite-lab">sprite-lab</a> #4</h2>
+<h2><a href="https://github.com/zengxiao-he/tessera">tessera</a> #4</h2>
 <blockquote>
-<p>一个基于 Web 的像素精灵编辑器，用 TypeScript 编写，支持在浏览器中绘制、动画帧编辑，并可直接导出为 PNG 精灵表或游戏引擎格式（如 Unity、Godot）。</p>
+<p>一个轻量级的 <strong>文本马赛克</strong> 工具，用于在截图中快速遮盖敏感文字（如密码、姓名）。Stars 20，纯 Python 实现，无外部依赖。</p>
 </blockquote>
-<p>独立游戏开发者常需要快速制作像素动画，但专业工具如 <strong>Aseprite</strong> 需付费（20 美元）。<strong>sprite-lab</strong> 完全免费且开源，无需安装，打开浏览器即可使用。核心功能包括：图层、调色板管理、洋葱皮动画预览、导出精灵表。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/boona13/sprite-lab" alt="sprite-lab" style="max-width:100%;border-radius:8px;"></p></p><p>当前版本（v0.5）已支持最多 64x64 像素画布、16 帧动画。社区 Star 67，Forks 7，开发者持续增加对 <strong>Aseprite</strong> 文件格式的兼容性导入。基于 Canvas API 实现，性能良好。</p>
-<p>与 <strong>Piskel</strong> 等同类工具相比，sprite-lab 的亮点在于“纯前端 + 现代化 UI”，无后端依赖，适合直接集成到游戏开发工作流中。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/zengxiao-he/tessera" alt="tessera" style="max-width:100%;border-radius:8px;"></p></p><p>许多截图分享场景需要手动模糊敏感信息，而图片编辑软件往往操作繁琐。<strong>tessera</strong> 提供命令行接口，用户只需指定文字坐标和模糊强度，即可生成马赛克效果。</p>
+<p>工具基于 <strong>Pillow</strong> 库对图片像素进行处理，支持矩形、圆形两种马赛克形状，并可自定义模糊半径。项目目前仅支持对已有图片的局部处理，未来计划加入 OCR 自动识别敏感文字。</p>
+<p>开发者 <strong>zengxiao-he</strong> 将其定位为隐私保护的小型实用工具。当前 Stars 20，Forks 0，但代码简洁（约 200 行），适合作为学习图像处理的参考项目。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/boona13/sprite-lab">boona13/sprite-lab</a></li>
+<li>项目地址：<a href="https://github.com/zengxiao-he/tessera">zengxiao-he/tessera</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/marcj/papernews">papernews</a> #5</h2>
+<h2><a href="https://github.com/sadassimov/geemu-skill">geemu-skill</a> #5</h2>
 <blockquote>
-<p>一个 Python 命令行工具，从指定新闻网站抓取文章，自动排版并生成类似报纸版式的 PDF 简报。支持多源聚合、摘要提取与自定义样式。</p>
+<p>解析多款 RPG 游戏角色技能的配置文件，并以可视化树状图呈现技能连招与冷却关系。Stars 15，Python 实现。</p>
 </blockquote>
-<p>信息过载时代，许多用户希望每天收到一份“精选简报”而非无尽推送。<strong>papernews</strong> 实现了一个轻量级管道：先通过 <code>requests</code> + <code>BeautifulSoup</code> 抓取 RSS 或网页正文，再用 <code>textwrap</code> 和 <code>ReportLab</code> 生成多栏 PDF。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/marcj/papernews" alt="papernews" style="max-width:100%;border-radius:8px;"></p></p><p>目前支持 <strong>Hacker News</strong>、<strong>Ars Technica</strong>、<strong>The Verge</strong> 等 10 余个站点，用户可通过 YAML 配置文件扩展。项目 Star 53，Forks 5，适合个人或小团队内部使用。输出 PDF 可设置字体、页眉页脚，支持中英文混排。</p>
-<p>与 <strong>Calibre</strong> 的新闻下载功能相比，papernews 更专注于“报纸风格”排版，并保留了命令行可脚本化的优势，可结合 <code>cron</code> 每日自动发送到邮箱。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/sadassimov/geemu-skill" alt="geemu-skill" style="max-width:100%;border-radius:8px;"></p></p><p>游戏玩家常需研究技能搭配，但官方游戏内技能树图表不够直观。<strong>geemu-skill</strong> 通过读取特定游戏的 JSON 或 XML 技能数据，生成技能依赖关系图与属性面板。</p>
+<p>初始支持的游戏包括《原神》角色技能、《崩坏：星穹铁道》光锥效果等，通过社区贡献扩展。输出格式为 SVG 图片，可直接嵌入文档或分享。开发者 <strong>sadassimov</strong> 在 README 中提供了详细的游戏数据结构说明。</p>
+<p>当前 Stars 15，项目仍处于早期阶段，仅实现了单角色技能解析。若后续支持多角色对比，实用价值会更高。适合游戏数据爱好者或模组制作者。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/marcj/papernews">marcj/papernews</a></li>
+<li>项目地址：<a href="https://github.com/sadassimov/geemu-skill">sadassimov/geemu-skill</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/myccarl/ai-shortVideo-pipeline">ai-shortVideo-pipeline</a> #6</h2>
+<h2><a href="https://github.com/sarisen/x-bookmark-manager">x-bookmark-manager</a> #6</h2>
 <blockquote>
-<p>一个全自动短视频生成流水线，输入文案主题，AI 自动撰写脚本、生成配音、挑选背景视频片段、添加字幕，最终输出 MP4 文件。基于 LangChain + OpenAI + FFmpeg。</p>
+<p><strong>X (Twitter)</strong> 书签批量管理与分类导出工具，基于 JavaScript 实现，支持标签化整理和 CSV 输出。Stars 15，Forks 5。</p>
 </blockquote>
-<p>短视频自媒体内容创作门槛高，重复性剪辑工作耗时。<strong>ai-shortVideo-pipeline</strong> 试图实现“从标题到成品”一步到位：调用大语言模型生成口播文案，利用 TTS（如 <strong>Edge-TTS</strong>）转语音，再从素材库或 Pexels 下载匹配背景视频，最后通过 FFmpeg 合成。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/myccarl/ai-shortVideo-pipeline" alt="ai-shortVideo-pipeline" style="max-width:100%;border-radius:8px;"></p></p><p>当前 Star 12，处于早期阶段，但已有完整流程演示。支持自定义 OpenAI API Key、选择配音速度与背景音乐。输出视频分辨率为 1080x1920（竖屏），适合抖音、TikTok 等平台。</p>
-<p>相比 <strong>Pictory</strong> 等 SaaS 产品，ai-shortVideo-pipeline 完全本地运行，隐私可控，开发者可自由替换其中 AI 模型（如改用本地 LLM）。适合有编程基础的创作者进行二次开发。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/sarisen/x-bookmark-manager" alt="x-bookmark-manager" style="max-width:100%;border-radius:8px;"></p></p><p>X 平台的内置书签功能缺乏分类和批量操作，大量收藏后难以检索。<strong>x-bookmark-manager</strong> 通过 X API 或前端脚本抓取用户的所有书签，提供筛选、标签、导出等功能。</p>
+<p>技术实现依赖 Twitter API v2 的 <code>bookmarks</code> 端点，用户需申请 Bearer Token 并配置本地运行。工具提供 Web 界面，支持将书签按关键词自动打标签，并导出为 JSON 或 CSV。</p>
+<p>当前 Stars 15，Forks 5。由于 X API 对免费用户有速率限制，开发者在 README 中提醒合理安排请求间隔。适合社交媒体运营或深度信息收集者使用。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/myccarl/ai-shortVideo-pipeline">myccarl/ai-shortVideo-pipeline</a></li>
+<li>项目地址：<a href="https://github.com/sarisen/x-bookmark-manager">sarisen/x-bookmark-manager</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-05/</guid>
-<pubDate>Fri, 05 Jun 2026 03:31:10 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-06/</guid>
+<pubDate>Sat, 06 Jun 2026 01:39:26 GMT</pubDate>
 </item>
   </channel>
 </rss>
