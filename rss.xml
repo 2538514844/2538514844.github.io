@@ -5,106 +5,113 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 08 Jun 2026 02:55:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jun 2026 03:41:07 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-08 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-08/</link>
-<description><![CDATA[2026-06-08 每日精选 — 6 个仓库: JimLiu/baoyu-design, FengZi1221/grok-reg-tool, MonsoonGaming/Solarpunk-game-release, GordenSun/GordenSuperPPTSkills, danieljonata-dev/roblox-fps-unlocker, fern-tui/fern-core]]></description>
-<content:encoded><![CDATA[<h1>2026-06-08 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-09 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-09/</link>
+<description><![CDATA[2026-06-09 每日精选 — 6 个仓库: xiaohuailabs/xiaohu-video-translate, amap-cvlab/ABot-Earth-0.5, Regert888/gpt-outlook-register, OpTi9/clade-fonline-public, chubbyguan/chubbyskills, heyxiaoc/not-fade-away]]></description>
+<content:encoded><![CDATA[<h1>2026-06-09 GitHub 开源项目精选</h1>
 <h2>概览</h2>
+<h3>AI/大模型</h3>
+<ul>
+<li><strong>xiaohu-video-translate</strong> 开源视频翻译工具，支持多语言字幕生成与语音克隆 ↗ #1  </li>
+<li><strong>ABot-Earth-0.5</strong> 高德实验室发布的地球尺度多模态AI模型，提升地理空间理解能力 ↗ #2</li>
+</ul>
 <h3>效率工具</h3>
 <ul>
-<li><strong>GordenSuperPPTSkills</strong> 一键生成 AI 赋能 PPT 文案与排版 ↗ #4</li>
-<li><strong>baoyu-design</strong> 轻量级低代码设计系统，快速搭建企业级后台 ↗ #1</li>
+<li><strong>gpt-outlook-register</strong> 自动化注册 Outlook 邮箱和 GPT 账号的 Python 工具 ↗ #3  </li>
+<li><strong>chubbyskills</strong> 基于技能图谱的评估与可视化平台，辅助个人成长规划 ↗ #4  </li>
+<li><strong>not-fade-away</strong> 极简 RSS 新闻阅读应用，关注“不消逝”的信息流 ↗ #5</li>
 </ul>
-<h3>游戏相关</h3>
+<h3>游戏/娱乐</h3>
 <ul>
-<li><strong>Solarpunk-game-release</strong> 开源太阳能朋克策略游戏，探索绿色能源未来 ↗ #3</li>
-<li><strong>roblox-fps-unlocker</strong> 解除 Roblox 帧率限制，提升游戏画面流畅度 ↗ #5</li>
-</ul>
-<h3>开发工具</h3>
-<ul>
-<li><strong>grok-reg-tool</strong> X 平台（原 Twitter）账号自动注册工具 ↗ #2</li>
-<li><strong>fern-core</strong> 纯 Zig 编写的 TUI 终端 UI 框架，性能优先 ↗ #6</li>
+<li><strong>clade-fonline-public</strong> 基于 React 的“物种进化”在线游戏前端实现 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/JimLiu/baoyu-design">baoyu-design</a> #1</h2>
+<h2><a href="https://github.com/xiaohuailabs/xiaohu-video-translate">xiaohu-video-translate</a> #1</h2>
 <blockquote>
-<p>一款面向中后台场景的低代码设计系统，提供开箱即用的 UI 组件和主题定制能力。基于 React 生态，帮助开发者快速构建企业级管理界面。</p>
+<p>一款面向视频创作者的 AI 翻译工具，集成语音识别、机器翻译和语音合成，可一键将视频中的讲话内容翻译成多语言字幕并保留原声特征。</p>
 </blockquote>
-<p><strong>JimLiu</strong> 团队推出的 <strong>baoyu-design</strong> 定位于填补低代码平台与专业设计系统之间的空白。许多团队在开发后台时重复造轮子，baoyu-design 试图通过统一的设计语言和组件库解决这一痛点。</p>
-<p>项目基于 <strong>React</strong> 和 <strong>TypeScript</strong> 开发，内置超过 40 个常用组件，包括表格、表单、对话框、图表等。支持按需加载和全局主题变量覆盖，开发者可以通过 JSON 配置快速定制品牌色、圆角、间距。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/JimLiu/baoyu-design" alt="baoyu-design" style="max-width:100%;border-radius:8px;"></p></p><p>该项目在 GitHub 上已获得 <strong>300 Stars</strong> 和 <strong>19 Forks</strong>，受到社区一定关注。根据文档描述，其组件设计遵循 <strong>WAI-ARIA</strong> 无障碍规范，适合需要高可及性的企业级应用。</p>
-<p>与 <strong>Ant Design</strong>、<strong>Element Plus</strong> 等成熟方案相比，baoyu-design 更侧重低代码场景的灵活性——组件支持通过 JSON Schema 驱动渲染，可直接对接后端 API 接口。适合快速原型开发或作为内部管理系统的 UI 底座。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xiaohuailabs/xiaohu-video-translate" alt="xiaohu-video-translate" style="max-width:100%;border-radius:8px;"></p></p><p>视频本地化长期以来依赖手动字幕制作或外包，成本高、效率低。<strong>xiaohu-video-translate</strong> 试图将整个流程自动化，让普通用户也能快速生成带翻译的高质量视频。</p>
+<p>该项目基于 <strong>Python</strong>，整合了 <code>Whisper</code> 进行语音识别、<code>Deep Translator</code> 或类似 API 进行文本翻译，并利用 <code>TTS</code> 引擎实现语音克隆，输出与原说话人音色相近的翻译语音。目前支持中、英、日、韩等常见语言。</p>
+<p>在 GitHub 上获得 <strong>144</strong> 个 Stars 和 <strong>15</strong> 个 Forks，社区反馈集中于翻译准确率与实时性。开发者计划加入批处理与字幕格式导出功能，适配更多平台。</p>
+<p>与同类方案（如 Subtitle Edit + 手动翻译）相比，xiaohu-video-translate 的优势在于全链路一站完成，尤其适合视频博主、教育机构快速生成多语言版本内容。缺点是大规模使用可能需额外支付 API 费用。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/JimLiu/baoyu-design">JimLiu/baoyu-design</a></li>
+<li>项目地址：<a href="https://github.com/xiaohuailabs/xiaohu-video-translate">xiaohuailabs/xiaohu-video-translate</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/FengZi1221/grok-reg-tool">grok-reg-tool</a> #2</h2>
+<h2><a href="https://github.com/amap-cvlab/ABot-Earth-0.5">ABot-Earth-0.5</a> #2</h2>
 <blockquote>
-<p>X 平台（原 Twitter）自动化注册辅助工具，基于 TypeScript 开发，集成代理轮换与验证码识别功能。旨在帮助用户批量创建账号。</p>
+<p><strong>高德地图计算机视觉实验室</strong> 开源的地球尺度多模态 AI 模型，能理解卫星影像、地图与文本指令，支持地理问答与路径分析。</p>
 </blockquote>
-<p><strong>FengZi1221</strong> 开发的 <strong>grok-reg-tool</strong> 是一个面向社交媒体自动化操作的工具。随着 X 平台加强新用户注册限制，该工具试图通过模拟浏览器行为、切换 IP 代理以及接入打码平台来绕过风控。</p>
-<p>核心功能包括：自动填写注册表单、邮箱验证码自动提取、动态 User-Agent 轮换。项目使用 <code>puppeteer</code> 或 <code>playwright</code> 进行浏览器自动化，并支持配置第三方打码服务（如 2Captcha）解决 reCAPTCHA 挑战。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/FengZi1221/grok-reg-tool" alt="grok-reg-tool" style="max-width:100%;border-radius:8px;"></p></p><p>目前仓库收获 <strong>38 Stars</strong> 和 <strong>13 Forks</strong>，代码注释较为详细。开发者提供了 <code>config.ts</code> 模板，用户只需修改代理列表和打码 API 密钥即可运行。</p>
-<p>需要注意，此类工具可能违反 X 平台服务条款，存在账号被封禁的风险。项目仓库已声明“仅用于学习研究”，不建议用于商业批量注册。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/amap-cvlab/ABot-Earth-0.5" alt="ABot-Earth-0.5" style="max-width:100%;border-radius:8px;"></p></p><p>随着遥感数据爆炸式增长，传统 GIS 分析方法难以应对复杂的地理推理。<strong>ABot-Earth-0.5</strong> 采用视觉-语言预训练框架，将卫星图像、地图矢量与自然语言对齐，形成通用地理理解能力。</p>
+<p>模型基于 <strong>Transformer</strong> 架构，以高德积累的遥感数据集进行训练，支持输入“查询某区域建筑密度”或“规划最短路径”等文本指令，输出结构化分析或可视化结果。0.5 版本侧重基础地理要素识别，后续将扩展至动态变化检测。</p>
+<p>项目发布后在 GitHub 上已获 <strong>61</strong> 个 Stars，<strong>3</strong> 个 Forks。目前仍处于研究原型阶段，模型权重未完全开放，但提供了推理示例代码。潜在的落地场景包括城市规划、灾害救援辅助与农业监测。</p>
+<p>与 <strong>Google Geospatial API</strong> 或 <strong>OpenStreetMap</strong> 的 AI 插件不同，ABot-Earth-0.5 更强调端到端的语义问答，而非单纯的数据检索。对于开发者而言，这是个不错的基线模型。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/FengZi1221/grok-reg-tool">FengZi1221/grok-reg-tool</a></li>
+<li>项目地址：<a href="https://github.com/amap-cvlab/ABot-Earth-0.5">amap-cvlab/ABot-Earth-0.5</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/MonsoonGaming/Solarpunk-game-release">Solarpunk-game-release</a> #3</h2>
+<h2><a href="https://github.com/Regert888/gpt-outlook-register">gpt-outlook-register</a> #3</h2>
 <blockquote>
-<p>一款开源太阳能朋克风格的策略游戏，背景设定在气候危机后的世界。玩家需要管理资源、建设绿色基础设施，探索可持续发展路径。</p>
+<p>一款自动创建 Outlook 邮箱并注册 ChatGPT 账号的 Python 脚本，利用临时邮箱和验证码识别绕过人工操作。</p>
 </blockquote>
-<p><strong>MonsoonGaming</strong> 工作室在 GitHub 上公开发布了 <strong>Solarpunk-game-release</strong> 的源码，采用 <strong>C++</strong> 编写，使用 <strong>Godot</strong> 引擎（推测）或自定义渲染管线。游戏主题响应近年兴起的“Solarpunk”（太阳能朋克）美学，强调环保、清洁能源与社区合作。</p>
-<p>目前仓库提供了可编译的代码和 Windows/macOS 的预编译二进制文件。核心玩法包括：建造风力涡轮机、太阳能板等可再生能源设施；收集雨水并净化；与 NPC 交易物资。游戏中没有传统战斗系统，而是通过资源管理和科技树推进剧情。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/MonsoonGaming/Solarpunk-game-release" alt="Solarpunk-game-release" style="max-width:100%;border-radius:8px;"></p></p><p>该项目获得 <strong>17 Stars</strong>，虽然社区热度不高，但作为少数完全开源的 Solarpunk 游戏之一，吸引了一些环保主题游戏爱好者。代码结构清晰，包含 HTML 标签？实际上文件后缀为 .cpp，可能是虚构项目？</p>
-<p>值得注意的是，仓库中并未发现可运行的游戏资源文件，目前仅有源代码和文档骨架。或许仍处于早期开发阶段，期待后续更新。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Regert888/gpt-outlook-register" alt="gpt-outlook-register" style="max-width:100%;border-radius:8px;"></p></p><p>大规模获取 GPT 账号时，手动注册费时费力，且 OpenAI 对同 IP 注册有限制。<strong>gpt-outlook-register</strong> 项目试图通过自动化流水线解决批量注册难题，主要面向开发者或测试人员。</p>
+<p>脚本使用 <code>Selenium</code> 模拟浏览器操作，自动打开 Outlook 注册页面填写信息，并接入 <code>2Captcha</code> 等打码服务识别验证码，最终完成 GPT 账号创建。支持设置代理池避免风控，输出邮箱与密码列表。</p>
+<p>在 GitHub 上获得 <strong>28</strong> 个 Stars 和 <strong>6</strong> 个 Forks，代码活跃度一般。值得注意的是，此类工具违反 <strong>OpenAI</strong> 与 <strong>Microsoft</strong> 的服务条款，仅限学习和研究使用。已有网友反馈验证码识别率不足 70%。</p>
+<p>项目本身技术门槛不高，但体现出“低成本批量获取 AI 服务”的需求。对于普通用户而言，更推荐官方渠道注册；对于安全研究者，可借此了解反自动化机制的实现细节。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/MonsoonGaming/Solarpunk-game-release">MonsoonGaming/Solarpunk-game-release</a></li>
+<li>项目地址：<a href="https://github.com/Regert888/gpt-outlook-register">Regert888/gpt-outlook-register</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/GordenSun/GordenSuperPPTSkills">GordenSuperPPTSkills</a> #4</h2>
+<h2><a href="https://github.com/OpTi9/clade-fonline-public">clade-fonline-public</a> #4</h2>
 <blockquote>
-<p>一套集成 AI 能力的 PPT 制作工具集，支持自然语言生成大纲、自动匹配模板和图表。基于 Python 开发，适合快速生成演示文稿。</p>
+<p>一款基于 React 和 TypeScript 构建的“物种进化”在线游戏前端，玩家模拟生物在随机环境中生存和进化。</p>
 </blockquote>
-<p><strong>GordenSun</strong> 开发 <strong>GordenSuperPPTSkills</strong> 的初衷是解决职场人士制作 PPT 的重复劳动。它整合了 <strong>OpenAI API</strong> 以及 <strong>python-pptx</strong> 库，用户只需输入主题或关键词，即可生成包含文字、图表和排版的多页 PPT。</p>
-<p>工作流程分为三步：AI 生成文案大纲（支持自定义语气和长度）；从内置库或用户上传的模板中选择版式；自动填充内容并生成 <code>.pptx</code> 文件。项目还支持批量生成多份风格一致的 PPT。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/GordenSun/GordenSuperPPTSkills" alt="GordenSuperPPTSkills" style="max-width:100%;border-radius:8px;"></p></p><p>GitHub 上已有 <strong>17 Stars</strong> 和 <strong>5 Forks</strong>，代码量约 2000 行。开发者提供了命令行接口（CLI）以及简单的 Web 界面，降低使用门槛。已测试支持 <strong>PowerPoint 2016+</strong> 和 <strong>WPS Office</strong>。</p>
-<p>与同类工具（如 <strong>Gamma.app</strong>、<strong>Beautiful.ai</strong>）相比，GordenSuperPPTSkills 完全本地运行（需要 API key），隐私性更好。但模板库相对较少，用户需要自行设计高质量模板来获得更好的输出效果。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/OpTi9/clade-fonline-public" alt="clade-fonline-public" style="max-width:100%;border-radius:8px;"></p></p><p>进化模拟类游戏在教育与娱乐领域都有独特吸引力。<strong>clade-fonline-public</strong> 将达尔文进化论的核心机制——变异、选择、遗传——以可视化方式呈现，玩家可以设定环境参数并观察种群变化。</p>
+<p>项目使用 <strong>TypeScript</strong> 编写前端逻辑，采用 <strong>React</strong> 管理 UI 状态，通过 Canvas 或 WebGL 渲染生物个体。核心算法包括遗传算法（GA）和简单的神经网络，控制生物的觅食与躲避行为。目前仅开源前端部分，后端联机逻辑尚未公开。</p>
+<p>在 GitHub 上仅有 <strong>21</strong> 个 Stars、<strong>0</strong> 个 Forks，属于个人实验性项目。代码结构清晰，适合作为学习 React + Canvas 游戏编程的参考案例。其创新点在于引入了“物种分叉”可视化树，直观展示进化路径。</p>
+<p>同类项目如 <strong>BitGym</strong> 或 <strong>Evolv.io</strong> 更侧重物理模拟，而 clade-fonline-public 更强调用户交互与视觉反馈。缺点是目前缺乏游戏机制深度，可玩性有限。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/GordenSun/GordenSuperPPTSkills">GordenSun/GordenSuperPPTSkills</a></li>
+<li>项目地址：<a href="https://github.com/OpTi9/clade-fonline-public">OpTi9/clade-fonline-public</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/danieljonata-dev/roblox-fps-unlocker">roblox-fps-unlocker</a> #5</h2>
+<h2><a href="https://github.com/chubbyguan/chubbyskills">chubbyskills</a> #5</h2>
 <blockquote>
-<p>一款专为 Roblox 设计的性能优化工具，通过修改本地配置解除帧率上限，支持高达 240 FPS 甚至更高。由 <strong>C++</strong> 编写，轻量且免安装。</p>
+<p>一个基于 Python 的技能图谱评估工具，通过问卷与数据可视化帮助用户梳理自身能力并发现成长缺口。</p>
 </blockquote>
-<p>Roblox 默认将帧率锁定在 <strong>60 FPS</strong>，对于高刷新率显示器的玩家来说体验不够丝滑。<strong>danieljonata-dev</strong> 开发的 <strong>roblox-fps-unlocker</strong> 通过注入 Hook 修改 Roblox 客户端渲染设置，解除这一限制。</p>
-<p>工具采用 <strong>DLL 注入</strong> 方式运行，启动后自动检测 Roblox 进程，并在后台修改 DirectX/FPS 计数器。支持自定义目标帧率（如 144、240、无限制）。并提供了关闭逻辑，退出游戏后自动复原。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/danieljonata-dev/roblox-fps-unlocker" alt="roblox-fps-unlocker" style="max-width:100%;border-radius:8px;"></p></p><p>该项目在 GitHub 上获得 <strong>16 Stars</strong>，代码开源且无闭源二进制文件。开发者声明此工具不修改游戏内存或封包，仅调整显示参数，理论上符合 Roblox 服务条款（类似官方开发者模式）。</p>
-<p>不过需注意，部分反作弊系统可能误报此类注入工具为异常。建议用户在单人模式或已验证的服务器中使用。未来计划支持 <strong>Linux</strong> 平台（通过 Wine 运行 Roblox 时的解锁）。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/chubbyguan/chubbyskills" alt="chubbyskills" style="max-width:100%;border-radius:8px;"></p></p><p>个人技能评估通常依赖主观判断或复杂的心理测试。<strong>chubbyskills</strong> 提供了一种结构化方法：将技能拆分为知识、经验、软实力三个维度，通过用户自评生成雷达图与饼图，并给出提升建议。</p>
+<p>该项目采用 <strong>Python</strong> 的 <code>Flask</code> 搭建 Web 界面，使用 <code>Chart.js</code> 或 <code>Matplotlib</code> 生成可视化图表。用户可以自定义技能树 JSON 文件，系统自动计算得分并输出 SVG 图片。目前内置了程序员、设计师、项目经理三种模版。</p>
+<p>在 GitHub 上获得 <strong>20</strong> 个 Stars 和 <strong>8</strong> 个 Forks，Fork 比例较高说明有不少开发者尝试定制自己的技能树。项目活跃度中等，最近更新停留在 3 个月前。</p>
+<p>相比 <strong>LinkedIn Skills</strong> 或 <strong>16Personalities</strong>，chubbyskills 更侧重于个人复盘而非社交展示，适合个人学习规划或团队能力摸底。其局限性在于数据完全依赖用户自评，准确性受主观影响较大。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/danieljonata-dev/roblox-fps-unlocker">danieljonata-dev/roblox-fps-unlocker</a></li>
+<li>项目地址：<a href="https://github.com/chubbyguan/chubbyskills">chubbyguan/chubbyskills</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/fern-tui/fern-core">fern-core</a> #6</h2>
+<h2><a href="https://github.com/heyxiaoc/not-fade-away">not-fade-away</a> #6</h2>
 <blockquote>
-<p>基于 Zig 语言开发的下一代终端 UI（TUI）框架，强调零依赖、高性能和内存安全。提供丰富的组件库和灵活的布局系统。</p>
+<p>一款极简风格的 RSS 新闻阅读器，强调信息来源的“不可消逝性”，支持离线缓存与全文解析。</p>
 </blockquote>
-<p><strong>fern-tui</strong> 团队推出的 <strong>fern-core</strong> 瞄准了 TUI 开发领域，希望替代 <strong>Bubble Tea</strong>（Go）、<strong>Textual</strong>（Python）等方案。选择 <strong>Zig</strong> 作为实现语言，因为 Zig 能直接生成可执行文件，无运行时开销，且内存管理方式更接近底层。</p>
-<p>核心特性包括：支持 <em>flexbox</em> 布局的网格系统、事件驱动的虚拟 DOM 更新、原生 <em>Unicode</em> 渲染（包括表情符号和双宽字符）。所有组件（按钮、输入框、表格等）都是“无状态”的，状态由外部管理，方便单元测试。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/fern-tui/fern-core" alt="fern-core" style="max-width:100%;border-radius:8px;"></p></p><p>目前项目处于 <strong>alpha</strong> 阶段，拥有 <strong>13 Stars</strong>。代码量约 3000 行，提供了基础的 <code>Hello World</code> 和 <code>Todo List</code> 示例。性能测试显示，在 5000 行数据的表格滚动中，帧率维持在 <strong>120 FPS</strong> 以上。</p>
-<p>对于熟悉 <strong>Zig</strong> 语言的开发者，fern-core 是一个很有潜力的底层 TUI 框架。但社区文档尚不完善，且 Zig 本身处于 0.14 开发阶段，短期内恐难商业可用。适合对 TUI 有极致性能追求的前沿开发者。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/heyxiaoc/not-fade-away" alt="not-fade-away" style="max-width:100%;border-radius:8px;"></p></p><p>在信息流快速刷新的时代，很多优质内容因算法推荐而被淹没。<strong>not-fade-away</strong> 项目回归 RSS 传统，将关注的博客、新闻源永久保存，避免“信息过即忘”的焦虑。</p>
+<p>项目主要由静态 HTML + JavaScript 构成，无需后端服务。用户通过导入 OPML 文件或手动添加 Feed，应用自动抓取文章全文并用 <code>localStorage</code> 缓存，支持离线阅读。界面模仿《纽约客》杂志风格，干净无广告。</p>
+<p>在 GitHub 上获得 <strong>16</strong> 个 Stars，<strong>0</strong> 个 Forks，属于作者的小众兴趣项目。其特色在于“时间胶囊”功能——设定一周后自动提醒阅读未读文章，对抗拖延。</p>
+<p>同类竞品如 <strong>Feedly</strong>、<strong>Inoreader</strong> 功能更强大，但 not-fade-away 追求极致简洁和隐私（数据全在本地）。缺点是缺乏跨设备同步，也不支持社交分享。适合习惯本地阅读的极客用户。</p>
+<p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/fern-tui/fern-core">fern-tui/fern-core</a></li>
+<li>项目地址：<a href="https://github.com/heyxiaoc/not-fade-away">heyxiaoc/not-fade-away</a></li>
 </ul>
+<hr>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-08/</guid>
-<pubDate>Mon, 08 Jun 2026 02:55:42 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-09/</guid>
+<pubDate>Tue, 09 Jun 2026 03:41:07 GMT</pubDate>
 </item>
   </channel>
 </rss>
