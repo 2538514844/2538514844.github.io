@@ -5,113 +5,145 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 09 Jun 2026 03:41:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 01:20:41 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-09 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-09/</link>
-<description><![CDATA[2026-06-09 每日精选 — 6 个仓库: xiaohuailabs/xiaohu-video-translate, amap-cvlab/ABot-Earth-0.5, Regert888/gpt-outlook-register, OpTi9/clade-fonline-public, chubbyguan/chubbyskills, heyxiaoc/not-fade-away]]></description>
-<content:encoded><![CDATA[<h1>2026-06-09 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-10 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-10/</link>
+<description><![CDATA[2026-06-10 每日精选 — 9 个仓库: MSNightmare/RoguePlanet, valkor-ai/loom, xuanyuanzhifeng/ai-video-agent, bytemarinereactor/Gothic1Remake-Trainer, ImGoodBai/MapGoGoGo, xche-YDS/AgenticMedChem, Toolsai/GPT-Relay-Codex-Plugin-, kauzone11/open-impact-ej, LTX128/Dirlens]]></description>
+<content:encoded><![CDATA[<h1>2026-06-10 GitHub 开源项目精选</h1>
 <h2>概览</h2>
 <h3>AI/大模型</h3>
 <ul>
-<li><strong>xiaohu-video-translate</strong> 开源视频翻译工具，支持多语言字幕生成与语音克隆 ↗ #1  </li>
-<li><strong>ABot-Earth-0.5</strong> 高德实验室发布的地球尺度多模态AI模型，提升地理空间理解能力 ↗ #2</li>
+<li><strong>ai-video-agent</strong> AI 驱动的视频分析智能体，支持多模态任务编排 ↗ #3</li>
+<li><strong>GPT-Relay-Codex-Plugin-</strong> 为 GPT 模型设计的 Relay 与 Codex 插件，扩展大模型交互能力 ↗ #7</li>
+</ul>
+<h3>游戏工具</h3>
+<ul>
+<li><strong>RoguePlanet</strong> 开源 rogue-like 游戏核心引擎，支持高度自定义 mod 开发 ↗ #1</li>
+<li><strong>Gothic1Remake-Trainer</strong> 《哥特王朝 1 重制版》专用修改器，提供角色/资源修改功能 ↗ #4</li>
+</ul>
+<h3>开发工具</h3>
+<ul>
+<li><strong>loom</strong> TypeScript 编写的轻量级可视化调试工具，支持实时数据流追踪 ↗ #2</li>
+<li><strong>Dirlens</strong> Python 目录结构可视化与分析工具，助力项目文档生成 ↗ #9</li>
+</ul>
+<h3>数据/数据库</h3>
+<ul>
+<li><strong>MapGoGoGo</strong> 地图数据批量处理与可视化工具，面向地理信息服务 ↗ #5</li>
+</ul>
+<h3>科学计算</h3>
+<ul>
+<li><strong>AgenticMedChem</strong> 基于 AI Agent 的医学化学分子生成与优化框架 ↗ #6</li>
 </ul>
 <h3>效率工具</h3>
 <ul>
-<li><strong>gpt-outlook-register</strong> 自动化注册 Outlook 邮箱和 GPT 账号的 Python 工具 ↗ #3  </li>
-<li><strong>chubbyskills</strong> 基于技能图谱的评估与可视化平台，辅助个人成长规划 ↗ #4  </li>
-<li><strong>not-fade-away</strong> 极简 RSS 新闻阅读应用，关注“不消逝”的信息流 ↗ #5</li>
-</ul>
-<h3>游戏/娱乐</h3>
-<ul>
-<li><strong>clade-fonline-public</strong> 基于 React 的“物种进化”在线游戏前端实现 ↗ #6</li>
+<li><strong>open-impact-ej</strong> 开源学习影响评估工具，用于教育项目效果量化 ↗ #8</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/xiaohuailabs/xiaohu-video-translate">xiaohu-video-translate</a> #1</h2>
+<h2><a href="https://github.com/MSNightmare/RoguePlanet">RoguePlanet</a> #1</h2>
 <blockquote>
-<p>一款面向视频创作者的 AI 翻译工具，集成语音识别、机器翻译和语音合成，可一键将视频中的讲话内容翻译成多语言字幕并保留原声特征。</p>
+<p>一款开源的 rogue-like 游戏引擎，提供网格地图生成、回合制战斗与物品系统，支持动态扩展与自定义 mod 加载。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/xiaohuailabs/xiaohu-video-translate" alt="xiaohu-video-translate" style="max-width:100%;border-radius:8px;"></p></p><p>视频本地化长期以来依赖手动字幕制作或外包，成本高、效率低。<strong>xiaohu-video-translate</strong> 试图将整个流程自动化，让普通用户也能快速生成带翻译的高质量视频。</p>
-<p>该项目基于 <strong>Python</strong>，整合了 <code>Whisper</code> 进行语音识别、<code>Deep Translator</code> 或类似 API 进行文本翻译，并利用 <code>TTS</code> 引擎实现语音克隆，输出与原说话人音色相近的翻译语音。目前支持中、英、日、韩等常见语言。</p>
-<p>在 GitHub 上获得 <strong>144</strong> 个 Stars 和 <strong>15</strong> 个 Forks，社区反馈集中于翻译准确率与实时性。开发者计划加入批处理与字幕格式导出功能，适配更多平台。</p>
-<p>与同类方案（如 Subtitle Edit + 手动翻译）相比，xiaohu-video-translate 的优势在于全链路一站完成，尤其适合视频博主、教育机构快速生成多语言版本内容。缺点是大规模使用可能需额外支付 API 费用。</p>
-<p>相关链接：</p>
+<p><strong>RoguePlanet</strong> 由独立开发者 <strong>MSNightmare</strong> 发布，旨在为 rogue-like 游戏爱好者提供一个轻量、可扩展的底层框架。项目使用 <strong>C++</strong> 编写，核心聚焦于程序化地图生成、随机遭遇与装备体系，降低独立开发者制作同类游戏的起步门槛。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/MSNightmare/RoguePlanet" alt="RoguePlanet" style="max-width:100%;border-radius:8px;"></p></p><p>项目目前收获 <strong>156 Stars</strong> 与 <strong>52 Forks</strong>，社区活跃度较高。它区别于同类引擎（如 libtcod）的关键在于设计了插件式 Mod 加载系统，允许开发者在运行时动态注入自定义怪物、物品与规则，无需重新编译。</p>
+<p>在性能方面，<strong>RoguePlanet</strong> 支持 80×50 网格的流畅渲染与 AI 路径计算。其低耦合架构适合作为教学范例或快速原型工具，尤其适合对复古 roguelike 玩法感兴趣的开发者。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/xiaohuailabs/xiaohu-video-translate">xiaohuailabs/xiaohu-video-translate</a></li>
+<li>项目地址：<a href="https://github.com/MSNightmare/RoguePlanet">MSNightmare/RoguePlanet</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/amap-cvlab/ABot-Earth-0.5">ABot-Earth-0.5</a> #2</h2>
+<h2><a href="https://github.com/valkor-ai/loom">loom</a> #2</h2>
 <blockquote>
-<p><strong>高德地图计算机视觉实验室</strong> 开源的地球尺度多模态 AI 模型，能理解卫星影像、地图与文本指令，支持地理问答与路径分析。</p>
+<p>一个基于 TypeScript 的轻量级可视化调试工具，专为前端实时数据流设计，支持 GraphQL、WebSocket 与事件总线追踪。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/amap-cvlab/ABot-Earth-0.5" alt="ABot-Earth-0.5" style="max-width:100%;border-radius:8px;"></p></p><p>随着遥感数据爆炸式增长，传统 GIS 分析方法难以应对复杂的地理推理。<strong>ABot-Earth-0.5</strong> 采用视觉-语言预训练框架，将卫星图像、地图矢量与自然语言对齐，形成通用地理理解能力。</p>
-<p>模型基于 <strong>Transformer</strong> 架构，以高德积累的遥感数据集进行训练，支持输入“查询某区域建筑密度”或“规划最短路径”等文本指令，输出结构化分析或可视化结果。0.5 版本侧重基础地理要素识别，后续将扩展至动态变化检测。</p>
-<p>项目发布后在 GitHub 上已获 <strong>61</strong> 个 Stars，<strong>3</strong> 个 Forks。目前仍处于研究原型阶段，模型权重未完全开放，但提供了推理示例代码。潜在的落地场景包括城市规划、灾害救援辅助与农业监测。</p>
-<p>与 <strong>Google Geospatial API</strong> 或 <strong>OpenStreetMap</strong> 的 AI 插件不同，ABot-Earth-0.5 更强调端到端的语义问答，而非单纯的数据检索。对于开发者而言，这是个不错的基线模型。</p>
-<p>相关链接：</p>
+<p><strong>loom</strong> 由 <strong>valkor-ai</strong> 团队推出，主要解决前端应用中数据流不透明、调试困难的问题。传统的 <code>console.log</code> 或断点调试无法直观展示异步时序与状态变化，<strong>loom</strong> 通过嵌入面板，将应用内事件流以时间线形式呈现。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/valkor-ai/loom" alt="loom" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括自动捕获 <code>fetch</code>、<code>WebSocket</code> 消息与 <code>useReducer</code> 状态变更，并以图形化方式绘制依赖链。项目发布后获得 <strong>103 Stars</strong>，社区对其实时追踪与性能开销低的特性反响积极。</p>
+<p>相比 <strong>React DevTools</strong> 等成熟工具，<strong>loom</strong> 最大亮点在于协议无关——不只绑定 React，可为任何 <strong>TypeScript</strong> 项目增加可观测性。安装仅需一个 <code>&lt;script&gt;</code> 标签，适合中小型团队快速集成。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/amap-cvlab/ABot-Earth-0.5">amap-cvlab/ABot-Earth-0.5</a></li>
+<li>项目地址：<a href="https://github.com/valkor-ai/loom">valkor-ai/loom</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Regert888/gpt-outlook-register">gpt-outlook-register</a> #3</h2>
+<h2><a href="https://github.com/xuanyuanzhifeng/ai-video-agent">ai-video-agent</a> #3</h2>
 <blockquote>
-<p>一款自动创建 Outlook 邮箱并注册 ChatGPT 账号的 Python 脚本，利用临时邮箱和验证码识别绕过人工操作。</p>
+<p>基于 AI 多模态智能体的视频内容分析平台，支持视频切片、物体识别、语音转录与结构化报告生成。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Regert888/gpt-outlook-register" alt="gpt-outlook-register" style="max-width:100%;border-radius:8px;"></p></p><p>大规模获取 GPT 账号时，手动注册费时费力，且 OpenAI 对同 IP 注册有限制。<strong>gpt-outlook-register</strong> 项目试图通过自动化流水线解决批量注册难题，主要面向开发者或测试人员。</p>
-<p>脚本使用 <code>Selenium</code> 模拟浏览器操作，自动打开 Outlook 注册页面填写信息，并接入 <code>2Captcha</code> 等打码服务识别验证码，最终完成 GPT 账号创建。支持设置代理池避免风控，输出邮箱与密码列表。</p>
-<p>在 GitHub 上获得 <strong>28</strong> 个 Stars 和 <strong>6</strong> 个 Forks，代码活跃度一般。值得注意的是，此类工具违反 <strong>OpenAI</strong> 与 <strong>Microsoft</strong> 的服务条款，仅限学习和研究使用。已有网友反馈验证码识别率不足 70%。</p>
-<p>项目本身技术门槛不高，但体现出“低成本批量获取 AI 服务”的需求。对于普通用户而言，更推荐官方渠道注册；对于安全研究者，可借此了解反自动化机制的实现细节。</p>
-<p>相关链接：</p>
+<p><strong>ai-video-agent</strong> 由 <strong>xuanyuanzhifeng</strong> 开发，目标是为视频分析提供端到端解决方案。它内置 <strong>Whisper</strong> 语音识别、<strong>YOLO</strong> 物体检测与 <strong>CLIP</strong> 语义索引，用户只需上传视频即可获得结构化摘要。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xuanyuanzhifeng/ai-video-agent" alt="ai-video-agent" style="max-width:100%;border-radius:8px;"></p></p><p>项目采用 <strong>TypeScript</strong> 编写，前后端一体化设计，支持 <code>Docker</code> 一键部署。当前 <strong>47 Stars</strong> 与 <strong>17 Forks</strong> 表明在开发者社区中已有一定关注度，尤其适合需要批量处理录像的安防、媒体与教育场景。</p>
+<p>与 <strong>Google Video AI</strong> 等云服务不同，<strong>ai-video-agent</strong> 完全本地化运行，数据隐私可控。其智能体架构允许用户通过配置文件串联不同 AI 模型，实现如“检测到人物后自动截取片段”的复合流程。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Regert888/gpt-outlook-register">Regert888/gpt-outlook-register</a></li>
+<li>项目地址：<a href="https://github.com/xuanyuanzhifeng/ai-video-agent">xuanyuanzhifeng/ai-video-agent</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/OpTi9/clade-fonline-public">clade-fonline-public</a> #4</h2>
+<h2><a href="https://github.com/bytemarinereactor/Gothic1Remake-Trainer">Gothic1Remake-Trainer</a> #4</h2>
 <blockquote>
-<p>一款基于 React 和 TypeScript 构建的“物种进化”在线游戏前端，玩家模拟生物在随机环境中生存和进化。</p>
+<p>《哥特王朝 1 重制版》专用修改器，支持角色属性、物品、无敌模式等实时修改，使用 C++ 编写，注入机制稳定。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/OpTi9/clade-fonline-public" alt="clade-fonline-public" style="max-width:100%;border-radius:8px;"></p></p><p>进化模拟类游戏在教育与娱乐领域都有独特吸引力。<strong>clade-fonline-public</strong> 将达尔文进化论的核心机制——变异、选择、遗传——以可视化方式呈现，玩家可以设定环境参数并观察种群变化。</p>
-<p>项目使用 <strong>TypeScript</strong> 编写前端逻辑，采用 <strong>React</strong> 管理 UI 状态，通过 Canvas 或 WebGL 渲染生物个体。核心算法包括遗传算法（GA）和简单的神经网络，控制生物的觅食与躲避行为。目前仅开源前端部分，后端联机逻辑尚未公开。</p>
-<p>在 GitHub 上仅有 <strong>21</strong> 个 Stars、<strong>0</strong> 个 Forks，属于个人实验性项目。代码结构清晰，适合作为学习 React + Canvas 游戏编程的参考案例。其创新点在于引入了“物种分叉”可视化树，直观展示进化路径。</p>
-<p>同类项目如 <strong>BitGym</strong> 或 <strong>Evolv.io</strong> 更侧重物理模拟，而 clade-fonline-public 更强调用户交互与视觉反馈。缺点是目前缺乏游戏机制深度，可玩性有限。</p>
-<p>相关链接：</p>
+<p><strong>Gothic1Remake-Trainer</strong> 由 <strong>bytemarinereactor</strong> 针对这款经典游戏的 2026 年重制版开发。由于重制版采用新引擎，此前修改器无法兼容，该工具填补了玩家快速调试游戏体验的需求。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/bytemarinereactor/Gothic1Remake-Trainer" alt="Gothic1Remake-Trainer" style="max-width:100%;border-radius:8px;"></p></p><p>功能涵盖无限生命、无负重限制、技能点重置与快速传送。项目使用内存读写与 <code>Detour</code> 钩子实现，兼容 Steam 当前最新版本。尽管 <strong>Stars 30</strong> 不多，但零 Forks 表明作者一人维护，且源代码干净可读。</p>
+<p>此类修改器通常有被反作弊系统误报风险，但 <strong>Gothic1Remake-Trainer</strong> 声明仅用于单机离线模式。对于希望深度体验剧情而不受资源限制的玩家来说，这是一个轻量级选择。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/OpTi9/clade-fonline-public">OpTi9/clade-fonline-public</a></li>
+<li>项目地址：<a href="https://github.com/bytemarinereactor/Gothic1Remake-Trainer">bytemarinereactor/Gothic1Remake-Trainer</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/chubbyguan/chubbyskills">chubbyskills</a> #5</h2>
+<h2><a href="https://github.com/ImGoodBai/MapGoGoGo">MapGoGoGo</a> #5</h2>
 <blockquote>
-<p>一个基于 Python 的技能图谱评估工具，通过问卷与数据可视化帮助用户梳理自身能力并发现成长缺口。</p>
+<p>地图数据批量处理与可视化工具，支持 OSM 数据导入、图层编辑与 GeoJSON 导出，基于 TypeScript 构建 Web 界面。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/chubbyguan/chubbyskills" alt="chubbyskills" style="max-width:100%;border-radius:8px;"></p></p><p>个人技能评估通常依赖主观判断或复杂的心理测试。<strong>chubbyskills</strong> 提供了一种结构化方法：将技能拆分为知识、经验、软实力三个维度，通过用户自评生成雷达图与饼图，并给出提升建议。</p>
-<p>该项目采用 <strong>Python</strong> 的 <code>Flask</code> 搭建 Web 界面，使用 <code>Chart.js</code> 或 <code>Matplotlib</code> 生成可视化图表。用户可以自定义技能树 JSON 文件，系统自动计算得分并输出 SVG 图片。目前内置了程序员、设计师、项目经理三种模版。</p>
-<p>在 GitHub 上获得 <strong>20</strong> 个 Stars 和 <strong>8</strong> 个 Forks，Fork 比例较高说明有不少开发者尝试定制自己的技能树。项目活跃度中等，最近更新停留在 3 个月前。</p>
-<p>相比 <strong>LinkedIn Skills</strong> 或 <strong>16Personalities</strong>，chubbyskills 更侧重于个人复盘而非社交展示，适合个人学习规划或团队能力摸底。其局限性在于数据完全依赖用户自评，准确性受主观影响较大。</p>
-<p>相关链接：</p>
+<p><strong>MapGoGoGo</strong> 由 <strong>ImGoodBai</strong> 发布，面向地理信息从业者与 GIS 爱好者。它提供拖拽式操作界面，可一键转换 <code>shp</code>、<code>geojson</code> 等格式，并叠加多个图层生成自定义地图。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ImGoodBai/MapGoGoGo" alt="MapGoGoGo" style="max-width:100%;border-radius:8px;"></p></p><p>项目使用 <strong>MapLibre GL</strong> 作为渲染引擎，前端完全在浏览器内运行，无需后端服务。当前 <strong>28 Stars</strong>，社区反馈集中在数据加载性能与导出清晰度。其与众不同的是集成 <strong>Overpass API</strong>，可直接查询 OpenStreetMap 兴趣点并实时渲染。</p>
+<p>对于需要本地处理地图数据的地理博主或小型规划团队，<strong>MapGoGoGo</strong> 提供了一种避开商业软件的免费替代方案。未来计划加入路径分析与 3D 建筑显示。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/chubbyguan/chubbyskills">chubbyguan/chubbyskills</a></li>
+<li>项目地址：<a href="https://github.com/ImGoodBai/MapGoGoGo">ImGoodBai/MapGoGoGo</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/heyxiaoc/not-fade-away">not-fade-away</a> #6</h2>
+<h2><a href="https://github.com/xche-YDS/AgenticMedChem">AgenticMedChem</a> #6</h2>
 <blockquote>
-<p>一款极简风格的 RSS 新闻阅读器，强调信息来源的“不可消逝性”，支持离线缓存与全文解析。</p>
+<p>基于 AI Agent 的药物化学分子生成与优化框架，集成分子对接、ADMET 预测与多目标进化算法。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/heyxiaoc/not-fade-away" alt="not-fade-away" style="max-width:100%;border-radius:8px;"></p></p><p>在信息流快速刷新的时代，很多优质内容因算法推荐而被淹没。<strong>not-fade-away</strong> 项目回归 RSS 传统，将关注的博客、新闻源永久保存，避免“信息过即忘”的焦虑。</p>
-<p>项目主要由静态 HTML + JavaScript 构成，无需后端服务。用户通过导入 OPML 文件或手动添加 Feed，应用自动抓取文章全文并用 <code>localStorage</code> 缓存，支持离线阅读。界面模仿《纽约客》杂志风格，干净无广告。</p>
-<p>在 GitHub 上获得 <strong>16</strong> 个 Stars，<strong>0</strong> 个 Forks，属于作者的小众兴趣项目。其特色在于“时间胶囊”功能——设定一周后自动提醒阅读未读文章，对抗拖延。</p>
-<p>同类竞品如 <strong>Feedly</strong>、<strong>Inoreader</strong> 功能更强大，但 not-fade-away 追求极致简洁和隐私（数据全在本地）。缺点是缺乏跨设备同步，也不支持社交分享。适合习惯本地阅读的极客用户。</p>
-<p>相关链接：</p>
+<p><strong>AgenticMedChem</strong> 由 <strong>xche-YDS</strong> 团队开源，目标是加速先导化合物优化流程。该框架利用 <strong>RDKit</strong> 进行分子操作，并引入强化学习 Agent 自主探索化学空间，搜索满足特定药效团与毒性要求的分子。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xche-YDS/AgenticMedChem" alt="AgenticMedChem" style="max-width:100%;border-radius:8px;"></p></p><p>项目核心是“合成可行性”评分与 <strong>AutoDock Vina</strong> 对接流水线，Agent 可迭代数千代寻找优化解。虽然 <strong>Stars 21</strong> 尚属早期，但 <strong>2 Forks</strong> 和文档清晰度暗示其专业性较强，适合计算化学研究人员。</p>
+<p>与 <strong>DeepChem</strong> 等通用框架相比，<strong>AgenticMedChem</strong> 更聚焦于药物化学家的交互——提供 <code>Jupyter Notebook</code> 界面，可实时可视化分子结构变化。运行需 Python 3.9+ 与 <code>CUDA</code> 支持。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/heyxiaoc/not-fade-away">heyxiaoc/not-fade-away</a></li>
+<li>项目地址：<a href="https://github.com/xche-YDS/AgenticMedChem">xche-YDS/AgenticMedChem</a></li>
 </ul>
 <hr>
+<h2><a href="https://github.com/Toolsai/GPT-Relay-Codex-Plugin-">GPT-Relay-Codex-Plugin-</a> #7</h2>
+<blockquote>
+<p>为 OpenAI GPT 模型设计的 Relay 与 Codex 中间件插件，支持自定义上下文路由与多模型切换。</p>
+</blockquote>
+<p><strong>GPT-Relay-Codex-Plugin-</strong> 由 <strong>Toolsai</strong> 开发，解决用户在多 GPT 模型之间切换时频繁修改 prompt 与 API 端点的痛点。它提供一个轻量级中间层，可配置负载均衡、失败重试与角色预设。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Toolsai/GPT-Relay-Codex-Plugin-" alt="GPT-Relay-Codex-Plugin-" style="max-width:100%;border-radius:8px;"></p></p><p>项目基于 <strong>JavaScript</strong> 编写，可作为 <code>Express</code> 中间件或独立服务运行。当前 <strong>19 Stars</strong>，社区贡献了多个语言模型的后端适配器（包括 <strong>Claude</strong> 与 <strong>Gemini</strong>）。其“Codex”部分支持自动补全上下文窗口管理，防止长对话超 token 限制。</p>
+<p>对于企业级多模型接入场景，<strong>GPT-Relay-Codex-Plugin-</strong> 提供了最小的侵入式集成方案，开发者无需修改原有调用代码即可切换底层模型供应商。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/Toolsai/GPT-Relay-Codex-Plugin-">Toolsai/GPT-Relay-Codex-Plugin-</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/kauzone11/open-impact-ej">open-impact-ej</a> #8</h2>
+<blockquote>
+<p>开源教育影响评估框架，用于量化学习项目在知识、技能与态度三个维度的长期效果。</p>
+</blockquote>
+<p><strong>open-impact-ej</strong> 由 <strong>kauzone11</strong> 发布，目标是为非政府组织与教育机构提供免费评估工具。它内置标准化问卷模板、统计分析与可视化报告生成，帮助项目管理者追踪干预效果。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/kauzone11/open-impact-ej" alt="open-impact-ej" style="max-width:100%;border-radius:8px;"></p></p><p>项目采用 <strong>TypeScript</strong> 构建前端，后端依赖 <strong>PostgreSQL</strong> 与 <strong>Chart.js</strong>。虽然 <strong>Stars 7</strong> 较少，但代码结构清晰，文档包含完整的部署指南。其核心特点是预置“Kirkpatrick 模型”四级评估逻辑，可输出对比实验组与对照组的结果。</p>
+<p>对希望降低数据采集成本的教育公益组织而言，<strong>open-impact-ej</strong> 提供了一种符合隐私法规（GDPR 兼容）的本地部署方案。后续版本计划加入自然语言处理的开放题分析。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/kauzone11/open-impact-ej">kauzone11/open-impact-ej</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/LTX128/Dirlens">Dirlens</a> #9</h2>
+<blockquote>
+<p>Python 目录结构可视化与分析工具，支持导出为 Markdown、JSON 与树形图，内置文件类型统计与大小分布。</p>
+</blockquote>
+<p><strong>Dirlens</strong> 由 <strong>LTX128</strong> 开发，用于快速生成项目文件结构概览。它递归扫描指定目录，并基于文件扩展名、大小和修改时间生成可视化报告，方便文档编写或仓库审计。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/LTX128/Dirlens" alt="Dirlens" style="max-width:100%;border-radius:8px;"></p></p><p>安装仅需 <code>pip install dirlens</code>，命令 <code>dirlens /path</code> 即可输出。当前 <strong>6 Stars</strong>，社区反馈侧重输出格式完整度（支持各主流文件类型图标）。与 <strong>tree</strong> 命令相比，<strong>Dirlens</strong> 额外提供饼图统计与大小排行榜，适合大仓库性能瓶颈定位。</p>
+<p>对于开发者撰写 README 或整理归档文件，<strong>Dirlens</strong> 能自动忽略 <code>.git</code>、<code>node_modules</code> 等常见排除项。未来计划增加 <code>.gitignore</code> 模式匹配与差异对比功能。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/LTX128/Dirlens">LTX128/Dirlens</a></li>
+</ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-09/</guid>
-<pubDate>Tue, 09 Jun 2026 03:41:07 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-10/</guid>
+<pubDate>Wed, 10 Jun 2026 01:20:41 GMT</pubDate>
 </item>
   </channel>
 </rss>
