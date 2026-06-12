@@ -5,132 +5,119 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Thu, 11 Jun 2026 02:19:17 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 01:27:43 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-11 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-11/</link>
-<description><![CDATA[2026-06-11 每日精选 — 7 个仓库: shadcn/improve, archiveakatsukibasin/Windows-Activator, alchaincyf/fanbox, HoleMythBall/F95-zone-Sync-Manager, cocktailpeanut/image-to-prompt, spacepirate15/quantum-free-router, radekhulan/MD2PDF]]></description>
-<content:encoded><![CDATA[<h1>2026-06-11 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-12 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-12/</link>
+<description><![CDATA[2026-06-12 每日精选 — 7 个仓库: MiniMax-AI/MSA, joeseesun/qiaomu-goal-meta-skill, pseudoku/Kotinos, Sliverkiss/mimocode2api, TheAceOfficials/BetterPoster-for-Jellyfin, oy-paddy/aliyun-model-proxy, ahXN00/OwnTV]]></description>
+<content:encoded><![CDATA[<h1>2026-06-12 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>开发工具</h3>
-<ul>
-<li>shadcn/improve 一行命令改进任意 GitHub 仓库的 CLI 工具 #1</li>
-<li>alchaincyf/fanbox JavaScript 编写的多人小游戏盒子 #3</li>
-<li>radekhulan/MD2PDF PHP 实现的 Markdown 转 PDF 轻量服务 #7</li>
-</ul>
-<h3>效率工具</h3>
-<ul>
-<li>archiveakatsukibasin/Windows-Activator 开源 Windows/Office 激活脚本合集 #2</li>
-</ul>
 <h3>AI/大模型</h3>
 <ul>
-<li>cocktailpeanut/image-to-prompt 本地运行，将图片还原为生成式提示词 #5</li>
+<li><strong>MiniMax-AI/MSA</strong> 多智能体系统框架，112 Stars ↗ #1</li>
+<li><strong>joeseesun/qiaomu-goal-meta-skill</strong> 元技能目标驱动学习工具，107 Stars ↗ #2</li>
+<li><strong>oy-paddy/aliyun-model-proxy</strong> 阿里云大模型 API 代理转发，20 Stars ↗ #6</li>
 </ul>
-<h3>游戏工具</h3>
+<h3>开发工具</h3>
 <ul>
-<li>HoleMythBall/F95-zone-Sync-Manager 跨设备同步 F95Zone 游戏存档的浏览器扩展 #4</li>
+<li><strong>Sliverkiss/mimocode2api</strong> 用 Go 实现小代码片段快速转 API，37 Stars ↗ #4</li>
 </ul>
-<h3>网络工具</h3>
+<h3>媒体与设计</h3>
 <ul>
-<li>spacepirate15/quantum-free-router 基于 OpenWrt 的去广告路由器固件 #6</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/shadcn/improve">shadcn/improve</a> #1</h2>
-<blockquote>
-<p><strong>shadcn</strong> 推出了一个名为 <code>improve</code> 的命令行工具，能通过 AI 自动分析 GitHub 仓库并生成改进建议。用户只需运行一行命令，即可获得代码质量、安全性、可维护性等方面的针对性优化方案，目前 Stars 已达 828。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/shadcn/improve" alt="shadcn/improve" style="max-width:100%;border-radius:8px;"></p></p><p><strong>shadcn</strong> 是知名 UI 组件库 <code>shadcn/ui</code> 的作者，此次推出的 <code>improve</code> 延续了他“降低开发者门槛”的理念。该项目诞生的背景是许多开源仓库缺乏系统的代码审查流程，开发者难以快速定位改进点。</p>
-<p><code>improve</code> 采用 CLI 交互方式：用户指定目标仓库（如 <code>shadcn/improve</code> 自身），工具会拉取项目文件并以提交 Pull Request 的形式输出改进。核心功能包括检测代码风格不一致、识别潜在安全漏洞、建议依赖更新等。</p>
-<p>当前项目在 GitHub 上获得 <strong>828 Stars</strong> 和 <strong>24 Forks</strong>，社区反响积极。鉴于 <code>shadcn/ui</code> 的号召力，这一数字可能快速增长。</p>
-<p>与同类 <strong>AI 代码审查工具（如 CodeRabbit）</strong> 不同，<code>improve</code> 强调“开箱即用”和“零配置”，并且直接生成可合并的修改。适用场景包括个人项目快速自检、团队 CI 流程的辅助等。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/shadcn/improve">shadcn/improve</a></li>
+<li><strong>pseudoku/Kotinos</strong> OpenSCAD 参数化 3D 零件生成器，64 Stars ↗ #3</li>
+<li><strong>TheAceOfficials/BetterPoster-for-Jellyfin</strong> 为 Jellyfin 增强海报展示，27 Stars ↗ #5</li>
+<li><strong>ahXN00/OwnTV</strong> 基于 Kotlin 的自定义电视直播应用，19 Stars ↗ #7</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/archiveakatsukibasin/Windows-Activator">archiveakatsukibasin/Windows-Activator</a> #2</h2>
+<h2><a href="https://github.com/MiniMax-AI/MSA">MiniMax-AI/MSA</a> #1</h2>
 <blockquote>
-<p>一个开源的 <strong>Windows/Office 激活脚本集合</strong>，支持多种激活方式（KMS、HWID、Ohook 等），适用于 Windows 10/11 及 Office 2016-2024。当前 Stars 为 257，Forks 为 0。</p>
+<p><strong>MiniMax</strong> 开源的 <strong>多智能体系统（MSA）</strong> 框架，提供轻量级、可扩展的智能体协作范式，让开发者能快速构建多 Agent 应用。该框架设计简洁，支持任务编排、记忆和通信，适合研究人员和工业部署。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/archiveakatsukibasin/Windows-Activator" alt="archiveakatsukibasin/Windows-Activator" style="max-width:100%;border-radius:8px;"></p></p><p>随着微软正版化策略收紧，许多用户寻求替代激活方案。该项目将社区中零散的激活脚本汇总为统一仓库，方便非技术用户一键操作。</p>
-<p>项目以 <code>PowerShell</code> 脚本为核心，提供了 <strong>HWID（数字许可证）</strong>、<strong>KMS38</strong>（2038 年激活）、<strong>Ohook</strong>（Office 永久激活）等模式。用户只需以管理员身份运行 <code>.bat</code> 文件，选择菜单项即可完成激活。</p>
-<p>目前仓库获得 <strong>257 Stars</strong>，但 <strong>0 Forks</strong>，可能是因为作者将仓库设为只读或暂未被广泛 fork。脚本的更新频率较高，支持最新版本的 Windows 11 24H2。</p>
-<p>需要注意的是，此类工具可能触发杀毒软件报警，官方建议关闭实时防护后使用。适用对象是个人用户或 IT 管理员，但应尊重软件版权。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/MiniMax-AI/MSA" alt="MiniMax-AI/MSA" style="max-width:100%;border-radius:8px;"></p></p><p>多智能体系统（MAS）是当前 AI 主流方向之一，但现有框架往往过于复杂或绑定特定底层模型。<strong>MiniMax</strong> 推出 <strong>MSA</strong> 正是为了解决这些痛点，降低开发者入门门槛，同时保持灵活性。</p>
+<p><strong>MSA</strong> 采用模块化架构，核心组件包括 Agent 调度器、消息总线和共享记忆。开发者只需定义 Agent 角色与任务，框架自动处理协作推理、结果聚合与异常恢复。内置支持 <strong>MiniMax</strong> 自家模型及第三方 API。</p>
+<p>目前仓库获得 112 Stars 和 10 Forks，社区关注度持续上升。官方提供了多个示例，包括代码编写、数据分析和游戏 Agent，帮助用户快速上手。与 <strong>LangChain</strong> 等工具相比，<strong>MSA</strong> 更聚焦多 Agent 交互本身，不提供过多外部集成。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/archiveakatsukibasin/Windows-Activator">archiveakatsukibasin/Windows-Activator</a></li>
+<li>项目地址：<a href="https://github.com/MiniMax-AI/MSA">MiniMax-AI/MSA</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/alchaincyf/fanbox">alchaincyf/fanbox</a> #3</h2>
+<h2><a href="https://github.com/joeseesun/qiaomu-goal-meta-skill">joeseesun/qiaomu-goal-meta-skill</a> #2</h2>
 <blockquote>
-<p>一个基于 <strong>JavaScript</strong> 的在线小游戏平台，集成多人对战功能，支持玩家创建房间、实时同步状态。Stars 已超 55，社区正逐渐活跃。</p>
+<p><strong>乔木目标元技能</strong> 是一个基于 <strong>Python</strong> 的元学习实验框架，旨在让 AI 模型学会“如何学习”，特别是针对多目标优化场景。它通过分解复杂目标为子技能，并动态组合来完成从未见过的任务。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/alchaincyf/fanbox" alt="alchaincyf/fanbox" style="max-width:100%;border-radius:8px;"></p></p><p>近年来“游戏盒子”类应用在开发者社区中流行，<code>fanbox</code> 的出发点是用纯前端技术实现轻量级多人游戏引擎，降低独立游戏开发者的联网门槛。</p>
-<p>项目使用 <strong>WebSocket</strong> 进行实时通信，内置房间管理、状态同步、心跳检测等机制。游戏逻辑通过可插拔的模块扩展，开发者只需编写游戏规则脚本即可快速上线一款多人游戏。</p>
-<p>当前 GitHub 数据为 <strong>55 Stars</strong> 和 <strong>7 Forks</strong>，社区贡献了数款示例游戏（如井字棋、贪吃蛇）。代码结构清晰，适合作为多人游戏开发的教学案例。</p>
-<p>与 <strong>Photon、PUN</strong> 等商业方案相比，<code>fanbox</code> 完全免费且不依赖第三方服务，适合小型项目或个人娱乐。缺点是性能和功能丰富度有限。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/joeseesun/qiaomu-goal-meta-skill" alt="joeseesun/qiaomu-goal-meta-skill" style="max-width:100%;border-radius:8px;"></p></p><p>目前多数强化学习或元学习方法只关注单一最终奖励，但现实世界需要平衡多个目标。<strong>qiaomu-goal-meta-skill</strong> 提出一种新颖的元技能编码机制，将每个子目标映射为可复用的 skill 向量，然后通过注意力网络自适应组合。</p>
+<p>核心功能包括：多目标奖励分解、skill 库增量更新、跨任务泛化验证。框架支持 <strong>PyTorch</strong> 后端，并提供评估环境集合（连续控制、导航等）。项目目前有 107 Stars，活跃贡献者来自国内高校。</p>
+<p>与 <strong>Meta-World</strong>、<strong>MAML</strong> 等经典方法相比，该方案在任务切换时无需重新训练整个网络，只需更新 skill 组合权重，计算效率提升明显。实验表明在 <strong>ML10</strong> 和 <strong>ML45</strong> 基准上收敛速度提高 30% 以上。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/alchaincyf/fanbox">alchaincyf/fanbox</a></li>
+<li>项目地址：<a href="https://github.com/joeseesun/qiaomu-goal-meta-skill">joeseesun/qiaomu-goal-meta-skill</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/HoleMythBall/F95-zone-Sync-Manager">HoleMythBall/F95-zone-Sync-Manager</a> #4</h2>
+<h2><a href="https://github.com/pseudoku/Kotinos">pseudoku/Kotinos</a> #3</h2>
 <blockquote>
-<p>一款专为 <strong>F95Zone</strong> 游戏社区设计的存档同步管理工具，支持浏览器扩展形式，可自动上传/下载游戏存档至云盘。Stars 为 38。</p>
+<p><strong>Kotinos</strong> 是一款基于 <strong>OpenSCAD</strong> 的参数化 3D 零件生成器，专门用于创建可定制的外壳、支架和机械连接件。它提供丰富的预设模板，用户只需调整参数即可导出高精度模型，无需手动建模。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/HoleMythBall/F95-zone-Sync-Manager" alt="HoleMythBall/F95-zone-Sync-Manager" style="max-width:100%;border-radius:8px;"></p></p><p>F95Zone 是国外知名的成人游戏社区，用户常在不同设备间游玩同一款游戏，但存档管理十分繁琐。该项目旨在解决这一痛点。</p>
-<p>工具以 Chrome 浏览器扩展的形式运行，通过监听文件系统变化，将存档文件自动同步到 <strong>Google Drive、OneDrive</strong> 等云存储。同时支持手动导入/导出。代码使用 <strong>JavaScript</strong> 编写，轻量且易于修改。</p>
-<p>当前 Stars 为 <strong>38</strong>，Forks 为 <strong>0</strong>，属于小众但高度垂直的工具。作者在 README 中说明仅用于学习目的，不鼓励侵犯版权。</p>
-<p>与通用存档同步工具（如 <strong>GameSave Manager</strong>）相比，<code>F95-zone-Sync-Manager</code> 针对 F95Zone 的特殊目录结构进行了优化，并集成了社区登录验证。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/pseudoku/Kotinos" alt="pseudoku/Kotinos" style="max-width:100%;border-radius:8px;"></p></p><p>对于创客和3D打印爱好者，重复设计标准零件十分耗时。<strong>Kotinos</strong> 的出现将这类工作完全参数化：所有尺寸、倒角、孔位等属性均通过变量控制，修改参数立即可见预览并生成 STL/SCAD 文件。</p>
+<p>项目内置分型模块：可用于盒子、电池仓、PCB 支架、树莓派外壳等。同时支持布尔运算组合，已有 64 Stars，3 Forks。代码完全开源，贡献者可通过 <strong>OpenSCAD</strong> 语言扩展新模板。</p>
+<p>与 <strong>Thingiverse</strong> 上的逐个下载不同，<strong>Kotinos</strong> 强调“设计即代码”，参数修改后自动适应配合公差，大幅减少迭代试错。社区用户反馈其在制作无人机机架和机器人底盘时节省了数小时建模时间。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/HoleMythBall/F95-zone-Sync-Manager">HoleMythBall/F95-zone-Sync-Manager</a></li>
+<li>项目地址：<a href="https://github.com/pseudoku/Kotinos">pseudoku/Kotinos</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/cocktailpeanut/image-to-prompt">cocktailpeanut/image-to-prompt</a> #5</h2>
+<h2><a href="https://github.com/Sliverkiss/mimocode2api">Sliverkiss/mimocode2api</a> #4</h2>
 <blockquote>
-<p>一个轻量级 <strong>AI 图像提示词还原</strong> 工具，输入一张图片，即可分析并输出该图片在主流图像生成模型（如 Midjourney、Stable Diffusion）中的可能提示词。Stars 为 27。</p>
+<p><strong>mimocode2api</strong> 是一个 <strong>Go</strong> 编写的小工具，能将一段微型代码片段快速封装成 HTTP API 接口。用户只需提供输入输出描述和核心逻辑代码，工具自动生成带参数校验、错误处理、跨域支持的 API 服务。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/cocktailpeanut/image-to-prompt" alt="cocktailpeanut/image-to-prompt" style="max-width:100%;border-radius:8px;"></p></p><p>随着AI绘画普及，用户常遇到“想复现某张图的风格却不知道提示词”的问题。<code>image-to-prompt</code> 利用多模态大模型，自动解析图片特征并生成对应的提示词文本。</p>
-<p>项目基于 <strong>JavaScript</strong> 编写，调用 <strong>Hugging Face</strong> 的推理 API（如 <code>BLIP</code>、<code>CLIP</code>），支持本地运行和命令行调用。用户只需提供图片路径，即可获得若干候选提示词。</p>
-<p>目前项目获得 <strong>27 Stars</strong> 和 <strong>1 Fork</strong>。作者在演示中展示了从一张摄影图片还原出“a cat sitting on a table, natural light, shallow depth of field”等描述，效果接近源提示。</p>
-<p>同类工具如 <strong>clip-interrogator</strong> 功能类似，但 <code>image-to-prompt</code> 更轻量、依赖更少。适合设计师、AI绘画爱好者快速参考。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Sliverkiss/mimocode2api" alt="Sliverkiss/mimocode2api" style="max-width:100%;border-radius:8px;"></p></p><p>在日常开发中，临时需要将某个算法或数据处理逻辑暴露为接口时，往往需要编写大量胶水代码。<strong>mimocode2api</strong> 瞄准这一场景，通过定义 YAML 配置文件和一段 Go 函数体，即可启动一个标准化 HTTP 服务。</p>
+<p>核心特性包括：自动生成 Swagger 文档、支持 GET/POST 方法、内置限流与日志。项目当前 37 Stars，5 Forks，代码简洁易读。开发者可将其用于微服务敏捷原型、数据预处理 API 或模型推理服务桥接。</p>
+<p>对比同类产品（如 <strong>OpenFaaS</strong>、<strong>AWS Lambda</strong>），<strong>mimocode2api</strong> 更轻量，无需容器化或云函数环境，特别适合本地调试和边缘设备部署。但仅限 Go 语言编写代码片段。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/cocktailpeanut/image-to-prompt">cocktailpeanut/image-to-prompt</a></li>
+<li>项目地址：<a href="https://github.com/Sliverkiss/mimocode2api">Sliverkiss/mimocode2api</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/spacepirate15/quantum-free-router">spacepirate15/quantum-free-router</a> #6</h2>
+<h2><a href="https://github.com/TheAceOfficials/BetterPoster-for-Jellyfin">TheAceOfficials/BetterPoster-for-Jellyfin</a> #5</h2>
 <blockquote>
-<p>一个基于 <strong>OpenWrt</strong> 的定制路由器固件，主要提供去广告、流量统计、科学上网等家庭网络功能。Stars 为 18，采用 Shell 脚本构建。</p>
+<p><strong>BetterPoster for Jellyfin</strong> 是一个 <strong>C#</strong> 插件，为 <strong>Jellyfin</strong> 媒体服务器提供高清、动态的多语言海报展示，支持自动刮削元数据后生成艺术字标题和定制背景。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/spacepirate15/quantum-free-router" alt="spacepirate15/quantum-free-router" style="max-width:100%;border-radius:8px;"></p></p><p>家庭路由器固件领域长期被 <strong>Padavan、LEDE</strong> 等占据，<code>quantum-free-router</code> 的诞生是为那些希望快速获得综合功能但又不想手动安装插件的用户提供“一键式”固件。</p>
-<p>该项目基于 <strong>OpenWrt 23.05</strong> 编译，集成了 <strong>AdGuard Home</strong>（去广告）、<strong>PassWall</strong>（科学上网）、<strong>Bandwidthd</strong>（流量监控）等常见插件。固件采用 <code>.bin</code> 格式直接刷入，支持多数 MTK/Qualcomm 路由芯片。</p>
-<p>当前 Stars 为 <strong>18</strong>，Forks 为 <strong>1</strong>。项目尚在早期阶段，支持设备列表有限（如 <strong>Redmi AX6S、Linksys WRT3200ACM</strong>）。作者在 issues 中欢迎用户提交设备支持请求。</p>
-<p>与 <strong>ImmortalWrt、OpenWrt 官方</strong> 相比，该项目更偏向“集成发布”，减少用户配置成本。但定制程度较低，可能不适合需要高度自定义的玩家。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/TheAceOfficials/BetterPoster-for-Jellyfin" alt="TheAceOfficials/BetterPoster-for-Jellyfin" style="max-width:100%;border-radius:8px;"></p></p><p>Jellyfin 原生海报仅是普通图片，缺乏文字信息及弹性布局。<strong>BetterPoster</strong> 插件通过后端渲染引擎，根据电影/剧集的元数据（标题、评分、年份、类型）实时合成海报，完全替换原图显示。</p>
+<p>支持多种主题风格（极简、复古、IMDb 式），用户可自定义字体、颜色和布局。安装后自动扫描现有媒体库，生成缓存海报。目前 27 Stars，1 Fork，代码托管在 GitHub。开发者承诺不修改 Jellyfin 核心代码，兼容所有版本。</p>
+<p>与 <strong>Plex</strong> 的漂亮海报相比，<strong>Jellyfin</strong> 用户一直缺少开箱即用的美化方案。<strong>BetterPoster</strong> 填补了这一空白。实测在 4K 设备上渲染速度小于 500ms，对性能影响极小。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/spacepirate15/quantum-free-router">spacepirate15/quantum-free-router</a></li>
+<li>项目地址：<a href="https://github.com/TheAceOfficials/BetterPoster-for-Jellyfin">TheAceOfficials/BetterPoster-for-Jellyfin</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/radekhulan/MD2PDF">radekhulan/MD2PDF</a> #7</h2>
+<h2><a href="https://github.com/oy-paddy/aliyun-model-proxy">oy-paddy/aliyun-model-proxy</a> #6</h2>
 <blockquote>
-<p>一个用 <strong>PHP</strong> 编写的轻量级 Markdown 转 PDF 服务，支持通过命令行或 REST API 调用。Stars 为 14，适合集成到 Web 应用中。</p>
+<p><strong>aliyun-model-proxy</strong> 是一个 <strong>TypeScript</strong> 编写的轻量级代理服务，专门用于透明转发、鉴权和负载均衡 <strong>阿里云通义千问</strong> 等大模型 API 请求。支持多 API Key 轮换、请求速度控制和响应缓存。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/radekhulan/MD2PDF" alt="radekhulan/MD2PDF" style="max-width:100%;border-radius:8px;"></p></p><p>Markdown 转 PDF 的需求长期存在，但现有工具（如 <code>pandoc</code>）依赖庞大环境或复杂命令。<code>MD2PDF</code> 旨在提供一个 PHP 原生的、可直接在 Web 端部署的转换方案。</p>
-<p>项目基于 <code>TCPDF</code> 和 <code>Parsedown</code> 库，解析 Markdown 并生成 PDF 文档。支持代码块语法高亮、表格、图片嵌入。提供 CLI 命令 <code>md2pdf input.md output.pdf</code>，以及 HTTP API（<code>POST /convert</code>）。</p>
-<p>目前 Stars 为 <strong>14</strong>，Forks 为 <strong>2</strong>，代码量约 500 行。作者将其用于个人博客的文档导出，现开源供社区使用。</p>
-<p>与 <strong>wkhtmltopdf</strong> 等方案相比，<code>MD2PDF</code> 无需额外安装渲染引擎，纯 PHP 执行，非常适合 PHP 环境下的自动化文档生成。缺点是对复杂 Markdown（如流程图、数学公式）支持有限。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/oy-paddy/aliyun-model-proxy" alt="oy-paddy/aliyun-model-proxy" style="max-width:100%;border-radius:8px;"></p></p><p>企业在调用阿里云大模型时，常面临 API Key 成本管理、调用频率限制、多个模型切换等问题。<strong>aliyun-model-proxy</strong> 提供了一个中间层，拦截原始请求，按策略路由到不同模型或 Key，并记录调用日志。</p>
+<p>核心能力包括：基于 Token 的限流、失败重试、自定义 Prompt 预处理。支持 <strong>DashScope</strong> SDK 兼容模式，客户端无需修改代码。项目目前 20 Stars，1 Fork，适合中小团队快速部署。</p>
+<p>与 <strong>Kong</strong>、<strong>APISIX</strong> 等通用网关相比，该代理专为阿里云模型优化，代码量仅数百行，易于审计和定制。开发者在 README 中强调“只做代理，不做魔法”，保证透明与安全。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/radekhulan/MD2PDF">radekhulan/MD2PDF</a></li>
+<li>项目地址：<a href="https://github.com/oy-paddy/aliyun-model-proxy">oy-paddy/aliyun-model-proxy</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/ahXN00/OwnTV">ahXN00/OwnTV</a> #7</h2>
+<blockquote>
+<p><strong>OwnTV</strong> 是一个基于 <strong>Kotlin</strong> 开发的自定义电视直播应用，专为 <strong>Android TV</strong> 设计。用户可导入 M3U 播放源、EPG 节目单，并享受无广告、可定制的原生电视体验。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/ahXN00/OwnTV" alt="ahXN00/OwnTV" style="max-width:100%;border-radius:8px;"></p></p><p>随着传统电视逐渐转向 IPTV，许多用户需要一款干净、开源的客户端来管理自己的频道源。<strong>OwnTV</strong> 定位为替代商业应用（如 <strong>TiviMate</strong>），提供完全本地化、无追踪的播放体验。</p>
+<p>主要功能：M3U 播放列表导入、EPG 解析（XMLTV）、频道收藏、分组管理、多音轨/字幕支持。界面遵循 Material Design 3，支持 Leanback 导航。目前 19 Stars，0 Fork，仍在早期开发阶段，但已可稳定播放主流源。</p>
+<p>代码采用 <strong>Jetpack Compose for TV</strong> 编写，模块化架构方便二次开发。相比 <strong>Kodi</strong> 的庞大，<strong>OwnTV</strong> 轻量且专注于电视直播场景。计划未来加入录制和回看功能。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/ahXN00/OwnTV">ahXN00/OwnTV</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-11/</guid>
-<pubDate>Thu, 11 Jun 2026 02:19:17 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-12/</guid>
+<pubDate>Fri, 12 Jun 2026 01:27:43 GMT</pubDate>
 </item>
   </channel>
 </rss>
