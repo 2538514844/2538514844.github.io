@@ -5,119 +5,122 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Fri, 12 Jun 2026 01:27:43 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 03:56:03 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-12 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-12/</link>
-<description><![CDATA[2026-06-12 每日精选 — 7 个仓库: MiniMax-AI/MSA, joeseesun/qiaomu-goal-meta-skill, pseudoku/Kotinos, Sliverkiss/mimocode2api, TheAceOfficials/BetterPoster-for-Jellyfin, oy-paddy/aliyun-model-proxy, ahXN00/OwnTV]]></description>
-<content:encoded><![CDATA[<h1>2026-06-12 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-13 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-13/</link>
+<description><![CDATA[2026-06-13 每日精选 — 7 个仓库: DietrichGebert/ponytail, skydoves/compose-nav-graph, DanMcInerney/architect-loop, orange2ai/renwei-writing, bozhouDev/xhs-article-to-images, Braffolk/fable5-world-demo, newideas99/open-dungeon]]></description>
+<content:encoded><![CDATA[<h1>2026-06-13 GitHub 开源项目精选</h1>
 <h2>概览</h2>
 <h3>AI/大模型</h3>
 <ul>
-<li><strong>MiniMax-AI/MSA</strong> 多智能体系统框架，112 Stars ↗ #1</li>
-<li><strong>joeseesun/qiaomu-goal-meta-skill</strong> 元技能目标驱动学习工具，107 Stars ↗ #2</li>
-<li><strong>oy-paddy/aliyun-model-proxy</strong> 阿里云大模型 API 代理转发，20 Stars ↗ #6</li>
+<li><strong>architect-loop</strong> 一个自动循环架构设计的AI代理，利用LLM生成建筑平面图 ↗ #3</li>
 </ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>Sliverkiss/mimocode2api</strong> 用 Go 实现小代码片段快速转 API，37 Stars ↗ #4</li>
+<li><strong>ponytail</strong> 简化浏览器自动化的无头工具，基于 Playwright / Puppeteer 脚本运行效率提升 30% ↗ #1</li>
+<li><strong>compose-nav-graph</strong> Jetpack Compose 导航图 DSL 库，声明式定义屏幕间跳转逻辑 ↗ #2</li>
 </ul>
-<h3>媒体与设计</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>pseudoku/Kotinos</strong> OpenSCAD 参数化 3D 零件生成器，64 Stars ↗ #3</li>
-<li><strong>TheAceOfficials/BetterPoster-for-Jellyfin</strong> 为 Jellyfin 增强海报展示，27 Stars ↗ #5</li>
-<li><strong>ahXN00/OwnTV</strong> 基于 Kotlin 的自定义电视直播应用，19 Stars ↗ #7</li>
+<li><strong>renwei-writing</strong> AI 辅助写作平台，专注长文生成与专业润色，支持多格式导出 ↗ #4</li>
+<li><strong>xhs-article-to-images</strong> 将小红书长图文快速转换为分享图片，一键适配主流社交平台 ↗ #5</li>
 </ul>
-<hr>
-<h2><a href="https://github.com/MiniMax-AI/MSA">MiniMax-AI/MSA</a> #1</h2>
-<blockquote>
-<p><strong>MiniMax</strong> 开源的 <strong>多智能体系统（MSA）</strong> 框架，提供轻量级、可扩展的智能体协作范式，让开发者能快速构建多 Agent 应用。该框架设计简洁，支持任务编排、记忆和通信，适合研究人员和工业部署。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/MiniMax-AI/MSA" alt="MiniMax-AI/MSA" style="max-width:100%;border-radius:8px;"></p></p><p>多智能体系统（MAS）是当前 AI 主流方向之一，但现有框架往往过于复杂或绑定特定底层模型。<strong>MiniMax</strong> 推出 <strong>MSA</strong> 正是为了解决这些痛点，降低开发者入门门槛，同时保持灵活性。</p>
-<p><strong>MSA</strong> 采用模块化架构，核心组件包括 Agent 调度器、消息总线和共享记忆。开发者只需定义 Agent 角色与任务，框架自动处理协作推理、结果聚合与异常恢复。内置支持 <strong>MiniMax</strong> 自家模型及第三方 API。</p>
-<p>目前仓库获得 112 Stars 和 10 Forks，社区关注度持续上升。官方提供了多个示例，包括代码编写、数据分析和游戏 Agent，帮助用户快速上手。与 <strong>LangChain</strong> 等工具相比，<strong>MSA</strong> 更聚焦多 Agent 交互本身，不提供过多外部集成。</p>
-<p>相关链接：</p>
+<h3>娱乐/创意</h3>
 <ul>
-<li>项目地址：<a href="https://github.com/MiniMax-AI/MSA">MiniMax-AI/MSA</a></li>
+<li><strong>fable5-world-demo</strong> 互动故事引擎，支持动态世界构建与分支叙事，类似《克苏鲁》跑团体验 ↗ #6</li>
+<li><strong>open-dungeon</strong> 开源地牢生成器，使用程序化算法生成随机地图、敌人与宝物配置 ↗ #7</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/joeseesun/qiaomu-goal-meta-skill">joeseesun/qiaomu-goal-meta-skill</a> #2</h2>
+<h2><a href="https://github.com/DietrichGebert/ponytail">ponytail</a> #1</h2>
 <blockquote>
-<p><strong>乔木目标元技能</strong> 是一个基于 <strong>Python</strong> 的元学习实验框架，旨在让 AI 模型学会“如何学习”，特别是针对多目标优化场景。它通过分解复杂目标为子技能，并动态组合来完成从未见过的任务。</p>
+<p>一个基于 Node.js 的无头浏览器自动化工具，让 Puppeteer 和 Playwright 脚本以「马尾辫」般的轻量方式运行。它提供统一 API，大幅降低调试和维护成本。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/joeseesun/qiaomu-goal-meta-skill" alt="joeseesun/qiaomu-goal-meta-skill" style="max-width:100%;border-radius:8px;"></p></p><p>目前多数强化学习或元学习方法只关注单一最终奖励，但现实世界需要平衡多个目标。<strong>qiaomu-goal-meta-skill</strong> 提出一种新颖的元技能编码机制，将每个子目标映射为可复用的 skill 向量，然后通过注意力网络自适应组合。</p>
-<p>核心功能包括：多目标奖励分解、skill 库增量更新、跨任务泛化验证。框架支持 <strong>PyTorch</strong> 后端，并提供评估环境集合（连续控制、导航等）。项目目前有 107 Stars，活跃贡献者来自国内高校。</p>
-<p>与 <strong>Meta-World</strong>、<strong>MAML</strong> 等经典方法相比，该方案在任务切换时无需重新训练整个网络，只需更新 skill 组合权重，计算效率提升明显。实验表明在 <strong>ML10</strong> 和 <strong>ML45</strong> 基准上收敛速度提高 30% 以上。</p>
+<p>项目背景是现有浏览器自动化工具配置繁琐、脚本复用困难。<strong>ponytail</strong> 由开发者 <strong>DietrichGebert</strong> 创建，旨在将 Playwright 与 Puppeteer 的调用封装为一个简洁的 CLI 和 Node.js 模块。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/DietrichGebert/ponytail" alt="ponytail" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括自动下载浏览器、智能等待元素加载、以及报告生成。它支持脚本热重载，开发过程中无需重复启动浏览器。目前获得 <strong>958 Stars</strong> 和 <strong>44 Forks</strong>，社区关注度持续上升。</p>
+<p>与同类项目相比，ponytail 的「零配置」理念更适合快速原型验证。它内置了常见异常处理逻辑，例如页面超时自动重试。推荐用于持续集成中的 E2E 测试和网页数据抓取。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/joeseesun/qiaomu-goal-meta-skill">joeseesun/qiaomu-goal-meta-skill</a></li>
+<li>项目地址：<a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/pseudoku/Kotinos">pseudoku/Kotinos</a> #3</h2>
+<h2><a href="https://github.com/skydoves/compose-nav-graph">compose-nav-graph</a> #2</h2>
 <blockquote>
-<p><strong>Kotinos</strong> 是一款基于 <strong>OpenSCAD</strong> 的参数化 3D 零件生成器，专门用于创建可定制的外壳、支架和机械连接件。它提供丰富的预设模板，用户只需调整参数即可导出高精度模型，无需手动建模。</p>
+<p>一个为 <strong>Jetpack Compose</strong> 打造的声明式导航图库，用 <code>NavGraphBuilder</code> 扩展函数优雅定义路由，无需 XML 配置文件。它让多页面应用的导航逻辑一目了然。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/pseudoku/Kotinos" alt="pseudoku/Kotinos" style="max-width:100%;border-radius:8px;"></p></p><p>对于创客和3D打印爱好者，重复设计标准零件十分耗时。<strong>Kotinos</strong> 的出现将这类工作完全参数化：所有尺寸、倒角、孔位等属性均通过变量控制，修改参数立即可见预览并生成 STL/SCAD 文件。</p>
-<p>项目内置分型模块：可用于盒子、电池仓、PCB 支架、树莓派外壳等。同时支持布尔运算组合，已有 64 Stars，3 Forks。代码完全开源，贡献者可通过 <strong>OpenSCAD</strong> 语言扩展新模板。</p>
-<p>与 <strong>Thingiverse</strong> 上的逐个下载不同，<strong>Kotinos</strong> 强调“设计即代码”，参数修改后自动适应配合公差，大幅减少迭代试错。社区用户反馈其在制作无人机机架和机器人底盘时节省了数小时建模时间。</p>
+<p>Android 原生导航在 Compose 中常导致页面间耦合度高。<strong>skydoves</strong> 团队推出的 <strong>compose-nav-graph</strong> 借鉴了 Navigation Compose 的 DSL 思想，但提供了更直观的语法糖。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/skydoves/compose-nav-graph" alt="compose-nav-graph" style="max-width:100%;border-radius:8px;"></p></p><p>该库支持参数类型安全传递、嵌套导航图以及深度链接。开发者只需使用 <code>composable</code> 和 <code>navigation</code> 扩展函数即可完成路由配置。当前收获 <strong>179 Stars</strong> 和 <strong>4 Forks</strong>，在 Kotlin 社区引起讨论。</p>
+<p>与官方库相比，compose-nav-graph 减少了样板代码，并内置了动画过渡支持。它特别适合中大型 Compose 项目的页面管理，例如电商应用的多级分类页。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/pseudoku/Kotinos">pseudoku/Kotinos</a></li>
+<li>项目地址：<a href="https://github.com/skydoves/compose-nav-graph">skydoves/compose-nav-graph</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Sliverkiss/mimocode2api">Sliverkiss/mimocode2api</a> #4</h2>
+<h2><a href="https://github.com/DanMcInerney/architect-loop">architect-loop</a> #3</h2>
 <blockquote>
-<p><strong>mimocode2api</strong> 是一个 <strong>Go</strong> 编写的小工具，能将一段微型代码片段快速封装成 HTTP API 接口。用户只需提供输入输出描述和核心逻辑代码，工具自动生成带参数校验、错误处理、跨域支持的 API 服务。</p>
+<p>一个由 AI 驱动的「架构循环」工具，自动迭代生成建筑平面图与结构设计。它将 LLM 与物理约束结合，让非专业人士也能快速获得合规的房屋布局方案。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Sliverkiss/mimocode2api" alt="Sliverkiss/mimocode2api" style="max-width:100%;border-radius:8px;"></p></p><p>在日常开发中，临时需要将某个算法或数据处理逻辑暴露为接口时，往往需要编写大量胶水代码。<strong>mimocode2api</strong> 瞄准这一场景，通过定义 YAML 配置文件和一段 Go 函数体，即可启动一个标准化 HTTP 服务。</p>
-<p>核心特性包括：自动生成 Swagger 文档、支持 GET/POST 方法、内置限流与日志。项目当前 37 Stars，5 Forks，代码简洁易读。开发者可将其用于微服务敏捷原型、数据预处理 API 或模型推理服务桥接。</p>
-<p>对比同类产品（如 <strong>OpenFaaS</strong>、<strong>AWS Lambda</strong>），<strong>mimocode2api</strong> 更轻量，无需容器化或云函数环境，特别适合本地调试和边缘设备部署。但仅限 Go 语言编写代码片段。</p>
+<p>传统建筑设计依赖专业软件和大量手动调整。<strong>DanMcInerney</strong> 开发的 <strong>architect-loop</strong> 利用大语言模型理解用户需求（如房间数量、面积），通过循环反馈优化平面图。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/DanMcInerney/architect-loop" alt="architect-loop" style="max-width:100%;border-radius:8px;"></p></p><p>技术方案包括：使用 <strong>OpenAI API</strong> 生成初始布局，然后调用几何库进行碰撞检测与承重校验。若方案不合格，AI 会重新生成直至满足规则。GitHub 上已有 <strong>171 Stars</strong> 和 <strong>10 Forks</strong>。</p>
+<p>适用场景包括个人建房前期规划、室内设计快速提案。区别于其他 AI 绘图工具（如 Midjourney），architect-loop 输出的是带尺寸标注的矢量图，可直接用于施工图参考。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Sliverkiss/mimocode2api">Sliverkiss/mimocode2api</a></li>
+<li>项目地址：<a href="https://github.com/DanMcInerney/architect-loop">DanMcInerney/architect-loop</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/TheAceOfficials/BetterPoster-for-Jellyfin">TheAceOfficials/BetterPoster-for-Jellyfin</a> #5</h2>
+<h2><a href="https://github.com/orange2ai/renwei-writing">renwei-writing</a> #4</h2>
 <blockquote>
-<p><strong>BetterPoster for Jellyfin</strong> 是一个 <strong>C#</strong> 插件，为 <strong>Jellyfin</strong> 媒体服务器提供高清、动态的多语言海报展示，支持自动刮削元数据后生成艺术字标题和定制背景。</p>
+<p>一个面向长文写作的 AI 辅助平台，支持从大纲生成到逐段润色。它内置多种写作风格（学术、小说、商业文案），可导出为 Markdown/Word/PDF。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/TheAceOfficials/BetterPoster-for-Jellyfin" alt="TheAceOfficials/BetterPoster-for-Jellyfin" style="max-width:100%;border-radius:8px;"></p></p><p>Jellyfin 原生海报仅是普通图片，缺乏文字信息及弹性布局。<strong>BetterPoster</strong> 插件通过后端渲染引擎，根据电影/剧集的元数据（标题、评分、年份、类型）实时合成海报，完全替换原图显示。</p>
-<p>支持多种主题风格（极简、复古、IMDb 式），用户可自定义字体、颜色和布局。安装后自动扫描现有媒体库，生成缓存海报。目前 27 Stars，1 Fork，代码托管在 GitHub。开发者承诺不修改 Jellyfin 核心代码，兼容所有版本。</p>
-<p>与 <strong>Plex</strong> 的漂亮海报相比，<strong>Jellyfin</strong> 用户一直缺少开箱即用的美化方案。<strong>BetterPoster</strong> 填补了这一空白。实测在 4K 设备上渲染速度小于 500ms，对性能影响极小。</p>
+<p>当前写作工具多聚焦短内容，对长文档的结构化管理不足。<strong>orange2ai</strong> 推出的 <strong>renwei-writing</strong> 通过划分章节、段落级 AI 建议来提升写作效率。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/orange2ai/renwei-writing" alt="renwei-writing" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括：智能大纲生成、段落连贯性检查、以及引用文献自动格式化。它支持多人协作编辑，并保留版本历史。目前获得 <strong>114 Stars</strong> 和 <strong>10 Forks</strong>，项目仍处于早期开发阶段。</p>
+<p>与 Notion AI 或 Grammarly 相比，renwei-writing 对长文的分拆迭代能力更强。例如，写论文时可锁定关键论点，让 AI 只修改表述。适合学生、自媒体作者和内容策划团队。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/TheAceOfficials/BetterPoster-for-Jellyfin">TheAceOfficials/BetterPoster-for-Jellyfin</a></li>
+<li>项目地址：<a href="https://github.com/orange2ai/renwei-writing">orange2ai/renwei-writing</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/oy-paddy/aliyun-model-proxy">oy-paddy/aliyun-model-proxy</a> #6</h2>
+<h2><a href="https://github.com/bozhouDev/xhs-article-to-images">xhs-article-to-images</a> #5</h2>
 <blockquote>
-<p><strong>aliyun-model-proxy</strong> 是一个 <strong>TypeScript</strong> 编写的轻量级代理服务，专门用于透明转发、鉴权和负载均衡 <strong>阿里云通义千问</strong> 等大模型 API 请求。支持多 API Key 轮换、请求速度控制和响应缓存。</p>
+<p>将小红书「图文笔记」一键转换为社交分享图片，保留原排版与表情符号。支持自定义背景、字体和卡片尺寸，适配朋友圈、微博等平台。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/oy-paddy/aliyun-model-proxy" alt="oy-paddy/aliyun-model-proxy" style="max-width:100%;border-radius:8px;"></p></p><p>企业在调用阿里云大模型时，常面临 API Key 成本管理、调用频率限制、多个模型切换等问题。<strong>aliyun-model-proxy</strong> 提供了一个中间层，拦截原始请求，按策略路由到不同模型或 Key，并记录调用日志。</p>
-<p>核心能力包括：基于 Token 的限流、失败重试、自定义 Prompt 预处理。支持 <strong>DashScope</strong> SDK 兼容模式，客户端无需修改代码。项目目前 20 Stars，1 Fork，适合中小团队快速部署。</p>
-<p>与 <strong>Kong</strong>、<strong>APISIX</strong> 等通用网关相比，该代理专为阿里云模型优化，代码量仅数百行，易于审计和定制。开发者在 README 中强调“只做代理，不做魔法”，保证透明与安全。</p>
+<p>小红书内容以富文本和表情搭配为特色，直接截图会丢失交互感。<strong>bozhouDev</strong> 开发的 <strong>xhs-article-to-images</strong> 解析文章结构，用 CSS 渲染出精美图片。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/bozhouDev/xhs-article-to-images" alt="xhs-article-to-images" style="max-width:100%;border-radius:8px;"></p></p><p>核心实现基于 <code>html2canvas</code> 和 <code>dom-to-image</code>，支持批量转换。用户只需粘贴链接或文本，即可在浏览器中生成下载按钮。该项目拥有 <strong>52 Stars</strong> 和 <strong>7 Forks</strong>。</p>
+<p>使用场景包括：小红书博主将笔记同步到其他平台时保持风格统一；品牌方快速制作营销素材。与同类工具相比，它保留了小红书的圆角卡片和标签样式。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/oy-paddy/aliyun-model-proxy">oy-paddy/aliyun-model-proxy</a></li>
+<li>项目地址：<a href="https://github.com/bozhouDev/xhs-article-to-images">bozhouDev/xhs-article-to-images</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/ahXN00/OwnTV">ahXN00/OwnTV</a> #7</h2>
+<h2><a href="https://github.com/Braffolk/fable5-world-demo">fable5-world-demo</a> #6</h2>
 <blockquote>
-<p><strong>OwnTV</strong> 是一个基于 <strong>Kotlin</strong> 开发的自定义电视直播应用，专为 <strong>Android TV</strong> 设计。用户可导入 M3U 播放源、EPG 节目单，并享受无广告、可定制的原生电视体验。</p>
+<p>一个基于 TypeScript 的互动故事引擎，允许创作者构建动态世界、角色和分支剧情。它采用事件驱动的叙事逻辑，类似文字冒险游戏的升级版。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/ahXN00/OwnTV" alt="ahXN00/OwnTV" style="max-width:100%;border-radius:8px;"></p></p><p>随着传统电视逐渐转向 IPTV，许多用户需要一款干净、开源的客户端来管理自己的频道源。<strong>OwnTV</strong> 定位为替代商业应用（如 <strong>TiviMate</strong>），提供完全本地化、无追踪的播放体验。</p>
-<p>主要功能：M3U 播放列表导入、EPG 解析（XMLTV）、频道收藏、分组管理、多音轨/字幕支持。界面遵循 Material Design 3，支持 Leanback 导航。目前 19 Stars，0 Fork，仍在早期开发阶段，但已可稳定播放主流源。</p>
-<p>代码采用 <strong>Jetpack Compose for TV</strong> 编写，模块化架构方便二次开发。相比 <strong>Kodi</strong> 的庞大，<strong>OwnTV</strong> 轻量且专注于电视直播场景。计划未来加入录制和回看功能。</p>
+<p>传统互动小说工具多依赖硬编码选择分支，扩展性差。<strong>Braffolk</strong> 开发的 <strong>fable5-world-demo</strong> 将世界状态持久化，角色行为根据玩家决策实时变化。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Braffolk/fable5-world-demo" alt="fable5-world-demo" style="max-width:100%;border-radius:8px;"></p></p><p>技术栈使用 <strong>React</strong> 前端与 <strong>Node.js</strong> 后端，剧情以 JSON 格式定义。它支持随机事件、资源管理和角色属性系统。当前获得 <strong>48 Stars</strong> 和 <strong>10 Forks</strong>。</p>
+<p>该 demo 展示了如何用少量代码实现《克苏鲁的呼唤》式叙事。对独立游戏开发者而言，fable5-world-demo 提供了一个可定制的基础框架。未来计划加入 AI 生成的对话内容。</p>
 <p>相关链接：</p>
 <ul>
-<li>项目地址：<a href="https://github.com/ahXN00/OwnTV">ahXN00/OwnTV</a></li>
+<li>项目地址：<a href="https://github.com/Braffolk/fable5-world-demo">Braffolk/fable5-world-demo</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/newideas99/open-dungeon">open-dungeon</a> #7</h2>
+<blockquote>
+<p>一个开源的随机地牢生成器，使用程序化算法创建俯视角地图、怪物分布和宝物刷出点。支持自定义种子和难度参数，适合 RPG 游戏开发快速原型。</p>
+</blockquote>
+<p>很多独立游戏需要随机地图来提升重玩性，但手写算法门槛高。<strong>newideas99</strong> 推出的 <strong>open-dungeon</strong> 提供了基于 <code>BSP</code> 和 <code>A*</code> 的生成管线，输出可直接用于 Unity/Godot。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/newideas99/open-dungeon" alt="open-dungeon" style="max-width:100%;border-radius:8px;"></p></p><p>项目用 TypeScript 编写，附带可交互的 Web 演示。玩家可调整房间大小、走廊宽度和怪物密度。GitHub 上已有 <strong>48 Stars</strong> 和 <strong>3 Forks</strong>。</p>
+<p>与 TinyKeep 等商业工具相比，open-dungeon 完全开源且可嵌入。开发者只需引入一个 npm 包，即可在游戏中生成符合规则的地下城。后续计划加入陷阱和宝箱逻辑。</p>
+<p>相关链接：</p>
+<ul>
+<li>项目地址：<a href="https://github.com/newideas99/open-dungeon">newideas99/open-dungeon</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-12/</guid>
-<pubDate>Fri, 12 Jun 2026 01:27:43 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-13/</guid>
+<pubDate>Sat, 13 Jun 2026 03:56:03 GMT</pubDate>
 </item>
   </channel>
 </rss>
