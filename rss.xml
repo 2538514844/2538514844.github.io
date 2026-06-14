@@ -5,122 +5,119 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sat, 13 Jun 2026 03:56:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jun 2026 03:28:47 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-13 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-13/</link>
-<description><![CDATA[2026-06-13 每日精选 — 7 个仓库: DietrichGebert/ponytail, skydoves/compose-nav-graph, DanMcInerney/architect-loop, orange2ai/renwei-writing, bozhouDev/xhs-article-to-images, Braffolk/fable5-world-demo, newideas99/open-dungeon]]></description>
-<content:encoded><![CDATA[<h1>2026-06-13 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-14 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-14/</link>
+<description><![CDATA[2026-06-14 每日精选 — 7 个仓库: eli-labz/Third-Eye, privatenumber/mac-ocr, darkly22/gauntlet, strongshuai/chatgpt2api-proxy-pool, Timgt86/yt-downloader-savetube, DaysGone66666/translate-online, dososo/blcaptain-meta-skill]]></description>
+<content:encoded><![CDATA[<h1>2026-06-14 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>AI / 大模型</h3>
 <ul>
-<li><strong>architect-loop</strong> 一个自动循环架构设计的AI代理，利用LLM生成建筑平面图 ↗ #3</li>
-</ul>
-<h3>开发工具</h3>
-<ul>
-<li><strong>ponytail</strong> 简化浏览器自动化的无头工具，基于 Playwright / Puppeteer 脚本运行效率提升 30% ↗ #1</li>
-<li><strong>compose-nav-graph</strong> Jetpack Compose 导航图 DSL 库，声明式定义屏幕间跳转逻辑 ↗ #2</li>
+<li><strong>Third-Eye</strong> 实时视觉监测与异常检测框架，让摄像头拥有“第三只眼” ↗ #1</li>
+<li><strong>chatgpt2api-proxy-pool</strong> ChatGPT API 反向代理池，解决并发与地域限制问题 ↗ #2</li>
+<li><strong>blcaptain-meta-skill</strong> 基于 <strong>LLM</strong> 的元技能学习助手，动态生成训练计划 ↗ #3</li>
 </ul>
 <h3>效率工具</h3>
 <ul>
-<li><strong>renwei-writing</strong> AI 辅助写作平台，专注长文生成与专业润色，支持多格式导出 ↗ #4</li>
-<li><strong>xhs-article-to-images</strong> 将小红书长图文快速转换为分享图片，一键适配主流社交平台 ↗ #5</li>
+<li><strong>mac-ocr</strong> macOS 原生 OCR 命令行工具，无网络即可提取图片文字 ↗ #4</li>
+<li><strong>yt-downloader-savetube</strong> YouTube 视频一键下载与格式转换工具 ↗ #5</li>
+<li><strong>translate-online</strong> 轻量级在线翻译网页，支持多引擎切换 ↗ #6</li>
 </ul>
-<h3>娱乐/创意</h3>
+<h3>开发工具</h3>
 <ul>
-<li><strong>fable5-world-demo</strong> 互动故事引擎，支持动态世界构建与分支叙事，类似《克苏鲁》跑团体验 ↗ #6</li>
-<li><strong>open-dungeon</strong> 开源地牢生成器，使用程序化算法生成随机地图、敌人与宝物配置 ↗ #7</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/DietrichGebert/ponytail">ponytail</a> #1</h2>
-<blockquote>
-<p>一个基于 Node.js 的无头浏览器自动化工具，让 Puppeteer 和 Playwright 脚本以「马尾辫」般的轻量方式运行。它提供统一 API，大幅降低调试和维护成本。</p>
-</blockquote>
-<p>项目背景是现有浏览器自动化工具配置繁琐、脚本复用困难。<strong>ponytail</strong> 由开发者 <strong>DietrichGebert</strong> 创建，旨在将 Playwright 与 Puppeteer 的调用封装为一个简洁的 CLI 和 Node.js 模块。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/DietrichGebert/ponytail" alt="ponytail" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括自动下载浏览器、智能等待元素加载、以及报告生成。它支持脚本热重载，开发过程中无需重复启动浏览器。目前获得 <strong>958 Stars</strong> 和 <strong>44 Forks</strong>，社区关注度持续上升。</p>
-<p>与同类项目相比，ponytail 的「零配置」理念更适合快速原型验证。它内置了常见异常处理逻辑，例如页面超时自动重试。推荐用于持续集成中的 E2E 测试和网页数据抓取。</p>
-<p>相关链接：</p>
-<ul>
-<li>项目地址：<a href="https://github.com/DietrichGebert/ponytail">DietrichGebert/ponytail</a></li>
+<li><strong>gauntlet</strong> 前端 UI 组件压力测试沙盒，可视化批量验证交互状态 ↗ #7</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/skydoves/compose-nav-graph">compose-nav-graph</a> #2</h2>
+<h2><a href="https://github.com/eli-labz/Third-Eye">Third-Eye</a> #1</h2>
 <blockquote>
-<p>一个为 <strong>Jetpack Compose</strong> 打造的声明式导航图库，用 <code>NavGraphBuilder</code> 扩展函数优雅定义路由，无需 XML 配置文件。它让多页面应用的导航逻辑一目了然。</p>
+<p>一个基于 <strong>TypeScript</strong> 构建的实时视觉监测与异常检测框架。它能够挂载在任意摄像头流上，并通过可插拔的算法模块自动识别指定行为或物体变化。</p>
 </blockquote>
-<p>Android 原生导航在 Compose 中常导致页面间耦合度高。<strong>skydoves</strong> 团队推出的 <strong>compose-nav-graph</strong> 借鉴了 Navigation Compose 的 DSL 思想，但提供了更直观的语法糖。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/skydoves/compose-nav-graph" alt="compose-nav-graph" style="max-width:100%;border-radius:8px;"></p></p><p>该库支持参数类型安全传递、嵌套导航图以及深度链接。开发者只需使用 <code>composable</code> 和 <code>navigation</code> 扩展函数即可完成路由配置。当前收获 <strong>179 Stars</strong> 和 <strong>4 Forks</strong>，在 Kotlin 社区引起讨论。</p>
-<p>与官方库相比，compose-nav-graph 减少了样板代码，并内置了动画过渡支持。它特别适合中大型 Compose 项目的页面管理，例如电商应用的多级分类页。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/eli-labz/Third-Eye" alt="Third-Eye" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Third-Eye</strong> 的诞生源于开发者对传统监控系统“只录不分析”的痛点。该项目希望用前端友好的技术栈为安防、零售等场景提供低成本智能视觉方案。</p>
+<p>该框架采用 <strong>WebRTC</strong> 接管摄像头流，核心算法通过 <strong>TensorFlow.js</strong> 或自定义 WASM 模型运行在浏览器端，无需后端推理服务。用户可通过 JSON 配置文件定义“警戒区”和触发条件。</p>
+<p>目前项目在 GitHub 上获得 <strong>285 Stars</strong>，社区讨论集中于如何集成更多预训练模型。开发者计划加入动作识别和车牌识别插件。</p>
+<p>与同类产品如 <code>DeepStack</code> 相比，<strong>Third-Eye</strong> 的最大优势是纯前端部署，隐私数据不过公网，适合边缘设备或离线环境。其插件系统也降低了二次开发门槛。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/skydoves/compose-nav-graph">skydoves/compose-nav-graph</a></li>
+<li>项目地址：<a href="https://github.com/eli-labz/Third-Eye">eli-labz/Third-Eye</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/DanMcInerney/architect-loop">architect-loop</a> #3</h2>
+<h2><a href="https://github.com/privatenumber/mac-ocr">mac-ocr</a> #4</h2>
 <blockquote>
-<p>一个由 AI 驱动的「架构循环」工具，自动迭代生成建筑平面图与结构设计。它将 LLM 与物理约束结合，让非专业人士也能快速获得合规的房屋布局方案。</p>
+<p>一个基于 <strong>Swift</strong> 编写的 macOS 命令行工具，调用系统内置 <code>Vision</code> 框架实现离线 OCR。它能在不联网的情况下快速识别图片、截图中的文字并输出到终端或文件。</p>
 </blockquote>
-<p>传统建筑设计依赖专业软件和大量手动调整。<strong>DanMcInerney</strong> 开发的 <strong>architect-loop</strong> 利用大语言模型理解用户需求（如房间数量、面积），通过循环反馈优化平面图。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/DanMcInerney/architect-loop" alt="architect-loop" style="max-width:100%;border-radius:8px;"></p></p><p>技术方案包括：使用 <strong>OpenAI API</strong> 生成初始布局，然后调用几何库进行碰撞检测与承重校验。若方案不合格，AI 会重新生成直至满足规则。GitHub 上已有 <strong>171 Stars</strong> 和 <strong>10 Forks</strong>。</p>
-<p>适用场景包括个人建房前期规划、室内设计快速提案。区别于其他 AI 绘图工具（如 Midjourney），architect-loop 输出的是带尺寸标注的矢量图，可直接用于施工图参考。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/privatenumber/mac-ocr" alt="mac-ocr" style="max-width:100%;border-radius:8px;"></p></p><p>随着隐私意识增强，许多用户希望避免第三方 OCR 服务上传图片。<strong>mac-ocr</strong> 利用 macOS 自带的 <code>VNRecognizeTextRequest</code> API，完全在本地处理。</p>
+<p>使用方式极其简单：<code>mac-ocr image.png</code> 即可输出识别文本。工具支持 <code>‑‑language</code> 参数指定识别语言（默认中英混合），并可通过 <code>‑‑output-json</code> 获取带坐标的结构化结果。</p>
+<p>该项目在 GitHub 上已收获 <strong>68 Stars</strong>，<strong>Forks 3</strong>。虽然 Stars 不高，但因其轻量实用而获得不少开发者在 <strong>Hacker News</strong> 上的推荐。</p>
+<p>同类项目如 <code>Tesseract</code> 需要额外安装语言包，而 <strong>mac-ocr</strong> 开箱即用，性能稳定。适合自动化脚本、截图工作流或无障碍工具集成。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/DanMcInerney/architect-loop">DanMcInerney/architect-loop</a></li>
+<li>项目地址：<a href="https://github.com/privatenumber/mac-ocr">privatenumber/mac-ocr</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/orange2ai/renwei-writing">renwei-writing</a> #4</h2>
+<h2><a href="https://github.com/darkly22/gauntlet">gauntlet</a> #7</h2>
 <blockquote>
-<p>一个面向长文写作的 AI 辅助平台，支持从大纲生成到逐段润色。它内置多种写作风格（学术、小说、商业文案），可导出为 Markdown/Word/PDF。</p>
+<p>一个基于 <strong>HTML/JavaScript</strong> 的前端 UI 组件压力测试沙盒。它允许开发者批量生成组件实例，并模拟高频率状态切换（点击、悬停、动画），以发现性能瓶颈或渲染 bug。</p>
 </blockquote>
-<p>当前写作工具多聚焦短内容，对长文档的结构化管理不足。<strong>orange2ai</strong> 推出的 <strong>renwei-writing</strong> 通过划分章节、段落级 AI 建议来提升写作效率。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/orange2ai/renwei-writing" alt="renwei-writing" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括：智能大纲生成、段落连贯性检查、以及引用文献自动格式化。它支持多人协作编辑，并保留版本历史。目前获得 <strong>114 Stars</strong> 和 <strong>10 Forks</strong>，项目仍处于早期开发阶段。</p>
-<p>与 Notion AI 或 Grammarly 相比，renwei-writing 对长文的分拆迭代能力更强。例如，写论文时可锁定关键论点，让 AI 只修改表述。适合学生、自媒体作者和内容策划团队。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/darkly22/gauntlet" alt="gauntlet" style="max-width:100%;border-radius:8px;"></p></p><p>前端组件库日益复杂，手动测试不同状态组合十分耗时。<strong>gauntlet</strong> 提供一种“暴力测试”方法：将组件与配置放入沙盒，自动遍历所有状态并记录异常。</p>
+<p>核心功能包括自定义状态矩阵、截图对比、性能监控面板。用户通过 JSON 定义组件的 props 变化范围，工具随即生成 <strong>N × M</strong> 组合实例并渲染。</p>
+<p>项目目前 <strong>55 Stars</strong>，<strong>Forks 1</strong>，属于小众但精准的工具。其社区反馈指出，该工具特别适合 <strong>React</strong> 和 <strong>Vue</strong> 组件库的回归测试。</p>
+<p>区别于 <code>Storybook</code> 的静态展示，<strong>gauntlet</strong> 强调动态压力与性能分析。未来计划集成 <strong>Lighthouse</strong> 分数输出，帮助开发者量化优化效果。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/orange2ai/renwei-writing">orange2ai/renwei-writing</a></li>
+<li>项目地址：<a href="https://github.com/darkly22/gauntlet">darkly22/gauntlet</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/bozhouDev/xhs-article-to-images">xhs-article-to-images</a> #5</h2>
+<h2><a href="https://github.com/strongshuai/chatgpt2api-proxy-pool">chatgpt2api-proxy-pool</a> #2</h2>
 <blockquote>
-<p>将小红书「图文笔记」一键转换为社交分享图片，保留原排版与表情符号。支持自定义背景、字体和卡片尺寸，适配朋友圈、微博等平台。</p>
+<p>一个基于 <strong>Python</strong> 的 ChatGPT 反向代理池，聚合多个可用 API 节点，自动切换失败请求，缓解官方 <strong>OpenAI</strong> 接口的访问限制与速率问题。</p>
 </blockquote>
-<p>小红书内容以富文本和表情搭配为特色，直接截图会丢失交互感。<strong>bozhouDev</strong> 开发的 <strong>xhs-article-to-images</strong> 解析文章结构，用 CSS 渲染出精美图片。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/bozhouDev/xhs-article-to-images" alt="xhs-article-to-images" style="max-width:100%;border-radius:8px;"></p></p><p>核心实现基于 <code>html2canvas</code> 和 <code>dom-to-image</code>，支持批量转换。用户只需粘贴链接或文本，即可在浏览器中生成下载按钮。该项目拥有 <strong>52 Stars</strong> 和 <strong>7 Forks</strong>。</p>
-<p>使用场景包括：小红书博主将笔记同步到其他平台时保持风格统一；品牌方快速制作营销素材。与同类工具相比，它保留了小红书的圆角卡片和标签样式。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/strongshuai/chatgpt2api-proxy-pool" alt="chatgpt2api-proxy-pool" style="max-width:100%;border-radius:8px;"></p></p><p>由于 OpenAI API 在不同地区存在不稳定性，开发者使用中常遇到 429 或连接超时。该项目通过维护一个代理节点列表，实现负载均衡与故障转移。</p>
+<p>核心机制：定期检测各代理节点的可用性，并根据响应时间动态分配请求。支持 <code>HTTP</code> 和 <code>SOCKS5</code> 代理协议，并兼容 <strong>OpenAI</strong> 官方 SDK 的接入方式。</p>
+<p>当前 <strong>Stars 32</strong>，<strong>Forks 12</strong>，显示出一定社区维护需求。用户需自行提供代理节点列表，并配置轮询间隔。</p>
+<p>与商业方案 <code>API2D</code> 不同，该项目完全开源且可自托管，适合对隐私和成本敏感的小团队或个人开发者。但需要用户自行维护代理质量。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/bozhouDev/xhs-article-to-images">bozhouDev/xhs-article-to-images</a></li>
+<li>项目地址：<a href="https://github.com/strongshuai/chatgpt2api-proxy-pool">strongshuai/chatgpt2api-proxy-pool</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Braffolk/fable5-world-demo">fable5-world-demo</a> #6</h2>
+<h2><a href="https://github.com/Timgt86/yt-downloader-savetube">yt-downloader-savetube</a> #5</h2>
 <blockquote>
-<p>一个基于 TypeScript 的互动故事引擎，允许创作者构建动态世界、角色和分支剧情。它采用事件驱动的叙事逻辑，类似文字冒险游戏的升级版。</p>
+<p>一个基于 <strong>C#</strong> 开发的 YouTube 视频下载器，支持粘贴链接一键下载，并可选择视频质量与音频格式。后端依赖 <code>yt-dlp</code> 引擎，提供友好 GUI 界面。</p>
 </blockquote>
-<p>传统互动小说工具多依赖硬编码选择分支，扩展性差。<strong>Braffolk</strong> 开发的 <strong>fable5-world-demo</strong> 将世界状态持久化，角色行为根据玩家决策实时变化。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Braffolk/fable5-world-demo" alt="fable5-world-demo" style="max-width:100%;border-radius:8px;"></p></p><p>技术栈使用 <strong>React</strong> 前端与 <strong>Node.js</strong> 后端，剧情以 JSON 格式定义。它支持随机事件、资源管理和角色属性系统。当前获得 <strong>48 Stars</strong> 和 <strong>10 Forks</strong>。</p>
-<p>该 demo 展示了如何用少量代码实现《克苏鲁的呼唤》式叙事。对独立游戏开发者而言，fable5-world-demo 提供了一个可定制的基础框架。未来计划加入 AI 生成的对话内容。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Timgt86/yt-downloader-savetube" alt="yt-downloader-savetube" style="max-width:100%;border-radius:8px;"></p></p><p>虽然 <code>yt-dlp</code> 命令行功能强大，但许多普通用户需要图形化界面。该项目使用 <strong>WPF</strong> 框架构建桌面应用，简化操作流程，降低使用门槛。</p>
+<p>主要功能包括：批量下载、字幕提取、格式转换（MP4/MP3）。下载时可实时显示进度与预估剩余时间。代码中内置了常见的 Cookie 注入机制以绕过年龄限制。</p>
+<p>项目在 GitHub 上获得 <strong>29 Stars</strong>，社区反馈积极。开发者计划添加 <strong>Playlist</strong> 下载和元数据编辑功能。</p>
+<p>与同类软件 <code>4K Video Downloader</code> 相比，<strong>yt-downloader-savetube</strong> 完全免费且开源，不包含广告或试用限制，适合需要离线存档视频的用户。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Braffolk/fable5-world-demo">Braffolk/fable5-world-demo</a></li>
+<li>项目地址：<a href="https://github.com/Timgt86/yt-downloader-savetube">Timgt86/yt-downloader-savetube</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/newideas99/open-dungeon">open-dungeon</a> #7</h2>
+<h2><a href="https://github.com/DaysGone66666/translate-online">translate-online</a> #6</h2>
 <blockquote>
-<p>一个开源的随机地牢生成器，使用程序化算法创建俯视角地图、怪物分布和宝物刷出点。支持自定义种子和难度参数，适合 RPG 游戏开发快速原型。</p>
+<p>一个采用 <strong>JavaScript</strong> 构建的纯前端在线翻译页面，集成 <strong>Google Translate</strong>、<strong>DeepL</strong> 等多个翻译引擎，支持文本输入与划词翻译。</p>
 </blockquote>
-<p>很多独立游戏需要随机地图来提升重玩性，但手写算法门槛高。<strong>newideas99</strong> 推出的 <strong>open-dungeon</strong> 提供了基于 <code>BSP</code> 和 <code>A*</code> 的生成管线，输出可直接用于 Unity/Godot。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/newideas99/open-dungeon" alt="open-dungeon" style="max-width:100%;border-radius:8px;"></p></p><p>项目用 TypeScript 编写，附带可交互的 Web 演示。玩家可调整房间大小、走廊宽度和怪物密度。GitHub 上已有 <strong>48 Stars</strong> 和 <strong>3 Forks</strong>。</p>
-<p>与 TinyKeep 等商业工具相比，open-dungeon 完全开源且可嵌入。开发者只需引入一个 npm 包，即可在游戏中生成符合规则的地下城。后续计划加入陷阱和宝箱逻辑。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/DaysGone66666/translate-online" alt="translate-online" style="max-width:100%;border-radius:8px;"></p></p><p>现有翻译工具往往依赖单一 API，且缺乏结果对比。该项目通过多引擎并行查询，让用户自由切换并对比翻译差异，提升准确度。</p>
+<p>界面设计极简，支持 <strong>60+</strong> 语言。所有翻译请求通过前端直接调用对应 API（需用户自行配置密钥），不经过后端服务器，保护隐私。</p>
+<p>目前 <strong>21 Stars</strong>，属于小型实验项目。开发者计划加入本地缓存与历史记录功能。</p>
+<p>与 <code>LibreTranslate</code> 自部署方案不同，<strong>translate-online</strong> 聚焦于聚合现有服务，适合翻译工作者进行快速对比审校。不过由于依赖第三方 API，可用性受限于 API 策略。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/newideas99/open-dungeon">newideas99/open-dungeon</a></li>
+<li>项目地址：<a href="https://github.com/DaysGone66666/translate-online">DaysGone66666/translate-online</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/dososo/blcaptain-meta-skill">blcaptain-meta-skill</a> #3</h2>
+<blockquote>
+<p>一个基于 <strong>Python</strong> 的元技能学习系统，利用大语言模型 <strong>GPT</strong> 分析用户兴趣与目标，动态生成个性化的技能学习路径与每日练习任务。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/dososo/blcaptain-meta-skill" alt="blcaptain-meta-skill" style="max-width:100%;border-radius:8px;"></p></p><p>自学过程中，很多人因缺乏规划而半途而废。该项目模拟“教练”角色，先通过对话采集用户背景，再调用 <strong>LLM</strong> 分解技能图谱，输出分阶段计划。</p>
+<p>核心工作流：用户输入想学的领域（如“机器学习基础”），系统返回 <strong>12</strong> 周大纲，每周包含推荐资源、实操项目与测验。支持用户反馈并动态调整计划。</p>
+<p>当前 <strong>Stars 13</strong>，<strong>Forks 2</strong>，处于早期验证阶段。开发者计划接入 <strong>LangChain</strong> 增强可扩展性。</p>
+<p>相比已有学习路线网站（如 <code>roadmap.sh</code>），<strong>blcaptain-meta-skill</strong> 利用生成式 AI 实现个性化定制，且可随进度更新。但生成质量依赖模型能力，目前仍需人工校准。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/dososo/blcaptain-meta-skill">dososo/blcaptain-meta-skill</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-13/</guid>
-<pubDate>Sat, 13 Jun 2026 03:56:03 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-14/</guid>
+<pubDate>Sun, 14 Jun 2026 03:28:47 GMT</pubDate>
 </item>
   </channel>
 </rss>
