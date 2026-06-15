@@ -5,119 +5,104 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 14 Jun 2026 03:28:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2026 02:17:54 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-14 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-14/</link>
-<description><![CDATA[2026-06-14 每日精选 — 7 个仓库: eli-labz/Third-Eye, privatenumber/mac-ocr, darkly22/gauntlet, strongshuai/chatgpt2api-proxy-pool, Timgt86/yt-downloader-savetube, DaysGone66666/translate-online, dososo/blcaptain-meta-skill]]></description>
-<content:encoded><![CDATA[<h1>2026-06-14 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-15 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-15/</link>
+<description><![CDATA[2026-06-15 每日精选 — 7 个仓库: tamnd/kage, fivetaku/fablize, mvpgythdgt/Umbrella-Hwid-utility, 001TMF/harness-forge, majidmanzarpour/threejs-game-skills, cruelflyloot/DiskGenius-Pro-Setup, hyf0/project-context-records]]></description>
+<content:encoded><![CDATA[<h1>2026-06-15 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI / 大模型</h3>
-<ul>
-<li><strong>Third-Eye</strong> 实时视觉监测与异常检测框架，让摄像头拥有“第三只眼” ↗ #1</li>
-<li><strong>chatgpt2api-proxy-pool</strong> ChatGPT API 反向代理池，解决并发与地域限制问题 ↗ #2</li>
-<li><strong>blcaptain-meta-skill</strong> 基于 <strong>LLM</strong> 的元技能学习助手，动态生成训练计划 ↗ #3</li>
-</ul>
-<h3>效率工具</h3>
-<ul>
-<li><strong>mac-ocr</strong> macOS 原生 OCR 命令行工具，无网络即可提取图片文字 ↗ #4</li>
-<li><strong>yt-downloader-savetube</strong> YouTube 视频一键下载与格式转换工具 ↗ #5</li>
-<li><strong>translate-online</strong> 轻量级在线翻译网页，支持多引擎切换 ↗ #6</li>
-</ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>gauntlet</strong> 前端 UI 组件压力测试沙盒，可视化批量验证交互状态 ↗ #7</li>
+<li><strong>tamnd/kage</strong> 轻量级 2D 图形渲染库，Go 语言编写，聚焦游戏和动画开发 ↗ #1</li>
+<li><strong>001TMF/harness-forge</strong> Python 测试夹具生成器，一键构建测试环境 ↗ #4</li>
+<li><strong>hyf0/project-context-records</strong> 开发上下文追踪工具，减少信息断层 ↗ #7</li>
+</ul>
+<h3>系统工具</h3>
+<ul>
+<li><strong>mvpgythdgt/Umbrella-Hwid-utility</strong> 硬件 ID 修改器，用于激活伪装与系统调试 ↗ #3</li>
+<li><strong>cruelflyloot/DiskGenius-Pro-Setup</strong> 磁盘分区管理专业版安装资源 ↗ #6</li>
+</ul>
+<h3>自动化工具</h3>
+<ul>
+<li><strong>fivetaku/fablize</strong> Shell 脚本驱动的构建与部署自动化框架 ↗ #2</li>
+</ul>
+<h3>游戏开发</h3>
+<ul>
+<li><strong>majidmanzarpour/threejs-game-skills</strong> Three.js 技能特效示例集合 ↗ #5</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/eli-labz/Third-Eye">Third-Eye</a> #1</h2>
+<h2><a href="https://github.com/tamnd/kage">tamnd/kage</a> #1</h2>
 <blockquote>
-<p>一个基于 <strong>TypeScript</strong> 构建的实时视觉监测与异常检测框架。它能够挂载在任意摄像头流上，并通过可插拔的算法模块自动识别指定行为或物体变化。</p>
+<p>一个用 <strong>Go</strong> 编写的轻量级 2D 图形渲染库，为游戏和动画开发者提供简洁的 API。项目当前拥有 582 个 Star，在 Go 社区中引起一定关注。它试图降低 2D 图形编程的门槛，让开发者能快速实现精灵、粒子、动画等基础功能。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/eli-labz/Third-Eye" alt="Third-Eye" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Third-Eye</strong> 的诞生源于开发者对传统监控系统“只录不分析”的痛点。该项目希望用前端友好的技术栈为安防、零售等场景提供低成本智能视觉方案。</p>
-<p>该框架采用 <strong>WebRTC</strong> 接管摄像头流，核心算法通过 <strong>TensorFlow.js</strong> 或自定义 WASM 模型运行在浏览器端，无需后端推理服务。用户可通过 JSON 配置文件定义“警戒区”和触发条件。</p>
-<p>目前项目在 GitHub 上获得 <strong>285 Stars</strong>，社区讨论集中于如何集成更多预训练模型。开发者计划加入动作识别和车牌识别插件。</p>
-<p>与同类产品如 <code>DeepStack</code> 相比，<strong>Third-Eye</strong> 的最大优势是纯前端部署，隐私数据不过公网，适合边缘设备或离线环境。其插件系统也降低了二次开发门槛。</p>
+<p>tamnd/kage 的诞生源于作者对 Go 语言在游戏开发领域缺乏易用 2D 库的观察。现有方案要么绑定 C 库过于复杂，要么功能不完整。该项目从零构建了一套纯 Go 的渲染管线，不依赖外部图形运行时。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/tamnd/kage" alt="tamnd/kage" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括精灵渲染、帧动画系统、粒子发射器和基本碰撞检测。代码组织模块化，开发者可以按需引入 <code>render</code>、<code>animation</code>、<code>particle</code> 等子包。仓库附带多个示例，展示如何用 500 行内实现一个小型平台游戏。</p>
+<p>目前该项目处于早期活跃开发阶段，7 个 Fork 表明社区参与度尚不高。候选场景包括教育用途的迷你游戏开发、原型制作，以及需要低延迟的实时渲染工具。</p>
+<p>与 <strong>Ebitengine</strong>、<strong>Raylib-go</strong> 等成熟方案相比，tamnd/kage 更强调 API 的极简性，但生态尚未建立。作者在 README 中计划增加音频支持和 WebAssembly 导出能力。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/eli-labz/Third-Eye">eli-labz/Third-Eye</a></li>
+<li>项目地址：<a href="https://github.com/tamnd/kage">tamnd/kage</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/privatenumber/mac-ocr">mac-ocr</a> #4</h2>
+<h2><a href="https://github.com/fivetaku/fablize">fivetaku/fablize</a> #2</h2>
 <blockquote>
-<p>一个基于 <strong>Swift</strong> 编写的 macOS 命令行工具，调用系统内置 <code>Vision</code> 框架实现离线 OCR。它能在不联网的情况下快速识别图片、截图中的文字并输出到终端或文件。</p>
+<p><strong>fablize</strong> 是一套基于 <strong>Shell</strong> 的构建与部署自动化框架，旨在将零散的手工操作转化为可复用的脚本流水线。它已获得 122 个 Star，被部分开发者用于持续部署和本地开发环境初始化。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/privatenumber/mac-ocr" alt="mac-ocr" style="max-width:100%;border-radius:8px;"></p></p><p>随着隐私意识增强，许多用户希望避免第三方 OCR 服务上传图片。<strong>mac-ocr</strong> 利用 macOS 自带的 <code>VNRecognizeTextRequest</code> API，完全在本地处理。</p>
-<p>使用方式极其简单：<code>mac-ocr image.png</code> 即可输出识别文本。工具支持 <code>‑‑language</code> 参数指定识别语言（默认中英混合），并可通过 <code>‑‑output-json</code> 获取带坐标的结构化结果。</p>
-<p>该项目在 GitHub 上已收获 <strong>68 Stars</strong>，<strong>Forks 3</strong>。虽然 Stars 不高，但因其轻量实用而获得不少开发者在 <strong>Hacker News</strong> 上的推荐。</p>
-<p>同类项目如 <code>Tesseract</code> 需要额外安装语言包，而 <strong>mac-ocr</strong> 开箱即用，性能稳定。适合自动化脚本、截图工作流或无障碍工具集成。</p>
+<p>该项目切入点是解决中小团队“手搓脚本”的痛点。许多项目依赖写在 Makefile 或 CI 里的临时命令，复用性差、跨平台兼容困难。fablize 提供了一套标准化的脚本模板和插件机制。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/fivetaku/fablize" alt="fivetaku/fablize" style="max-width:100%;border-radius:8px;"></p></p><p>核心是 <code>fablize init</code> 命令，它会在项目根目录生成 <code>fab.sh</code> 配置文件和 <code>tasks/</code> 文件夹。用户通过编写简单的 Shell 函数定义构建、测试、部署步骤。框架自动处理日志收集、错误捕获和环境变量注入。</p>
+<p>32 个 Fork 表明有一定用户尝试自定义。与 <strong>Just</strong>、<strong>Task</strong> 等任务运行器相比，fablize 不需要安装额外二进制，仅依赖 <code>bash</code> 和常见 Unix 工具，适合在受限的 CI 环境中使用。</p>
+<p>适用场景包括：微服务项目多模块并行构建、前端资源编译后自动上传 CDN、数据库迁移脚本编排。目前同时支持 <code>Linux</code> 和 <code>macOS</code>，Windows 通过 <code>WSL</code> 兼容。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/privatenumber/mac-ocr">privatenumber/mac-ocr</a></li>
+<li>项目地址：<a href="https://github.com/fivetaku/fablize">fivetaku/fablize</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/darkly22/gauntlet">gauntlet</a> #7</h2>
+<h2><a href="https://github.com/mvpgythdgt/Umbrella-Hwid-utility">mvpgythdgt/Umbrella-Hwid-utility</a> #3</h2>
 <blockquote>
-<p>一个基于 <strong>HTML/JavaScript</strong> 的前端 UI 组件压力测试沙盒。它允许开发者批量生成组件实例，并模拟高频率状态切换（点击、悬停、动画），以发现性能瓶颈或渲染 bug。</p>
+<p>一款硬件 ID 修改工具，能够绕过基于 <strong>HWID</strong> 的软件许可验证或系统识别机制。该项目获得 100 个 Star，尽管 Fork 数为 0，但在特定用户群中保持热度。它提供图形界面和命令行两种操作模式。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/darkly22/gauntlet" alt="gauntlet" style="max-width:100%;border-radius:8px;"></p></p><p>前端组件库日益复杂，手动测试不同状态组合十分耗时。<strong>gauntlet</strong> 提供一种“暴力测试”方法：将组件与配置放入沙盒，自动遍历所有状态并记录异常。</p>
-<p>核心功能包括自定义状态矩阵、截图对比、性能监控面板。用户通过 JSON 定义组件的 props 变化范围，工具随即生成 <strong>N × M</strong> 组合实例并渲染。</p>
-<p>项目目前 <strong>55 Stars</strong>，<strong>Forks 1</strong>，属于小众但精准的工具。其社区反馈指出，该工具特别适合 <strong>React</strong> 和 <strong>Vue</strong> 组件库的回归测试。</p>
-<p>区别于 <code>Storybook</code> 的静态展示，<strong>gauntlet</strong> 强调动态压力与性能分析。未来计划集成 <strong>Lighthouse</strong> 分数输出，帮助开发者量化优化效果。</p>
+<p>此类工具通常用于软件激活、反封禁或系统调试场景。Umbrella-Hwid-utility 声称支持修改主板序列号、硬盘 ID、网卡 MAC 地址等多项硬件标识。使用前需关闭杀毒软件，因其驱动级操作常被安全软件拦截。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/mvpgythdgt/Umbrella-Hwid-utility" alt="mvpgythdgt/Umbrella-Hwid-utility" style="max-width:100%;border-radius:8px;"></p></p><p>技术实现上，项目利用 Windows 内核驱动与用户态交互，通过修改注册表项和系统文件实现硬件信息重写。需要注意的是，不当使用可能导致系统不稳定或软件崩溃。仓库本身未提供完整源码，仅发布预编译的 <code>.exe</code> 文件及相关文档。</p>
+<p>相比同类工具如 <strong>HWID Spoofer</strong>、<strong>WmiFix</strong>，Umbrella-Hwid-utility 的特色在于“一键备份”功能，可恢复原始配置。但缺乏社区审查和安全审计，建议谨慎评估风险。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/darkly22/gauntlet">darkly22/gauntlet</a></li>
+<li>项目地址：<a href="https://github.com/mvpgythdgt/Umbrella-Hwid-utility">mvpgythdgt/Umbrella-Hwid-utility</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/strongshuai/chatgpt2api-proxy-pool">chatgpt2api-proxy-pool</a> #2</h2>
+<h2><a href="https://github.com/001TMF/harness-forge">001TMF/harness-forge</a> #4</h2>
 <blockquote>
-<p>一个基于 <strong>Python</strong> 的 ChatGPT 反向代理池，聚合多个可用 API 节点，自动切换失败请求，缓解官方 <strong>OpenAI</strong> 接口的访问限制与速率问题。</p>
+<p><strong>Harness-Forge</strong> 是一个 Python 测试夹具生成器，能够根据类型注解自动创建测试数据对象。目前有 37 个 Star，适用于减轻编写单元测试时重复设置对象的负担。它声称支持 Pydantic、Django ORM 和 SQLAlchemy 模型。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/strongshuai/chatgpt2api-proxy-pool" alt="chatgpt2api-proxy-pool" style="max-width:100%;border-radius:8px;"></p></p><p>由于 OpenAI API 在不同地区存在不稳定性，开发者使用中常遇到 429 或连接超时。该项目通过维护一个代理节点列表，实现负载均衡与故障转移。</p>
-<p>核心机制：定期检测各代理节点的可用性，并根据响应时间动态分配请求。支持 <code>HTTP</code> 和 <code>SOCKS5</code> 代理协议，并兼容 <strong>OpenAI</strong> 官方 SDK 的接入方式。</p>
-<p>当前 <strong>Stars 32</strong>，<strong>Forks 12</strong>，显示出一定社区维护需求。用户需自行提供代理节点列表，并配置轮询间隔。</p>
-<p>与商业方案 <code>API2D</code> 不同，该项目完全开源且可自托管，适合对隐私和成本敏感的小团队或个人开发者。但需要用户自行维护代理质量。</p>
+<p>项目灵感源于作者在大型项目中频繁手工构造类实例的痛苦。传统手工 mock 或 fixture 维护成本高，尤其在模型字段变动时。harness-forge 通过读取模型定义，自动生成填充随机或定制数据的实例。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/001TMF/harness-forge" alt="001TMF/harness-forge" style="max-width:100%;border-radius:8px;"></p></p><p>核心函数 <code>forge(model_class)</code> 返回一个填充了合理默认值的对象。用户可通过 <code>override</code> 参数指定某些字段。支持嵌套模型和继承关系，对 <code>Enum</code>、<code>Optional</code> 类型有特殊处理。4 个 Fork 显示有用户尝试适配自己的项目。</p>
+<p>与 <strong>factory_boy</strong>、<strong>Faker</strong> + <strong>Pydantic Factory</strong> 相比，harness-forge 更轻量，无需声明额外工厂类。缺点是目前只支持 Python 3.10+，且未实现数据库持久化 fixture 的批量生成。</p>
+<p>适用场景：快速为 REST API 测试提供请求 body、为数据校验函数提供边界案例。README 中计划增加对 <code>dataclasses</code> 的原生支持。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/strongshuai/chatgpt2api-proxy-pool">strongshuai/chatgpt2api-proxy-pool</a></li>
+<li>项目地址：<a href="https://github.com/001TMF/harness-forge">001TMF/harness-forge</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Timgt86/yt-downloader-savetube">yt-downloader-savetube</a> #5</h2>
+<h2><a href="https://github.com/majidmanzarpour/threejs-game-skills">majidmanzarpour/threejs-game-skills</a> #5</h2>
 <blockquote>
-<p>一个基于 <strong>C#</strong> 开发的 YouTube 视频下载器，支持粘贴链接一键下载，并可选择视频质量与音频格式。后端依赖 <code>yt-dlp</code> 引擎，提供友好 GUI 界面。</p>
+<p>一个 <strong>Three.js</strong> 技术演示集合，专注于实现火球、闪电、护盾等常见游戏技能特效。该项目包含 33 个 Star，是游戏开发者学习 3D 特效的参考资源。所有示例基于原生 Three.js，未使用额外粒子引擎。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Timgt86/yt-downloader-savetube" alt="yt-downloader-savetube" style="max-width:100%;border-radius:8px;"></p></p><p>虽然 <code>yt-dlp</code> 命令行功能强大，但许多普通用户需要图形化界面。该项目使用 <strong>WPF</strong> 框架构建桌面应用，简化操作流程，降低使用门槛。</p>
-<p>主要功能包括：批量下载、字幕提取、格式转换（MP4/MP3）。下载时可实时显示进度与预估剩余时间。代码中内置了常见的 Cookie 注入机制以绕过年龄限制。</p>
-<p>项目在 GitHub 上获得 <strong>29 Stars</strong>，社区反馈积极。开发者计划添加 <strong>Playlist</strong> 下载和元数据编辑功能。</p>
-<p>与同类软件 <code>4K Video Downloader</code> 相比，<strong>yt-downloader-savetube</strong> 完全免费且开源，不包含广告或试用限制，适合需要离线存档视频的用户。</p>
+<p>作者在仓库中展示了 12 个独立场景，每个场景包含一个完整技能特效的 HTML 文件。技术方案涉及着色器自定义、粒子系统、几何体变形和后期处理。例如“火球”效果使用 <strong>ShaderMaterial</strong> 加上噪点纹理实现火焰纹理流动。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/majidmanzarpour/threejs-game-skills" alt="majidmanzarpour/threejs-game-skills" style="max-width:100%;border-radius:8px;"></p></p><p>这些示例适合用于快速原型验证或教学。每个文件包含详细中文注释，解释关键参数。对比同类资源库（如 <strong>three.js examples</strong>），该项目更聚焦于游戏战斗场景中的高频特效，而非通用粒子效果。</p>
+<p>2 个 Fork 表明有用户摘录其中代码。项目依赖 Three.js <strong>r152</strong> 版本，与最新版个别 API 可能有差异。作者鼓励通过修改参数调试效果。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Timgt86/yt-downloader-savetube">Timgt86/yt-downloader-savetube</a></li>
+<li>项目地址：<a href="https://github.com/majidmanzarpour/threejs-game-skills">majidmanzarpour/threejs-game-skills</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/DaysGone66666/translate-online">translate-online</a> #6</h2>
+<h2><a href="https://github.com/cruelflyloot/DiskGenius-Pro-Setup">cruelflyloot/DiskGenius-Pro-Setup</a> #6</h2>
 <blockquote>
-<p>一个采用 <strong>JavaScript</strong> 构建的纯前端在线翻译页面，集成 <strong>Google Translate</strong>、<strong>DeepL</strong> 等多个翻译引擎，支持文本输入与划词翻译。</p>
+<p>提供 <strong>DiskGenius</strong> 专业版的安装资源，包括主程序文件和激活配置。该项目目前 30 个 Star，主要用于磁盘分区、数据恢复和坏道检测的自动化安装。注意：未确认是否获得官方授权。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/DaysGone66666/translate-online" alt="translate-online" style="max-width:100%;border-radius:8px;"></p></p><p>现有翻译工具往往依赖单一 API，且缺乏结果对比。该项目通过多引擎并行查询，让用户自由切换并对比翻译差异，提升准确度。</p>
-<p>界面设计极简，支持 <strong>60+</strong> 语言。所有翻译请求通过前端直接调用对应 API（需用户自行配置密钥），不经过后端服务器，保护隐私。</p>
-<p>目前 <strong>21 Stars</strong>，属于小型实验项目。开发者计划加入本地缓存与历史记录功能。</p>
-<p>与 <code>LibreTranslate</code> 自部署方案不同，<strong>translate-online</strong> 聚焦于聚合现有服务，适合翻译工作者进行快速对比审校。不过由于依赖第三方 API，可用性受限于 API 策略。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/DaysGone66666/translate-online">DaysGone66666/translate-online</a></li>
-</ul>
-<hr>
-<h2><a href="https://github.com/dososo/blcaptain-meta-skill">blcaptain-meta-skill</a> #3</h2>
-<blockquote>
-<p>一个基于 <strong>Python</strong> 的元技能学习系统，利用大语言模型 <strong>GPT</strong> 分析用户兴趣与目标，动态生成个性化的技能学习路径与每日练习任务。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/dososo/blcaptain-meta-skill" alt="blcaptain-meta-skill" style="max-width:100%;border-radius:8px;"></p></p><p>自学过程中，很多人因缺乏规划而半途而废。该项目模拟“教练”角色，先通过对话采集用户背景，再调用 <strong>LLM</strong> 分解技能图谱，输出分阶段计划。</p>
-<p>核心工作流：用户输入想学的领域（如“机器学习基础”），系统返回 <strong>12</strong> 周大纲，每周包含推荐资源、实操项目与测验。支持用户反馈并动态调整计划。</p>
-<p>当前 <strong>Stars 13</strong>，<strong>Forks 2</strong>，处于早期验证阶段。开发者计划接入 <strong>LangChain</strong> 增强可扩展性。</p>
-<p>相比已有学习路线网站（如 <code>roadmap.sh</code>），<strong>blcaptain-meta-skill</strong> 利用生成式 AI 实现个性化定制，且可随进度更新。但生成质量依赖模型能力，目前仍需人工校准。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/dososo/blcaptain-meta-skill">dososo/blcaptain-meta-skill</a></li>
-</ul>
+<p>虽然仓库未公开源代码，但提供了百度网盘和直链下载的 setup 文件。部署脚本使用 Batch 和 PowerShell 编写，能够自动检测系统位数并选择对应版本。Fork 数为 0，表明主要用于分发而非协作开发。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/cruelflyloot/DiskGenius-Pro-Setup" alt="cruelflyloot/DiskGenius-Pro-Setup" style="max-width:100%;border-radius:8px;"></p></p><p>与官方免费版相比，该资源声称解锁了“恢复大文件”、“虚拟磁盘转换”、“BitLocker 解锁”等付费功能。但使用盗版软件存在法律风险和安全隐患。建议用户通过正版渠道获取。</p>
+<p>适用场景：IT 运维人员批量装机、数据恢复技术人员随身携带。仓库 README 提示安装前需退出杀毒软件，侧面说明可能存在误报</p>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-14/</guid>
-<pubDate>Sun, 14 Jun 2026 03:28:47 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-15/</guid>
+<pubDate>Mon, 15 Jun 2026 02:17:54 GMT</pubDate>
 </item>
   </channel>
 </rss>
