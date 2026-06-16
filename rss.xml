@@ -5,104 +5,118 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 15 Jun 2026 02:17:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jun 2026 01:44:46 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-15 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-15/</link>
-<description><![CDATA[2026-06-15 每日精选 — 7 个仓库: tamnd/kage, fivetaku/fablize, mvpgythdgt/Umbrella-Hwid-utility, 001TMF/harness-forge, majidmanzarpour/threejs-game-skills, cruelflyloot/DiskGenius-Pro-Setup, hyf0/project-context-records]]></description>
-<content:encoded><![CDATA[<h1>2026-06-15 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-16 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-16/</link>
+<description><![CDATA[2026-06-16 每日精选 — 8 个仓库: alchaincyf/loop-engineering-orange-book, joeseesun/qiaomu-app-review-insights, maddcatz/Delta-Exec-PC, NathanReeves0/Fablor-original, ProxyAyush/antigravity-fusion-plugin, Upload-Post/avatar-mix, Jimmi1e/StarChaser, Onestepcom00/vyno-ai]]></description>
+<content:encoded><![CDATA[<h1>2026-06-16 GitHub 开源项目精选</h1>
 <h2>概览</h2>
+<h3>学习与文档</h3>
+<ul>
+<li><strong>loop-engineering-orange-book</strong> 循环工程社区协作指南，系统优化方法论整理 ↗ #1</li>
+</ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>tamnd/kage</strong> 轻量级 2D 图形渲染库，Go 语言编写，聚焦游戏和动画开发 ↗ #1</li>
-<li><strong>001TMF/harness-forge</strong> Python 测试夹具生成器，一键构建测试环境 ↗ #4</li>
-<li><strong>hyf0/project-context-records</strong> 开发上下文追踪工具，减少信息断层 ↗ #7</li>
+<li><strong>qiaomu-app-review-insights</strong> 应用商店评论分析工具，追踪用户反馈趋势 ↗ #2</li>
+<li><strong>Fablor-original</strong> TypeScript 前端组件库，聚焦可复用设计模式 ↗ #4</li>
+<li><strong>antigravity-fusion-plugin</strong> 抗重力融合插件，为 Figma 等工具扩展设计能力 ↗ #5</li>
 </ul>
-<h3>系统工具</h3>
+<h3>图像与设计</h3>
 <ul>
-<li><strong>mvpgythdgt/Umbrella-Hwid-utility</strong> 硬件 ID 修改器，用于激活伪装与系统调试 ↗ #3</li>
-<li><strong>cruelflyloot/DiskGenius-Pro-Setup</strong> 磁盘分区管理专业版安装资源 ↗ #6</li>
+<li><strong>avatar-mix</strong> Python 头像混合生成器，快速合成虚拟形象 ↗ #6</li>
 </ul>
-<h3>自动化工具</h3>
+<h3>游戏与娱乐</h3>
 <ul>
-<li><strong>fivetaku/fablize</strong> Shell 脚本驱动的构建与部署自动化框架 ↗ #2</li>
+<li><strong>Delta-Exec-PC</strong> Windows 平台 Delta 执行模拟器，面向经典游戏玩家 ↗ #3</li>
+<li><strong>StarChaser</strong> Swift 开发的 iOS 追逐星星小游戏，极简画风体验 ↗ #7</li>
 </ul>
-<h3>游戏开发</h3>
+<h3>AI 应用</h3>
 <ul>
-<li><strong>majidmanzarpour/threejs-game-skills</strong> Three.js 技能特效示例集合 ↗ #5</li>
+<li><strong>vyno-ai</strong> 轻量级 AI 对话界面，基于 HTML 原型探索 ↗ #8</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/tamnd/kage">tamnd/kage</a> #1</h2>
+<h2><a href="https://github.com/alchaincyf/loop-engineering-orange-book">loop-engineering-orange-book</a> #1</h2>
 <blockquote>
-<p>一个用 <strong>Go</strong> 编写的轻量级 2D 图形渲染库，为游戏和动画开发者提供简洁的 API。项目当前拥有 582 个 Star，在 Go 社区中引起一定关注。它试图降低 2D 图形编程的门槛，让开发者能快速实现精灵、粒子、动画等基础功能。</p>
+<p>社区驱动的循环工程知识手册，系统梳理循环优化理论与实践经验，为开发者提供模块化技术参考。目前获得 298 个 Star，在相关技术社区中引发关注。</p>
 </blockquote>
-<p>tamnd/kage 的诞生源于作者对 Go 语言在游戏开发领域缺乏易用 2D 库的观察。现有方案要么绑定 C 库过于复杂，要么功能不完整。该项目从零构建了一套纯 Go 的渲染管线，不依赖外部图形运行时。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/tamnd/kage" alt="tamnd/kage" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括精灵渲染、帧动画系统、粒子发射器和基本碰撞检测。代码组织模块化，开发者可以按需引入 <code>render</code>、<code>animation</code>、<code>particle</code> 等子包。仓库附带多个示例，展示如何用 500 行内实现一个小型平台游戏。</p>
-<p>目前该项目处于早期活跃开发阶段，7 个 Fork 表明社区参与度尚不高。候选场景包括教育用途的迷你游戏开发、原型制作，以及需要低延迟的实时渲染工具。</p>
-<p>与 <strong>Ebitengine</strong>、<strong>Raylib-go</strong> 等成熟方案相比，tamnd/kage 更强调 API 的极简性，但生态尚未建立。作者在 README 中计划增加音频支持和 WebAssembly 导出能力。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/tamnd/kage">tamnd/kage</a></li>
-</ul>
+<p>循环工程作为系统优化的重要分支，长期缺乏统一的入门指南。<strong>alchaincyf</strong> 发起该开源项目，旨在通过社区协作方式，将分散的循环模式、回溯算法与工程实践整合为结构化文档。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/alchaincyf/loop-engineering-orange-book" alt="loop-engineering-orange-book" style="max-width:100%;border-radius:8px;"></p></p><p>项目以 <strong>Orange Book</strong> 命名，致敬经典技术丛书，内容涵盖循环不变式、性能分析工具链及反模式案例。采用 Markdown 书写，便于社区贡献者参与翻译和章节扩充。</p>
+<p>截至目前，该项目已收获 298 个 Star 和 17 个 Fork，说明其在系统优化爱好者中有一定认可度。该仓库尤其适合后端开发者、算法研究者以及希望深入理解循环优化原理的工程师。</p>
 <hr>
-<h2><a href="https://github.com/fivetaku/fablize">fivetaku/fablize</a> #2</h2>
+<h2><a href="https://github.com/joeseesun/qiaomu-app-review-insights">qiaomu-app-review-insights</a> #2</h2>
 <blockquote>
-<p><strong>fablize</strong> 是一套基于 <strong>Shell</strong> 的构建与部署自动化框架，旨在将零散的手工操作转化为可复用的脚本流水线。它已获得 122 个 Star，被部分开发者用于持续部署和本地开发环境初始化。</p>
+<p>基于 TypeScript 的应用商店评论分析工具，自动抓取用户评价并生成情感趋势报告。开发者可通过可视化面板快速定位产品痛点。</p>
 </blockquote>
-<p>该项目切入点是解决中小团队“手搓脚本”的痛点。许多项目依赖写在 Makefile 或 CI 里的临时命令，复用性差、跨平台兼容困难。fablize 提供了一套标准化的脚本模板和插件机制。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/fivetaku/fablize" alt="fivetaku/fablize" style="max-width:100%;border-radius:8px;"></p></p><p>核心是 <code>fablize init</code> 命令，它会在项目根目录生成 <code>fab.sh</code> 配置文件和 <code>tasks/</code> 文件夹。用户通过编写简单的 Shell 函数定义构建、测试、部署步骤。框架自动处理日志收集、错误捕获和环境变量注入。</p>
-<p>32 个 Fork 表明有一定用户尝试自定义。与 <strong>Just</strong>、<strong>Task</strong> 等任务运行器相比，fablize 不需要安装额外二进制，仅依赖 <code>bash</code> 和常见 Unix 工具，适合在受限的 CI 环境中使用。</p>
-<p>适用场景包括：微服务项目多模块并行构建、前端资源编译后自动上传 CDN、数据库迁移脚本编排。目前同时支持 <code>Linux</code> 和 <code>macOS</code>，Windows 通过 <code>WSL</code> 兼容。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/fivetaku/fablize">fivetaku/fablize</a></li>
-</ul>
+<p>移动应用市场竞争激烈，用户评论中蕴含大量改进信号。<strong>joeseesun</strong> 开源的 <strong>qiaomu-app-review-insights</strong> 项目，通过 API 采集 App Store 与 Google Play 评论，利用自然语言处理进行情感极性分类。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/joeseesun/qiaomu-app-review-insights" alt="qiaomu-app-review-insights" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括关键词云、评分时序变化图以及异常评论告警。项目采用 TypeScript 编写，提供命令行接口与模块化 SDK，便于集成到 CI/CD 流程中。</p>
+<p>目前该项目拥有 72 个 Star 和 14 个 Fork，社区活跃度适中。相比同类产品如 AppFollow，它更强调本地化部署与数据隐私，适合中小团队使用。</p>
 <hr>
-<h2><a href="https://github.com/mvpgythdgt/Umbrella-Hwid-utility">mvpgythdgt/Umbrella-Hwid-utility</a> #3</h2>
+<h2><a href="https://github.com/maddcatz/Delta-Exec-PC">Delta-Exec-PC</a> #3</h2>
 <blockquote>
-<p>一款硬件 ID 修改工具，能够绕过基于 <strong>HWID</strong> 的软件许可验证或系统识别机制。该项目获得 100 个 Star，尽管 Fork 数为 0，但在特定用户群中保持热度。它提供图形界面和命令行两种操作模式。</p>
+<p>基于 C# 开发的 Windows 版 Delta 执行模拟器，专为复古游戏爱好者打造。支持多种经典游戏机平台的 ROM 运行，提供高速渲染引擎。</p>
 </blockquote>
-<p>此类工具通常用于软件激活、反封禁或系统调试场景。Umbrella-Hwid-utility 声称支持修改主板序列号、硬盘 ID、网卡 MAC 地址等多项硬件标识。使用前需关闭杀毒软件，因其驱动级操作常被安全软件拦截。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/mvpgythdgt/Umbrella-Hwid-utility" alt="mvpgythdgt/Umbrella-Hwid-utility" style="max-width:100%;border-radius:8px;"></p></p><p>技术实现上，项目利用 Windows 内核驱动与用户态交互，通过修改注册表项和系统文件实现硬件信息重写。需要注意的是，不当使用可能导致系统不稳定或软件崩溃。仓库本身未提供完整源码，仅发布预编译的 <code>.exe</code> 文件及相关文档。</p>
-<p>相比同类工具如 <strong>HWID Spoofer</strong>、<strong>WmiFix</strong>，Umbrella-Hwid-utility 的特色在于“一键备份”功能，可恢复原始配置。但缺乏社区审查和安全审计，建议谨慎评估风险。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/mvpgythdgt/Umbrella-Hwid-utility">mvpgythdgt/Umbrella-Hwid-utility</a></li>
-</ul>
+<p>Delta 模拟器在 iOS 平台广受欢迎，但 Windows 用户缺乏原生体验。<strong>maddcatz</strong> 的项目 <strong>Delta-Exec-PC</strong> 试图填补这一空白，利用 .NET 框架和 DirectX 实现低延迟画面输出。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/maddcatz/Delta-Exec-PC" alt="Delta-Exec-PC" style="max-width:100%;border-radius:8px;"></p></p><p>目前模拟器支持 Game Boy Advance、Nintendo DS 等平台，代码层面采用插件式架构，便于扩展新核心。开发者提供了预编译二进制文件，降低使用门槛。</p>
+<p>该项目获得 27 个 Star，尚处于早期阶段。与成熟的 RetroArch 相比，它的优势在于轻量化和对 Delta 用户界面的致敬，适合怀旧玩家尝鲜。</p>
 <hr>
-<h2><a href="https://github.com/001TMF/harness-forge">001TMF/harness-forge</a> #4</h2>
+<h2><a href="https://github.com/NathanReeves0/Fablor-original">Fablor-original</a> #4</h2>
 <blockquote>
-<p><strong>Harness-Forge</strong> 是一个 Python 测试夹具生成器，能够根据类型注解自动创建测试数据对象。目前有 37 个 Star，适用于减轻编写单元测试时重复设置对象的负担。它声称支持 Pydantic、Django ORM 和 SQLAlchemy 模型。</p>
+<p>TypeScript 前端组件库，提供一套可复用的 UI 设计模式。以「织物」为灵感，强调模块编织与样式隔离，适合构建复杂管理后台。</p>
 </blockquote>
-<p>项目灵感源于作者在大型项目中频繁手工构造类实例的痛苦。传统手工 mock 或 fixture 维护成本高，尤其在模型字段变动时。harness-forge 通过读取模型定义，自动生成填充随机或定制数据的实例。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/001TMF/harness-forge" alt="001TMF/harness-forge" style="max-width:100%;border-radius:8px;"></p></p><p>核心函数 <code>forge(model_class)</code> 返回一个填充了合理默认值的对象。用户可通过 <code>override</code> 参数指定某些字段。支持嵌套模型和继承关系，对 <code>Enum</code>、<code>Optional</code> 类型有特殊处理。4 个 Fork 显示有用户尝试适配自己的项目。</p>
-<p>与 <strong>factory_boy</strong>、<strong>Faker</strong> + <strong>Pydantic Factory</strong> 相比，harness-forge 更轻量，无需声明额外工厂类。缺点是目前只支持 Python 3.10+，且未实现数据库持久化 fixture 的批量生成。</p>
-<p>适用场景：快速为 REST API 测试提供请求 body、为数据校验函数提供边界案例。README 中计划增加对 <code>dataclasses</code> 的原生支持。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/001TMF/harness-forge">001TMF/harness-forge</a></li>
-</ul>
+<p>前端工程化中，组件复用与样式冲突始终是痛点。<strong>NathanReeves0</strong> 的 <strong>Fablor-original</strong> 项目提供了基于 CSS-in-JS 的组件系统，每个组件独立携带样式元数据。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/NathanReeves0/Fablor-original" alt="Fablor-original" style="max-width:100%;border-radius:8px;"></p></p><p>核心组件包括数据表格、表单引擎、图表容器等，均支持主题定制。项目采用 TypeScript 编写，严格类型推导提升了开发体验。从预览图看，组件风格偏向扁平现代。</p>
+<p>目前拥有 26 个 Star 和 10 个 Fork，社区在持续增长。相比 Ant Design，它更注重样式隔离和按需加载，适合对包体积敏感的场景。</p>
 <hr>
-<h2><a href="https://github.com/majidmanzarpour/threejs-game-skills">majidmanzarpour/threejs-game-skills</a> #5</h2>
+<h2><a href="https://github.com/ProxyAyush/antigravity-fusion-plugin">antigravity-fusion-plugin</a> #5</h2>
 <blockquote>
-<p>一个 <strong>Three.js</strong> 技术演示集合，专注于实现火球、闪电、护盾等常见游戏技能特效。该项目包含 33 个 Star，是游戏开发者学习 3D 特效的参考资源。所有示例基于原生 Three.js，未使用额外粒子引擎。</p>
+<p>Figma 插件，实现图层抗重力融合效果。用户通过拖拽操作，即可让元素之间产生物理吸附与排斥模拟，提升设计原型交互感。</p>
 </blockquote>
-<p>作者在仓库中展示了 12 个独立场景，每个场景包含一个完整技能特效的 HTML 文件。技术方案涉及着色器自定义、粒子系统、几何体变形和后期处理。例如“火球”效果使用 <strong>ShaderMaterial</strong> 加上噪点纹理实现火焰纹理流动。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/majidmanzarpour/threejs-game-skills" alt="majidmanzarpour/threejs-game-skills" style="max-width:100%;border-radius:8px;"></p></p><p>这些示例适合用于快速原型验证或教学。每个文件包含详细中文注释，解释关键参数。对比同类资源库（如 <strong>three.js examples</strong>），该项目更聚焦于游戏战斗场景中的高频特效，而非通用粒子效果。</p>
-<p>2 个 Fork 表明有用户摘录其中代码。项目依赖 Three.js <strong>r152</strong> 版本，与最新版个别 API 可能有差异。作者鼓励通过修改参数调试效果。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/majidmanzarpour/threejs-game-skills">majidmanzarpour/threejs-game-skills</a></li>
-</ul>
+<p>平面设计插件市场中，动态物理效果工具较为稀缺。<strong>ProxyAyush</strong> 开发的 <strong>antigravity-fusion-plugin</strong> 利用 <strong>Figma Plugin API</strong>，在画布上模拟引力场与碰撞检测。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ProxyAyush/antigravity-fusion-plugin" alt="antigravity-fusion-plugin" style="max-width:100%;border-radius:8px;"></p></p><p>设计者可以为图层设置质量、弹性等参数，预览时元素会自动排列或弹开，适合制作微交互动效原型。插件基于 JavaScript 编写，安装后可直接在 Figma 内使用。</p>
+<p>该项目获得 22 个 Star，关注度尚可。与类似插件（如 Figma Gravity）相比，它更专注于融合效果与轻量级实现，代码仅有数百行。</p>
 <hr>
-<h2><a href="https://github.com/cruelflyloot/DiskGenius-Pro-Setup">cruelflyloot/DiskGenius-Pro-Setup</a> #6</h2>
+<h2><a href="https://github.com/Upload-Post/avatar-mix">avatar-mix</a> #6</h2>
 <blockquote>
-<p>提供 <strong>DiskGenius</strong> 专业版的安装资源，包括主程序文件和激活配置。该项目目前 30 个 Star，主要用于磁盘分区、数据恢复和坏道检测的自动化安装。注意：未确认是否获得官方授权。</p>
+<p>Python 实现的头像混合生成工具，将多张人脸照片融合为全新虚拟形象。采用特征点对齐与像素级融合算法，输出高分辨率图像。</p>
 </blockquote>
-<p>虽然仓库未公开源代码，但提供了百度网盘和直链下载的 setup 文件。部署脚本使用 Batch 和 PowerShell 编写，能够自动检测系统位数并选择对应版本。Fork 数为 0，表明主要用于分发而非协作开发。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/cruelflyloot/DiskGenius-Pro-Setup" alt="cruelflyloot/DiskGenius-Pro-Setup" style="max-width:100%;border-radius:8px;"></p></p><p>与官方免费版相比，该资源声称解锁了“恢复大文件”、“虚拟磁盘转换”、“BitLocker 解锁”等付费功能。但使用盗版软件存在法律风险和安全隐患。建议用户通过正版渠道获取。</p>
-<p>适用场景：IT 运维人员批量装机、数据恢复技术人员随身携带。仓库 README 提示安装前需退出杀毒软件，侧面说明可能存在误报</p>
+<p>社交平台对个性化头像的需求旺盛，但现有生成器多依赖 GAN 模型。<strong>Upload-Post</strong> 的 <strong>avatar-mix</strong> 项目另辟蹊径，通过传统图像处理技术实现混合，无需显卡即可运行。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Upload-Post/avatar-mix" alt="avatar-mix" style="max-width:100%;border-radius:8px;"></p></p><p>核心流程包括人脸关键点检测（基于 dlib）、仿射变换对齐、多频段融合。用户可以传入多张图片，调整各张的权重，最终输出混合结果。项目提供命令行与简单 Web 界面。</p>
+<p>目前该项目有 19 个 Star 和 2 个 Fork。与 <strong>StyleGAN</strong> 等深度学习方案相比，它速度快、部署简单，但效果依赖输入图像质量，适合快速原型验证。</p>
+<hr>
+<h2><a href="https://github.com/Jimmi1e/StarChaser">StarChaser</a> #7</h2>
+<blockquote>
+<p>用 Swift 编写的一款 iOS 追逐星星小游戏，采用极简画风与触控交互。玩家控制飞船收集星星，躲避障碍，挑战无限模式。</p>
+</blockquote>
+<p>独立游戏开发领域，小而美的作品总能打动人心。<strong>Jimmi1e</strong> 的 <strong>StarChaser</strong> 项目针对 iOS 平台开发，利用 <strong>SpriteKit</strong> 框架构建 2D 物理世界。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Jimmi1e/StarChaser" alt="StarChaser" style="max-width:100%;border-radius:8px;"></p></p><p>游戏包含流畅的粒子效果和动态难度曲线，玩家通过滑动屏幕控制飞船移动。代码结构清晰，适合作为 Swift 游戏开发学习的参考案例。</p>
+<p>该项目获得 7 个 Star，尚未在 App Store 上架。对于想入门 iOS 2D 游戏开发的开发者，它是一份不错的开源教材，也可在此基础上扩展关卡设计。</p>
+<hr>
+<h2><a href="https://github.com/Onestepcom00/vyno-ai">vyno-ai</a> #8</h2>
+<blockquote>
+<p>基于 HTML 的 AI 对话界面雏形，提供简洁的聊天交互演示。前后端均用静态网页实现，适合快速部署测试对话逻辑。</p>
+</blockquote>
+<p>轻量级 AI 前端原型越来越受开发者青睐。<strong>Onestepcom00</strong> 的 <strong>vyno-ai</strong> 项目使用纯 HTML + CSS + JavaScript 构建，通过 Fetch API 与后端模型通信。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Onestepcom00/vyno-ai" alt="vyno-ai" style="max-width:100%;border-radius:8px;"></p></p><p>界面设计模仿主流聊天应用，支持消息气泡、打字机效果和会话历史。项目本身不包含 AI 模型，需要用户自行配置后端端点，可作为 API 测试的前端壳。</p>
+<p>该项目有 7 个 Star 和 3 个 Fork。虽然功能简单，但代码整洁易读，适合作为学生项目或 Hackathon 起点，无需复杂构建工具即可运行。</p>
+<hr>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/alchaincyf/loop-engineering-orange-book">alchaincyf/loop-engineering-orange-book</a></li>
+<li>项目地址：<a href="https://github.com/joeseesun/qiaomu-app-review-insights">joeseesun/qiaomu-app-review-insights</a></li>
+<li>项目地址：<a href="https://github.com/maddcatz/Delta-Exec-PC">maddcatz/Delta-Exec-PC</a></li>
+<li>项目地址：<a href="https://github.com/NathanReeves0/Fablor-original">NathanReeves0/Fablor-original</a></li>
+<li>项目地址：<a href="https://github.com/ProxyAyush/antigravity-fusion-plugin">ProxyAyush/antigravity-fusion-plugin</a></li>
+<li>项目地址：<a href="https://github.com/Upload-Post/avatar-mix">Upload-Post/avatar-mix</a></li>
+<li>项目地址：<a href="https://github.com/Jimmi1e/StarChaser">Jimmi1e/StarChaser</a></li>
+<li>项目地址：<a href="https://github.com/Onestepcom00/vyno-ai">Onestepcom00/vyno-ai</a></li>
+</ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-15/</guid>
-<pubDate>Mon, 15 Jun 2026 02:17:54 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-16/</guid>
+<pubDate>Tue, 16 Jun 2026 01:44:46 GMT</pubDate>
 </item>
   </channel>
 </rss>
