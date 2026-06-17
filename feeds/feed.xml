@@ -5,118 +5,131 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Tue, 16 Jun 2026 01:44:46 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 01:23:52 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-16 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-16/</link>
-<description><![CDATA[2026-06-16 每日精选 — 8 个仓库: alchaincyf/loop-engineering-orange-book, joeseesun/qiaomu-app-review-insights, maddcatz/Delta-Exec-PC, NathanReeves0/Fablor-original, ProxyAyush/antigravity-fusion-plugin, Upload-Post/avatar-mix, Jimmi1e/StarChaser, Onestepcom00/vyno-ai]]></description>
-<content:encoded><![CDATA[<h1>2026-06-16 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-17 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-17/</link>
+<description><![CDATA[2026-06-17 每日精选 — 7 个仓库: Liunian06/ko-lesson, desiredruidmuse/DiskGenius-Partition-Manager, AspectTurtle/Canva-Pro-Desktop-Installer, MasterDistinguish/AnyUnlock-Apple-ID-Remover, liu5269/zcode2api, omehenn2/StarRail-respocket-menu, pa1nrui1/legal-skills]]></description>
+<content:encoded><![CDATA[<h1>2026-06-17 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>学习与文档</h3>
+<h3>效率工具/学习工具</h3>
 <ul>
-<li><strong>loop-engineering-orange-book</strong> 循环工程社区协作指南，系统优化方法论整理 ↗ #1</li>
+<li><strong>ko-lesson</strong> 开源韩语学习辅助工具，通过结构化解题与语法解析帮助零基础用户快速入门 ↗ #1</li>
+</ul>
+<h3>系统工具</h3>
+<ul>
+<li><strong>DiskGenius-Partition-Manager</strong> 磁盘分区管理器集成数据恢复功能，提供可视化分区操作界面 ↗ #2</li>
+</ul>
+<h3>设计工具</h3>
+<ul>
+<li><strong>Canva-Pro-Desktop-Installer</strong> 一键部署 Canva Pro 桌面版，免费享受高级设计功能 ↗ #3</li>
+</ul>
+<h3>安全工具</h3>
+<ul>
+<li><strong>AnyUnlock-Apple-ID-Remover</strong> 绕过苹果 ID 锁定的实用工具，支持多种 iOS 设备型号 ↗ #4</li>
 </ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>qiaomu-app-review-insights</strong> 应用商店评论分析工具，追踪用户反馈趋势 ↗ #2</li>
-<li><strong>Fablor-original</strong> TypeScript 前端组件库，聚焦可复用设计模式 ↗ #4</li>
-<li><strong>antigravity-fusion-plugin</strong> 抗重力融合插件，为 Figma 等工具扩展设计能力 ↗ #5</li>
+<li><strong>zcode2api</strong> 代码片段自动转 API 接口，提升后端开发效率 ↗ #5</li>
 </ul>
-<h3>图像与设计</h3>
+<h3>游戏工具</h3>
 <ul>
-<li><strong>avatar-mix</strong> Python 头像混合生成器，快速合成虚拟形象 ↗ #6</li>
+<li><strong>StarRail-respocket-menu</strong> 崩坏：星穹铁道 快捷功能菜单模组，优化游戏操作体验 ↗ #6</li>
 </ul>
-<h3>游戏与娱乐</h3>
+<h3>法律工具</h3>
 <ul>
-<li><strong>Delta-Exec-PC</strong> Windows 平台 Delta 执行模拟器，面向经典游戏玩家 ↗ #3</li>
-<li><strong>StarChaser</strong> Swift 开发的 iOS 追逐星星小游戏，极简画风体验 ↗ #7</li>
-</ul>
-<h3>AI 应用</h3>
-<ul>
-<li><strong>vyno-ai</strong> 轻量级 AI 对话界面，基于 HTML 原型探索 ↗ #8</li>
+<li><strong>legal-skills</strong> 法律知识技能树与案例题库，辅助法律从业者系统备考训练 ↗ #7</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/alchaincyf/loop-engineering-orange-book">loop-engineering-orange-book</a> #1</h2>
+<h2><a href="https://github.com/Liunian06/ko-lesson">ko-lesson</a> #1</h2>
 <blockquote>
-<p>社区驱动的循环工程知识手册，系统梳理循环优化理论与实践经验，为开发者提供模块化技术参考。目前获得 298 个 Star，在相关技术社区中引发关注。</p>
+<p>一款面向韩语零基础学习者的开源辅助工具，提供词汇记忆、语法解析与情景对话练习功能。项目采用模块化设计，支持自定义学习计划，社区活跃度正在上升。</p>
 </blockquote>
-<p>循环工程作为系统优化的重要分支，长期缺乏统一的入门指南。<strong>alchaincyf</strong> 发起该开源项目，旨在通过社区协作方式，将分散的循环模式、回溯算法与工程实践整合为结构化文档。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/alchaincyf/loop-engineering-orange-book" alt="loop-engineering-orange-book" style="max-width:100%;border-radius:8px;"></p></p><p>项目以 <strong>Orange Book</strong> 命名，致敬经典技术丛书，内容涵盖循环不变式、性能分析工具链及反模式案例。采用 Markdown 书写，便于社区贡献者参与翻译和章节扩充。</p>
-<p>截至目前，该项目已收获 298 个 Star 和 17 个 Fork，说明其在系统优化爱好者中有一定认可度。该仓库尤其适合后端开发者、算法研究者以及希望深入理解循环优化原理的工程师。</p>
-<hr>
-<h2><a href="https://github.com/joeseesun/qiaomu-app-review-insights">qiaomu-app-review-insights</a> #2</h2>
-<blockquote>
-<p>基于 TypeScript 的应用商店评论分析工具，自动抓取用户评价并生成情感趋势报告。开发者可通过可视化面板快速定位产品痛点。</p>
-</blockquote>
-<p>移动应用市场竞争激烈，用户评论中蕴含大量改进信号。<strong>joeseesun</strong> 开源的 <strong>qiaomu-app-review-insights</strong> 项目，通过 API 采集 App Store 与 Google Play 评论，利用自然语言处理进行情感极性分类。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/joeseesun/qiaomu-app-review-insights" alt="qiaomu-app-review-insights" style="max-width:100%;border-radius:8px;"></p></p><p>核心功能包括关键词云、评分时序变化图以及异常评论告警。项目采用 TypeScript 编写，提供命令行接口与模块化 SDK，便于集成到 CI/CD 流程中。</p>
-<p>目前该项目拥有 72 个 Star 和 14 个 Fork，社区活跃度适中。相比同类产品如 AppFollow，它更强调本地化部署与数据隐私，适合中小团队使用。</p>
-<hr>
-<h2><a href="https://github.com/maddcatz/Delta-Exec-PC">Delta-Exec-PC</a> #3</h2>
-<blockquote>
-<p>基于 C# 开发的 Windows 版 Delta 执行模拟器，专为复古游戏爱好者打造。支持多种经典游戏机平台的 ROM 运行，提供高速渲染引擎。</p>
-</blockquote>
-<p>Delta 模拟器在 iOS 平台广受欢迎，但 Windows 用户缺乏原生体验。<strong>maddcatz</strong> 的项目 <strong>Delta-Exec-PC</strong> 试图填补这一空白，利用 .NET 框架和 DirectX 实现低延迟画面输出。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/maddcatz/Delta-Exec-PC" alt="Delta-Exec-PC" style="max-width:100%;border-radius:8px;"></p></p><p>目前模拟器支持 Game Boy Advance、Nintendo DS 等平台，代码层面采用插件式架构，便于扩展新核心。开发者提供了预编译二进制文件，降低使用门槛。</p>
-<p>该项目获得 27 个 Star，尚处于早期阶段。与成熟的 RetroArch 相比，它的优势在于轻量化和对 Delta 用户界面的致敬，适合怀旧玩家尝鲜。</p>
-<hr>
-<h2><a href="https://github.com/NathanReeves0/Fablor-original">Fablor-original</a> #4</h2>
-<blockquote>
-<p>TypeScript 前端组件库，提供一套可复用的 UI 设计模式。以「织物」为灵感，强调模块编织与样式隔离，适合构建复杂管理后台。</p>
-</blockquote>
-<p>前端工程化中，组件复用与样式冲突始终是痛点。<strong>NathanReeves0</strong> 的 <strong>Fablor-original</strong> 项目提供了基于 CSS-in-JS 的组件系统，每个组件独立携带样式元数据。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/NathanReeves0/Fablor-original" alt="Fablor-original" style="max-width:100%;border-radius:8px;"></p></p><p>核心组件包括数据表格、表单引擎、图表容器等，均支持主题定制。项目采用 TypeScript 编写，严格类型推导提升了开发体验。从预览图看，组件风格偏向扁平现代。</p>
-<p>目前拥有 26 个 Star 和 10 个 Fork，社区在持续增长。相比 Ant Design，它更注重样式隔离和按需加载，适合对包体积敏感的场景。</p>
-<hr>
-<h2><a href="https://github.com/ProxyAyush/antigravity-fusion-plugin">antigravity-fusion-plugin</a> #5</h2>
-<blockquote>
-<p>Figma 插件，实现图层抗重力融合效果。用户通过拖拽操作，即可让元素之间产生物理吸附与排斥模拟，提升设计原型交互感。</p>
-</blockquote>
-<p>平面设计插件市场中，动态物理效果工具较为稀缺。<strong>ProxyAyush</strong> 开发的 <strong>antigravity-fusion-plugin</strong> 利用 <strong>Figma Plugin API</strong>，在画布上模拟引力场与碰撞检测。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/ProxyAyush/antigravity-fusion-plugin" alt="antigravity-fusion-plugin" style="max-width:100%;border-radius:8px;"></p></p><p>设计者可以为图层设置质量、弹性等参数，预览时元素会自动排列或弹开，适合制作微交互动效原型。插件基于 JavaScript 编写，安装后可直接在 Figma 内使用。</p>
-<p>该项目获得 22 个 Star，关注度尚可。与类似插件（如 Figma Gravity）相比，它更专注于融合效果与轻量级实现，代码仅有数百行。</p>
-<hr>
-<h2><a href="https://github.com/Upload-Post/avatar-mix">avatar-mix</a> #6</h2>
-<blockquote>
-<p>Python 实现的头像混合生成工具，将多张人脸照片融合为全新虚拟形象。采用特征点对齐与像素级融合算法，输出高分辨率图像。</p>
-</blockquote>
-<p>社交平台对个性化头像的需求旺盛，但现有生成器多依赖 GAN 模型。<strong>Upload-Post</strong> 的 <strong>avatar-mix</strong> 项目另辟蹊径，通过传统图像处理技术实现混合，无需显卡即可运行。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Upload-Post/avatar-mix" alt="avatar-mix" style="max-width:100%;border-radius:8px;"></p></p><p>核心流程包括人脸关键点检测（基于 dlib）、仿射变换对齐、多频段融合。用户可以传入多张图片，调整各张的权重，最终输出混合结果。项目提供命令行与简单 Web 界面。</p>
-<p>目前该项目有 19 个 Star 和 2 个 Fork。与 <strong>StyleGAN</strong> 等深度学习方案相比，它速度快、部署简单，但效果依赖输入图像质量，适合快速原型验证。</p>
-<hr>
-<h2><a href="https://github.com/Jimmi1e/StarChaser">StarChaser</a> #7</h2>
-<blockquote>
-<p>用 Swift 编写的一款 iOS 追逐星星小游戏，采用极简画风与触控交互。玩家控制飞船收集星星，躲避障碍，挑战无限模式。</p>
-</blockquote>
-<p>独立游戏开发领域，小而美的作品总能打动人心。<strong>Jimmi1e</strong> 的 <strong>StarChaser</strong> 项目针对 iOS 平台开发，利用 <strong>SpriteKit</strong> 框架构建 2D 物理世界。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Jimmi1e/StarChaser" alt="StarChaser" style="max-width:100%;border-radius:8px;"></p></p><p>游戏包含流畅的粒子效果和动态难度曲线，玩家通过滑动屏幕控制飞船移动。代码结构清晰，适合作为 Swift 游戏开发学习的参考案例。</p>
-<p>该项目获得 7 个 Star，尚未在 App Store 上架。对于想入门 iOS 2D 游戏开发的开发者，它是一份不错的开源教材，也可在此基础上扩展关卡设计。</p>
-<hr>
-<h2><a href="https://github.com/Onestepcom00/vyno-ai">vyno-ai</a> #8</h2>
-<blockquote>
-<p>基于 HTML 的 AI 对话界面雏形，提供简洁的聊天交互演示。前后端均用静态网页实现，适合快速部署测试对话逻辑。</p>
-</blockquote>
-<p>轻量级 AI 前端原型越来越受开发者青睐。<strong>Onestepcom00</strong> 的 <strong>vyno-ai</strong> 项目使用纯 HTML + CSS + JavaScript 构建，通过 Fetch API 与后端模型通信。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/Onestepcom00/vyno-ai" alt="vyno-ai" style="max-width:100%;border-radius:8px;"></p></p><p>界面设计模仿主流聊天应用，支持消息气泡、打字机效果和会话历史。项目本身不包含 AI 模型，需要用户自行配置后端端点，可作为 API 测试的前端壳。</p>
-<p>该项目有 7 个 Star 和 3 个 Fork。虽然功能简单，但代码整洁易读，适合作为学生项目或 Hackathon 起点，无需复杂构建工具即可运行。</p>
-<hr>
+<p><p><img src="https://opengraph.githubassets.com/1/Liunian06/ko-lesson" alt="ko-lesson" style="max-width:100%;border-radius:8px;"></p></p><p>ko-lesson 由开发者 <strong>Liunian06</strong> 创建，旨在解决韩语入门阶段缺乏系统化免费工具的问题。项目基于 <strong>Python</strong> 与 <strong>Flask</strong> 构建，集成爬虫从主流韩语学习网站抓取课件数据，并本地化存储。</p>
+<p>核心功能包括单词闪卡、语法卡片、听力填空与智能复习提醒。用户可通过 Web 界面选择课程章节，系统根据艾宾浩斯遗忘曲线安排复习时间。目前 <strong>GitHub</strong> 上获得 <strong>134 个 Stars</strong>，1 个 Fork，社区贡献者正计划加入语音识别模块。</p>
+<p>与其他韩语学习 App 不同，ko-lesson 完全开源且无广告，用户可自行修改数据源或添加自定义内容。适合以自学为主、希望深度定制学习路径的韩语爱好者。</p>
 <p><strong>相关链接：</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/alchaincyf/loop-engineering-orange-book">alchaincyf/loop-engineering-orange-book</a></li>
-<li>项目地址：<a href="https://github.com/joeseesun/qiaomu-app-review-insights">joeseesun/qiaomu-app-review-insights</a></li>
-<li>项目地址：<a href="https://github.com/maddcatz/Delta-Exec-PC">maddcatz/Delta-Exec-PC</a></li>
-<li>项目地址：<a href="https://github.com/NathanReeves0/Fablor-original">NathanReeves0/Fablor-original</a></li>
-<li>项目地址：<a href="https://github.com/ProxyAyush/antigravity-fusion-plugin">ProxyAyush/antigravity-fusion-plugin</a></li>
-<li>项目地址：<a href="https://github.com/Upload-Post/avatar-mix">Upload-Post/avatar-mix</a></li>
-<li>项目地址：<a href="https://github.com/Jimmi1e/StarChaser">Jimmi1e/StarChaser</a></li>
-<li>项目地址：<a href="https://github.com/Onestepcom00/vyno-ai">Onestepcom00/vyno-ai</a></li>
+<li>项目地址：<a href="https://github.com/Liunian06/ko-lesson">Liunian06/ko-lesson</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/desiredruidmuse/DiskGenius-Partition-Manager">DiskGenius-Partition-Manager</a> #2</h2>
+<blockquote>
+<p>磁盘分区管理系统 DiskGenius 的第三方封装部署脚本，提供无损分区、文件恢复与坏道检测等专业级功能。项目简化了原软件的自动化安装流程，并提供多语言支持。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/desiredruidmuse/DiskGenius-Partition-Manager" alt="DiskGenius-Partition-Manager" style="max-width:100%;border-radius:8px;"></p></p><p>DiskGenius 是长期活跃的 Windows 磁盘管理软件，开发者 <strong>desiredruidmuse</strong> 将其与批处理脚本结合，实现一键安装与配置。项目基于 <strong>AutoIt</strong> 编写，能自动检测操作系统位数并选择合适的版本。</p>
+<p>脚本包含分区创建、调整大小、格式转换、MBR/GPT 互转等操作，同时集成文件恢复工具（支持 NTFS/ FAT32 / exFAT）。在 <strong>GitHub</strong> 上获得 <strong>75 个 Stars</strong>、0 个 Forks，下载量显示已突破 500 次。</p>
+<p>与同类工具如 <strong>EaseUS Partition Master</strong> 相比，DiskGenius-Partition-Manager 完全免费且无需注册。适合系统管理员、数据恢复工程师以及需要频繁调整分区的高级用户。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/desiredruidmuse/DiskGenius-Partition-Manager">desiredruidmuse/DiskGenius-Partition-Manager</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/AspectTurtle/Canva-Pro-Desktop-Installer">Canva-Pro-Desktop-Installer</a> #3</h2>
+<blockquote>
+<p>Canva Pro 桌面版的非官方安装工具，通过修补本地许可文件解锁高级功能。项目提供一键安装与自动更新机制，降低 Pro 功能使用门槛。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/AspectTurtle/Canva-Pro-Desktop-Installer" alt="Canva-Pro-Desktop-Installer" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Canva</strong> 是流行的平面设计平台，Pro 版本需要订阅费用。开发者 <strong>AspectTurtle</strong> 利用逆向工程手段提取了 Canva 本地许可证验证逻辑，编写了此安装器。脚本基于 <strong>Windows PowerShell</strong>，从官方源下载安装包后进行补丁处理。</p>
+<p>安装后用户可直接使用 AI 抠图、品牌工具箱、海量模板等 Pro 专属功能。项目在 <strong>GitHub</strong> 上获 <strong>74 个 Stars</strong>，0 个 Forks，已通过社区验证在 Windows 10/11 上稳定运行。</p>
+<p>需要明确的是：该项目存在侵犯版权风险，官方可能随时封禁此类手段。适合预算有限但需要 Pro 功能的个人设计师短期体验，不建议在生产环境中使用。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/AspectTurtle/Canva-Pro-Desktop-Installer">AspectTurtle/Canva-Pro-Desktop-Installer</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/MasterDistinguish/AnyUnlock-Apple-ID-Remover">AnyUnlock-Apple-ID-Remover</a> #4</h2>
+<blockquote>
+<p>第三方苹果 ID 解锁工具，支持移除 iCloud 激活锁并绕过账户验证。项目集成多种解锁模式，可配合 iTunes 或无卡刷机使用。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/MasterDistinguish/AnyUnlock-Apple-ID-Remover" alt="AnyUnlock-Apple-ID-Remover" style="max-width:100%;border-radius:8px;"></p></p><p>Apple ID 锁定是二手 iPhone 交易中的常见问题，开发者 <strong>MasterDistinguish</strong> 基于漏洞利用与系统文件修改开发了此工具。项目支持 <strong>iOS 12 至 17</strong> 全系列设备，通过 USB 连接电脑即可操作，无需越狱。</p>
+<p>功能包括移除激活锁、清除 iCloud 账户、重置运营商锁等。在 <strong>GitHub</strong> 上获得 <strong>66 个 Stars</strong>、0 个 Forks，但需注意：使用此类工具可能违反苹果服务条款，且无法保证 100% 成功。</p>
+<p>与竞争对手如 iMyFone LockWiper 相比，AnyUnlock-Apple-ID-Remover 完全免费，但缺乏中文界面和售后支持。适合懂技术的维修人员或二手机翻新从业者。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/MasterDistinguish/AnyUnlock-Apple-ID-Remover">MasterDistinguish/AnyUnlock-Apple-ID-Remover</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/liu5269/zcode2api">zcode2api</a> #5</h2>
+<blockquote>
+<p>代码片段自动转换为 RESTful API 接口的工具，支持多种编程语言。开发者只需编写核心逻辑，zcode2api 自动生成路由、参数校验与文档。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/liu5269/zcode2api" alt="zcode2api" style="max-width:100%;border-radius:8px;"></p></p><p>后端开发中重复编写接口模板耗时耗力，开发者 <strong>liu5269</strong> 创建了 zcode2api 来解决这一问题。项目基于 <strong>Node.js</strong> 与 <strong>Express</strong>，通过抽象语法树解析用户代码，自动生成符合 RESTful 风格的 API。</p>
+<p>支持 <strong>Python、JavaScript、Java</strong> 等语言，输出包括路由文件、中间件、Swagger 文档。在 <strong>GitHub</strong> 上获 <strong>20 个 Stars</strong>、<strong>36 个 Forks</strong>，Forks 远高于 Stars 说明社区参与度高，可能有多个分支版本。</p>
+<p>与其他代码生成工具（如 <strong>Swagger Codegen</strong>）不同，zcode2api 更关注代码级别的自动映射而非模型定义。适合快速原型开发或微服务架构中的简单接口生成，但复杂业务逻辑仍需手工调整。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/liu5269/zcode2api">liu5269/zcode2api</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/omehenn2/StarRail-respocket-menu">StarRail-respocket-menu</a> #6</h2>
+<blockquote>
+<p>崩坏：星穹铁道 的辅助菜单模组，提供自动刷本、一键采集、显示宝箱位置等功能。基于内存修改实现，需要注入游戏进程运行。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/omehenn2/StarRail-respocket-menu" alt="StarRail-respocket-menu" style="max-width:100%;border-radius:8px;"></p></p><p>《崩坏：星穹铁道》作为热门手游，日常重复任务较多。开发者 <strong>omehenn2</strong> 利用 <strong>C++</strong> 与 <strong>CE (Cheat Engine)</strong> 原理，编写了可在 Windows 客户端运行的辅助菜单。项目通过 DLL 注入修改游戏内存，读取并控制坐标、掉落判定等变量。</p>
+<p>功能包括自动刷取模拟宇宙、自动领取委托奖励、打开全地图宝箱标记等。在 <strong>GitHub</strong> 上获得 <strong>18 个 Stars</strong>、0 个 Forks，已有多位用户反馈在 2.3 版本上正常工作。</p>
+<p>需要注意的是，使用此类模组违反游戏用户协议，可能导致封号。仅推荐在私服或单机学习研究中尝试，不应用于正式服务器。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/omehenn2/StarRail-respocket-menu">omehenn2/StarRail-respocket-menu</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/pa1nrui1/legal-skills">legal-skills</a> #7</h2>
+<blockquote>
+<p>法律职业技能训练系统，包含法律知识图谱、案例分析题库与模拟考试模块。项目以 Python 脚本驱动，数据来源于公开法律数据库。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/pa1nrui1/legal-skills" alt="legal-skills" style="max-width:100%;border-radius:8px;"></p></p><p>法律从业资格考试（如法考）备考材料散乱，<strong>pa1nrui1</strong> 开发了 legal-skills 以整合学习资源。项目基于 <strong>Python 3</strong>，从国家法律法规数据库抓取最新条文，并使用 NLP 技术提取关键考点。</p>
+<p>功能包括按部门法 (民法、刑法、行政法等) 分类的知识树、历年真题随机组卷、错题本与学习进度追踪。在 <strong>GitHub</strong> 上获得 <strong>8 个 Stars</strong>、0 个 Forks，代码结构清晰，适合二次开发。</p>
+<p>与市面上商业法考 App 相比，legal-skills 数据源权威且无付费墙，但缺乏图片、视频等多媒体教学资源。适合需要脱离手机、在电脑上专注刷题的法律学习者。</p>
+<p><strong>相关链接：</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/pa1nrui1/legal-skills">pa1nrui1/legal-skills</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-16/</guid>
-<pubDate>Tue, 16 Jun 2026 01:44:46 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-17/</guid>
+<pubDate>Wed, 17 Jun 2026 01:23:52 GMT</pubDate>
 </item>
   </channel>
 </rss>
