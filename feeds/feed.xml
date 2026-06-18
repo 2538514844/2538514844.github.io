@@ -5,131 +5,123 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Wed, 17 Jun 2026 01:23:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 03:33:35 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-17 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-17/</link>
-<description><![CDATA[2026-06-17 每日精选 — 7 个仓库: Liunian06/ko-lesson, desiredruidmuse/DiskGenius-Partition-Manager, AspectTurtle/Canva-Pro-Desktop-Installer, MasterDistinguish/AnyUnlock-Apple-ID-Remover, liu5269/zcode2api, omehenn2/StarRail-respocket-menu, pa1nrui1/legal-skills]]></description>
-<content:encoded><![CDATA[<h1>2026-06-17 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-18 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-18/</link>
+<description><![CDATA[2026-06-18 每日精选 — 7 个仓库: Plaer1/junction, aresyn/codex-control-plane-mcp, TrenchesofChirac/claude-fable-5-free-desktop-app, PhamHongPhucs/LeagueToolKit-Manager, Ar9av/gemini-nano-chrome, zeropl/2FA, castlen3/chatgpt-consult-loop]]></description>
+<content:encoded><![CDATA[<h1>2026-06-18 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>效率工具/学习工具</h3>
+<h3>AI / 大模型</h3>
 <ul>
-<li><strong>ko-lesson</strong> 开源韩语学习辅助工具，通过结构化解题与语法解析帮助零基础用户快速入门 ↗ #1</li>
-</ul>
-<h3>系统工具</h3>
-<ul>
-<li><strong>DiskGenius-Partition-Manager</strong> 磁盘分区管理器集成数据恢复功能，提供可视化分区操作界面 ↗ #2</li>
-</ul>
-<h3>设计工具</h3>
-<ul>
-<li><strong>Canva-Pro-Desktop-Installer</strong> 一键部署 Canva Pro 桌面版，免费享受高级设计功能 ↗ #3</li>
-</ul>
-<h3>安全工具</h3>
-<ul>
-<li><strong>AnyUnlock-Apple-ID-Remover</strong> 绕过苹果 ID 锁定的实用工具，支持多种 iOS 设备型号 ↗ #4</li>
+<li><strong>Claude Fable 5 Free Desktop App</strong> – 免费桌面客户端，无需 API Key 即可体验 Claude 模型 ↗ #3</li>
+<li><strong>gemini-nano-chrome</strong> – Chrome 扩展，在浏览器内本地运行 Gemini Nano 模型 ↗ #5</li>
+<li><strong>chatgpt-consult-loop</strong> – Python 脚本驱动 ChatGPT 自动轮询与对话生成 ↗ #7</li>
 </ul>
 <h3>开发工具</h3>
 <ul>
-<li><strong>zcode2api</strong> 代码片段自动转 API 接口，提升后端开发效率 ↗ #5</li>
+<li><strong>Junction</strong> – 类型安全的组件通信与状态管理库，主打小巧高效 ↗ #1</li>
+<li><strong>codex-control-plane-mcp</strong> – 基于 MCP 协议的控制平面，用于 Codex 代码生成工作流 ↗ #2</li>
 </ul>
-<h3>游戏工具</h3>
+<h3>安全工具</h3>
 <ul>
-<li><strong>StarRail-respocket-menu</strong> 崩坏：星穹铁道 快捷功能菜单模组，优化游戏操作体验 ↗ #6</li>
+<li><strong>2FA</strong> – 纯 HTML 双因素认证令牌生成器，零依赖离线可用 ↗ #6</li>
 </ul>
-<h3>法律工具</h3>
+<h3>效率工具</h3>
 <ul>
-<li><strong>legal-skills</strong> 法律知识技能树与案例题库，辅助法律从业者系统备考训练 ↗ #7</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/Liunian06/ko-lesson">ko-lesson</a> #1</h2>
-<blockquote>
-<p>一款面向韩语零基础学习者的开源辅助工具，提供词汇记忆、语法解析与情景对话练习功能。项目采用模块化设计，支持自定义学习计划，社区活跃度正在上升。</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Liunian06/ko-lesson" alt="ko-lesson" style="max-width:100%;border-radius:8px;"></p></p><p>ko-lesson 由开发者 <strong>Liunian06</strong> 创建，旨在解决韩语入门阶段缺乏系统化免费工具的问题。项目基于 <strong>Python</strong> 与 <strong>Flask</strong> 构建，集成爬虫从主流韩语学习网站抓取课件数据，并本地化存储。</p>
-<p>核心功能包括单词闪卡、语法卡片、听力填空与智能复习提醒。用户可通过 Web 界面选择课程章节，系统根据艾宾浩斯遗忘曲线安排复习时间。目前 <strong>GitHub</strong> 上获得 <strong>134 个 Stars</strong>，1 个 Fork，社区贡献者正计划加入语音识别模块。</p>
-<p>与其他韩语学习 App 不同，ko-lesson 完全开源且无广告，用户可自行修改数据源或添加自定义内容。适合以自学为主、希望深度定制学习路径的韩语爱好者。</p>
-<p><strong>相关链接：</strong></p>
-<ul>
-<li>项目地址：<a href="https://github.com/Liunian06/ko-lesson">Liunian06/ko-lesson</a></li>
+<li><strong>LeagueToolKit-Manager</strong> – 英雄联盟玩家工具箱，提供战绩查询与设置管理 ↗ #4</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/desiredruidmuse/DiskGenius-Partition-Manager">DiskGenius-Partition-Manager</a> #2</h2>
+<h2><a href="https://github.com/Plaer1/junction">Junction</a> #1</h2>
 <blockquote>
-<p>磁盘分区管理系统 DiskGenius 的第三方封装部署脚本，提供无损分区、文件恢复与坏道检测等专业级功能。项目简化了原软件的自动化安装流程，并提供多语言支持。</p>
+<p>一个轻量级的 TypeScript 库，专注于解决组件间高效、类型安全的通信问题。Junction 在保持极小体积的同时，提供了类似 Event Bus 的灵活性和类型推导。🏆</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/desiredruidmuse/DiskGenius-Partition-Manager" alt="DiskGenius-Partition-Manager" style="max-width:100%;border-radius:8px;"></p></p><p>DiskGenius 是长期活跃的 Windows 磁盘管理软件，开发者 <strong>desiredruidmuse</strong> 将其与批处理脚本结合，实现一键安装与配置。项目基于 <strong>AutoIt</strong> 编写，能自动检测操作系统位数并选择合适的版本。</p>
-<p>脚本包含分区创建、调整大小、格式转换、MBR/GPT 互转等操作，同时集成文件恢复工具（支持 NTFS/ FAT32 / exFAT）。在 <strong>GitHub</strong> 上获得 <strong>75 个 Stars</strong>、0 个 Forks，下载量显示已突破 500 次。</p>
-<p>与同类工具如 <strong>EaseUS Partition Master</strong> 相比，DiskGenius-Partition-Manager 完全免费且无需注册。适合系统管理员、数据恢复工程师以及需要频繁调整分区的高级用户。</p>
-<p><strong>相关链接：</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/Plaer1/junction" alt="Junction" style="max-width:100%;border-radius:8px;"></p></p><p>Junction 诞生于对 Redux 等重型状态管理工具的反思，开发者希望在复杂前端应用中找到一种既轻量又不丧失类型安全的通信方案。项目仅依赖 TypeScript 原生特性，无任何第三方运行时库。</p>
+<p>核心机制类似“信号槽”模式，但强化了消息类型的约束。开发者可以定义精确的通道名称与负载类型，在编译阶段就能捕获错误，运行期性能优于通用的 <code>EventEmitter</code>。</p>
+<p>目前该项目在 GitHub 上收获了 <strong>500</strong> 颗 Stars，Forks 为 2，社区关注度较高。尽管还处于早期阶段，但已有多位前端开发者表示愿意尝试将其引入中小型项目。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/desiredruidmuse/DiskGenius-Partition-Manager">desiredruidmuse/DiskGenius-Partition-Manager</a></li>
+<li>项目地址：<a href="https://github.com/Plaer1/junction">Plaer1/junction</a></li>
+<li>暂无其他公开讨论</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/AspectTurtle/Canva-Pro-Desktop-Installer">Canva-Pro-Desktop-Installer</a> #3</h2>
+<h2><a href="https://github.com/aresyn/codex-control-plane-mcp">codex-control-plane-mcp</a> #2</h2>
 <blockquote>
-<p>Canva Pro 桌面版的非官方安装工具，通过修补本地许可文件解锁高级功能。项目提供一键安装与自动更新机制，降低 Pro 功能使用门槛。</p>
+<p>一个基于 <strong>Model Context Protocol (MCP)</strong> 构建的控制平面服务器，专门用于与 <strong>OpenAI Codex</strong> 进行结构化交互。它为 AI 代码生成任务提供了可编程的调度与监控层。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/AspectTurtle/Canva-Pro-Desktop-Installer" alt="Canva-Pro-Desktop-Installer" style="max-width:100%;border-radius:8px;"></p></p><p><strong>Canva</strong> 是流行的平面设计平台，Pro 版本需要订阅费用。开发者 <strong>AspectTurtle</strong> 利用逆向工程手段提取了 Canva 本地许可证验证逻辑，编写了此安装器。脚本基于 <strong>Windows PowerShell</strong>，从官方源下载安装包后进行补丁处理。</p>
-<p>安装后用户可直接使用 AI 抠图、品牌工具箱、海量模板等 Pro 专属功能。项目在 <strong>GitHub</strong> 上获 <strong>74 个 Stars</strong>，0 个 Forks，已通过社区验证在 Windows 10/11 上稳定运行。</p>
-<p>需要明确的是：该项目存在侵犯版权风险，官方可能随时封禁此类手段。适合预算有限但需要 Pro 功能的个人设计师短期体验，不建议在生产环境中使用。</p>
-<p><strong>相关链接：</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/aresyn/codex-control-plane-mcp" alt="codex-control-plane-mcp" style="max-width:100%;border-radius:8px;"></p></p><p>MCP 协议正逐渐成为 AI 工具链中“工具调用”的标准，但直接集成 Codex 往往需要手动处理会话管理和错误重试。该项目抽象出一个控制平面，让开发者可以通过 HTTP 端点定义工作流。</p>
+<p>技术方案上采用 Python 实现，基于 <code>asyncio</code> 和 <code>pydantic</code> 进行类型验证。服务器内部维护请求队列，支持限流、超时重试和结果缓存，适合在 CI/CD 流水线中调用 Codex 自动生成代码片段。</p>
+<p>项目目前获得 <strong>111</strong> 个 Stars，虽然规模不大，但因其切中自动化编码场景，吸引了部分 DevOps 和 AI 工程化从业者的关注。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/AspectTurtle/Canva-Pro-Desktop-Installer">AspectTurtle/Canva-Pro-Desktop-Installer</a></li>
+<li>项目地址：<a href="https://github.com/aresyn/codex-control-plane-mcp">aresyn/codex-control-plane-mcp</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/MasterDistinguish/AnyUnlock-Apple-ID-Remover">AnyUnlock-Apple-ID-Remover</a> #4</h2>
+<h2><a href="https://github.com/TrenchesofChirac/claude-fable-5-free-desktop-app">Claude Fable 5 Free Desktop App</a> #3</h2>
 <blockquote>
-<p>第三方苹果 ID 解锁工具，支持移除 iCloud 激活锁并绕过账户验证。项目集成多种解锁模式，可配合 iTunes 或无卡刷机使用。</p>
+<p>一款免费跨平台的桌面应用，让用户无需 Claude API Key 即可使用 Claude Fable 5 模型。它通过内置的代理连接技术，实现了开箱即用的聊天体验。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/MasterDistinguish/AnyUnlock-Apple-ID-Remover" alt="AnyUnlock-Apple-ID-Remover" style="max-width:100%;border-radius:8px;"></p></p><p>Apple ID 锁定是二手 iPhone 交易中的常见问题，开发者 <strong>MasterDistinguish</strong> 基于漏洞利用与系统文件修改开发了此工具。项目支持 <strong>iOS 12 至 17</strong> 全系列设备，通过 USB 连接电脑即可操作，无需越狱。</p>
-<p>功能包括移除激活锁、清除 iCloud 账户、重置运营商锁等。在 <strong>GitHub</strong> 上获得 <strong>66 个 Stars</strong>、0 个 Forks，但需注意：使用此类工具可能违反苹果服务条款，且无法保证 100% 成功。</p>
-<p>与竞争对手如 iMyFone LockWiper 相比，AnyUnlock-Apple-ID-Remover 完全免费，但缺乏中文界面和售后支持。适合懂技术的维修人员或二手机翻新从业者。</p>
-<p><strong>相关链接：</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/TrenchesofChirac/claude-fable-5-free-desktop-app" alt="Claude Fable 5 Free Desktop App" style="max-width:100%;border-radius:8px;"></p></p><p>随着大模型聊天频繁被限制或需要付费，部分开发者开始寻找本地化的替代方案。该项目巧妙利用 Claude 的 Web 访问接口，将其封装为 Electron 桌面应用，并提供持久化聊天记录。</p>
+<p>技术栈为 TypeScript + Electron，界面设计接近官方 Claude 客户端风格。应用内置了自定义提示词模板和上下文管理功能，支持多会话切换，对普通用户相当友好。</p>
+<p>尽管 Stars 只有 <strong>36</strong> 个，但考虑到它绕过了 API 付费门槛，在技术社区内引起了一定讨论。需注意此类项目可能面临服务端反制，长期稳定性存疑。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/MasterDistinguish/AnyUnlock-Apple-ID-Remover">MasterDistinguish/AnyUnlock-Apple-ID-Remover</a></li>
+<li>项目地址：<a href="https://github.com/TrenchesofChirac/claude-fable-5-free-desktop-app">TrenchesofChirac/claude-fable-5-free-desktop-app</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/liu5269/zcode2api">zcode2api</a> #5</h2>
+<h2><a href="https://github.com/PhamHongPhucs/LeagueToolKit-Manager">LeagueToolKit-Manager</a> #4</h2>
 <blockquote>
-<p>代码片段自动转换为 RESTful API 接口的工具，支持多种编程语言。开发者只需编写核心逻辑，zcode2api 自动生成路由、参数校验与文档。</p>
+<p>为《英雄联盟》玩家打造的一站式工具管理器，整合了战绩查询、符文推荐和游戏设置优化。采用 TypeScript 编写，视觉风格贴近游戏主题。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/liu5269/zcode2api" alt="zcode2api" style="max-width:100%;border-radius:8px;"></p></p><p>后端开发中重复编写接口模板耗时耗力，开发者 <strong>liu5269</strong> 创建了 zcode2api 来解决这一问题。项目基于 <strong>Node.js</strong> 与 <strong>Express</strong>，通过抽象语法树解析用户代码，自动生成符合 RESTful 风格的 API。</p>
-<p>支持 <strong>Python、JavaScript、Java</strong> 等语言，输出包括路由文件、中间件、Swagger 文档。在 <strong>GitHub</strong> 上获 <strong>20 个 Stars</strong>、<strong>36 个 Forks</strong>，Forks 远高于 Stars 说明社区参与度高，可能有多个分支版本。</p>
-<p>与其他代码生成工具（如 <strong>Swagger Codegen</strong>）不同，zcode2api 更关注代码级别的自动映射而非模型定义。适合快速原型开发或微服务架构中的简单接口生成，但复杂业务逻辑仍需手工调整。</p>
-<p><strong>相关链接：</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/PhamHongPhucs/LeagueToolKit-Manager" alt="LeagueToolKit-Manager" style="max-width:100%;border-radius:8px;"></p></p><p>玩《英雄联盟》的玩家经常需要打开多个第三方网站或工具来查战绩、看攻略，体验割裂。该项目试图将这些常用功能聚合到一个桌面应用中，减少切换成本。</p>
+<p>核心功能包括调用 Riot API 获取实时对战数据，本地存储历史对局分析，以及一键应用推荐符文页面。界面使用 React + TypeScript 构建，支持 Windows/macOS 双平台。</p>
+<p>目前获得 <strong>35</strong> 颗 Stars，虽然尚属小众，但在 Reddit 的《英雄联盟》工具板块已获得初步好评。后续计划增加自动录像剪辑功能。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/liu5269/zcode2api">liu5269/zcode2api</a></li>
+<li>项目地址：<a href="https://github.com/PhamHongPhucs/LeagueToolKit-Manager">PhamHongPhucs/LeagueToolKit-Manager</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/omehenn2/StarRail-respocket-menu">StarRail-respocket-menu</a> #6</h2>
+<h2><a href="https://github.com/Ar9av/gemini-nano-chrome">gemini-nano-chrome</a> #5</h2>
 <blockquote>
-<p>崩坏：星穹铁道 的辅助菜单模组，提供自动刷本、一键采集、显示宝箱位置等功能。基于内存修改实现，需要注入游戏进程运行。</p>
+<p>一个浏览器扩展，将 <strong>Gemini Nano</strong> 模型直接嵌入 Chrome，实现完全离线的 AI 推理。无需联网，即可在任意网页上执行文本摘要、翻译等任务。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/omehenn2/StarRail-respocket-menu" alt="StarRail-respocket-menu" style="max-width:100%;border-radius:8px;"></p></p><p>《崩坏：星穹铁道》作为热门手游，日常重复任务较多。开发者 <strong>omehenn2</strong> 利用 <strong>C++</strong> 与 <strong>CE (Cheat Engine)</strong> 原理，编写了可在 Windows 客户端运行的辅助菜单。项目通过 DLL 注入修改游戏内存，读取并控制坐标、掉落判定等变量。</p>
-<p>功能包括自动刷取模拟宇宙、自动领取委托奖励、打开全地图宝箱标记等。在 <strong>GitHub</strong> 上获得 <strong>18 个 Stars</strong>、0 个 Forks，已有多位用户反馈在 2.3 版本上正常工作。</p>
-<p>需要注意的是，使用此类模组违反游戏用户协议，可能导致封号。仅推荐在私服或单机学习研究中尝试，不应用于正式服务器。</p>
-<p><strong>相关链接：</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/Ar9av/gemini-nano-chrome" alt="gemini-nano-chrome" style="max-width:100%;border-radius:8px;"></p></p><p>随着 WebGPU 和 WASM 技术的发展，在浏览器内运行小模型成为可能。该项目利用 Chrome 的扩展权限，将 Gemini Nano 的量化版本打包为扩展，并设计了右键菜单唤起界面。</p>
+<p>技术实现上使用了 TensorFlow.js 或 ONNX Runtime Web 进行推理，并针对 Chrome 的 Service Worker 做了优化，确保不阻塞主线程。支持的模型版本为 1.5B 参数，占用内存约 2GB。</p>
+<p>目前获得 <strong>32</strong> 颗 Stars，Forks 为 3。这种本地化 AI 方案特别适合隐私敏感场景，如企业内网文档处理，但受限于浏览器沙箱，模型加载速度较慢。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/omehenn2/StarRail-respocket-menu">omehenn2/StarRail-respocket-menu</a></li>
+<li>项目地址：<a href="https://github.com/Ar9av/gemini-nano-chrome">Ar9av/gemini-nano-chrome</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/pa1nrui1/legal-skills">legal-skills</a> #7</h2>
+<h2><a href="https://github.com/zeropl/2FA">2FA</a> #6</h2>
 <blockquote>
-<p>法律职业技能训练系统，包含法律知识图谱、案例分析题库与模拟考试模块。项目以 Python 脚本驱动，数据来源于公开法律数据库。</p>
+<p>一个纯粹的 HTML 双因素认证令牌生成器，无需任何后端或网络请求。全部代码就一个文件，离线也能安全生成 TOTP 验证码。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/pa1nrui1/legal-skills" alt="legal-skills" style="max-width:100%;border-radius:8px;"></p></p><p>法律从业资格考试（如法考）备考材料散乱，<strong>pa1nrui1</strong> 开发了 legal-skills 以整合学习资源。项目基于 <strong>Python 3</strong>，从国家法律法规数据库抓取最新条文，并使用 NLP 技术提取关键考点。</p>
-<p>功能包括按部门法 (民法、刑法、行政法等) 分类的知识树、历年真题随机组卷、错题本与学习进度追踪。在 <strong>GitHub</strong> 上获得 <strong>8 个 Stars</strong>、0 个 Forks，代码结构清晰，适合二次开发。</p>
-<p>与市面上商业法考 App 相比，legal-skills 数据源权威且无付费墙，但缺乏图片、视频等多媒体教学资源。适合需要脱离手机、在电脑上专注刷题的法律学习者。</p>
-<p><strong>相关链接：</strong></p>
+<p><p><img src="https://opengraph.githubassets.com/1/zeropl/2FA" alt="2FA" style="max-width:100%;border-radius:8px;"></p></p><p>现有的 2FA 应用如 Google Authenticator 虽然好用，但闭源且依赖平台生态。该项目通过纯前端实现，让用户可以在任何设备上用浏览器打开 <code>.html</code> 文件完成身份验证。</p>
+<p>核心使用了 Web Crypto API 和 JavaScript 实现 TOTP 算法（RFC 6238）。用户可以导入标准 <code>otpauth://</code> 密钥，或手动输入 Base32 密钥。所有数据存储在 <code>localStorage</code> 中，支持密码加密导出。</p>
+<p>Stars 为 <strong>26</strong> 个，因为极致简洁受到安全爱好者的推荐。缺点是缺少云同步和生物识别保护，但作为应急备用方案非常可靠。</p>
+<p><strong>相关链接</strong></p>
 <ul>
-<li>项目地址：<a href="https://github.com/pa1nrui1/legal-skills">pa1nrui1/legal-skills</a></li>
+<li>项目地址：<a href="https://github.com/zeropl/2FA">zeropl/2FA</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/castlen3/chatgpt-consult-loop">chatgpt-consult-loop</a> #7</h2>
+<blockquote>
+<p>一个 Python 脚本，实现与 ChatGPT 的多轮自动对话，并支持持久化记忆和结果导出。适合自动化客户咨询模拟或内容生成任务。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/castlen3/chatgpt-consult-loop" alt="chatgpt-consult-loop" style="max-width:100%;border-radius:8px;"></p></p><p>很多开发者需要批量让 ChatGPT 处理重复性问题，但官方 API 缺乏内置的对话循环管理。该脚本通过 <code>openai</code> 库和 <code>asyncio</code> 实现了可自定义的对话链，支持中断恢复。</p>
+<p>功能亮点包括：外部知识库注入（通过上下文填充）、对话历史 JSON 持久化、以及按角色（系统/用户/助手）动态调整 prompt。用户只需配置 API Key 和初始问题，脚本即可自动运行直到达到预定轮数。</p>
+<p>目前获得 <strong>23</strong> 颗 Stars，虽然门槛较低，但对想搭建自动化审核系统的小团队很实用。未来可能加入多模型切换和定时执行功能。</p>
+<p><strong>相关链接</strong></p>
+<ul>
+<li>项目地址：<a href="https://github.com/castlen3/chatgpt-consult-loop">castlen3/chatgpt-consult-loop</a></li>
 </ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-17/</guid>
-<pubDate>Wed, 17 Jun 2026 01:23:52 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-18/</guid>
+<pubDate>Thu, 18 Jun 2026 03:33:35 GMT</pubDate>
 </item>
   </channel>
 </rss>
