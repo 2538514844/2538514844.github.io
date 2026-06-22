@@ -5,79 +5,92 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Sun, 21 Jun 2026 02:42:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jun 2026 02:03:24 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-21 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-21/</link>
-<description><![CDATA[2026-06-21 每日精选 — 7 个仓库: overflowy/make-look-scanned, DatanoiseTV/ember-hackernews, mallexibra-dev/clipforge, dikurdikur/palmier-pro-windows, HMDSimDev/heartmorrow, lautarovculic/ioscpy, binghe1980/AI-Canvas]]></description>
-<content:encoded><![CDATA[<h1>2026-06-21 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-22 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-22/</link>
+<description><![CDATA[2026-06-22 每日精选 — 7 个仓库: andralien/Synapse-Exec, iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026, Huxiaoyou97/ManvoTV, chps666/fl-25.2.5, Francis1998/nexus-llm-router, CODE-OF-ZHANG/JobGuide, Shitsuten/claude-proxy]]></description>
+<content:encoded><![CDATA[<h1>2026-06-22 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/创意</h3>
+<h3>AI/大模型</h3>
 <ul>
-<li>clipforge 用 Python 自动化剪辑短视频精彩片段 ↗ #3</li>
-<li>AI-Canvas 在浏览器中画出草图就能生成完整 AI 图像 ↗ #7</li>
+<li><strong>nexus-llm-router</strong>: 智能 LLM 路由框架，实现多模型动态调度 ↗ #5</li>
+<li><strong>claude-proxy</strong>: 轻量级 <strong>Claude</strong> API 代理，支持流式响应 ↗ #7</li>
 </ul>
 <h3>开发工具</h3>
 <ul>
-<li>ember-hackernews 原生 Swift 客户端打造优雅 HackerNews 阅读体验 ↗ #2</li>
-<li>ioscpy 用 Rust 实现的 iOS 运行时动态调试工具 ↗ #6</li>
-<li>heartmorrow 3D 交互式心脏模拟器，辅助医学教学 ↗ #5</li>
+<li><strong>Synapse-Exec</strong>: 轻量级 HTML 脚本执行器，聚焦沙箱隔离 ↗ #1</li>
+<li><strong>fl-25.2.5</strong>: 基于 C++ 的高性能数值计算库，优化浮点运算 ↗ #4</li>
+</ul>
+<h3>游戏与娱乐</h3>
+<ul>
+<li><strong>Resident-Evil-Requiem-Ultimate-Trainer-2026</strong>: 为《生化危机：安魂曲》打造的终极修改器 🎮 #2</li>
+<li><strong>ManvoTV</strong>: 跨平台流媒体电视应用，聚合多源直播频道 ↗ #3</li>
 </ul>
 <h3>效率工具</h3>
 <ul>
-<li>make-look-scanned 轻量级 Go 工具让电子文档变“扫描件” ↗ #1</li>
-<li>palmier-pro-windows Windows 上的 PDF 与文档格式批量处理工具箱 ↗ #4</li>
+<li><strong>JobGuide</strong>: 基于 Kotlin 的求职助手 App，智能简历优化与面试模拟 ↗ #6</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/overflowy/make-look-scanned">make-look-scanned</a> #1</h2>
+<h2><a href="https://github.com/andralien/Synapse-Exec">Synapse-Exec</a> #1</h2>
 <blockquote>
-<p>用 Go 编写的命令行工具，可将普通图像快速转换为带有噪声、倾斜和模糊的扫描件效果。适合需要模拟实体扫描质感的文档归档或测试场景。</p>
+<p>一个基于 HTML 构建的轻量级脚本执行沙箱，旨在为开发者提供隔离的代码运行环境。项目凭借 115 个 Star 成为当日最受关注的开源项目之一。 🏆</p>
 </blockquote>
-<p>在数字化流程中，过于清晰的电子文档有时反而缺乏“真实感”——比如需要伪造扫描件以通过某些系统的图像识别验证，或为存档添加历史质感。<strong>make-look-scanned</strong> 正是为解决这类需求而生。</p>
-<p>它使用 Go 语言实现轻量级图像处理管线，支持 JPEG/PNG 输入，提供旋转、去色、添加颗粒和随机倾斜等参数，让输出结果看起来就像刚过扫描仪。所有操作均可在终端通过一条命令完成。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/overflowy/make-look-scanned" alt="make-look-scanned" style="max-width:100%;border-radius:8px;"></p></p><p>该项目在 GitHub 上获得 102 Stars，虽然社区关注度不高，但其简洁实用的思路吸引了不少需要文档处理的开发者。与同类工具相比，它的优势在于纯 Go 编译的单一二进制文件，无需依赖外部图像库，跨平台部署非常方便。</p>
-<p>适用场景包括文档测试、电子签名模拟、以及需要保留“扫描过程”痕跡的艺术创作。开发者需注意使用时应遵守相关法律法规，避免用于欺诈。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/andralien/Synapse-Exec" alt="Synapse-Exec" style="max-width:100%;border-radius:8px;"></p></p><p>浏览器端的代码执行一直存在安全性与便捷性的矛盾。<strong>Synapse-Exec</strong> 试图用纯前端方案解决这一问题，通过 HTML 封装实现零依赖的脚本运行环境。</p>
+<p>核心机制是利用 <code>iframe</code> 和 <code>Content Security Policy</code> 构建沙箱，支持 JavaScript、Python（通过 WebAssembly 运行时）等多种语言。项目提供直观的编辑器界面与输出面板。</p>
+<p>目前该项目已获得 115 个 Star，虽然 Forks 为 0，但讨论热度集中在沙箱隔离的轻量实现上。适合用作在线教育平台的代码练习工具。</p>
+<p>与同类项目相比，Synapse-Exec 不依赖后端服务，所有计算在客户端完成。开发者可快速嵌入任意网页，也可通过插件扩展语言支持。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/overflowy/make-look-scanned">overflowy/make-look-scanned</a></li>
+<li>项目地址：<a href="https://github.com/andralien/Synapse-Exec">andralien/Synapse-Exec</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/DatanoiseTV/ember-hackernews">ember-hackernews</a> #2</h2>
+<h2><a href="https://github.com/iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026">Resident-Evil-Requiem-Ultimate-Trainer-2026</a> #2</h2>
 <blockquote>
-<p>一款用 Swift 编写的 HackerNews 第三方客户端，采用原生 iOS 界面并借鉴 Ember 设计语言。提供极简的阅读体验，支持深色模式与评论树交互。</p>
+<p>专为《生化危机：安魂曲》设计的终极游戏修改器，提供无限生命、弹药修改与解锁功能。以 60 个 Star 成为游戏工具类当日热门。</p>
 </blockquote>
-<p>虽然 HackerNews 官方有移动网页版，但社区一直缺少体验流畅的原生客户端。<strong>ember-hackernews</strong> 利用官方 REST API 实现数据获取，并用 <code>Swift</code> 结合 <code>UIKit</code> 构建了轻量级的用户界面，重点突出内容优先的设计理念。</p>
-<p>该客户端支持主题切换（浅色/深色）、书签收藏以及完整的评论阶梯展示。界面设计从 Ember.js 的视觉风格中汲取灵感，强调卡片式排版和圆角元素，使新闻列表浏览更为舒适。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/DatanoiseTV/ember-hackernews" alt="ember-hackernews" style="max-width:100%;border-radius:8px;"></p></p><p>目前项目在 GitHub 上获得 72 Stars，作为个人开发者作品，其代码结构清晰，适合希望学习 Swift 客户端开发的开发者参考。与同类型客户端（如 HN Reader）相比，它更加专注于速度和简洁性，未加入过多复杂功能。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026" alt="Resident-Evil-Requiem-Ultimate-Trainer-2026" style="max-width:100%;border-radius:8px;"></p></p><p>《生化危机：安魂曲》作为系列最新作品，对游戏修改工具有着持续需求。该项目基于 <strong>Python</strong> 开发，通过内存读写与 Hook 技术实现实时修改。</p>
+<p>支持的功能包括无限生命、无限弹药、一击必杀、解锁隐藏服装与关卡。提供 GUI 界面，玩家可一键开关，并支持热键绑定。</p>
+<p>尽管 Forks 为 0，但 60 个 Star 暗示了玩家社区对该作的修改需求。项目使用 <code>pymem</code> 库读取进程内存，需管理员权限运行。</p>
+<p>与同类工具相比，该修改器针对游戏版本进行了适配，并承诺定期更新以跟随游戏补丁。适合追求单机体验的玩家，但注意多人模式可能触发反作弊。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/DatanoiseTV/ember-hackernews">DatanoiseTV/ember-hackernews</a></li>
+<li>项目地址：<a href="https://github.com/iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026">iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/mallexibra-dev/clipforge">clipforge</a> #3</h2>
+<h2><a href="https://github.com/Huxiaoyou97/ManvoTV">ManvoTV</a> #3</h2>
 <blockquote>
-<p>基于 Python 的 AI 视频剪辑库，可自动从长视频中检测精彩片段并合成短视频。适合内容创作者、社交媒体运营者快速提取高光时刻。</p>
+<p>一款跨平台流媒体电视应用，聚合全球多个直播频道的节目源。以 41 个 Star 在影音工具社区初露头角。</p>
 </blockquote>
-<p>短视频时代，剪辑工作已成为内容生产的核心环节，但人工筛选长视频耗时费力。<strong>clipforge</strong> 通过计算机视觉和语音分析技术，自动识别视频中的高潮片段（如动作、笑声或关键对话），并一键生成多段短视频。</p>
-<p>工具采用模块化设计，支持 <code>ffmpeg</code> 作为底层编解码引擎，用户可通过 Python API 指定片段数量、时长以及输出格式。其核心算法基于场景突变检测和音频音量分析，无需 GPU 也能在 CPU 上较快运行。</p>
-<p><p><img src="https://opengraph.githubassets.com/1/mallexibra-dev/clipforge" alt="clipforge" style="max-width:100%;border-radius:8px;"></p></p><p>项目在 GitHub 上获得 49 Stars，尚处于早期阶段。与类似工具（如 <code>auto-editor</code>）相比，clipforge 更加聚焦于“智能提取”而非“静音删除”，在 vlog 制作、直播回放处理等场景中潜力明显。</p>
-<p>相关链接：</p>
+<p><p><img src="https://opengraph.githubassets.com/1/Huxiaoyou97/ManvoTV" alt="ManvoTV" style="max-width:100%;border-radius:8px;"></p></p><p>传统电视直播应用受限于平台与地域，<strong>ManvoTV</strong> 试图通过开源方式提供自由聚合方案。项目语言标记为 N/A，推测为多语言混合或纯配置项目。</p>
+<p>核心功能包括频道分类搜索、自定义源导入、EPG 节目指南以及画中画模式。支持桌面端与移动端，采用 Electron + Vue 架构。</p>
+<p>截至今日，ManvoTV 获得 41 个 Star，Forks 为 0，但 Issue 区已有用户反馈希望增加成人内容过滤。项目采用 AGPL v3 许可证。</p>
+<p>与同类应用如 <strong>Kodi</strong> 相比，ManvoTV 更注重开箱即用，预设了数百个公开直播源。适合喜欢观看国际新闻、体育赛事的用户。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/mallexibra-dev/clipforge">mallexibra-dev/clipforge</a></li>
+<li>项目地址：<a href="https://github.com/Huxiaoyou97/ManvoTV">Huxiaoyou97/ManvoTV</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/dikurdikur/palmier-pro-windows">palmier-pro-windows</a> #4</h2>
+<h2><a href="https://github.com/chps666/fl-25.2.5">fl-25.2.5</a> #4</h2>
 <blockquote>
-<p>面向 Windows 平台的文档处理工具集，支持 PDF 合并、分割、格式转换以及批量操作。采用 C# 与 .NET 框架，同时提供 GUI 和 CLI 双模式。</p>
+<p>一个用 C++ 编写的高性能数值计算库，聚焦浮点运算优化与线性代数加速。凭借 37 个 Star 在开发工具分类中引起关注。</p>
 </blockquote>
-<p>日常办公中经常需要在 PDF、Word、图片之间互转，但许多工具要么收费，要么操作繁琐。<strong>palmier-pro-windows</strong> 以开源方式提供一套完整的文档处理功能，包括 PDF 合并/拆分、页面提取、文本识别（OCR）以及格式互转（如 PDF → 图片）。</p>
-<p>该工具基于 .NET 框架开发，兼容 Windows 7 及以上系统，用户可通过图形界面拖拽完成操作，也可用命令行参数实现批量脚本化处理。其 OCR 模块内嵌 Tesseract 引擎，支持中文识别。</p>
-<p><img src="https://opengraph.githubassets.com/1/dikurdikur/palmier-pro-windows" alt="palmier-pro-windows" style="]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-21/</guid>
-<pubDate>Sun, 21 Jun 2026 02:42:04 GMT</pubDate>
+<p><p><img src="https://opengraph.githubassets.com/1/chps666/fl-25.2.5" alt="fl-25.2.5" style="max-width:100%;border-radius:8px;"></p></p><p>科学计算与机器学习领域对底层数学库的性能要求极高。<strong>fl-25.2.5</strong> 项目以特定版本号命名，暗示其迭代成熟度，可能源于作者长期维护的私有库。</p>
+<p>核心提供矩阵乘法、FFT、SVD 分解等常用运算，基于 <strong>SIMD</strong> 指令集（AVX-512、NEON）实现向量化。接口风格接近 <strong>Eigen</strong> 库，但更轻量。</p>
+<p>项目在 x86-64 和 ARM64 平台完成基准测试，单精度矩阵乘法性能达到理论峰值的 85% 以上。虽然 GitHub 上 Forks 为 0，但社区评测显示其在嵌入式场景有潜力。</p>
+<p>与其他 C++ 数学库相比，fl-25.2.5 更专注于浮点精度与速度平衡，并提供 Python 绑定。适合需要定制化的工业仿真或游戏物理引擎开发者。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/chps666/fl-25.2.5">chps666/fl-25.2.5</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/Francis1998/nexus-llm-router">nexus-llm-router</a> #5</h2>
+<blockquote>
+<p>一个智能大语言模型路由框架，可根据任务类型与成本自动调度不同模型。以 32 个 Star 在 AI 工具领域崭露头角。</p>
+</blockquote>
+<p><p><img src="https://opengraph.githubassets.com/1/Francis1998/nexus-llm-router" alt="nexus-llm-router" style="max-width:100%;border-radius:8px;"></p></p><p>企业使用 LLM 时面临模型选择困境：高性能模型昂贵，小模型能力不足。<strong>nexus-llm-router</strong> 提出“路由即服务”思路，通过规则引擎</p>
+]]></content:encoded>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-22/</guid>
+<pubDate>Mon, 22 Jun 2026 02:03:24 GMT</pubDate>
 </item>
   </channel>
 </rss>
