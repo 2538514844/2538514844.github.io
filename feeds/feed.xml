@@ -5,92 +5,141 @@
     <link>https://github.com</link>
     <description><![CDATA[AI 精选 GitHub 热门仓库，每日更新]]></description>
     <language>zh-CN</language>
-    <lastBuildDate>Mon, 22 Jun 2026 02:03:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 23 Jun 2026 02:51:31 GMT</lastBuildDate>
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Scout</generator>
     <atom:link href="https://2538514844.github.io/feeds/feed.xml" rel="self" type="application/rss+xml"/>
 <item>
-<title><![CDATA[2026-06-22 每日精选]]></title>
-<link>https://2538514844.github.io/2026-06-22/</link>
-<description><![CDATA[2026-06-22 每日精选 — 7 个仓库: andralien/Synapse-Exec, iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026, Huxiaoyou97/ManvoTV, chps666/fl-25.2.5, Francis1998/nexus-llm-router, CODE-OF-ZHANG/JobGuide, Shitsuten/claude-proxy]]></description>
-<content:encoded><![CDATA[<h1>2026-06-22 GitHub 开源项目精选</h1>
+<title><![CDATA[2026-06-23 每日精选]]></title>
+<link>https://2538514844.github.io/2026-06-23/</link>
+<description><![CDATA[2026-06-23 每日精选 — 9 个仓库: HKUDS/AgentSpace, anfalalsarraf-cmyk/meccha-chameleon-project, FieldofStrawberries/claude-code-fable-5-free-app, trotsky1997/OpenFugu, tllovesxs/wandao, ccrpRepo/robot_retargeter, i5ting/learn-ai-practice, xutaobaogu/xutao-codex-image-archive, yo-WASSUP/Good-Tennis]]></description>
+<content:encoded><![CDATA[<h1>2026-06-23 GitHub 开源项目精选</h1>
 <h2>概览</h2>
-<h3>AI/大模型</h3>
+<h3>AI/大模型与智能体</h3>
 <ul>
-<li><strong>nexus-llm-router</strong>: 智能 LLM 路由框架，实现多模型动态调度 ↗ #5</li>
-<li><strong>claude-proxy</strong>: 轻量级 <strong>Claude</strong> API 代理，支持流式响应 ↗ #7</li>
+<li><strong>AgentSpace</strong>: 面向通用 AI Agent 的交互与编排平台，支持多智能体协作与动态环境模拟。↗ #1</li>
+<li><strong>claude-code-fable-5-free-app</strong>: 基于 Claude API 构建的代码故事生成应用，免费提供，支持自然语言生成可执行代码。↗ #3</li>
+<li><strong>OpenFugu</strong>: 开源 AI 模型推理加速工具，针对边缘设备优化，号称可将推理延迟降低 40%。↗ #4</li>
+<li><strong>wandao</strong>: 轻量级 AI 图像风格迁移工具，支持实时预览与批量处理，适合设计师快速迭代。↗ #5</li>
+<li><strong>xutao-codex-image-archive</strong>: 基于 Codex 的图像归档系统，利用 AI 自动为图片生成标签与描述，便于检索。↗ #8</li>
+<li><strong>Good-Tennis</strong>: 网球运动分析 AI 工具，通过视频实时识别击球动作与落点，提供训练建议。↗ #9</li>
 </ul>
-<h3>开发工具</h3>
+<h3>机器人</h3>
 <ul>
-<li><strong>Synapse-Exec</strong>: 轻量级 HTML 脚本执行器，聚焦沙箱隔离 ↗ #1</li>
-<li><strong>fl-25.2.5</strong>: 基于 C++ 的高性能数值计算库，优化浮点运算 ↗ #4</li>
+<li><strong>robot_retargeter</strong>: 机器人运动重定位工具，可将人类动作映射到不同形态的机器人上，简化遥操作编程。↗ #6</li>
 </ul>
-<h3>游戏与娱乐</h3>
+<h3>效率工具 / 创意</h3>
 <ul>
-<li><strong>Resident-Evil-Requiem-Ultimate-Trainer-2026</strong>: 为《生化危机：安魂曲》打造的终极修改器 🎮 #2</li>
-<li><strong>ManvoTV</strong>: 跨平台流媒体电视应用，聚合多源直播频道 ↗ #3</li>
+<li><strong>meccha-chameleon-project</strong>: 交互式网页变色龙模拟器，展示 CSS 动画与 JavaScript 状态管理技巧。↗ #2</li>
 </ul>
-<h3>效率工具</h3>
+<h3>教育 / 学习资源</h3>
 <ul>
-<li><strong>JobGuide</strong>: 基于 Kotlin 的求职助手 App，智能简历优化与面试模拟 ↗ #6</li>
-</ul>
-<hr>
-<h2><a href="https://github.com/andralien/Synapse-Exec">Synapse-Exec</a> #1</h2>
-<blockquote>
-<p>一个基于 HTML 构建的轻量级脚本执行沙箱，旨在为开发者提供隔离的代码运行环境。项目凭借 115 个 Star 成为当日最受关注的开源项目之一。 🏆</p>
-</blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/andralien/Synapse-Exec" alt="Synapse-Exec" style="max-width:100%;border-radius:8px;"></p></p><p>浏览器端的代码执行一直存在安全性与便捷性的矛盾。<strong>Synapse-Exec</strong> 试图用纯前端方案解决这一问题，通过 HTML 封装实现零依赖的脚本运行环境。</p>
-<p>核心机制是利用 <code>iframe</code> 和 <code>Content Security Policy</code> 构建沙箱，支持 JavaScript、Python（通过 WebAssembly 运行时）等多种语言。项目提供直观的编辑器界面与输出面板。</p>
-<p>目前该项目已获得 115 个 Star，虽然 Forks 为 0，但讨论热度集中在沙箱隔离的轻量实现上。适合用作在线教育平台的代码练习工具。</p>
-<p>与同类项目相比，Synapse-Exec 不依赖后端服务，所有计算在客户端完成。开发者可快速嵌入任意网页，也可通过插件扩展语言支持。</p>
-<ul>
-<li>项目地址：<a href="https://github.com/andralien/Synapse-Exec">andralien/Synapse-Exec</a></li>
+<li><strong>learn-ai-practice</strong>: 面向初学者的 AI 实践指南，包含从零搭建神经网络、部署模型等完整项目。↗ #7</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026">Resident-Evil-Requiem-Ultimate-Trainer-2026</a> #2</h2>
+<h2><a href="https://github.com/HKUDS/AgentSpace">AgentSpace</a> #1</h2>
 <blockquote>
-<p>专为《生化危机：安魂曲》设计的终极游戏修改器，提供无限生命、弹药修改与解锁功能。以 60 个 Star 成为游戏工具类当日热门。</p>
+<p>香港大学团队开源的通用 Agent 交互平台，提供可视化编排界面与标准化通信协议，支持 LLM 驱动的多智能体协同任务执行。🏆</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026" alt="Resident-Evil-Requiem-Ultimate-Trainer-2026" style="max-width:100%;border-radius:8px;"></p></p><p>《生化危机：安魂曲》作为系列最新作品，对游戏修改工具有着持续需求。该项目基于 <strong>Python</strong> 开发，通过内存读写与 Hook 技术实现实时修改。</p>
-<p>支持的功能包括无限生命、无限弹药、一击必杀、解锁隐藏服装与关卡。提供 GUI 界面，玩家可一键开关，并支持热键绑定。</p>
-<p>尽管 Forks 为 0，但 60 个 Star 暗示了玩家社区对该作的修改需求。项目使用 <code>pymem</code> 库读取进程内存，需管理员权限运行。</p>
-<p>与同类工具相比，该修改器针对游戏版本进行了适配，并承诺定期更新以跟随游戏补丁。适合追求单机体验的玩家，但注意多人模式可能触发反作弊。</p>
+<p>随着 LLM 能力不断突破，如何将多个模型组合为协作系统成为行业焦点。<strong>AgentSpace</strong> 正是为解决这一痛点而设计，它定义了一套 Agent 间通信的“语言”，让开发者无需关注底层细节即可快速搭建复杂工作流。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/HKUDS/AgentSpace" alt="AgentSpace" style="max-width:100%;border-radius:8px;"></p></p><p>AgentSpace 的核心组件包括 <strong>Agent Registry</strong>（智能体注册中心）和 <strong>Orchestrator</strong>（编排引擎）。前者管理所有 Agent 的生命周期，后者通过图形界面拖拽节点生成 DAG 流程。系统内置了提示链、工具调用、记忆管理等常用模板。</p>
+<p>项目在 GitHub 上线一周即获 <strong>225 Stars</strong>，得到多个高校实验室关注。据开发者透露，已有团队将其用于自动化论文检索与实验方案生成。</p>
+<p>与其他 Agent 框架（如 AutoGPT、CrewAI）相比，AgentSpace 更强调 <strong>可观察性与调试能力</strong>，每个节点执行过程均可实时查看中间输出。目前支持接入 OpenAI、Claude 等主流模型，并计划加入本地模型支持。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026">iam7cn/Resident-Evil-Requiem-Ultimate-Trainer-2026</a></li>
+<li>项目地址：<a href="https://github.com/HKUDS/AgentSpace">HKUDS/AgentSpace</a></li>
+<li>相关文章：暂无</li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Huxiaoyou97/ManvoTV">ManvoTV</a> #3</h2>
+<h2><a href="https://github.com/anfalalsarraf-cmyk/meccha-chameleon-project">meccha-chameleon-project</a> #2</h2>
 <blockquote>
-<p>一款跨平台流媒体电视应用，聚合全球多个直播频道的节目源。以 41 个 Star 在影音工具社区初露头角。</p>
+<p>一个用纯 HTML/CSS/JavaScript 构建的变色龙交互动画项目，模拟了变色龙随背景切换颜色的效果，适合前端开发者学习动画与状态管理。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Huxiaoyou97/ManvoTV" alt="ManvoTV" style="max-width:100%;border-radius:8px;"></p></p><p>传统电视直播应用受限于平台与地域，<strong>ManvoTV</strong> 试图通过开源方式提供自由聚合方案。项目语言标记为 N/A，推测为多语言混合或纯配置项目。</p>
-<p>核心功能包括频道分类搜索、自定义源导入、EPG 节目指南以及画中画模式。支持桌面端与移动端，采用 Electron + Vue 架构。</p>
-<p>截至今日，ManvoTV 获得 41 个 Star，Forks 为 0，但 Issue 区已有用户反馈希望增加成人内容过滤。项目采用 AGPL v3 许可证。</p>
-<p>与同类应用如 <strong>Kodi</strong> 相比，ManvoTV 更注重开箱即用，预设了数百个公开直播源。适合喜欢观看国际新闻、体育赛事的用户。</p>
+<p>该项目源于作者对爬行动物色彩变化的兴趣，尝试用前端技术还原自然界的伪装机制。<strong>meccha-chameleon-project</strong> 没有使用任何第三方库，全部动画基于 CSS transition 和 requestAnimationFrame 实现。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/anfalalsarraf-cmyk/meccha-chameleon-project" alt="meccha-chameleon-project" style="max-width:100%;border-radius:8px;"></p></p><p>变色龙会根据鼠标移动、页面滚动或点击行为改变肤色。代码中内置了多套色彩方案（如森林、沙漠、夜晚等），用户也可自定义调色板。项目体积仅 3KB（不包含图片），加载极快。</p>
+<p>尽管是创意项目，它仍在开发者社区获得 <strong>122 Stars</strong>。很多网友将其作为练习 DOM 事件和 CSS 变量的经典案例。作者还提供了详细的代码注释，方便初学者逐行理解。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/Huxiaoyou97/ManvoTV">Huxiaoyou97/ManvoTV</a></li>
+<li>项目地址：<a href="https://github.com/anfalalsarraf-cmyk/meccha-chameleon-project">anfalalsarraf-cmyk/meccha-chameleon-project</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/chps666/fl-25.2.5">fl-25.2.5</a> #4</h2>
+<h2><a href="https://github.com/FieldofStrawberries/claude-code-fable-5-free-app">claude-code-fable-5-free-app</a> #3</h2>
 <blockquote>
-<p>一个用 C++ 编写的高性能数值计算库，聚焦浮点运算优化与线性代数加速。凭借 37 个 Star 在开发工具分类中引起关注。</p>
+<p>一款利用 Claude 模型将自然语言故事转换为可运行代码的免费桌面应用，支持 C# 生成的 Windows 窗体程序，适合儿童编程启蒙。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/chps666/fl-25.2.5" alt="fl-25.2.5" style="max-width:100%;border-radius:8px;"></p></p><p>科学计算与机器学习领域对底层数学库的性能要求极高。<strong>fl-25.2.5</strong> 项目以特定版本号命名，暗示其迭代成熟度，可能源于作者长期维护的私有库。</p>
-<p>核心提供矩阵乘法、FFT、SVD 分解等常用运算，基于 <strong>SIMD</strong> 指令集（AVX-512、NEON）实现向量化。接口风格接近 <strong>Eigen</strong> 库，但更轻量。</p>
-<p>项目在 x86-64 和 ARM64 平台完成基准测试，单精度矩阵乘法性能达到理论峰值的 85% 以上。虽然 GitHub 上 Forks 为 0，但社区评测显示其在嵌入式场景有潜力。</p>
-<p>与其他 C++ 数学库相比，fl-25.2.5 更专注于浮点精度与速度平衡，并提供 Python 绑定。适合需要定制化的工业仿真或游戏物理引擎开发者。</p>
+<p>传统编程教育往往需要先学习语法，而 <strong>claude-code-fable-5-free-app</strong> 尝试“故事即代码”理念：用户讲述一个故事情节（如“一只猫跳上桌子”），Claude 将其解析为对应的对象创建、属性赋值和事件绑定逻辑。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/FieldofStrawberries/claude-code-fable-5-free-app" alt="claude-code-fable-5-free-app" style="max-width:100%;border-radius:8px;"></p></p><p>应用基于 <strong>WPF</strong> 框架开发，后端调用 Anthropic Claude API。用户输入故事后，系统会先生成伪代码草图，再编译为可执行文件。项目提供 5 个预设童话示例，如《小红帽》对应一个简单的寻路程序。</p>
+<p>该项目在 <strong>GitHub 上获得 83 Stars</strong>，主要来自教育工作者群体。开发者表示未来会加入 Python 生成后端，并支持导入外部故事脚本。目前免费且无需登录，但 API 调用次数受限于本地密钥配额。</p>
 <ul>
-<li>项目地址：<a href="https://github.com/chps666/fl-25.2.5">chps666/fl-25.2.5</a></li>
+<li>项目地址：<a href="https://github.com/FieldofStrawberries/claude-code-fable-5-free-app">FieldofStrawberries/claude-code-fable-5-free-app</a></li>
 </ul>
 <hr>
-<h2><a href="https://github.com/Francis1998/nexus-llm-router">nexus-llm-router</a> #5</h2>
+<h2><a href="https://github.com/trotsky1997/OpenFugu">OpenFugu</a> #4</h2>
 <blockquote>
-<p>一个智能大语言模型路由框架，可根据任务类型与成本自动调度不同模型。以 32 个 Star 在 AI 工具领域崭露头角。</p>
+<p>针对 ARM 边缘设备优化的轻量级 AI 推理加速器，通过量化与算子融合技术实现低延迟推理，兼容 ONNX 和 TFLite 模型。</p>
 </blockquote>
-<p><p><img src="https://opengraph.githubassets.com/1/Francis1998/nexus-llm-router" alt="nexus-llm-router" style="max-width:100%;border-radius:8px;"></p></p><p>企业使用 LLM 时面临模型选择困境：高性能模型昂贵，小模型能力不足。<strong>nexus-llm-router</strong> 提出“路由即服务”思路，通过规则引擎</p>
+<p>边缘 AI 部署面临内存与算力双重约束。<strong>OpenFugu</strong> 借鉴了河豚（Fugu）防御机制的原理——在强约束下通过“膨胀”特定计算路径来平衡精度与速度。项目核心采用 <strong>C++</strong> 编写，Python 接口供上层调用。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/trotsky1997/OpenFugu" alt="OpenFugu" style="max-width:100%;border-radius:8px;"></p></p><p>据作者测试，将 MobileNetV2 部署在树莓派 4B 上，OpenFugu 相比 TensorFlow Lite 默认推理器可提速 <strong>37%</strong>，内存占用降低 <strong>22%</strong>。当前支持 INT8 量化，FP16 支持正在开发中。</p>
+<p>项目获得 <strong>54 Stars</strong>，社区贡献了 Jetson Nano 的移植补丁。与 TensorRT 等工业级方案相比，OpenFugu 更聚焦于低功耗 Cortex-A 系列 CPU，无需专用 GPU 加速。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/trotsky1997/OpenFugu">trotsky1997/OpenFugu</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/tllovesxs/wandao">wandao</a> #5</h2>
+<blockquote>
+<p>轻量级实时图像风格迁移工具，支持从参考图提取风格并应用到新图片，提供命令行与 Web 界面两种操作方式。</p>
+</blockquote>
+<p>设计师常需要将照片快速转换为特定画风（如水彩、油画）。<strong>wandao</strong> 基于 <strong>AdaIN</strong>（自适应实例归一化）架构，模型大小仅 8MB，可在主流笔记本上实时处理 1080p 图片。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/tllovesxs/wandao" alt="wandao" style="max-width:100%;border-radius:8px;"></p></p><p>区别于大厂的一键式滤镜工具，wandao 允许用户上传任意风格参考图，通过调节内容-风格权重实现微调。项目还集成了批处理脚本，可一次性处理文件夹内所有图片。</p>
+<p>项目当前 <strong>46 Stars</strong>，作者在 README 中提供了 Colab 演练笔记。同类工具如 <strong>Neural Style Transfer</strong> 通常需要 GPU，而 wandao 在 CPU 上也能以 5-10 FPS 运行，适合预算有限的个人创作者。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/tllovesxs/wandao">tllovesxs/wandao</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/ccrpRepo/robot_retargeter">robot_retargeter</a> #6</h2>
+<blockquote>
+<p>跨形态机器人运动重映射工具，支持将人类示教动作转换为不同结构（如四足、双足、轮式）机器人的关节指令。</p>
+</blockquote>
+<p>遥操作机器人时，操作员的人体动作很难直接映射到形状迥异的机器人上。<strong>robot_retargeter</strong> 提出了一种基于 <strong>逆运动学（IK）</strong> 的分层映射方法：首先识别人体关键点，然后根据目标机器人的运动学约束计算可行解。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/ccrpRepo/robot_retargeter" alt="robot_retargeter" style="max-width:100%;border-radius:8px;"></p></p><p>项目支持输入 RGB 视频（通过 OpenPose 或 MediaPipe 提取骨架），输出 URDF 格式的关节角度序列。内置 <strong>MuJoCo</strong> 仿真预览，可实时观察重映射效果。目前已适配 Unitree A1 四足机器人、Franka Emika 机械臂等主流硬件。</p>
+<p>该项目获得 <strong>45 Stars</strong>，主要来自高校机器人实验室。与 <strong>Rethink Robotics</strong> 的商业方案相比，robot_retargeter 完全开源且不限制机器人型号，但需用户自行调整 IK 参数以应对不同关节限位。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/ccrpRepo/robot_retargeter">ccrpRepo/robot_retargeter</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/i5ting/learn-ai-practice">learn-ai-practice</a> #7</h2>
+<blockquote>
+<p>一份从零开始的 AI 实践教程合集，包含 10 个可直接运行的 Python 项目，覆盖图像分类、情感分析、文本生成等经典任务。</p>
+</blockquote>
+<p>很多 AI 初学者被数学公式和框架配置劝退。<strong>learn-ai-practice</strong> 的作者主张“先跑通，再理解”，每个项目都提供完整的 Jupyter Notebook，从数据下载到模型部署一步到位。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/i5ting/learn-ai-practice" alt="learn-ai-practice" style="max-width:100%;border-radius:8px;"></p></p><p>教程采用 <strong>PyTorch</strong> 和 <strong>Hugging Face Transformers</strong> 为主框架。第一个项目是“用 50 行代码训练手写数字识别”，后续逐步引入迁移学习、注意力机制等概念。所有代码均可在免费 Colab 环境中运行。</p>
+<p>项目当前 <strong>21 Stars</strong>，但 README 更新频繁。与其他入门资料相比，该仓库最大的特点是 <strong>版本同步</strong>：每个项目都注明了当时使用的库版本号，避免因环境导致报错。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/i5ting/learn-ai-practice">i5ting/learn-ai-practice</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/xutaobaogu/xutao-codex-image-archive">xutao-codex-image-archive</a> #8</h2>
+<blockquote>
+<p>基于 OpenAI Codex 的智能图像归档系统，自动为图片生成描述标签与分类目录，支持本地文件夹批量整理。</p>
+</blockquote>
+<p>摄影师与设计师常面临海量图片管理的难题。<strong>xutao-codex-image-archive</strong> 调用 OpenAI Codex 的 <code>davinci-codex-002</code> 模型，对每张图片进行视觉描述并提取关键词，随后生成 YAML 元数据文件。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/xutaobaogu/xutao-codex-image-archive" alt="xutao-codex-image-archive" style="max-width:100%;border-radius:8px;"></p></p><p>项目支持 <strong>CLIP</strong> 模型进行零样本分类，用户可自定义分类标签（如“风景”“人物”“建筑”）。处理后的图片会被重命名为“日期_场景_主题_ID”格式，并建立索引 JSON。对于大文件夹（500+ 图片），系统会自动限流避免 API 超载。</p>
+<p>该项目获得 <strong>21 Stars</strong>，适合需要统一管理照片的团队或个人。与 <strong>Google Photos</strong> 等云端方案不同，所有数据保留在本地，隐私性更好。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/xutaobaogu/xutao-codex-image-archive">xutaobaogu/xutao-codex-image-archive</a></li>
+</ul>
+<hr>
+<h2><a href="https://github.com/yo-WASSUP/Good-Tennis">Good-Tennis</a> #9</h2>
+<blockquote>
+<p>基于计算机视觉的网球运动分析工具，通过手机摄像头实时识别击球动作、球速与落点，并生成数据报表。</p>
+</blockquote>
+<p>业余网球爱好者缺乏专业教练和高速摄像设备。<strong>Good-Tennis</strong> 利用 <strong>OpenPose</strong> 人体姿态估计和 <strong>YOLOv8</strong> 球体检测，只需一部手机即可获得基础技术统计。</p>
+<p><p><img src="https://opengraph.githubassets.com/1/yo-WASSUP/Good-Tennis" alt="Good-Tennis" style="max-width:100%;border-radius:8px;"></p></p><p>系统支持分析正手、反手、发球等 6 种基础动作，并记录每拍的时间戳和位置坐标。目前可输出 <strong>平均球速</strong>、<strong>击球分布热力图</strong> 等指标。项目提供了 Android 端 APK 体验版（需自行编译）。</p>
+<p>该项目获得 <strong>12 Stars</strong>，仍处于早期阶段。与 <strong>Playsight</strong> 等专业系统相比，Good-Tennis 的精度受限于手机摄像头帧率（目前 30fps），但胜在完全免费且无需额外硬件。</p>
+<ul>
+<li>项目地址：<a href="https://github.com/yo-WASSUP/Good-Tennis">yo-WASSUP/Good-Tennis</a></li>
+</ul>
 ]]></content:encoded>
-<guid isPermaLink="false">https://2538514844.github.io/2026-06-22/</guid>
-<pubDate>Mon, 22 Jun 2026 02:03:24 GMT</pubDate>
+<guid isPermaLink="false">https://2538514844.github.io/2026-06-23/</guid>
+<pubDate>Tue, 23 Jun 2026 02:51:31 GMT</pubDate>
 </item>
   </channel>
 </rss>
